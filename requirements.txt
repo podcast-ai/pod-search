@@ -1,0 +1,12 @@
+certifi @ file:///opt/conda/conda-bld/certifi_1655968806487/work/certifi
+charset-normalizer==2.1.0
+click @ file:///tmp/build/80754af9/click_1646056706450/work
+Flask @ file:///opt/conda/conda-bld/flask_1648041541647/work
+flask-ngrok==0.0.25
+idna==3.3
+itsdangerous @ file:///tmp/build/80754af9/itsdangerous_1621432558163/work
+Jinja2 @ file:///opt/conda/conda-bld/jinja2_1647436528585/work
+MarkupSafe @ file:///opt/conda/conda-bld/markupsafe_1654597864307/work
+requests==2.28.1
+urllib3==1.26.10
+Werkzeug @ file:///opt/conda/conda-bld/werkzeug_1645628268370/work
