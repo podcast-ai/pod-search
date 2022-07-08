@@ -8,7 +8,7 @@
             <img src="./static/img/music-icon.jpeg" alt="music-icon" id="music-icon">
             <div class="info">
                 <span>Here are the result based on your input: {{ sentence }}</span>
-                <h3>- This is the Demo</h3>
+                <span>- This is the Demo</span>
                 <div id="waveform"></div>
                 <div class="control-bar">
                     <img src="./static/img/play.png" alt="play" id="playBtn" title="Play / Pause">
@@ -23,23 +23,33 @@
 
 
     <script>
+        var startTime = "{{ time }}";
         playBtn = document.getElementById("playBtn");
         stopBtn = document.getElementById("stopBtn");
         volumeBtn = document.getElementById("volumeBtn");
+
+
 
         var wavesurfer = WaveSurfer.create({
             container: '#waveform',
             waveColor: '＃708090',
             progressColor: 'rgb(0, 161, 173)',
+            cursorColor: 'rgb(192,192,192)',
+            cursorWidth: 1.5,
             barWidth: 3,
             responsive: true,
             hideScrollbar: true,
             barRadius: 3
         });
-        wavesurfer.load('./static/img/sample-000000.mp3');
 
+
+        {#We need to render the files in a selected way!#}
+        wavesurfer.load('{{ file_name }}');
+        {#Played the trimed audio#}
         playBtn.onclick = function(){
-            wavesurfer.playPause();
+            startTime = {{ startTime }};
+            endTime = {{ endTime }};
+            wavesurfer.play(startTime, endTime);
             if(playBtn.src.match("play")){
                 playBtn.src  = "./static/img/pause.png";
             }
@@ -63,9 +73,6 @@
             }
         }
     </script>
-
-
-
 </body>
 
 

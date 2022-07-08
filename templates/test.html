@@ -1,0 +1,96 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+<body>
+    <div class="container">
+        <div class="music-player">
+            <img src="./static/img/music-icon.jpeg" alt="music-icon" id="music-icon">
+            <div class="info">
+                <span>Here are the result based on your input: {{ sentence }}</span>
+                <h2>- This is the Demo</h2>
+                <div id="waveform"></div>
+                <div class="control-bar">
+                    <img src="./static/img/play.png" alt="play" id="playBtn" title="Play / Pause">
+                    <img src="./static/img/stop.png" alt="stop" id="stopBtn" title="Stop">
+                    <img src="./static/img/volume.png" alt="volume" id="volumeBtn" title="Mute / Unmute">
+                </div>
+                <div>Total time: <span id="time-total">0.00</span> s   </div>
+                <div>Current time: <span id="time-current">0.00</span> s     Ramaining time: <span id="time-remaining">0.00</span> s </div>
+            </div>
+
+    </div>
+        </div>
+    </div>
+
+
+
+    <script>
+        var startTime = "{{ time }}";
+        playBtn = document.getElementById("playBtn");
+        stopBtn = document.getElementById("stopBtn");
+        volumeBtn = document.getElementById("volumeBtn");
+
+
+
+        var wavesurfer = WaveSurfer.create({
+            container: '#waveform',
+            waveColor: '＃708090',
+            progressColor: 'rgb(0, 161, 173)',
+            cursorColor: 'rgb(192,192,192)',
+            cursorWidth: 1.5,
+            barWidth: 3,
+            responsive: true,
+            hideScrollbar: true,
+            barRadius: 3
+        });
+
+
+        {#We need to render the files in a selected way!#}
+        wavesurfer.load('{{ fileName }}');
+        {#Played the trimed audio#}
+        playBtn.onclick = function(){
+            startTime = {{ startTime }};
+            endTime = {{ endTime }};
+            wavesurfer.play(startTime, endTime);
+            if(playBtn.src.match("play")){
+                playBtn.src  = "./static/img/pause.png";
+            }
+            else{
+                playBtn.src = "./static/img/play.png"
+            }
+        }
+
+        wavesurfer.on('audioprocess', function() {
+          if (wavesurfer.isPlaying()) {
+            var totalTime = wavesurfer.getDuration(),
+                currentTime = wavesurfer.getCurrentTime(),
+                remainingTime = totalTime - currentTime;
+
+            document.getElementById('time-total').innerText = totalTime.toFixed(1);
+            document.getElementById('time-current').innerText = currentTime.toFixed(1);
+            document.getElementById('time-remaining').innerText = remainingTime.toFixed(1);
+          }
+        });
+
+        stopBtn.onclick = function(){
+            wavesurfer.stop();
+            playBtn.src = "./static/img/play.png"
+        }
+
+        volumeBtn.onclick = function(){
+            wavesurfer.toggleMute();
+            if(volumeBtn.src.match("volume")){
+                volumeBtn.src  = "./static/img/mute.png";
+            }
+            else{
+                volumeBtn.src = "./static/img/volume.png"
+            }
+        }
+    </script>
+</body>
+
+
+
+
+{% endblock %}

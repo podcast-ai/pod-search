@@ -29,18 +29,26 @@ def Home():
 
 @flask_app.route("/predict", methods=['GET', 'POST'])
 def predict():
-    # retrieve the answer input from the user text-ins
+    # Param 1 $sentence$. Retrieve the search input from the user text-ins.
     sentence = request.form.get('inputText')
     target = request.args.get('question')
     target = escape(target)
-    return render_template("audio.html", sentence = "{}".format(sentence))
+
+
+
+    # Param 2 $fileName$. Get the selected file_name.
+    fileName = './static/data/sample-000000.mp3'
 
 
 
 
 
 
+    # Parm 3 & 4 $startTime$ $endTime$ Here are the time we need to trim, which they will send back to the client side.
+    startTime = 1
+    endTime = 1.5
 
+    return render_template("test.html", sentence = "{}".format(sentence), fileName = "{}".format(fileName), startTime = "{}".format(startTime), endTime = "{}".format(endTime))
 
 if __name__ == "__main__":
     flask_app.run(debug=True)
