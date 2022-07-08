@@ -1,13 +1,27 @@
-## PodCatch! Mockup Preview
+# PodCatch! Mockup Preview
 This is an python supported web application using the Flask backend. 
+## Install
+- Clone the repo
+``` sh
+git clone https://github.com/podcast-ai/podcast-ai-lab
+```
+- Install Conda: please see https://docs.conda.io/en/latest/miniconda.html
+- Create Conda env:
+
+
+Running following command to install all the dependency packages
+``` Linux
+conda create -n podcatch
+conda activate podcatch
+pip install -r requirements.txt
+```
+
+
 Then simply run the app.py to render the server. 
 ``` Linux
 python app.py 
 ```
-Running following command to install all the dependency packages
-``` Linux
-pip install -r requirements.txt
-```
+
 
 | variable  |   type |             default             |                                      description | generated method |
 |:----------|-------:|:-------------------------------:|-------------------------------------------------:|:-----------------|
