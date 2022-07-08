@@ -1,0 +1,74 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+<body>
+    <div class="container">
+        <div class="music-player">
+            <img src="./static/img/music-icon.jpeg" alt="music-icon" id="music-icon">
+            <div class="info">
+                <span>Here are the result based on your input: {{ sentence }}</span>
+                <h3>- This is the Demo</h3>
+                <div id="waveform"></div>
+                <div class="control-bar">
+                    <img src="./static/img/play.png" alt="play" id="playBtn" title="Play / Pause">
+                    <img src="./static/img/stop.png" alt="stop" id="stopBtn" title="Stop">
+                    <img src="./static/img/volume.png" alt="volume" id="volumeBtn" title="Mute / Unmute">
+                </div>
+            </div>
+    </div>
+        </div>
+    </div>
+
+
+
+    <script>
+        playBtn = document.getElementById("playBtn");
+        stopBtn = document.getElementById("stopBtn");
+        volumeBtn = document.getElementById("volumeBtn");
+
+        var wavesurfer = WaveSurfer.create({
+            container: '#waveform',
+            waveColor: '＃708090',
+            progressColor: 'rgb(0, 161, 173)',
+            barWidth: 3,
+            responsive: true,
+            hideScrollbar: true,
+            barRadius: 3
+        });
+        wavesurfer.load('./static/img/sample-000000.mp3');
+
+        playBtn.onclick = function(){
+            wavesurfer.playPause();
+            if(playBtn.src.match("play")){
+                playBtn.src  = "./static/img/pause.png";
+            }
+            else{
+                playBtn.src = "./static/img/play.png"
+            }
+        }
+
+        stopBtn.onclick = function(){
+            wavesurfer.stop();
+            playBtn.src = "./static/img/play.png"
+        }
+
+        volumeBtn.onclick = function(){
+            wavesurfer.toggleMute();
+            if(volumeBtn.src.match("volume")){
+                volumeBtn.src  = "./static/img/mute.png";
+            }
+            else{
+                volumeBtn.src = "./static/img/volume.png"
+            }
+        }
+    </script>
+
+
+
+</body>
+
+
+
+
+{% endblock %}

@@ -11,8 +11,10 @@ pip install -r requirements.txt
 
 ### Main Search Window
 <div align="center">
-  <img src="./static/img/puzzling_UI.png" width = "100%" height = "100%">
+  <img src="./static/img/front_UI.png" width = "100%" height = "100%">
 </div>
 
 ### Result Window
-TBD.
+<div align="center">
+  <img src="./static/img/render_UI.png" width = "100%" height = "100%">
+</div>
