@@ -11,7 +11,7 @@ git clone https://github.com/podcast-ai/podcast-ai-lab
 
 Running following command to install all the dependency packages
 ``` Linux
-conda create -n podcatch
+conda create -n podcatch python=3.10
 conda activate podcatch
 pip install -r requirements.txt
 ```
