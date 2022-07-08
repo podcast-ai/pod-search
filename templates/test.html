@@ -8,7 +8,6 @@
             <img src="./static/img/music-icon.jpeg" alt="music-icon" id="music-icon">
             <div class="info">
                 <span>Here are the result based on your input: {{ sentence }}</span>
-                <div>Here is the time slicing: {{ time }}</div>
                 <span>- This is the Demo</span>
                 <div id="waveform"></div>
                 <div class="control-bar">
@@ -24,9 +23,12 @@
 
 
     <script>
+        var startTime = "{{ time }}";
         playBtn = document.getElementById("playBtn");
         stopBtn = document.getElementById("stopBtn");
         volumeBtn = document.getElementById("volumeBtn");
+
+
 
         var wavesurfer = WaveSurfer.create({
             container: '#waveform',
@@ -46,8 +48,8 @@
         wavesurfer.load('./static/img/sample-000000.mp3');
         {#Played the trimed audio#}
         playBtn.onclick = function(){
-            startTime = 2;
-            endTime = 3;
+            startTime = {{ startTime }};
+            endTime = {{ endTime }};
             wavesurfer.play(startTime, endTime);
             if(playBtn.src.match("play")){
                 playBtn.src  = "./static/img/pause.png";
