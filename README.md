@@ -1,4 +1,4 @@
-## PodCatch Mockup Preview
+## PodCatch! Mockup Preview
 This is an python supported web application using the Flask backend. 
 Then simply run the app.py to render the server. 
 ``` Linux
