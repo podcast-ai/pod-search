@@ -35,11 +35,19 @@
             responsive: true,
             hideScrollbar: true,
             barRadius: 3
-        });
-        wavesurfer.load('./static/img/sample-000000.mp3');
 
+
+        });
+
+
+
+        {#We need to render the files in a selected way!#}
+        wavesurfer.load('./static/img/sample-000000.mp3');
+        {#Played the trimed audio#}
         playBtn.onclick = function(){
-            wavesurfer.playPause();
+            startTime = 2;
+            endTime = 3;
+            wavesurfer.play(startTime, endTime);
             if(playBtn.src.match("play")){
                 playBtn.src  = "./static/img/pause.png";
             }

@@ -33,8 +33,9 @@ def predict():
     sentence = request.form.get('inputText')
     target = request.args.get('question')
     target = escape(target)
-    return render_template("audio.html", sentence = "{}".format(sentence))
+    time = {"time": ["start_time", "end_time"]}
 
+    return render_template("test.html", sentence = "{}".format(sentence), time = "{}".format(time))
 
 
 
