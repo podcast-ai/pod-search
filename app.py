@@ -36,8 +36,8 @@ def predict():
 
 
 
-    # Param 2 $file_name$. Get the selected file_name.
-    file_name = './static/data/sample-000000.mp3'
+    # Param 2 $fileName$. Get the selected file_name.
+    fileName = './static/data/sample-000000.mp3'
 
 
 
@@ -48,7 +48,7 @@ def predict():
     startTime = 1
     endTime = 1.5
 
-    return render_template("test.html", sentence = "{}".format(sentence), file_name = "{}".format(file_name), startTime = "{}".format(startTime), endTime = "{}".format(endTime))
+    return render_template("test.html", sentence = "{}".format(sentence), fileName = "{}".format(fileName), startTime = "{}".format(startTime), endTime = "{}".format(endTime))
 
 if __name__ == "__main__":
     flask_app.run(debug=True)
