@@ -1,4 +1,4 @@
-# PodCatch! Mockup Preview
+# PodCatch!
 This is an python supported web application using the Flask backend. 
 ## Install
 - Clone the repo
