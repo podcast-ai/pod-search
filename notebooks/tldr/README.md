@@ -1,1 +1,1 @@
-### generated a short summary about the transcript
+### generates a short summary about the transcript
