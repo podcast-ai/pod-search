@@ -33,10 +33,10 @@ python app.py
 
 ### Main Search Window
 <div align="center">
-  <img src="./static/img/front_UI.png" width = "100%" height = "100%">
+  <img src="./app/static/img/front_UI.png" width = "100%" height = "100%">
 </div>
 
 ### Result Window
 <div align="center">
-  <img src="./static/img/render_UI.png" width = "100%" height = "100%">
+  <img src="./app/static/img/render_UI.png" width = "100%" height = "100%">
 </div>
