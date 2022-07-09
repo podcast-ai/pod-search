@@ -6,14 +6,14 @@
         <div class="textarea-wrapper">
             <div class="textarea-right-wrapper">
                     <p></p>
-                    <form action="{{ url_for('predict', question = question)}}" method="post">
+                    <form action="{{ url_for('search', question = question)}}" method="post">
                         <textarea name="inputText" class="textarea" rows="8" placeholder="Search your Podcast here!" autofocus="" onkeyup="countChars(this);" onfocus="collapsTextArea(this);"></textarea>
                         <div class="counter-container">
                             <div id="counter" class="counter" style="text-align: center;"></div>
                         </div>
 
                         <div id="submission" style="text-align: center;">
-                            <a href="./predict">
+                            <a href="./search">
                                 <!-- href="../predict" -->
                             <button type="submit" class="submit-btn">Get it!</button>
                             </a>
