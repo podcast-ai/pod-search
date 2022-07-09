@@ -20,7 +20,6 @@ def l2norm(x, dim=-1):
 
 
 def similarity(inputs_repre, target_repre):
-    """Cosine similarity between all the inputs and target pairs"""
     return inputs_repre.mm(target_repre.t()).item()
 
 

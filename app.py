@@ -37,8 +37,8 @@ def predict():
     # fileName = './notebooks/transcription/data_mp3/' + getID(save_path, sentence)
     fileName = './static/data/'+ getID(save_path, sentence)
     # Parm 3 & 4 $startTime$ $endTime$ Here are the time we need to trim, which they will send back to the client side.
-    startTime = 1
-    endTime = 1.5
+    startTime = 0
+    endTime = 100
 
     return render_template("test.html", sentence = "{}".format(sentence), fileName = "{}".format(fileName), startTime = "{}".format(startTime), endTime = "{}".format(endTime))
 
