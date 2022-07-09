@@ -98,7 +98,7 @@ def main(list_of_audio_files):
             for batch in batches
             for transcription in transcriber.transcribe_waves(batch, SAMPLE_RATE)
         ]
-        print(f"Transcribed chunks. Sample transcription: {chunk_transcriptions[0]}")
+        print(f"Transcribed chunks. Sample transcription: {np.random.choice(chunk_transcriptions)}")
 
         results.extend(
             [
