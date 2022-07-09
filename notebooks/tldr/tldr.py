@@ -19,8 +19,14 @@ def generate_summary(model, tokenizer, article, min_length:int, max_length:int) 
 
 def parse(fn:str) -> np.array:
     #article = open(fn,'r').read().strip().replace("\n"," ")
-    df = pd.read_csv(fn)
-    article = np.array(df.transcription)
+    _,form = fn.split(".")
+    if form == "csv":
+        df = pd.read_csv(fn)
+        article = np.array(df.transcription)
+    if form == "json":
+        df = pd.read_json(fn)
+        article = np.array(df.text)
+
     ## ignore getting the names of speaker and the guest (if we have them)
     return article
 
