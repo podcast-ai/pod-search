@@ -54,7 +54,7 @@ def make_chunks_from_wave(
 
     chunk_waves = np.array_split(wave, n_chunks)
 
-    chunk_end_times = np.cumsum([sr * len(wave) for wave in chunk_waves]).tolist()
+    chunk_end_times = np.cumsum([len(wave) / sr for wave in chunk_waves]).tolist()
     chunk_begin_times = [0] + chunk_end_times[:-1]
     chunk_timestamps = [
         ChunkTimestamp(b, e) for b, e in zip(chunk_begin_times, chunk_end_times)
