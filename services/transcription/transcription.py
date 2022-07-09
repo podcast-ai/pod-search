@@ -88,7 +88,7 @@ def main(list_of_audio_files):
         print(f"Obtained {len(chunk_timestamps)} chunks")
 
         print("Transcribing chunks")
-        n_batches = np.ceil(len(chunk_waves) / N_CHUNKS_PER_BATCH, dtype=int)
+        n_batches = int(np.ceil(len(chunk_waves) / N_CHUNKS_PER_BATCH))
         batches = [
             chunk_waves[(i * N_CHUNKS_PER_BATCH) : ((i + 1) * N_CHUNKS_PER_BATCH)]
             for i in range(n_batches)
