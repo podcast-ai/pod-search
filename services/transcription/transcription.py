@@ -88,7 +88,11 @@ def main(list_of_audio_files):
         print(f"Obtained {len(chunk_timestamps)} chunks")
 
         print("Transcribing chunks")
-        batches = np.array_split(chunk_waves, len(chunk_waves) // N_CHUNKS_PER_BATCH)
+        n_batches = np.ceil(len(chunk_waves) / N_CHUNKS_PER_BATCH, dtype=int)
+        batches = [
+            chunk_waves[(i * N_CHUNKS_PER_BATCH) : ((i + 1) * N_CHUNKS_PER_BATCH)]
+            for i in range(n_batches)
+        ]
         chunk_transcriptions = [
             transcriber.transcribe_waves(batch, SAMPLE_RATE) for batch in batches
         ]
