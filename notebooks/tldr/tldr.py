@@ -37,7 +37,6 @@ def preprocess(article:np.array) -> list:
     start,end = 0,section_len
     while end < len(article):
         sub_article.append(" ".join(article[start:end]))
-        print("done")
         start,end = end, end+section_len
         
     return sub_article
@@ -49,8 +48,8 @@ def main(fn) -> str:
     sub_article = preprocess(article)
     summary  = ""
     for i in (w := trange(len(sub_article))):
-        w.set_description(f"generating summary for subgroup : {i}")
         summary += generate_summary(model, tokenizer, sub_article[i], 16, 256)
+        w.set_description(f"generating summary for subgroup : {i}")
     return summary
 
 if __name__ == "__main__":
