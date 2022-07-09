@@ -8,11 +8,6 @@ tokenizer = AutoTokenizer.from_pretrained("princeton-nlp/sup-simcse-bert-base-un
 model = AutoModel.from_pretrained("princeton-nlp/sup-simcse-bert-base-uncased")
 
 
-# This is a demo
-
-target = "This is a good day."
-inputs = "whether"
-
 def sentence_mapping(sentence):
     inputs = tokenizer(sentence, padding=True, truncation=True, return_tensors="pt")
     with torch.no_grad():
@@ -40,8 +35,6 @@ def calc_score(inputs, target):
     target_repre = sentence_mapping(target)
 
     score = similarity(l2norm(inputs_repre), l2norm(target_repre))
-
-    #score = random.random()
 
     return score
 
