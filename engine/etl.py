@@ -4,7 +4,7 @@ from pandera.typing import DataFrame
 
 import pandas
 
-def google_transcript_to_dataframe(
+def read_google_transcript(
     path,
 ) -> DataFrame:
     """Parse Google Speech to Text API result .json -> pandas.DataFrame"""
