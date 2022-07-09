@@ -14,11 +14,8 @@ from flask_ngrok import run_with_ngrok
 import time
 import requests
 import argparse
-
-
-
-
-
+from getSimilarity import calc_score
+from getID import getID
 
 flask_app = Flask(__name__)
 
@@ -35,18 +32,13 @@ def predict():
     target = escape(target)
 
 
-
     # Param 2 $fileName$. Get the selected file_name.
-    fileName = './static/data/sample-000000.mp3'
-
-
-
-
-
-
+    save_path = "./notebooks/transcription/data_samples.csv"
+    # fileName = './notebooks/transcription/data_mp3/' + getID(save_path, sentence)
+    fileName = './static/data/'+ getID(save_path, sentence)
     # Parm 3 & 4 $startTime$ $endTime$ Here are the time we need to trim, which they will send back to the client side.
-    startTime = 1
-    endTime = 1.5
+    startTime = 0
+    endTime = 100
 
     return render_template("test.html", sentence = "{}".format(sentence), fileName = "{}".format(fileName), startTime = "{}".format(startTime), endTime = "{}".format(endTime))
 
