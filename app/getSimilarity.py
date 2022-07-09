@@ -11,7 +11,9 @@ model = AutoModel.from_pretrained("princeton-nlp/sup-simcse-bert-base-uncased")
 def sentence_mapping(sentence):
     inputs = tokenizer(sentence, padding=True, truncation=True, return_tensors="pt")
     with torch.no_grad():
-        embeddings = model(**inputs, output_hidden_states=True, return_dict=True).pooler_output
+        embeddings = model(
+            **inputs, output_hidden_states=True, return_dict=True
+        ).pooler_output
     return embeddings
 
 
@@ -36,6 +38,3 @@ def calc_score(inputs, target):
     score = similarity(l2norm(inputs_repre), l2norm(target_repre))
 
     return score
-
-
-
