@@ -1,9 +1,11 @@
 """Extract / transform / load functions here."""
 
+from pathlib import Path
 from pandera.typing import DataFrame
 
 import pandas
 import tqdm
+from loguru import logger
 
 def parse_google_transcript(
     path,
@@ -45,9 +47,17 @@ def process_transcripts(
     transcript_paths = [
         p for p in transcript_dir.glob("*.json")
     ]
-    transcript_data = [
-        clean_google_transcript(parse_google_transcript(path, episode_id)) for episode_id, path in tqdm.tqdm(enumerate(transcript_paths))
-    ]
+    transcript_data = []
+    for episode_id, path in enumerate(tqdm.tqdm(transcript_paths)):
+        logger.debug(f"processing {path}")
+        transcript_data.append(
+            clean_google_transcript(
+                parse_google_transcript(
+                    path,
+                    episode_id,
+                )
+            )
+        )
     episode_data = pandas.DataFrame(
         [
             {"episode_id": episode_id, "file_name": path.stem}
@@ -76,6 +86,7 @@ def load_knowledge_base(
     knowledge_base_dir,
 ):
     """Load knowledge base."""
+    knowledge_base_dir = Path(knowledge_base_dir)
     transcript_data = pandas.read_parquet(knowledge_base_dir / "transcript_data.parquet")
     episode_data = pandas.read_parquet(knowledge_base_dir / "episode_data.parquet")
 
