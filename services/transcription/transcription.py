@@ -80,7 +80,7 @@ def main(list_of_audio_files):
         wave, _ = librosa.load(audio_file, sr=SAMPLE_RATE)
 
         print(
-            f"Getting audio chunks of duration {CHUNK_DURATION_SECS}, plus timestamps"
+            f"Getting audio chunks of duration {CHUNK_DURATION_SECS} secs, plus timestamps"
         )
         chunk_waves, chunk_timestamps = make_chunks_from_wave(
             wave, SAMPLE_RATE, CHUNK_DURATION_SECS
@@ -94,7 +94,9 @@ def main(list_of_audio_files):
             for i in range(n_batches)
         ]
         chunk_transcriptions = [
-            transcriber.transcribe_waves(batch, SAMPLE_RATE) for batch in batches
+            transcription
+            for batch in batches
+            for transcription in transcriber.transcribe_waves(batch, SAMPLE_RATE)
         ]
         print(f"Transcribed chunks. Sample transcription: {chunk_transcriptions[0]}")
 
@@ -115,7 +117,7 @@ def main(list_of_audio_files):
 
         timedelta_audio_file = time.time() - begin_time_audio_file
         print(
-            f"Seconds elapsed while processing {audio_file}: {timedelta_audio_file:.2}"
+            f"Seconds elapsed while processing {audio_file}: {timedelta_audio_file:.2f}"
         )
 
     pd.DataFrame(results).to_csv("transcribed_audios.csv", index=False)
