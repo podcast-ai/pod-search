@@ -42,8 +42,8 @@ def main(fn) -> str:
     article = parse(fn)
     sub_article = preprocess(article)
     summary  = ""
-    for i in trange(len(sub_article)):
-        print(f"generating summary for:{i} sub group ")
+    for i in (w := trange(len(sub_article))):
+        w.set_description(f"generating summary for subgroup : {i}")
         summary += generate_summary(model, tokenizer, sub_article[i], 16, 256)
     return summary
 
