@@ -1,0 +1,2781 @@
+WEBVTT
+
+00:00:00.017 --> 00:00:06.397
+The following is a conversation with demouth casabas CEO and co-founder of deepmind.
+
+00:00:06.601 --> 00:00:16.615
+A company that has published and build some of the most incredible artificial intelligence systems in the history of computing including Al 40 that learned.
+
+00:00:16.828 --> 00:00:30.298
+All by itself to play the game of Go better than any human in the world and Alpha fold to that's solved protein folding both tasks considered nearly impossible for a very long time.
+
+00:00:31.087 --> 00:00:40.678
+Thomas is widely considered to be one of the most brilliant and impactful humans in the history of artificial intelligence and Science and Engineering in general.
+
+00:00:40.873 --> 00:00:50.562
+This was truly an honor and a pleasure for me to finally sit down with him for this conversation and I'm sure we'll talk many times again in the future.
+
+00:00:51.982 --> 00:01:04.165
+And now a quick view second mention if we sponsor check them out in the description that's the best way to support this podcast we got mailgun for email campaigns inside tracker for longevity on it for supplements
+
+00:01:04.018 --> 00:01:12.609
+indeed for hiring and Magic spoon for breakfast she was wise to my friends and now I want to the full ad reads as always no ads the middle
+
+00:01:12.498 --> 00:01:19.081
+I try to make this interesting but if you skip them please do check out our sponsors I enjoy their stuff maybe you will too.
+
+00:01:19.736 --> 00:01:33.845
+This show is brought to you by mailgun by cinch and email delivery service that I've used for many many years to have an API that allows you to programmatically send emails if you don't know what an API is the point is.
+
+00:01:33.860 --> 00:01:39.607
+It's a way for programs for code to interact with the service.
+
+00:01:39.991 --> 00:01:46.502
+You have an API for both transactional and marketing emails those are terms used by people
+
+00:01:46.337 --> 00:02:05.137
+much smarter about the stuff than me but I think transactional means specific to the person emails which is what I guess used its way to email certain people to notify them about the status of whatever the heck they're doing on the website and then there's marketing emails which is when you send an email
+
+00:02:04.954 --> 00:02:10.115
+to a lot of people like the same email I guess transactional is super customized
+
+00:02:10.085 --> 00:02:17.335
+to an action that a person took and marketing is like a push email that you sent a lot of people in both of those
+
+00:02:17.296 --> 00:02:30.001
+two categories of how people often use email and so mailgun is service that makes it super easy for you to do that kind of thing you can go to Lex Friedman.com mailgun to learn more.
+
+00:02:31.457 --> 00:02:39.364
+This show is also brought to you by inside tracker a service that used to track biological data data that comes from my body.
+
+00:02:39.424 --> 00:02:48.123
+A lot of their plans that you can send out for include blood tests why blood test because a lot of really useful data comes from your blood and then they use.
+
+00:02:48.354 --> 00:03:01.518
+Machine learning algorithms to analyze that data so that includes blood data DNA data and even data from your Fitness tracker to provide you a clear picture what's going on inside your body this is the future
+
+00:03:01.488 --> 00:03:05.020
+anything you decide to do in your life should be based on data.
+
+00:03:05.215 --> 00:03:14.355
+From your entity from your being that means your biological body maybe one day that means from your brain as well.
+
+00:03:14.497 --> 00:03:22.827
+There'll be a brain computer interface device like neural link that collects data from your brain and is able to make suggestions.
+
+00:03:23.346 --> 00:03:27.085
+What kind of supplements to take what kind of dye changes to make.
+
+00:03:27.478 --> 00:03:34.701
+You can go to inside track a.com slash Lex and for a limited time you get special savings for being a listener of this very podcast.
+
+00:03:35.364 --> 00:03:43.550
+This episode is also brought to you by on it and nutrition supplement and fitness company they have a thing called Alpha Brain which is a nootropic
+
+00:03:43.448 --> 00:03:52.444
+that helps you with the memory metal speed and focus you might know it because of mr. Joe Rogan which is probably the first time.
+
+00:03:52.864 --> 00:04:00.573
+I heard an honored read is one of the first podcast actually Joe's that I listen to.
+
+00:04:01.272 --> 00:04:07.289
+Religiously I'm a huge fan of audiobooks and podcasts in general but there's something about.
+
+00:04:07.538 --> 00:04:14.202
+The authenticity the Joe projects that immediately connected with me and overtime
+
+00:04:14.137 --> 00:04:23.727
+his ability to be curious and apathetic a good listener but also be able to change his mind keep an open mind just some crazy ideas anyway
+
+00:04:23.589 --> 00:04:34.251
+I mentioned that because The Joe Rogan Experience introduced me to a lot of these kinds of products like on it that quickly became part of my life I guess podcast ad reads work.
+
+00:04:34.257 --> 00:04:41.227
+Any way you can get a special discount on Alpha Brain if you go to the Lex Freeman.com on it.
+
+00:04:42.602 --> 00:04:57.539
+This shows also brought to you by indeed a hiring website I've used them as part of many hiring efforts I've done for the team's of lead in the past they have indeed as the match that gives you quality candidates whose resumes that indeed figure job description immediately.
+
+00:04:57.879 --> 00:05:07.802
+I said this before I'll say it again there's very few things in life as important as the people you surround yourself with I'm somebody for whom the work I've done.
+
+00:05:08.267 --> 00:05:22.296
+Brings a lot of meaning and joy to my life even when I sold shoes at Sears shoes in the women's section that little community that you have as you try to figure out this new skill those people are.
+
+00:05:22.554 --> 00:05:34.251
+So instrumental to your happiness and to your Effectiveness to your growth as a human being so hiring is really really really important and that's why you should use the best tools for the job Indeed.
+
+00:05:34.257 --> 00:05:43.658
+Is one such tool they have a special offer for listeners that this podcast only available for a limited time check it out at indeed.com Lex.
+
+00:05:45.014 --> 00:05:54.389
+This episode is also brought to you by an oldie but a goodie magic spoon a low carb keto friendly cereal they were there from the beginning.
+
+00:05:55.034 --> 00:06:03.841
+I really love magic spoon it brings so much joy to my heart I don't care if this is not your thing please get it.
+
+00:06:04.279 --> 00:06:13.221
+Make it your thing because it's freaking delicious it has all the deliciousness of a cereal without any of the negative stuff like all the sugar it has
+
+00:06:13.129 --> 00:06:21.360
+zero g sugar 13 to 14 grams of protein only 49 grams of carbs 140 calories in each serving.
+
+00:06:21.438 --> 00:06:27.751
+It's like I said keto friendly It's Magic I don't understand how it works I don't understand how it can be so delicious but.
+
+00:06:28.540 --> 00:06:33.918
+They have a lot of flavors I would say peanut butter is up there for me.
+
+00:06:33.978 --> 00:06:39.661
+Maybe top three maybe it's my second favorite by far my favorite is Coco.
+
+00:06:39.676 --> 00:06:50.545
+Magic spoon has a 100% happiness guarantee so if you don't like it they'll refund it get a discount on your order if you go to magic spoon.com Lex and use code Lex.
+
+00:06:51.910 --> 00:07:01.050
+This is a lot screaming podcast to support it please check out our sponsors in the description and now dear friends here's damus casabas.
+
+00:07:02.320 --> 00:07:16.400
+Music.
+
+00:07:16.243 --> 00:07:26.059
+Let's start with a bit of a personal question am I an AI program you wrote to interview people until I get good enough to interview you.
+
+00:07:26.101 --> 00:07:34.512
+Well I've been pressed if you are being pressed by myself if you were I don't think we're quite up to that yet but maybe you're from the future Lex.
+
+00:07:34.644 --> 00:07:40.633
+If you did would you tell me is that is that a good thing to tell a language model that's tasked with interviewing.
+
+00:07:40.955 --> 00:07:48.375
+That it is in fact a I maybe when I kind of met her during test probably probably would be a good idea not to tell you
+
+00:07:48.300 --> 00:07:56.883
+so it doesn't change your behavior right this is a kind of Eisenberg uncertainty principle situation if I told you you behave differently yeah maybe that's what's happening with us of course
+
+00:07:56.826 --> 00:08:04.787
+this is a benchmark from the future where they replay 2022 as a year before a eyes were good enough.
+
+00:08:04.892 --> 00:08:08.847
+Yeah and now we want to see is it going to pass exactly.
+
+00:08:09.807 --> 00:08:18.497
+If I was such a program would you be able to tell do you think so to the Turing test question you've talked about.
+
+00:08:19.151 --> 00:08:27.499
+The Benchmark for solving intelligence what would be the impressive thing you talked about winning a Nobel Prize in a system winning a Nobel Prize
+
+00:08:27.298 --> 00:08:33.324
+but I still return to the Turing test as a compelling test the spirit of the Turing test isn't compelling test
+
+00:08:33.150 --> 00:08:48.799
+yeah the cheering test of course it's been unbelievably influential and turing's one of my all-time Heroes but I think if you look back at the 1950 papers original paper and read the original you'll see I don't think you meant it to be a rigorous formal test I think it was more like a thought experiment
+
+00:08:48.733 --> 00:08:58.773
+almost a bit of philosophy he was writing if you look at the style of the paper and you can see didn't specify it very rigorously flow for example he didn't specify the knowledge that the expert
+
+00:08:58.644 --> 00:09:03.076
+or judge would have not been a how much time would they have to
+
+00:09:02.983 --> 00:09:12.502
+investigate this so these important parameters if you're going to make it a true sort of formal test and you know some by some measures
+
+00:09:12.490 --> 00:09:14.293
+people claim the Turing test passed
+
+00:09:14.272 --> 00:09:24.304
+several you know decade ago I remember someone claiming that with a kind of very bog-standard normal logic model because they pretended it was a it was a kid.
+
+00:09:24.310 --> 00:09:26.158
+So the the judges thought.
+
+00:09:26.209 --> 00:09:37.600
+That the machine you know was was a child so that would be very different from an expert a i person interrogating machine and knowing how it was built and so on so I think.
+
+00:09:37.615 --> 00:09:51.815
+You know we should probably move away from that as a formal test and move more towards General test where we test the AI capabilities on a range of tasks and see if it reaches human level or above performance on
+
+00:09:51.749 --> 00:09:58.980
+maybe thousands perhaps even millions of tasks eventually and cover the entire sort of cognitive space so I think.
+
+00:09:59.067 --> 00:10:07.262
+For its time it was an amazing thought experiment and also 1950s obviously there's barely the dawn of the computer age so of course he only thought about text.
+
+00:10:07.332 --> 00:10:16.292
+And now we have a lot more different inputs so yeah maybe the better thing to test is the generalizability so across multiple tasks but
+
+00:10:16.136 --> 00:10:21.378
+I think it's also possible as as systems like God will show that.
+
+00:10:21.438 --> 00:10:28.760
+Eventually that might map right back to language so you might be able to demonstrate your ability to generalize across tasks.
+
+00:10:29.117 --> 00:10:39.572
+By then communicating your ability to generalize across tasks which is kind of what we do through conversation anyway when we jump around ultimately what's in there in that conversation.
+
+00:10:39.614 --> 00:10:42.362
+Is not just you moving around knowledge.
+
+00:10:42.890 --> 00:10:52.742
+It's you moving around like this entirely different modalities of understanding that ultimately we mapped to your ability to.
+
+00:10:52.847 --> 00:11:02.626
+To operate successfully in all of these domains which you can think of as tasks yeah I think certainly we as humans use language as our main
+
+00:11:02.560 --> 00:11:14.014
+generalization communication tool so I think we end up thinking in language and expressing our Solutions in language so it's going to be very powerful mode
+
+00:11:13.885 --> 00:11:20.811
+and which to explain you know the system to explain what it's doing but I don't think it's the only.
+
+00:11:20.889 --> 00:11:30.749
+Modality that matters so I think there's going to be a lot of you know there's a lot of different ways to express capabilities are other than just language.
+
+00:11:31.449 --> 00:11:34.990
+Visual robotics body language
+
+00:11:34.987 --> 00:11:44.397
+yeah actions the interactive aspect of all that that's all part of it but what's interesting with got so is that it's a it's it's sort of
+
+00:11:44.340 --> 00:11:56.325
+pushing prediction to the maximum in terms of like you know mapping arbitrary sequences to other sequences and sort of just predicting what's going to happen next so prediction seems to be fundamental to intelligence.
+
+00:11:56.880 --> 00:12:00.565
+And what you're predicting doesn't so much matter yeah
+
+00:12:00.526 --> 00:12:09.441
+it seems like you can generalize that quite well so obviously language models predict the next word Gatto predicts potentially any action or any token
+
+00:12:09.420 --> 00:12:20.037
+and it's just the beginning really it's a most General agent one could call it so far but you know that itself can be scaled up massively more than we've done so far I'm obviously we're in the in the middle of doing that.
+
+00:12:20.097 --> 00:12:33.360
+But the big part of solving a GI is creating benchmarks that help us get closer and closer sort of creating benchmarks that test the generalizability and it's just still interesting that this fella
+
+00:12:33.285 --> 00:12:39.662
+Alan Turing was one of the first and probably still one of the only people that was trying.
+
+00:12:39.776 --> 00:12:45.747
+Maybe philosophically both trying to formulate a benchmark that could be followed it is even though
+
+00:12:45.690 --> 00:12:56.280
+it's fuzzy is still sufficiently rigorous to where you can run that test and I still think something like the Turing test will end at the end of the day be the thing that truly
+
+00:12:56.214 --> 00:13:00.439
+impresses other humans so that you can have a close friend.
+
+00:13:00.661 --> 00:13:07.047
+Who's in the eye system for that friend to be a good friend they're going to have to be able to
+
+00:13:07.035 --> 00:13:13.762
+play Starcraft and they're going to have to do all of these tasks get you a beer
+
+00:13:13.696 --> 00:13:21.747
+so the core products tasks play games with you use language humor all those kinds of things but that
+
+00:13:21.564 --> 00:13:41.777
+ultimately can boil down to language it feels like in not in terms of the AI Community but in terms of the actual impact of general intelligence on the world it feels like language will be the place or truly shines I think sorry because it's such an important kind of input output for us I think you're right I think the cheering test that what the the kind of
+
+00:13:41.603 --> 00:13:50.087
+the the philosophy behind it which is the idea of can can a machine mimic the behaviors of a human.
+
+00:13:50.201 --> 00:13:59.386
+Amen and I would say wider than just language and text then you know in terms of actions and everything else creativity all these things then
+
+00:13:59.257 --> 00:14:11.503
+if it can sort of match or exceed human cognitive capabilities then I think we have a you know true intelligence so I thought from that perspective you're right I think he did formulate the right kind of setup.
+
+00:14:11.554 --> 00:14:14.627
+I just I think there will be a kind of humor.
+
+00:14:15.083 --> 00:14:24.610
+In the AI systems the future looking back to this conversation and thinking about the Turing test and also thinking about
+
+00:14:24.472 --> 00:14:35.593
+by that time they would know which year they were finally able to sort of cross the threshold of human level intelligence and think how funny it is that we humans were still
+
+00:14:35.491 --> 00:14:45.189
+confused about this whole problem have this really long ago been solved hello to the AI agents of the future anyway so good going back to your.
+
+00:14:45.286 --> 00:14:53.480
+To your journey when did you fall in love with programming first well it's pretty pretty young age actually so
+
+00:14:53.361 --> 00:15:07.974
+you know I started off actually games as my first love so starting to play chess when I was around four years old and then is actually with winnings from a chess competition that I managed to buy my first chess computer when I was about eight years old was I said expectrum.
+
+00:15:07.998 --> 00:15:13.393
+Which was hugely popular in the UK at the time and is amazing machine because
+
+00:15:13.274 --> 00:15:18.300
+I think it chant trained a whole generation of programmers in the UK because it was so accessible.
+
+00:15:18.378 --> 00:15:23.836
+You know you literally switched it on and there was the basic prompt and you could just get going and.
+
+00:15:23.887 --> 00:15:33.937
+My parents didn't really know anything about computers so but because it was my money from a chess competition I could I could say I could I wanted to buy it and then you know I just went to bookstores.
+
+00:15:34.177 --> 00:15:40.985
+Books on programming and started typing in you know that the programming code and and then of course
+
+00:15:40.812 --> 00:15:50.726
+um once you start doing that you start adjusting it and then making your own games and that's when I fell in love with computers and realize that they were very magical device
+
+00:15:50.714 --> 00:16:02.078
+in a way I kind of it I don't want have been able to explain this at the time but I felt that they were sort of almost a magical extension of your mind I always had this feeling and I've always loved this about computers that you can set them off doing something
+
+00:16:01.967 --> 00:16:07.182
+some task for you you can go to sleep come back the next day and it's solved
+
+00:16:07.098 --> 00:16:17.247
+you know that feels a magical to me so I mean all machines do that to some extent they all enhance our natural capabilities obviously cars makers allow us to move faster than we can run.
+
+00:16:17.316 --> 00:16:27.221
+This was a machine to extend the mind and and then of course AI is the ultimate expression of what a machine may be able to do or learn
+
+00:16:27.218 --> 00:16:34.126
+so very naturally for me that thought extended into into a i quite quickly remember the the programming language.
+
+00:16:34.402 --> 00:16:45.667
+That was first started in yes but so special to the machine oh no it was just a nice it was just a basic it was just basic on the ZX Spectrum I don't know what specific format was and then later on I got a Commodore amiga
+
+00:16:45.475 --> 00:16:46.648
+quit chefs
+
+00:16:46.456 --> 00:17:01.313
+it was a fantastic machine now you're just showing off so yeah well lots of my friends had a Tory STS and I managed to get a me because it was a bit more powerful and and that was incredible and used to do programming in assembler and and also
+
+00:17:01.274 --> 00:17:10.756
+a most basic this this this specific form of basic it was incredible actually so while all my coding skills and when did you fall in love with AI so when did you first.
+
+00:17:11.311 --> 00:17:20.037
+Start to gain understanding that you can not just write programs that do some mathematical operations for you while you sleep but something that's.
+
+00:17:20.422 --> 00:17:31.758
+A keen to bringing an entity to life sort of a thing that can figure out something more complicated than a than a simple mathematical operation.
+
+00:17:31.765 --> 00:17:37.763
+Yeah so that was a few stages for me or what I was very young so first of all as I was trying to improve
+
+00:17:37.733 --> 00:17:46.351
+playing chess I was Captain embarrassing Regina chest teams and at the time when I was about you know maybe 10 11 years old I was going to become a professional chess player that was my first.
+
+00:17:46.447 --> 00:18:00.133
+I thought the dream was there to sure she'll try to get to the highest level yes so I was you know I got to when I was about 12 years old I got two masters dad and I was second highest rated player in the world to Judit Polgar who obviously ended up being
+
+00:18:00.068 --> 00:18:01.421
+an amazing chess player.
+
+00:18:01.607 --> 00:18:10.954
+And World women's champion and when I was trying to improve it chest where you know what you do is you obviously first of all you're trying to improve your own thinking processes.
+
+00:18:11.014 --> 00:18:17.850
+So that leads you to thinking about thinking how is your brain coming up with these ideas why is it making mistakes
+
+00:18:17.802 --> 00:18:24.458
+how can you how can you improve that thought process but the second thing is that you it was just the beginning this is like in the
+
+00:18:24.446 --> 00:18:31.299
+in the early 80s mid 80s of Chess computers if you remember they were physical balls like the one we have in front of us and Pew press down the.
+
+00:18:31.378 --> 00:18:37.106
+You know this the squares and I think Kasparov had a branded version of it that I got
+
+00:18:36.860 --> 00:18:52.392
+and you will you know used to that they're not as strong as they are today but they were they were pretty strong and used to practice against them to try and improve your openings and other things and so I remember I think I probably got my first one was around 11 or 12 and I remember thinking
+
+00:18:52.164 --> 00:18:56.488
+this amazing you know how our someone programmed this
+
+00:18:56.305 --> 00:19:04.716
+this chess board to play chess and it was very informative book I bought which was called the chess computer handbook by David Levy.
+
+00:19:04.722 --> 00:19:17.166
+His hand came out 1984 something so I must have got it when I was about 11 12 in explained fully how these chess programs are made and I remember my first day I program being programmed mi amiga it couldn't.
+
+00:19:17.199 --> 00:19:25.376
+It wasn't powerful enough to play chess I couldn't write a whole chess program but I wrote a program for it to play Othello with us it's sometimes called I think in the US
+
+00:19:25.175 --> 00:19:35.882
+and so slightly simpler game than chess but I used all of the principles that chess programs had alpha-beta total of that and that was my first AI program remember that very well is around 12 years old so that.
+
+00:19:35.951 --> 00:19:44.524
+That brought me into a i and then the second part was later on when I was around 16 17 and I was writing games professionally designing games
+
+00:19:44.305 --> 00:19:55.327
+writing a game called theme park which had a i as a co-op gameplay component as part of the simulation and it sold you know millions of copies around the world and people loved.
+
+00:19:55.468 --> 00:20:03.483
+The way that the AI even though it's relatively simple by today's AI standards was was reacting to the way you as the player played it.
+
+00:20:03.561 --> 00:20:11.161
+So I was a called a Sandbox game so it's one of the first types of games like that along with SimCity and it meant that every game you played was unique.
+
+00:20:11.276 --> 00:20:19.795
+Is there something you could say just a small tangent about really impressive AI from a game design.
+
+00:20:19.999 --> 00:20:34.207
+Human enjoyment perspective really impressive AI that you've seen in games and maybe what does it take to create a system and how hard of a problem is that so I'm a million questions we would just as a brief tangent
+
+00:20:34.186 --> 00:20:36.026
+well look I think
+
+00:20:35.960 --> 00:20:51.474
+games games have been significant in my life for three reasons so first of all to I was playing them and training myself on games when I was a kid then I went through a phase of designing games and writing AI for games all the games I professionally wrote
+
+00:20:51.255 --> 00:20:55.894
+had a always a core component and that was mostly in the in the 90s.
+
+00:20:55.918 --> 00:21:02.961
+And the reason I was doing that in games industry was at the time the games industry I think was The Cutting Edge of Technology.
+
+00:21:03.057 --> 00:21:16.041
+So whether it was graphics with people like John Carmack and Quake and those kind of things or a I I think actually all the action was going on in games and and we seen we're still reaping the benefits of that even with things like gpus
+
+00:21:16.038 --> 00:21:31.858
+which you know I find ironic was obviously invented for graphics computer Graphics but then turns out to be amazingly useful for a I could just turns out everything's a matrix multiplication appear it appears they're in the wind the whole world so so I think games at the time had the most cutting-edge AI
+
+00:21:31.639 --> 00:21:41.562
+and a lot of the games are we you know I was involved in writing so there was a game called black and white which was one game I was involved with in the early stages of which I still think is the
+
+00:21:41.370 --> 00:21:42.697
+most
+
+00:21:42.694 --> 00:21:55.147
+impressive example of reinforcement learning in a computer game so in that game you know you trained a little pet animal and going game yeah and it's sort of learnt from how you were treating it so if you treated it badly
+
+00:21:55.063 --> 00:22:05.238
+then it became mean and then it would be mean to to your villagers and your and your population the sort of little tribe that you were running but if you were kind to it then it would be kind.
+
+00:22:05.271 --> 00:22:13.097
+And people fascinated by how that works and so as I to be honest with that the way it kind of developed and especially the mapping to Good and Evil
+
+00:22:13.067 --> 00:22:20.785
+yeah he made you made you realize made me realize that you can sort of in the way in the choices you make can Define.
+
+00:22:21.097 --> 00:22:27.204
+The where you end up and that means all of us are capable of the good.
+
+00:22:27.426 --> 00:22:34.028
+Evil in all matters in the different choices along the trajectory to those places that you make
+
+00:22:33.818 --> 00:23:00.008
+as fascinating I mean the games can do that philosophical to you and it's rare it seems rare yeah what games I think unique medium because you as the player you're not just passively consuming the the entertainment right you're actually actively involved as an as an agent so I think that's what makes it in some ways can be more visceral than other other mediums like you know films and books so the second so that was you know designing AI in games and then the third use
+
+00:22:59.843 --> 00:23:06.805
+I've we've used of AI is in D mind from the beginning which is using games as a testing ground.
+
+00:23:06.829 --> 00:23:10.847
+For proving out AI algorithms and developing AI algorithms.
+
+00:23:10.889 --> 00:23:21.839
+And that was a that was a sort of a core component of our vision at the start of deepmind was that we would use games very heavily as our main testing ground certainly to begin with.
+
+00:23:21.872 --> 00:23:33.983
+Um because it's super efficient to use games and also you know it's very easy to have metrics to see how well your systems are improving and what direction your ideas are going in and whether you're making incremental improvements.
+
+00:23:34.250 --> 00:23:41.400
+And because those games are often rooted in something that humans did for a long time beforehand there's already a strong.
+
+00:23:41.515 --> 00:23:47.270
+Set of rules like it's already a damn good Benchmark yes it's really good for so many reasons because you've got
+
+00:23:47.186 --> 00:23:55.768
+you've got you've got clear measures of how good humans can be at these things and in some cases like go we've been playing it for thousands of years
+
+00:23:55.585 --> 00:24:08.497
+and and often they have scores or at least wind conditions so it's very easy for reward learning systems to get a reward is very easy to specify what that reward is and also at the end it's easy to you know to test.
+
+00:24:08.512 --> 00:24:13.818
+Externally you know how strong is your system by of course playing against
+
+00:24:13.788 --> 00:24:22.586
+you know the world's strongest players at those games so it's so good for so many reasons and it's also very efficient to run potentially millions of simulations
+
+00:24:22.520 --> 00:24:24.080
+in parallel on the cloud.
+
+00:24:24.131 --> 00:24:33.452
+So I think there's a huge reason why we were so successful back in the you know starting out 2010 how come we were able to progress so quickly because
+
+00:24:33.251 --> 00:24:46.820
+we utilize games and you know at the beginning of the mind we also hired some amazing game Engineers who I knew from my previous lives in the games industry and and that helped a bootstrap us very quickly
+
+00:24:46.754 --> 00:24:53.482
+and plus it's somehow super compelling almost at a philosophical level of man versus machine.
+
+00:24:53.893 --> 00:24:56.812
+/ / chess board or a go board
+
+00:24:56.738 --> 00:25:06.463
+and especially given that the entire history of AI is defined by people saying is going to be impossible to make a machine that beats a human being in chess.
+
+00:25:06.820 --> 00:25:12.782
+And then once that happened people were certain when I was coming up in AI they go.
+
+00:25:13.095 --> 00:25:19.921
+Is not a game that can be solved because of the combinatorial complexity is just to it's it's you know.
+
+00:25:19.972 --> 00:25:28.365
+No matter how much more is Li you have computers just never going to be able to crack the game of Go and so the then there's something
+
+00:25:28.309 --> 00:25:36.269
+compelling about facing sort of taking on the impossibility of that task from the AI.
+
+00:25:36.960 --> 00:25:43.876
+Researcher perspective engineer perspective and then as a human being just observing this whole thing.
+
+00:25:44.648 --> 00:25:47.648
+Beliefs about what you thought was impossible.
+
+00:25:48.321 --> 00:25:55.849
+Being broken apart you see it's a humbling to realize we're not as smart as we thought
+
+00:25:55.792 --> 00:26:06.526
+it's humbling to realize that the things we think are impossible now perhaps we'll be done in the the future there's something really powerful about a game
+
+00:26:06.523 --> 00:26:15.870
+AI system beanie human being in a game that drives that message home for like millions billions of people especially in the case of go sure.
+
+00:26:16.147 --> 00:26:26.043
+Full of I think it's a mean it has been a fascinating journey and and especially as I I think about it from I can understand it from both sides both as the AI.
+
+00:26:26.238 --> 00:26:35.810
+You know creators of the AI but also as a games player originally so are you know it was a it was a really interesting hours I mean it was a fantastic.
+
+00:26:35.916 --> 00:26:47.702
+But also somewhat Bittersweet moment the alphago match for me seeing that and and and being obviously heavily heavily involved in that but you know as you say chess has been
+
+00:26:47.528 --> 00:26:57.497
+the I mean Kasparov I think rightly called it the drosophila of intelligence right so it's sort of that I love that phrase and I think he's right because
+
+00:26:57.287 --> 00:27:02.970
+chess has been hand in hand with a eye from the beginning of the the whole field.
+
+00:27:03.030 --> 00:27:12.261
+Right so I think every AI practitioner starting with touring and Claude Shannon and all those the sort of forefathers of of the field
+
+00:27:12.132 --> 00:27:14.295
+tried their hand at writing a chess program
+
+00:27:14.256 --> 00:27:22.712
+I've got an original edition of Claude Shannon's first chess program it was 1949 the per the original sort of paper
+
+00:27:22.547 --> 00:27:27.087
+and they all did that and ensuring famously wrote a chess program that
+
+00:27:26.877 --> 00:27:41.455
+but all the computers around then we're obviously too slow to run it so you had to write he had to be the computer right so he literally I think spent two or three days running his own program by hand with pencil and paper and playing playing a friend of his with his chest program so.
+
+00:27:41.821 --> 00:27:44.228
+Of course deep blue was a huge moment
+
+00:27:44.018 --> 00:28:02.484
+beating kasbar off but actually when that happened I remember that very vividly of course because it was you know chess and computers and AI all the things I loved and I was at College at the time but I remember going away from that being more impressed by kasparov's mind then I was by deep blue because here was Kasparov
+
+00:28:02.283 --> 00:28:09.488
+with his human mind not only could he play chess more or less to the same level as this brute of a calculation machine but
+
+00:28:09.350 --> 00:28:18.508
+of course Kasparov can do everything else humans can do ride a bike talk many languages do politics all the rest of the amazing things that Kasparov does and so with the same brain
+
+00:28:18.325 --> 00:28:24.297
+yeah and and yet deep blue of brilliant as it was at chess it'd been hand coded
+
+00:28:24.213 --> 00:28:33.704
+for chess and actually had distilled the knowledge of Chess Grandmasters into into a cool program but it couldn't do anything else
+
+00:28:33.656 --> 00:28:42.787
+like it can even play a strictly simpler game like tic-tac-toe so something to me was missing from intelligence from that system.
+
+00:28:42.749 --> 00:28:52.087
+That we would regard as intelligence and I think it was this idea of generality and and also learning so allows you to learn try to do that with alphago
+
+00:28:51.985 --> 00:28:58.694
+yeah we also go and Alpha 0 mu 0 and then got on all the things that we'll get into some
+
+00:28:58.557 --> 00:29:03.222
+parts of there's just a fascinating trajectory here but let's just stick on chest
+
+00:29:03.184 --> 00:29:16.645
+briefly on The Human Side of Chess you've proposed that from a game design perspective the thing that makes chess compelling as a game is that there's a creative tension between a bishop.
+
+00:29:16.840 --> 00:29:27.403
+And the night can you explain this first I was really interesting to think about what makes game compelling makes it stick across centuries.
+
+00:29:27.535 --> 00:29:41.068
+Yeah I was sort of thinking about this and actually a lot of even amazing chess players don't think about it necessarily from a games designer point of view so it's the business with my game design hat on that I was thinking about this why is chess so compelling and I think a critical
+
+00:29:40.903 --> 00:29:42.022
+reason
+
+00:29:41.821 --> 00:29:51.394
+is the dynamic nurse of of the different kind of Chess positions you can have whether they're closed or open and other things comes from the bishop in the night so if you think about how
+
+00:29:51.337 --> 00:29:52.384
+different
+
+00:29:52.327 --> 00:30:02.142
+the the capabilities of the bishop and Knight are in terms of the way they move and then somehow chess has evolved to balance those two capabilities more or less equally
+
+00:30:01.932 --> 00:30:20.768
+so that both roughly were three points each so you think their Dynamics is always there and then the rest of the rules are kind of trying to stabilize the game well maybe I mean it's sort of I don't eat chicken and egg situation probably both came together but the fact that there is got to this beautiful equilibrium where you can have the bishop or Knight they're so different in power but
+
+00:30:20.603 --> 00:30:24.756
+so equal in value across the set of the universe of all positions.
+
+00:30:24.816 --> 00:30:34.839
+Right somehow they've been balanced by Humanity over hundreds of years I think gives gives the game the creative tension that you can swap the bishop and nights
+
+00:30:34.629 --> 00:30:46.893
+Fred a bishop for an eye and you've there more or less the worth the same but now you aim for a different type of position if you have the night you want a closed position if you have the bishop you want an open position so I think that creates a lot of the creative tension in chess
+
+00:30:46.773 --> 00:30:51.781
+so some kind of controlled creative tension from an AI perspective.
+
+00:30:51.805 --> 00:30:56.831
+Do you think AI systems could Venture design games that are optimally compelling to humans.
+
+00:30:57.467 --> 00:31:06.680
+Well that's an interesting question you know sometimes I get asked about Ai and creativity and and this and the way I answered that is relevant to that question which is that I think they're different
+
+00:31:06.632 --> 00:31:12.927
+levels of creativity one could say so I think if we Define creativity as coming up with something original
+
+00:31:12.870 --> 00:31:19.634
+right that's that's useful for a purpose then you know I think the kind of lowest level of creativity is like an interpolation
+
+00:31:19.559 --> 00:31:31.364
+so an averaging of all the examples you see so maybe very basic AI system could say you could have that so you show it millions of pictures of cats and then you say give me an average looking cat right generate me an average-looking cat
+
+00:31:31.334 --> 00:31:40.123
+I would call that interpolation then there's extrapolation which something like alphago showed so alphago played you know millions of games of go against itself.
+
+00:31:40.156 --> 00:31:46.875
+And then it came up with brilliant new ideas like move 37 in game to Britain Motif strategies and go.
+
+00:31:46.926 --> 00:31:54.914
+That no humans had ever thought of even though we've played it for thousands of years and professionally for hundreds of years so that that I call that extrapolation
+
+00:31:54.731 --> 00:32:03.034
+but then that's still there still a level above that which is you know you could call out-of-the-box thinking or true Innovation which is could you invent go.
+
+00:32:03.175 --> 00:32:13.422
+Did you invent chess and not just come up with a brilliant chess move or brilliant go move but can you can you actually invent chess or something as good as chess or go and I think one day.
+
+00:32:13.483 --> 00:32:18.914
+A I could but the what's missing is how would you even specify that task too
+
+00:32:18.749 --> 00:32:28.753
+a program right now and the way I would do it if I was best toiling a human to do a tour games designer to human games designer to do it is I would say something like go I would say.
+
+00:32:29.156 --> 00:32:35.811
+Come up with a game that only takes 5 minutes to learn which go dies because got simple rules but many lifetimes to master.
+
+00:32:35.925 --> 00:32:44.507
+Right or impossible to master in one lifetime because it's so deep and so complex and then it's aesthetically beautiful and also
+
+00:32:44.333 --> 00:32:52.753
+it can be completed in three or four hours of gameplay time which is you know useful for our us you know in a human day and so
+
+00:32:52.633 --> 00:33:01.963
+you might specify these side of high-level Concepts like that and then you know with that and maybe a few other things one could imagine that go satisfies
+
+00:33:01.888 --> 00:33:16.465
+those constraints but the problem is is that we're not able to specify abstract Notions like that high-low abstract Notions like that yet to our AI systems and I think there's still something missing there in terms of
+
+00:33:16.228 --> 00:33:23.811
+high-level Concepts or abstractions that they truly understand and you know combined a bond and compositional so
+
+00:33:23.727 --> 00:33:32.156
+for the moment I think AI is capable of doing interpolation extrapolation but not true invention so coming up with rulesets.
+
+00:33:32.640 --> 00:33:41.933
+And optimizing with complicated objectives around those rulesets we can't currently do but you could take a specific rule set
+
+00:33:41.885 --> 00:33:53.366
+and then run kind of self play experiment to see how long just observe how an AI system from scratch learns how long is that journey of learning and maybe.
+
+00:33:53.399 --> 00:34:04.988
+If it satisfies some of those other things you mentioned towards the quick links to learn and so on and you could see a long journey to master for even an AI system that you could say that this is a promising game.
+
+00:34:05.264 --> 00:34:12.288
+But it would be nice to do almost like Alpha codes of programming yeah rules so generating rules that kind of
+
+00:34:12.205 --> 00:34:25.198
+that that automate even that part of the generation of rules so I have thought about systems actually I think the amazing in for a games designer if you could have a system that takes your game
+
+00:34:25.060 --> 00:34:31.841
+plays it tens of millions of times maybe overnight and then self balances the rules better so get tweaks the rules.
+
+00:34:31.847 --> 00:34:37.450
+And maybe the equations and and and the parameters so that the game
+
+00:34:37.375 --> 00:34:48.802
+it's more balanced the units in the game or some of the rules could be tweaked so it's a bit of like a giving a base set and then allowing Monte Carlo tree search or something like that to sort of explore it.
+
+00:34:48.961 --> 00:34:56.940
+Right and I think that would be super super powerful tool actually for for balancing Auto balancing a game which usually takes
+
+00:34:56.820 --> 00:35:08.400
+thousands of hours from hundreds of games human games testers normally to to balance some other one you know game like Starcraft which is you know blizzard are amazing at balancing their games but it takes them years and years and years.
+
+00:35:08.451 --> 00:35:15.133
+So one could imagine at some point when this this stuff becomes efficient enough to you know you might better do that like overnight
+
+00:35:15.040 --> 00:35:24.252
+do you think a game that is optimal design a Nai system would look very much like planet Earth
+
+00:35:24.223 --> 00:35:29.852
+say p maybe it's only the sort of game I would love to make is is and I've tried.
+
+00:35:29.966 --> 00:35:44.264
+It might make it my games career the game's design career you know my first big game was designing a theme park amusement park then with games like Republic I tried to you know have games where we designed whole cities and and allows you to play in.
+
+00:35:44.343 --> 00:35:51.070
+So and of course people like will right have written games like Sim Earth trying to simulate the whole of Earth pretty tricky.
+
+00:35:51.076 --> 00:35:54.869
+But I say mirth I haven't actually played that one so what is it does it
+
+00:35:54.803 --> 00:36:02.575
+isn't afraid of evolution or yeah it has Evolution and it sort of tries to it sort of treats it as an entire biosphere but from quite high level.
+
+00:36:02.653 --> 00:36:13.315
+So nice to be able to sort of zoom in zoom out and zoom in exactly so obviously it couldn't do that was in the night I think he wrote that in the 90s so it couldn't hit you no it wasn't it wasn't able to do that.
+
+00:36:13.483 --> 00:36:20.328
+But that would be obviously the ultimate Sandbox game of course and that topic do you think we're living in a simulation.
+
+00:36:20.658 --> 00:36:23.659
+Yes well it's okay so I'm going to jump around
+
+00:36:23.638 --> 00:36:31.571
+from the absurdly philosophical To The Shore Technical very very happy too so I think my answer to that question is a little bit complex because.
+
+00:36:31.776 --> 00:36:37.486
+There is simulation Theory which obviously Nick Bostrom I think famously first proposed.
+
+00:36:37.519 --> 00:36:45.570
+And I don't quite believe it in the in that sense so in the in the sense that are we in some sort of computer game
+
+00:36:45.486 --> 00:36:56.913
+or have our descendants somehow recreated Earth in the you know 21st century and and some for some kind of experimental reason I think that but I do think.
+
+00:36:56.973 --> 00:37:05.069
+That we that we might be that the best way to understand physics and the universe is from a computational perspective.
+
+00:37:05.174 --> 00:37:14.404
+So understanding it as an information universe and actually information being the most fundamental unit of reality
+
+00:37:14.176 --> 00:37:31.544
+rather than matter or energy so physicists would say you know matter or energy you know equals mc squared these are the things that are the fundamentals of the universe I'd actually say information which of course itself can be can specify energy or matter right matter is actually just you know we're
+
+00:37:31.317 --> 00:37:42.050
+we're just out the way our bodies and will be molecules in our body arranged this information so I think information may be the most fundamental way to describe the universe and therefore
+
+00:37:41.822 --> 00:38:00.631
+you could say we're in some sort of simulation because of that but I do I do I'm not I'm not really subscriber to the idea that you know these are sort of throw away billions of simulations around I think this is actually very critical and possibly unique this simulation particular one yes up but and you just mean.
+
+00:38:01.096 --> 00:38:04.205
+Treating the universe as a computer.
+
+00:38:04.616 --> 00:38:13.027
+That's processing and modifying information is a good way to solve the problems of physics of chemistry or biology
+
+00:38:12.997 --> 00:38:20.238
+in perhaps of humanity and so on yes I think understanding physics in terms of information Theory.
+
+00:38:20.307 --> 00:38:25.360
+Might be the best way to really understand what's going on here
+
+00:38:25.213 --> 00:38:35.416
+from our understanding of universal turing machine from our understanding of a computer do you think there's something outside of the capabilities of a computer
+
+00:38:35.314 --> 00:38:37.873
+that is present in our universe you have a
+
+00:38:37.726 --> 00:38:45.678
+this agreement with Roger pen writes all the nature of Consciousness he did he thinks that Consciousness is more than just a computation
+
+00:38:45.558 --> 00:38:58.893
+do you think all of it the whole shebang is it can be can be a company I've had many fascinating debates with sir Roger Penrose and obviously he's famously and I read you know emperor's new mind and and
+
+00:38:58.675 --> 00:39:06.528
+and his books his classical books and they were pretty influential and the you know the 90s and he believes that there's something more.
+
+00:39:06.507 --> 00:39:15.881
+He had something Quantum that is needed to explain Consciousness in the brain I think about what we're doing actually it didn't mind and what my career is being
+
+00:39:15.689 --> 00:39:23.713
+we're almost like two rings Champion so we are pushing Turing machines or classical computation to the limits what are the limits of what
+
+00:39:23.503 --> 00:39:32.472
+classical Computing can do now and at the same time I've also studied Neuroscience to see and that's why I did my PhD in was to see
+
+00:39:32.307 --> 00:39:39.287
+also to look at you know is there anything Quantum in the brain from a neuroscience or biological perspective and and so far
+
+00:39:39.068 --> 00:39:52.412
+I think most neuroscientists and most mainstream biologists a neuroscientist would say there's no evidence of any Quantum systems or effects in the brain as far as we can see it's it can be most explained by classical classical theories so.
+
+00:39:52.832 --> 00:40:10.876
+And then so they're sort of the the search from the biology side and then at the same time there's the raising of the water at the bar from what classical Turing machines can do and and and you know including our new AI systems and as you alluded to earlier
+
+00:40:10.675 --> 00:40:17.024
+you know I think Ai and especially in the last decade plus has been a continual story now surprising
+
+00:40:16.823 --> 00:40:27.665
+events and surprising successors knocking over one Theory after another what was thought to be impossible you know from go to protein folding and so on and so I think
+
+00:40:27.455 --> 00:40:29.141
+I would
+
+00:40:28.985 --> 00:40:41.358
+be very hesitant to bet against how far the universal turing machine and classical computation Paradigm can go and and my betting would be
+
+00:40:41.184 --> 00:40:54.312
+that all of certainly what's going on in our brain can probably be mimicked or approximated on a classical machine not you know not requiring something metaphysical or quantum
+
+00:40:54.219 --> 00:41:04.043
+and we'll get there with some of the work with Alpha fold which I think begins a journey of modeling this beautiful and complex world of biology
+
+00:41:03.995 --> 00:41:13.324
+so you think all the magic of the human mind comes from this just a few pounds of mush but biological computational mush
+
+00:41:13.322 --> 00:41:17.015
+that's akin to some of the neural networks.
+
+00:41:17.400 --> 00:41:28.664
+Not directly but in spirit that demand has been working with well look I think it's you say it's a few know of course it's this is the I think that the biggest Miracle of the universe is that
+
+00:41:28.589 --> 00:41:41.393
+it is just a few pounds of mush in our skulls and yet it's also our brains in the most complex objects in the in that we know of in the universe so there's something profoundly beautiful and amazing about our brains and I.
+
+00:41:41.391 --> 00:41:42.087
+Think
+
+00:41:42.057 --> 00:41:53.402
+that it's an incredibly incredible efficient machine and and and it's you know come phenomenon basically and I think that building a
+
+00:41:53.346 --> 00:42:02.126
+one of the reasons I want to build a i and I've always wanted to is I think by building an intelligent artifacts like Ai and then comparing it to the human mind
+
+00:42:01.916 --> 00:42:24.776
+um that will help us unlock the uniqueness and the true secrets of the mind that we've always wondered about since the dawn of History like Consciousness dreaming creativity emotions what all these things right we've wondered about them since since the dawn of humanity and I think one of the reasons and you know I love philosophy and philosophy of mind is
+
+00:42:24.611 --> 00:42:36.163
+we found it difficult as there haven't been the tools for us to really other than introspection to from very clever people in history very clever philosophers to really investigate this scientifically but now
+
+00:42:36.016 --> 00:42:42.996
+suddenly we have a plethora of tools firstly we have all of the Neuroscience tools fmri machine single cell recording all of this stuff but we also have
+
+00:42:42.849 --> 00:42:50.225
+the ability computers in AI to build intelligent systems so I think that.
+
+00:42:50.222 --> 00:43:07.428
+You know I think it is amazing what the human mind does and and and I'm kind of in awe of it really and and I think it's amazing that with our human Minds we're able to build things like computers and and actually even you know thinking investigate about these questions I think that's also Testament
+
+00:43:07.227 --> 00:43:08.419
+to the human mind.
+
+00:43:08.578 --> 00:43:17.880
+Yeah the universe built the human mind that now is building computers that help us understand both the universe and our own human mind right
+
+00:43:17.868 --> 00:43:21.508
+exactly it I mean I think that's one reason I one could say Where We Are.
+
+00:43:21.631 --> 00:43:33.850
+Maybe we're the mechanism by which the universe is going to try and understand itself yeah it's beautiful so let's let's go to the basic building blocks of biology that I think.
+
+00:43:34.099 --> 00:43:42.546
+Is another angle at which you can start to understand the human mind the human body which is quite a fascinating which is from the basic building blocks
+
+00:43:42.462 --> 00:43:52.449
+start to simulate stuck to model how from those building blocks you can construct bigger and bigger more complex systems maybe one day the entirety of the human biology so.
+
+00:43:52.941 --> 00:44:00.370
+Here's another problem that thought to be impossible to solve which is protein folding and Alpha folder.
+
+00:44:00.845 --> 00:44:08.941
+Specific Alpha fold to did just that it's solved protein folding I think it's one of the biggest breakthroughs.
+
+00:44:09.019 --> 00:44:15.557
+Certainly in history structural biology but in general and in science.
+
+00:44:16.104 --> 00:44:20.752
+Maybe from a high-level what is it and how does it work
+
+00:44:20.713 --> 00:44:34.732
+and then we can ask some fascinating show questions after sure so maybe I took splain it to people not familiar with protein folding is you know I first of all explain proteins which is you know proteins are essential to all life
+
+00:44:34.702 --> 00:44:48.785
+every function in your body depends on proteins sometimes they're called the workhorses of biology and if you look into them and I've been obviously as part of alpha fold I've been researching proteins and structural biology for the last few years you know they're amazing
+
+00:44:48.773 --> 00:44:55.897
+little bio nanomachines proteins the incredible if you actually watch the little videos of how they work animations of how they work and
+
+00:44:55.876 --> 00:45:04.485
+proteins are specified by their genetic sequence called the amino acid sequence so you can think of it as their genetic makeup and then in the body.
+
+00:45:04.527 --> 00:45:09.193
+In nature they when they when they fold up into a 3D structure
+
+00:45:09.190 --> 00:45:16.620
+so you can think of it as a string of beads and then they fold up into a ball now the key thing is you want to know what that 3D structure is.
+
+00:45:16.653 --> 00:45:24.164
+Because the structure the 3D structure of a protein is what helps to determine what does it do the function it does in your body
+
+00:45:23.999 --> 00:45:39.323
+and also if you're interested in drug drugs or disease you need to understand that 3D structure because if you want to Target something with a drug compound about to block that something the proteins doing you need to understand where it's going to bind on the surface of the protein
+
+00:45:39.249 --> 00:45:47.713
+it's obviously 15 order to do that you need to understand the 3D structure so the structure is mapped to the function the structure is mapped to the function and the structure is obviously somehow
+
+00:45:47.702 --> 00:46:01.496
+specified by the by the amino acid sequence and that's the Innocence the protein folding problem is can you just from the amino acid sequence the one-dimensional string of letters can you immediately computation you predict
+
+00:46:01.430 --> 00:46:07.348
+the 3D structure right and it has been a Grand Challenge in biology for over 50 years.
+
+00:46:07.363 --> 00:46:17.763
+So I think it was first articulated by Christian and fincen a Nobel Prize winner 1972 as part of his Nobel prize-winning lecture and he just speculated this should be possible
+
+00:46:17.715 --> 00:46:28.080
+to go from the amino acid sequence to the 3D structure be didn't say how so is it I thought you know I've been it's been described to me as equivalent of Fermat's Last Theorem but for biology
+
+00:46:27.996 --> 00:46:33.742
+he should have somebody that very well might win the Nobel Prize in the future but outside of that.
+
+00:46:34.162 --> 00:46:40.530
+You should do more of that kind of thing in the margin just put random things that will take like two hundred years solve.
+
+00:46:40.545 --> 00:46:57.256
+That people offer to your videos should be pastas actually and just don't give any additional actually I think everyone's exactly should be I'll have to remember that for future so yeah so he said off you know with this one throwaway remark just like fermat you know he he said off this whole 50 years
+
+00:46:57.046 --> 00:47:06.060
+field really of computational biology and and they had you know they got stuck they hadn't really got very far with doing this and and
+
+00:47:06.030 --> 00:47:09.931
+until now until Alpha folk came along this is done experimental e.
+
+00:47:09.955 --> 00:47:24.272
+Right very painstakingly so the rule of thumb is and you have to like crystallized the protein which is really difficult some proteins can't be crystallized like membrane proteins and then you have to use very expensive electron microscopes or x-ray crystallography machines
+
+00:47:24.044 --> 00:47:27.927
+really painstaking work to get the 3D structure and visualize the 3D.
+
+00:47:28.284 --> 00:47:35.291
+So the rule of thumb in experimental biology is that takes one PhD student their entire PhD to do one protein
+
+00:47:35.261 --> 00:47:44.635
+and without the full to were able to predict the 3D structure in a matter of seconds and so we were you know over Christmas
+
+00:47:44.578 --> 00:47:59.174
+we did the whole human proteome or every protein in the human body or 20,000 proteins so the human proteome is like the equivalent of the human genome but on pro teams base and and sort of revolutionized really what structural biologists can do
+
+00:47:59.171 --> 00:48:08.680
+because now they don't have to worry about these painstaking experimental you know should they put all of that effort in or not they can almost just look up the structure of their proteins like a Google search.
+
+00:48:08.938 --> 00:48:11.903
+And so there's a data set on which its.
+
+00:48:11.927 --> 00:48:23.435
+Trained and how to map this amino acid sequence first of all it's incredible that a protein this little chemical computer is able to do that computation itself into some kind of distributed way and do it very quickly.
+
+00:48:23.657 --> 00:48:27.297
+That's a weird thing and they evolve that way because you know in the beginning.
+
+00:48:27.591 --> 00:48:36.524
+I mean that's a great invention just the protein itself I mean and then there's I think probably a history of like they evolved.
+
+00:48:36.836 --> 00:48:47.372
+To have many of these proteins and those proteins figure out how to be computers themselves so in such a way that you can create structures that can interact and complexes with each other in order to form.
+
+00:48:47.468 --> 00:48:57.157
+High-level functions and it's a weird system that they figured it out well for sure I mean we you know maybe we should talk about the origins of life too but proteins themselves I think are magical
+
+00:48:56.992 --> 00:49:04.863
+and incredible as I said little little bio nanomachines and and actually let Levin towel.
+
+00:49:04.878 --> 00:49:17.484
+Who is another scientist a contemporary of a Vinson he coined this Levin towel what became known as Levin towels Paradox which is exactly what you're saying he calculated roughly approached an average protein
+
+00:49:17.419 --> 00:49:25.883
+which is maybe 2000 amino acids and bases long is is can fold in maybe 10 to the power 3 hundred
+
+00:49:25.818 --> 00:49:32.698
+different confirmations so the 10 to the power three hundred different ways that protein could fold up and yet somehow in nature.
+
+00:49:32.767 --> 00:49:38.280
+Physics solves this solves this in a matter of milliseconds so proteins fold up in your body
+
+00:49:38.169 --> 00:49:48.956
+in you know sometimes in fractions of a second so physics is somehow solving that search problem and just to be clear in many of these cases may be correct me if I'm wrong
+
+00:49:48.891 --> 00:49:50.892
+there's often a unique way.
+
+00:49:51.321 --> 00:50:00.974
+For that sequence to form itself yesso among the huge number of possibilities yes it figures out a way how to stably.
+
+00:50:00.999 --> 00:50:11.309
+In some cases there's might be misfunction Miss so on which leads to a lot of the disorders and stuff like that but yes most of the time it's a unique mapping and that unique mappings that obvious no
+
+00:50:11.189 --> 00:50:19.249
+exactly it's just what the problem is exactly so there's a unique mapping usually in a healthy in if it's healthy and as you say in disease.
+
+00:50:19.894 --> 00:50:31.609
+So for example outside MERS 111 conjecture is that it's because of misfolded protein protein that folds in the wrong way amyloid-beta protein so and then because it falls in the wrong way it gets Tangled Up
+
+00:50:31.588 --> 00:50:35.291
+right in your end your neurons so
+
+00:50:35.108 --> 00:50:51.891
+it's super important to understand both healthy functioning and and also disease is to understand you know what these things are doing and how they're structuring of course the next step is sometimes proteins change shape when they interact with something so they're not just static necessarily in in biology.
+
+00:50:52.077 --> 00:51:00.669
+Maybe you can give some interesting sort of beautiful things to you about these early days of alpha fold of.
+
+00:51:00.828 --> 00:51:05.791
+Of solving this problem because unlike games this is real.
+
+00:51:05.995 --> 00:51:20.546
+Physical systems that are less amenable to self play type of mechanisms should the size of data set is smaller than you might otherwise likes have to be very clever about certain things is there something you could speak to
+
+00:51:20.534 --> 00:51:34.346
+what was very hard to solve and what are some beautiful aspects about the the solution yeah I always take a four-fold is the most complex and also probably most meaningful system we've built so far so it's been an amazing time actually in the last
+
+00:51:34.217 --> 00:51:43.969
+you know 23 years to see that come through because as we talked about earlier you know games is what we started on building things like alphago and Alpha 0
+
+00:51:43.768 --> 00:52:02.361
+but really the ultimate goal was to not just to crack games it was just to build use them to bootstrap General Learning Systems we could then apply to real-world challenges specifically my passion is scientific challenges like protein folding and then Alpha fold of course is our first big proof point of that and so
+
+00:52:02.160 --> 00:52:04.692
+in terms of the data
+
+00:52:04.528 --> 00:52:16.026
+and the amount of innovations that had to go into it we you know it was like more than 30 different component algorithms needed to be put together to crack the protein folding I think some of the big Innovations were the
+
+00:52:15.826 --> 00:52:17.431
+kind of
+
+00:52:17.266 --> 00:52:30.943
+building in some hard-coded constraints around physics and evolutionary biology to constrain sort of things like the bond angles in the in the in the protein and things like that.
+
+00:52:31.255 --> 00:52:38.010
+Along but not to impact the Learning System so still allowing the system to be able to learn the physics
+
+00:52:37.782 --> 00:52:53.917
+itself from the examples that we had and the examples as you say there are only about 150 thousand proteins even after 40 Years of experimental biology only around 150,000 proteins have been the structures of being found out about so that was our training set which is
+
+00:52:53.725 --> 00:53:01.974
+much less than normally we would like to use but using various tricks things like self distillation so actually using
+
+00:53:01.791 --> 00:53:17.323
+Alpha folds predictions some of the best predictions that it thought was highly confident in we put them back into the training set right to make the training set bigger that was critical to to Alpha fold working so there was actually a huge number of different.
+
+00:53:17.356 --> 00:53:21.743
+Innovations like that that were required to to ultimately crack the problem.
+
+00:53:21.929 --> 00:53:30.385
+A four-fold one What It produced was disc 2 G so a kind of Matrix of the pairwise distances between
+
+00:53:30.202 --> 00:53:37.263
+all of the molecules in the in the in the protein and then there had to be a separate optimisation process too
+
+00:53:37.026 --> 00:53:55.087
+create the 3D structure and what we did for Alpha V uu is make it truly end-to-end so we went straight from the amino acid sequence of bases to the 3D structure directly without going through this intermediate step and in machine learning what we've always found is that
+
+00:53:54.913 --> 00:54:00.408
+the more end-to-end you can make it the better the system and this probably because
+
+00:54:00.225 --> 00:54:18.124
+we you know the in the end the system is better at learning what the constraints are then then then we are as the human designers of specifying it so anytime you can let it flow end to end and actually just generate what it is you're really looking for in this case the 3D structure you're better off than having this intermediate step which you then have to handcraft
+
+00:54:17.923 --> 00:54:26.487
+the next step for so it's better to let the gradients in the learning flow all the way through the system from the endpoint the end output you want to the.
+
+00:54:26.700 --> 00:54:32.294
+So that's a good way to start a new problem handcraft a bunch of stuff add a bunch of Manuel constraints.
+
+00:54:32.498 --> 00:54:38.766
+With a small and 10 learning piece or a small learning piece and grow that learning piece until it consumes as a whole
+
+00:54:38.701 --> 00:54:42.935
+that's right and so you can also see you know this is a bit of a method we've
+
+00:54:42.806 --> 00:54:53.881
+over doing many sort of successful outfits we call them out 4X projects right is and the easiest way to see that is the evolution of alpha go to Alpha 0 so Alpha go
+
+00:54:53.698 --> 00:54:57.815
+was a learning system but it was specifically trained to only play Go.
+
+00:54:57.857 --> 00:55:04.720
+Right so and what we wanted to do and with the first version of alphago is just get to world champion performance no matter how we did it.
+
+00:55:04.852 --> 00:55:11.111
+Right and then and then of course alphago zero we remove the need to use human games as a starting point.
+
+00:55:11.127 --> 00:55:16.099
+Right so it could just play against itself from random starting point from the beginning.
+
+00:55:16.150 --> 00:55:22.869
+So that removes the need for human knowledge about go and then finally Alpha 0 then generalized it so there any
+
+00:55:22.830 --> 00:55:27.280
+things we had in there the system including things like symmetry of the go board
+
+00:55:27.052 --> 00:55:43.691
+we removed so the alpha 0 could play from scratch any two player game and then mu 0 which is the final that our latest version of that set of things was then extending it so that you didn't even have to give it the rules of the game it would learn that for itself so it could also deal with computer games as well as board games
+
+00:55:43.580 --> 00:55:53.008
+so that line of alpha golf goes 0 Alpha 0 mu 0 that's the full trajectory of what you can take from imitation learning.
+
+00:55:53.032 --> 00:56:02.244
+To full self supervised learning yeah exactly and learning learning the entire structure of the environment you're put in
+
+00:56:02.161 --> 00:56:14.290
+from scratch right and and and and bootstrapping it through self play yourself but the thing is it would have been impossible I think all very hard for us to build Alpha 0 or mu 0 first out of the box.
+
+00:56:14.449 --> 00:56:21.329
+Even psychologically because you have to believe in yourself for a very long time you're constantly dealing with doubt because a lot of
+
+00:56:21.254 --> 00:56:33.230
+people say that it's impossible exactly so it was hard enough just to do go as you were saying everyone thought that was impossible or at least a decade away from when we when we were did it in back in 2015 24th 2016
+
+00:56:33.155 --> 00:56:42.215
+and and so yes it would have been psychologically probably very difficult as well as the fact that of course we learn a lot by building Alpha go first
+
+00:56:42.194 --> 00:56:50.650
+right so it's I think this is why I call AI and engineering science it's one of the most fascinating science disciplines but it's also an engineering science in the sense that
+
+00:56:50.530 --> 00:57:04.531
+unlike Natural Sciences the phenomenon you're studying doesn't exist out in nature you have to build it first so you have to build the artifact first and then you can study how and pull it apart and how it works this is tough too.
+
+00:57:04.636 --> 00:57:20.546
+Ask you this question because you probably will say it's everything but let's let's try let's try to think through this because you're in a very interesting position where deepmind is the place of some of the most brilliant ideas in the history of AI but it's also a place of brilliant engineering
+
+00:57:20.345 --> 00:57:27.127
+so how much of solving intelligence this big goal for deepmind how much of it is.
+
+00:57:27.196 --> 00:57:35.571
+Science how much is engineering so how much is the algorithms how much is the data how much is the hard work compute infrastructure.
+
+00:57:35.712 --> 00:57:39.064
+How much is it the software computer infrastructure
+
+00:57:38.998 --> 00:57:51.055
+um what else is there how much is the human infrastructure and like just the humans interacting certain kinds of ways you can all as base of all those ideas and how much does maybe like philosophy how much what's the key
+
+00:57:51.043 --> 00:57:52.468
+if
+
+00:57:52.870 --> 00:58:02.389
+If you were to sort of look back like if we go forward 200 years looking back what was the key thing that solved intelligence
+
+00:58:02.188 --> 00:58:15.298
+is that ideas are the engineers a combination I first of all of course it's a combination of all those things but the ratios of them changed over to overtime so so even in the last 12 years we started deep mine in 2010
+
+00:58:15.295 --> 00:58:20.897
+which is hard to imagine now because 2010 Sony 12 short years ago but nobody was talking about AI.
+
+00:58:20.948 --> 00:58:27.037
+Yeah I don't remember back to your MIT days ago you no one was talking about it I did a postdoc at MIT back around then
+
+00:58:26.908 --> 00:58:33.068
+and it was sort of thought of as well look we know AI doesn't work we tried this hard in the 90s at places like MIT
+
+00:58:32.895 --> 00:58:43.169
+mostly losing using logic systems and old-fashioned sort of good old-fashioned AI we would call it now people like Minsky and and Patrick Winston and you know all these characters right and
+
+00:58:43.040 --> 00:58:49.452
+he's the debate a few of them and they used to think I was mad thinking about that some new Advanced could be done with learning systems.
+
+00:58:49.468 --> 00:58:57.780
+I was actually pleased to hear that because at least you know you're on a unique track at that point right even if every all of your you know Professor the tells you you're mad sure
+
+00:58:57.723 --> 00:59:02.857
+and of course in Industry you can we couldn't get you know difficult to get two cents together
+
+00:59:02.836 --> 00:59:11.112
+and which is hard to imagine now as well given this the biggest sort of buzzword in VCS and fundraising ZZ and all these kind of things today so.
+
+00:59:11.541 --> 00:59:17.189
+Back in 2010 it was very difficult and what we the reason we started then and Shane and I used to discuss
+
+00:59:17.105 --> 00:59:24.651
+um what was the sort of founding tenants of deepmind and it was various things one was algorithmic advances
+
+00:59:24.532 --> 00:59:33.996
+so deep learning you know Geoff Hinton and courage just had just sort of invented that in Academia but no one in Industry knew about it we love reinforcement learning we thought that could be scaled up.
+
+00:59:34.128 --> 00:59:42.539
+But also understanding about the human brain had Advanced quite a lot in the decade prior with fmri machines and other things so we could get some.
+
+00:59:42.653 --> 00:59:50.776
+Good hints about architectures and algorithms and and and sort of representations may be that the brain uses so as at a systems level
+
+00:59:50.773 --> 00:59:55.691
+no add a implementation level and then the other big things were.
+
+00:59:55.724 --> 01:00:04.387
+And gpus right so we could see a compute was going to be really useful and I got to a place where it become commoditized mostly through the games industry.
+
+01:00:04.403 --> 01:00:13.498
+And and that could be taken advantage of and then the final thing was also mathematical and theoretical definitions of intelligence so things like aixi a like see
+
+01:00:13.459 --> 01:00:20.861
+which Shane worked on with his supervisor markets hotel which is sort of theoretical proof really of universal intelligence.
+
+01:00:20.868 --> 01:00:29.027
+Which is actually reinforcement learning system in the limit I mean it seems infinite Computing infinite memory in the way through you know like a turing machine Prius
+
+01:00:28.790 --> 01:00:31.943
+but I was also waiting to see something like that too
+
+01:00:31.706 --> 01:00:40.496
+you know like Turing machines and and computation Theory they're people like cheering and Shannon came up with underpins modern computer science
+
+01:00:40.268 --> 01:00:51.046
+you know I was waiting for a theory like that to sort of underpin a GI research so when I you know met Shane and so he was working on something like that you know that to me was a sort of final piece of the jigsaw so.
+
+01:00:51.277 --> 01:00:53.477
+In the early days I would say that
+
+01:00:53.276 --> 01:01:10.590
+ideas where the most important you know and for us it was deep reinforcement learning scaling up deep learning of course we've seen Transformers so huge leaps I would say like 3 or 4 from 4 if you think from 2010 till now huge Evolution seems like alphago
+
+01:01:10.479 --> 01:01:14.263
+and and and maybe there's a few more still needed.
+
+01:01:14.620 --> 01:01:21.879
+As we get closer to a i AGI I think it will engineering becomes more and more important and data
+
+01:01:21.858 --> 01:01:30.827
+because scale and of course the recent you know results are gp3 in all the big language models and large models including our ones has shown that scale
+
+01:01:30.653 --> 01:01:39.181
+is a is a large models are clearly going to be a necessary but perhaps not sufficient part of an AGI solution and
+
+01:01:38.989 --> 01:01:47.571
+throughout that like you said and I'd like to give you a big thank-you you're one of the Pioneers in this is sticking by ideas like
+
+01:01:47.470 --> 01:01:52.289
+reinforcement learning that this can actually work given oxygen.
+
+01:01:52.466 --> 01:02:00.570
+Limited success in the past and also which we still don't know but proudly.
+
+01:02:00.658 --> 01:02:09.546
+Having the best researchers in the world and talking about solving intelligence so talking about whatever you call it a GI or something like this.
+
+01:02:09.588 --> 01:02:21.402
+That's speaking of MIT that's that's just something not you wouldn't bring up no not not maybe you did in like 40 50 years ago but that was.
+
+01:02:21.759 --> 01:02:30.089
+Um a I was a place where you do tinkering very small-scale not very ambitious projects and
+
+01:02:29.987 --> 01:02:39.407
+maybe the biggest ambitious projects were in the space of Robotics and doing like the DARPA challenge so the task of solving intelligence and believing you can.
+
+01:02:39.593 --> 01:02:48.652
+That's really really powerful so in order for engineering to do its work to have great engineers build great systems you have to have that belief
+
+01:02:48.550 --> 01:03:02.011
+the threads throughout the whole thing that you can actually solve some of these impossible challenges yeah that's right and and back in 2010 you know our mission statement and still is today you know it was used to be solving Step 1 solve intelligence.
+
+01:03:02.044 --> 01:03:06.647
+Up to use it to solve everything else yes so if you can imagine pitching that to a VC in 2010.
+
+01:03:06.716 --> 01:03:12.355
+You know the kind of looks we got we managed to you know find a few key people to backups but
+
+01:03:12.226 --> 01:03:26.038
+it was it was Ricky and I got to the point where we wouldn't mention it to any of our professors because they would just I roll and think we you know committed career suicide and and and and you know so it was there's a lot of things that we had to do.
+
+01:03:26.287 --> 01:03:32.934
+We always believed it and once reason you know by the way one reason we I believe I've always believed in reinforcement learning is that.
+
+01:03:33.291 --> 01:03:36.328
+If you look at Neuroscience that is the way
+
+01:03:36.154 --> 01:03:49.102
+that the you know primate brain learns one of the main mechanisms is the dopamine system Implement some form of TD learning has very famous result in the late 90s where they saw this in monkeys and and as you know
+
+01:03:49.009 --> 01:03:52.685
+probably game prediction error so we you know again in the limit
+
+01:03:52.664 --> 01:04:00.490
+this is this is what I think you can use Neuroscience for is is you know any at mathematics you when you're when you're doing something as ambitious as trying to solve intelligence
+
+01:04:00.424 --> 01:04:08.889
+and you're you know it's blue sky research no one knows how to do it you you you need to use any evidence or any source of information you can to help
+
+01:04:08.886 --> 01:04:20.349
+guide you in the right direction or give you confidence you're going in the right direction so that was one reason we push so hard on that and I think it's just going back to your earlier question about organization the other big thing
+
+01:04:20.121 --> 01:04:30.764
+that I think we innovated with it deepmind to encourage invention and and and Innovation was the multidisciplinary organization we built and we still have today so
+
+01:04:30.555 --> 01:04:39.875
+deepmind originally was a Confluence of the of the most cutting-edge knowledge in Neuroscience with machine learning engineering and Mathematics right and gaming.
+
+01:04:39.962 --> 01:04:42.710
+And then since then we built that out even further
+
+01:04:42.627 --> 01:04:50.236
+so we have philosophers here and and bioethicists but also other types of scientists physicists and so on and that's what
+
+01:04:50.081 --> 01:04:55.935
+brings together I tried to build a sort of new type of bell Labs but in his Golden Era
+
+01:04:55.743 --> 01:05:14.830
+right and and a new expression of that to try and Foster this incredible sort of innovation machine so talking about the humans in the machine we're the Mind itself is a learning machine with a lot of amazing human Minds in it coming together to try and build these learning systems
+
+01:05:14.711 --> 01:05:24.247
+if we return to the big ambitious dream of alpha fold that maybe the early steps on a very long journey
+
+01:05:24.172 --> 01:05:27.010
+in in biology.
+
+01:05:28.439 --> 01:05:37.066
+Do you think the same kind of approach can use to predict the structure and function of more complex biological systems so multi protein interaction.
+
+01:05:37.288 --> 01:05:38.615
+And then
+
+01:05:38.549 --> 01:05:50.371
+I mean you can go up from there yeah just simulating bigger and bigger systems that eventually simulate something like the human brain or the human body just the big mush the massive the Beautiful.
+
+01:05:50.549 --> 01:05:57.366
+Resilient mess of biology do you see that as a long-term Vision I do and I think
+
+01:05:57.300 --> 01:06:15.317
+you know if you think about what are the things top things I wanted to apply a I too once we had powerful enough systems biology and curing diseases and understanding biology was right up there you know top of my list that's one of the reasons I personally pushed that myself and with Alpha fold but I think Alpha fold
+
+01:06:15.161 --> 01:06:18.297
+amazing as it is is just the beginning.
+
+01:06:18.258 --> 01:06:26.191
+And and and I hope it's an Evidence of what could be done with computational methods so
+
+01:06:25.955 --> 01:06:41.180
+you know Alpha fold solve this this huge problem of the structure of proteins but biology is dynamic so really what I imagined from here and we're working on all these things now is protein-protein interaction protein ligand binding so reacting with molecules
+
+01:06:40.952 --> 01:06:45.988
+then you want to put get build-up to Pathways and then pinch eventually a virtual cell
+
+01:06:45.814 --> 01:07:02.903
+that's my dream maybe in the next 10 years and I've been talking actually to a lot of biologists friends of mine Paul nurse who runs the Crick Institute amazing biologist Nobel prize-winning biologist we've been discussing for 20 years now virtual cells could you build a virtual simulation of a cell and if you could that would be incredible for
+
+01:07:02.684 --> 01:07:27.236
+Balaji and dizzy Discovery because you could do loads of experiments on the virtual cell and then only at the last stage validate it in the wet lab so you could you know that in terms of the search space of discovering new drugs you know text 10 years roughly to go from to go from you know identifying a Target to having a drug candidate maybe that could be shortened to you know by an order of magnitude with if you could do most of that
+
+01:07:27.062 --> 01:07:31.215
+that work in silico so in order to get to Virtual cell.
+
+01:07:31.581 --> 01:07:44.997
+We have to build up understanding of different parts of biology in the interactions and and so we you know we every few years we talked about this with what I talked about this with poor and then finally last year after Alpha fault I said Now's the Time
+
+01:07:44.986 --> 01:07:59.788
+we can finally go for it and Alpha folds the first proof point that this might be possible and he's very exciting we have some collaborations with his with his lab and they're just across the road actually from our services you know Wonderful being here in Kings Cross with the Crick Institute across the road and.
+
+01:07:59.839 --> 01:08:00.760
+And I think
+
+01:08:00.731 --> 01:08:11.842
+the next steps you know I think there's going to be some amazing advances in biology built on top of things like Alpha fold we're already seeing that with the community doing that after we've open sourced and released it
+
+01:08:11.812 --> 01:08:18.225
+and you know I often say that I think if you think of mathematics
+
+01:08:18.141 --> 01:08:27.560
+is the perfect description language for physics I think AI might be end up being the perfect description language for biology because biology so messy
+
+01:08:27.530 --> 01:08:37.282
+it's so emergent so Dynamic and complex I think I find it very hard to believe we'll ever get to something as elegant as Newton's Laws of motions to describe a cell.
+
+01:08:37.307 --> 01:08:45.295
+Right it's just too complicated so I think AI is the right tool for this you have to you have to start at the basic building blocks
+
+01:08:45.247 --> 01:08:55.026
+and use AI to run the simulation for all those building blocks so have a very strong way to do prediction of what given these building blocks what kind of biologic how the.
+
+01:08:55.167 --> 01:08:59.221
+The function and the evolution of that biological system.
+
+01:08:59.398 --> 01:09:11.086
+It's almost like a cellular automata you have to run you can't analyze it from a high level you have to take the basic ingredients figure out the rules yeah and let it run but in this case the rules are very difficult to figure out yes
+
+01:09:10.903 --> 01:09:19.395
+exact learn them that's exactly it so it's the Balaji too complicated to figure out the rules it's it's it to emergent to Dynamic
+
+01:09:19.365 --> 01:09:32.269
+say a competitor physics system like the motion of a planet right and and so you have to learn the rules and that's exactly the type of systems that we're building so you you must leave open sores Alpha fold and even the data involved.
+
+01:09:32.410 --> 01:09:34.357
+To me personally also.
+
+01:09:35.074 --> 01:09:44.610
+Really happy in a big thank you for open-sourcing with Yoko the physics simulation engine that's that's often used for robotics research and so on.
+
+01:09:44.905 --> 01:09:50.777
+So I think that's a pretty gangster move so what's the what's I mean this.
+
+01:09:50.999 --> 01:09:57.051
+Very few companies or people do that kind of thing what's the philosophy behind that
+
+01:09:57.031 --> 01:10:05.261
+you know it's a case-by-case basis and in both those cases we felt that was the maximum benefit to humanity to do that and and the scientific community.
+
+01:10:05.304 --> 01:10:16.100
+In one case the robotics physics Community with my joke oh so we're just that we purchased difference for wipe to OBS we published it for the express principle to open source set so
+
+01:10:15.981 --> 01:10:24.878
+so you know I hope people appreciate that is great to hear that you do and then the second thing was and mostly we did it because the person building it is
+
+01:10:24.785 --> 01:10:37.949
+would not it was not able to cope with supporting it anymore because it was it got too big for him is amazing Professor who built it in the first place so we helped him out with that and then without fourfold even bigger I would say and I think in that case
+
+01:10:37.802 --> 01:10:42.396
+we decided that there were so many Downstream applications of alpha fold.
+
+01:10:42.456 --> 01:10:48.707
+Um that we couldn't possibly even imagine what they all were so the best way to accelerate
+
+01:10:48.569 --> 01:10:59.293
+drug Discovery and also fundamental research would be to give all that data away and and and the and the and the system itself
+
+01:10:59.111 --> 01:11:07.279
+you know it's been so gratifying to see what people have done that within just one year which is a short amount of time in science and it's been used by
+
+01:11:07.222 --> 01:11:19.999
+over 500,000 researchers have used it we think that's almost every bar largest in the world think there's roughly 500,000 biologists in the world professional biologist have used it to to look at there and proteins of Interest.
+
+01:11:20.311 --> 01:11:35.006
+We see an amazing fundamental research done so a couple of weeks ago front cover of there was a whole special issue of science with including the front cover which had the nuclear pore complex on it which is one of the biggest proteins in the body the nuclear pore complex has a protein that governs
+
+01:11:34.805 --> 01:11:41.235
+all the nutrients going in and out of your cell nucleus so they're like little Holt gateways that open and close to
+
+01:11:41.016 --> 01:11:51.030
+things go in and out of your cell nucleus so they're really important but they're huge because they're massive do not ring shape things and they've been looking to try and figure out that structure for decades
+
+01:11:50.820 --> 01:11:57.790
+and they have lots of you know experimental data but it's too low resolution there's bits missing and they were able to like a giant Lego
+
+01:11:57.706 --> 01:12:05.829
+jigsaw puzzle use Alpha for predictions plus experimental data and combined those two independent sources information
+
+01:12:05.646 --> 01:12:25.580
+actually four different groups around the world are able to put it together the second more or less simultaneously using Alpha 4 predictions so that's been amazing to see and pretty much every farmer company every Drug Company executive I've spoken to have said that their teams are using Alpha fold to accelerate whatever drugs they're they're trying to discover so I think the knock-on effect.
+
+01:12:25.748 --> 01:12:27.362
+Has been enormous
+
+01:12:27.315 --> 01:12:40.029
+in terms of the impact that Alpha folders made and it's probably bringing and it's creating biologists bringing more people into the field but both on the excitement and both on the technical skills involved.
+
+01:12:40.395 --> 01:12:41.298
+Enough.
+
+01:12:41.475 --> 01:12:51.182
+It's almost like a gateway drug to biology yes it is you follow computational people involved to hopefully and I think for us you know the next stage
+
+01:12:51.045 --> 01:13:03.228
+as I said you know future we have to have other considerations to we're building on top of alpha fold and these other ideas I discussed with you about protein-protein interactions and and genomics and other things and not everything will be open source some of it will
+
+01:13:03.009 --> 01:13:11.366
+well do commercially because I will be the best way to actually get the most resources in Impact behind it in other ways other some other projects will do nonprofit Style
+
+01:13:11.156 --> 01:13:19.468
+and also we have to consider for future things as well safety and ethics as well like but you know synthetic biology there are you know there is dual use.
+
+01:13:19.492 --> 01:13:28.002
+And we have to think about that as well with Alpha fold we you know we consulted with 30 different bioethicists and and other people expert in this field to make sure it was safe before
+
+01:13:27.783 --> 01:13:38.040
+we released it so they'll be other considerations in future but for right now you know I think Alpha fold is a kind of a gift from us to to the scientific community so I'm pretty sure
+
+01:13:37.974 --> 01:13:41.100
+that something like Alpha fold
+
+01:13:41.007 --> 01:13:55.468
+would be part of Nobel prizes in the future but us humans of course are horrible credit assignment so will of course give it to the humans do you think there will be a day when AI system.
+
+01:13:56.419 --> 01:14:05.848
+Can't be denied that it learned that Nobel Prize do you think we will see that in 21st century it depends what type of AI is we end up building.
+
+01:14:05.872 --> 01:14:13.670
+Whether they're you know goal-seeking agents who specifies the goals who comes up with the hypotheses.
+
+01:14:13.686 --> 01:14:25.544
+Who you know who determines which problems to tackle right so I think it's about announcement it's results announced the results exactly as part of it so I think right now of course it's it's it's
+
+01:14:25.335 --> 01:14:32.377
+amazing human Ingenuity that's behind the systems and then the system in my opinion is just at all you know be a bit like saying.
+
+01:14:32.383 --> 01:14:45.800
+With Galileo and his telescope you know the Ingenuity the the credit should go to the telescope I mean it's clearly Galileo building the tool which he then uses so I still see that in the same way today even though these tools learn for themselves.
+
+01:14:45.833 --> 01:14:52.641
+Um they are I think of I think of things like Alpha fold and the things we're building as the Ultimate Tools for science
+
+01:14:52.584 --> 01:14:59.681
+and for acquiring new knowledge to help us as scientists acquire new knowledge I think one day there will come a point where.
+
+01:15:00.344 --> 01:15:10.295
+An AI system may solve will come up with something like general relativity off its own bat not just by averaging everything on the internet or averaging everything on PubMed.
+
+01:15:11.066 --> 01:15:19.315
+That would be interesting to see what that would come up with so that to me is a bit like our earlier debate about creativity you know inventing go
+
+01:15:19.114 --> 01:15:22.340
+rather than just coming up with a good go move
+
+01:15:22.112 --> 01:15:31.459
+and so I think solving I think too you know if we wanted to give it the credit of like a noble type of thing then it would need to invent go
+
+01:15:31.240 --> 01:15:42.171
+and sort of invent that new conjecture out of the blue rather than being specified by the the human scientists or the human Creator so I think right now that's it's definitely just at all
+
+01:15:42.070 --> 01:15:51.489
+although it is interesting how far you get by averaging everything on the internet like you said because you know a lot of people do see science as you're always standing on the shoulders of giants
+
+01:15:51.468 --> 01:15:59.069
+and the question is how much are you really reaching up above the shoulders of giants maybe it's just
+
+01:15:59.012 --> 01:16:03.201
+assimilating different kinds of results of the past.
+
+01:16:03.450 --> 01:16:17.875
+With ultimately this New Perspective that gives you this breakthrough idea but that idea may not be novel in the way that we can be already discovered in the internet maybe the Nobel prizes of the next hundred years already all there on the internet.
+
+01:16:17.908 --> 01:16:26.012
+To be discovered they could be they could be I mean I think
+this is one of the big Mysteries I think is that.
+
+01:16:26.091 --> 01:16:35.960
+I first of all I believe a lot of the big new breakthroughs that are going to come in the next few decades and even in the last decade are going to come at the intersection between different subject areas.
+
+01:16:36.056 --> 01:16:42.028
+Where they'll be some new connection that's found between what seemingly were disparate areas
+
+01:16:42.025 --> 01:16:51.732
+and one can even think of deepmind is as I said earlier as a sort of interdisciplinary between Neuroscience ideas and AI engineering ideas originally and so.
+
+01:16:51.837 --> 01:17:01.707
+So I think there's that and then one of the things we can't imagine today is and the one of the reasons I think people we were so surprised by how well large models worked is that actually.
+
+01:17:01.983 --> 01:17:07.567
+It's very hard for our human Minds our limited human Minds to understand what it would be like to read the whole internet
+
+01:17:07.510 --> 01:17:14.418
+but I think we can do a thought experiment and I used to do this of like well what if I read the whole of Wikipedia what would I know
+
+01:17:14.334 --> 01:17:25.599
+and I think our minds can just about comprehend maybe what that would be like but the whole internet is beyond comprehension so I think we just don't understand what it would be like to have about a hold all of that in mind
+
+01:17:25.371 --> 01:17:35.357
+potentially right and then active at once and then maybe what are the connections that are available there so I think no doubt there are huge things to be discovered just like that
+
+01:17:35.138 --> 01:17:45.026
+but I do think there is this other type of creativity of true spark of new knowledge new idea never thought before about can't be average from things that are known
+
+01:17:44.798 --> 01:17:51.462
+that really of course everything comes you know nobody creates in a vacuum so there must be a clue somewhere
+
+01:17:51.243 --> 01:17:59.807
+that just a unique way of putting those things together I think some of the greatest scientists in history have displayed that I would say although it's very hard to know
+
+01:17:59.796 --> 01:18:09.179
+going back to their time what was exactly known when they came up with us whether you're making a really think because just a thought experiment
+
+01:18:09.095 --> 01:18:12.546
+of deeply knowing 100 Wikipedia pages.
+
+01:18:13.191 --> 01:18:22.646
+I don't think I can I've been really impressed by Wikipedia for for technical topics yeah so if you know 100 Pages or 1000 pages.
+
+01:18:22.886 --> 01:18:26.733
+I don't think you can Vision truly comprehend what's.
+
+01:18:26.811 --> 01:18:41.758
+What kind of intelligence that is yeah it's a pretty powerful tool if you know how to use that in integrate that information correctly yes I think go really far yeah you can probably construct thought experiments based on that like simulate different ideas
+
+01:18:41.620 --> 01:18:48.150
+who solve this is true let me run this thought experiment that maybe this is true it's not really invention it's like just.
+
+01:18:48.300 --> 01:18:58.241
+Taking literally the knowledge and using it to construct the very basic simulation of the world we are some argue it's romantic and part but Einstein would do the same kind of things.
+
+01:18:58.265 --> 01:19:07.595
+What's a thought experiment yeah you one could imagine doing that systematically across millions of Wikipedia Pages plus PubMed all these things I think there are.
+
+01:19:07.853 --> 01:19:20.800
+Many many things to be discovered like that they're hugely useful you know you could imagine and I want us to do some other things in Material Science like room-temperature superconductors is something on my list one day that I'd like to like it you know have an AI system to help build.
+
+01:19:20.825 --> 01:19:22.556
+Better optimized batteries
+
+01:19:22.481 --> 01:19:32.710
+all of these sort of mechanical things mr. I think a systematic sort of search could be guided by model could be could be extremely powerful
+
+01:19:32.654 --> 01:19:41.740
+So speaking of which you have a paper on nuclear fusion magnetic control of Tokamak plasmas to deep reinforcement learning so you are.
+
+01:19:42.322 --> 01:19:49.455
+You're seeking to solve nuclear fusion with D Bar L so it's doing control of high-temperature plasmas can you explain this work
+
+01:19:49.326 --> 01:20:04.101
+and can a I eventually solve nuclear fusion it's been very fun last year or two very productive because we've been taking off a lot of my dream projects if you like the things that I've collected over the years of areas of science that I would like
+
+01:20:03.964 --> 01:20:11.501
+I think could be very transformative if we helped accelerate and a really interesting problems scientific challenges in of themselves.
+
+01:20:11.535 --> 01:20:15.804
+This is energy so energy yes exactly so energy and climate
+
+01:20:15.784 --> 01:20:28.390
+so we talked about disease and biology is being one of the biggest places I think I can out with I think energy and climate is another one so maybe they would be my top two and fusion is one one area I think I can help with
+
+01:20:28.324 --> 01:20:31.289
+now Fusion has many challenges
+
+01:20:31.160 --> 01:20:45.170
+mostly physics and Material Science and Engineering challenges as well to build these massive Fusion reactors and contain the plasma and what we try to do and whenever we go into a new field it has to apply our systems is we look for we talked to domain experts
+
+01:20:45.023 --> 01:20:48.330
+we try and find the best people in the world to collaborate with.
+
+01:20:48.714 --> 01:20:55.432
+In this case infusion we collaborated with epfl in Switzerland Swiss Technical Institute who are amazing they have a test reactor.
+
+01:20:55.448 --> 01:21:05.119
+They were they were willing to let us use which you know I double checked with the team we were going to use carefully and safely I was impressed they managed to persuade them to let us use it
+
+01:21:04.909 --> 01:21:17.704
+and and it's an amazing test reactor they have there and they try all sorts of pretty crazy experiments on it and the that what we tend to look at is if we go into a new domain like Fusion
+
+01:21:17.530 --> 01:21:19.577
+what are all the bottleneck problems.
+
+01:21:19.583 --> 01:21:29.227
+It's like thinking from first principles you know what all the Boston at problems that are still stopping Fusion working today and then we look at we you know we get a fusion expert to tell us and then we look at those
+
+01:21:28.999 --> 01:21:34.007
+bottlenecks and we look at the ones which ones are amenable to our AI methods today.
+
+01:21:33.923 --> 01:21:50.670
+Yes light and and and that and would be interesting from a research perspective from our point of view from an AI point of view and that would address one of their bottlenecks and in this case plasma control was perfect so you know the plasma it's a million degrees Celsius something like that hotter than the sun
+
+01:21:50.443 --> 01:22:08.630
+and there's obviously no material that can contain it so they have to be containing these magnetic very powerful most superconducting magnetic fields but the problem is plasma is pretty unstable as you imagine you're kind of holding a mini some mini star in a reactor so you know you kind of want to predict ahead of time
+
+01:22:08.384 --> 01:22:12.339
+what the plasma is going to do so you can maneuver the magnetic field
+
+01:22:12.102 --> 01:22:30.352
+within a few milliseconds you know to basically contain what it's going to do next so it seems like a perfect problem if you think of it for like a reinforcement learning prediction problem so you know you got controller you've got to move the magnetic field and cut an on till we came along you know they were they were doing with with traditional operational
+
+01:22:30.107 --> 01:22:39.814
+research type of controllers which I kind of handcrafted and the problem is of course they can't react in the moment to something the plasma is doing now they have to be hard-coded and again
+
+01:22:39.649 --> 01:22:49.653
+knowing that that's normally our go-to solution is we would like to learn that instead and they also had a simulator of these plasma so there are lots of criteria that matched what we like to do too
+
+01:22:49.426 --> 01:22:50.149
+to use.
+
+01:22:50.632 --> 01:23:01.932
+So can a I eventually solve nuclear fusion well so we would this problem and we published it in a nature paper last year we held the fusion that we held the plasma in a specific shape.
+
+01:23:02.038 --> 01:23:11.277
+It's actually it's almost like carving the password into different shapes and control and hold it there for the record amount of time so so that's one of the problems.
+
+01:23:11.292 --> 01:23:24.960
+Of fusion sort of solved so the have a controller that's able to no matter the shape contain it contains yeah contain it and hold it in structure and there's different shapes that are better for for the energy Productions called droplets and.
+
+01:23:24.993 --> 01:23:27.796
+And and so on so so that was huge
+
+01:23:27.739 --> 01:23:35.340
+and now we're looking we're talking to lots of fusion startups to see what's the next Pond we can tackle in the fusion area
+
+01:23:35.211 --> 01:23:44.954
+so another fascinating place in a paper titled pushing the frontiers of density functions by solving the fraction electron problem so you're taking on.
+
+01:23:45.042 --> 01:23:50.121
+Modeling and simulating the quantum mechanical behavior of electrons yes.
+
+01:23:50.776 --> 01:23:58.260
+Can you explain this work in can AI model and simulate arbitrary quantum mechanical systems in the future
+
+01:23:58.041 --> 01:24:04.660
+yeah so this is not a problem I've had my eye on for you know decade or more which is
+
+01:24:04.477 --> 01:24:10.260
+sort of simulating the properties of electrons if you can do that you can basically describe
+
+01:24:10.158 --> 01:24:22.952
+how elements and materials and substances work so it's kind of like fundamental if you want to advance Material Science and you know we have Schrodinger's equation and then we have approximation to that
+
+01:24:22.725 --> 01:24:26.626
+density functional Theory these things are you know a famous
+
+01:24:26.407 --> 01:24:35.952
+and people try and write approximations to to these to these functionals and and kind of come up with descriptions of the electron clouds
+
+01:24:35.733 --> 01:24:54.010
+where they're going to go how they're going to interact when you put two elements together and what we try to do is learn a simulation learn a functional that will describe more chemistry types of chemistry so until now you know you can run expensive simulations but then you can only simulate very small
+
+01:24:53.756 --> 01:24:58.700
+molecules very simple molecules we would like to simulate large materials
+
+01:24:58.446 --> 01:25:07.334
+and so today there's no way of doing that and we're building up towards building functionals that approximate Schrodinger's equation
+
+01:25:07.079 --> 01:25:17.228
+and then allow you to describe what the electrons are doing and all material sort of Science and material properties are governed by the electrons and how they interact.
+
+01:25:17.198 --> 01:25:24.330
+So I have a good summarization of the simulation through the functional.
+
+01:25:24.535 --> 01:25:31.298
+But one that is still close to what the actual simulation would come out with so what.
+
+01:25:31.484 --> 01:25:44.135
+How difficult a task was involved in that task is running those those complicated simulations and learning the task of mapping from the initial conditions and the parameters of the simulation learning what the functional would be yeah.
+
+01:25:44.241 --> 01:26:04.120
+So it's pretty tricky and we've done it with you know the nice thing is We There are we can run a lot of the simulations that the molecular Dynamic simulations on our compute clusters and so that generates a lot of data so in this case the data is generated so we like those sites sort of systems in this why we use games it's simulator generator data
+
+01:26:03.892 --> 01:26:11.304
+and we can kind of create as much of it as we want really and just list leave some you know if any computers are free in the cloud
+
+01:26:11.121 --> 01:26:16.273
+we just run we run some of these calculations right compute cluster calculation like saw the the.
+
+01:26:16.289 --> 01:26:22.116
+Computer Chimes used up on quantum mechanics quantum mechanics exactly simulations and protein simulations and other things
+
+01:26:22.113 --> 01:26:36.736
+and so and so you know when you're not searching on YouTube for video cat videos we're using those completed usefully and quantum chemistry the idea by and and putting them to good use and then yeah and then all of that computation or data that's generated
+
+01:26:36.697 --> 01:26:45.720
+we can then try and learn the functionals from that which of course a way more efficient once we learn the functional then running those simulations would be
+
+01:26:45.699 --> 01:26:55.145
+do you think one day a I may allow us to do something like basically crack open physics so do something like travel faster than the speed of light.
+
+01:26:55.331 --> 01:27:00.115
+My ultimate aim is always been with AI is the reason I am.
+
+01:27:00.166 --> 01:27:09.738
+Personally working on AI for my whole life it was to build a tool to help us understand still and stand the universe so I wanted to and that means physics really
+
+01:27:09.636 --> 01:27:12.439
+and the nature of reality so.
+
+01:27:12.508 --> 01:27:21.341
+I don't think we have systems that capable of doing that yet but it when we get towards AGI I think that's one of the first things I think we should apply AGI to
+
+01:27:21.141 --> 01:27:28.903
+I would like to test the limits of physics and our knowledge of physics there's so many things we don't know I there's one thing I find fascinating about science and
+
+01:27:28.703 --> 01:27:36.222
+you know is a huge proponent of the scientific method as being one of the greatest ideas Humanities ever had and allowed us to progress with our knowledge
+
+01:27:36.157 --> 01:27:49.410
+but I think as a true scientist I think what you find is the more you find out you know the more you realize we don't know and and I always think that it's surprising that more people don't aren't quite bald you know every night I think about
+
+01:27:49.273 --> 01:27:53.561
+all these things we interact with all the time that we have no idea how they work time.
+
+01:27:53.819 --> 01:28:02.644
+Consciousness gravity life we can't I mean these are all the fundamental things of nature I think we don't really know what they are.
+
+01:28:03.164 --> 01:28:04.589
+To live life
+
+01:28:04.505 --> 01:28:17.921
+we pin certain assumptions on them and kind of treat our assumptions is if they're fact yeah that allows us to sort of box them off somehow yeah box them off so yeah well you're the reality is when you think of time.
+
+01:28:18.179 --> 01:28:20.037
+You should remind yourself you should.
+
+01:28:20.385 --> 01:28:33.216
+Put it off the take it off the shelf and realize like know we have a bunch of assumptions there's still a lot of there's even a lot of debate there's a lot of uncertainty about exactly what is time is there an arrow of time.
+
+01:28:33.375 --> 01:28:40.769
+You know there's a lot of fundamental questions that you can just make assumptions about and maybe a i allows you to.
+
+01:28:41.432 --> 01:28:51.670
+Not put anything on the Shelf yeah well make any hard assumptions and really open it up and see what exactly I think we should be truly open minded about that and
+
+01:28:51.659 --> 01:29:00.861
+exactly that not be dogmatic to a particular Theory will also allow us to build better tools experimental tools eventually.
+
+01:29:01.255 --> 01:29:06.461
+That can then test certain theories that may not be testable today about those things about like.
+
+01:29:06.702 --> 01:29:14.014
+What we spoke about the beginning about the computational nature of the universe how one might if that was true how one might go about testing that
+
+01:29:13.966 --> 01:29:22.980
+right and and how much you know there are people who've congested people like Scott Aaronson and others about you know how much information can a specific
+
+01:29:22.960 --> 01:29:30.569
+Planck unit of space and time contain right so one might be able to think about testing those ideas if you had.
+
+01:29:30.684 --> 01:29:39.779
+A I helping you build some new Exquisite experimental tools this is what I imagine the you know many decades from now will be able to do.
+
+01:29:39.794 --> 01:29:41.516
+And what kind of.
+
+01:29:41.621 --> 01:29:56.333
+Questions could be answered through running a simulation of them this or that there's a bunch of physics simulations you can imagine that could be run in an so some kind of efficient way much like you're doing in the quantum simulation work.
+
+01:29:56.664 --> 01:30:00.655
+And perhaps even the origin of Life figuring out how
+
+01:30:00.616 --> 01:30:06.902
+going even back before the work of Alpha V begins of how this whole thing
+
+01:30:06.819 --> 01:30:13.816
+emerges from a rock yes from a static thing Woody what do you think AI will allow us to
+
+01:30:13.687 --> 01:30:22.143
+is that something you have your eye on is trying to understand the origin of Life first of all yourself what do you think
+
+01:30:22.105 --> 01:30:30.803
+how the heck did life originate on Earth yeah well maybe week I'll come to that in a second but I think the ultimate use of AI is too.
+
+01:30:30.855 --> 01:30:35.395
+Kind of use it to accelerate science to the maximum so.
+
+01:30:35.410 --> 01:30:41.561
+Think of it a little bit like the tree of all knowledge the Imagine that's all the knowledge there is in the universe to attain.
+
+01:30:41.675 --> 01:30:54.371
+And we sort of barely scratched the surface of that so far in even though you know we've done pretty well since the enlightenment right as humanity and I think AI will turbocharged all of that like we've seen with Alpha fold.
+
+01:30:54.450 --> 01:31:00.097
+And I want to explore as much of that tree of knowledge as it's possible to do and.
+
+01:31:00.148 --> 01:31:05.048
+And I think that involves AI helping us with with a with understanding or finding patterns.
+
+01:31:05.108 --> 01:31:18.516
+Um that also potentially designing and building new tools experimental tools so I think that's all and also running simulations and learning simulations all of that we already we're sort of doing at a at a
+
+01:31:18.369 --> 01:31:27.410
+at a baby steps level here but I can imagine that in in the decades to come as you know what's the full flourishing.
+
+01:31:27.488 --> 01:31:31.073
+Of that line of thinking it's going to be truly incredible I would say
+
+01:31:30.999 --> 01:31:38.267
+I visualize this tree of knowledge something tells me that that knowledge for tree of knowledge for humans is much smaller.
+
+01:31:38.741 --> 01:31:44.316
+In the set of all possible trees of knowledge is actually quite small given our cognitive.
+
+01:31:44.754 --> 01:31:55.668
+Limitations limited cognitive capabilities that even with the with the tools we build we still won't be able to understand a lot of things and that's perhaps what.
+
+01:31:55.782 --> 01:32:04.382
+Non-human systems may be up to reach farther not just as tools but in themselves understanding something that they can bring back.
+
+01:32:04.883 --> 01:32:13.042
+It could well be so I mean there's so many things that are that are sort of encapsulated in what you just said there I think first of all.
+
+01:32:13.139 --> 01:32:23.116
+There's there's two different things as like what do we understand today yeah what could the human mind understand and what is the totality of what is there to be understood right and so
+
+01:32:23.086 --> 01:32:35.061
+that's three concentric and I can think of them as three larger larger trees or exploring more branches of that tree and I think with a i we're going to explore that whole lot now the question is is you know if you think about
+
+01:32:34.978 --> 01:32:38.735
+what is the totality of what could be understood
+
+01:32:38.552 --> 01:32:54.129
+there may be some fundamental physics reasons why certain things can't be understood like what's outside a simulation or outside the universe maybe it's not understandable from within the universe so that's there may be some hard constraints like that you know could be smaller constraints like we
+
+01:32:54.054 --> 01:33:01.259
+think of space-time as fundamental as our human brains are really used to this idea of a three-dimensional world with time right
+
+01:33:01.130 --> 01:33:11.611
+maybe without tools could go beyond that they wouldn't have that limitation necessary they could think in 11-12 Dimensions whatever is needed but we could still maybe understand that
+
+01:33:11.545 --> 01:33:23.350
+in several different ways the example I always give is when I you know play Garry Kasparov at speed chess or we've talked about Chess and these kind of things you know he if you if you if you're reasonably good at chess.
+
+01:33:23.419 --> 01:33:32.370
+You can you can't come up with the move Gary comes up with in his move but he can explain it to you and you can understand you can understand post hoc the
+
+01:33:32.358 --> 01:33:40.283
+yeah so so I think there's a there's an even further level of like well maybe you couldn't have invented that thing but but using like going back to using language again
+
+01:33:40.208 --> 01:33:47.044
+perhaps you can understand and appreciate that same way that you can appreciate you know Vivaldi or Mozart something without
+
+01:33:46.978 --> 01:33:57.270
+you can appreciate the beauty of that without being able to construct it yourself right invent the music yourself so I think we see this in all forms of life so it'll be that times you know.
+
+01:33:57.340 --> 01:34:04.742
+I'm million but it would you can imagine also one sign of intelligence is the ability to explain things clearly and simply
+
+01:34:04.542 --> 01:34:10.459
+why people are rich or find another one of my all-time Heroes used to say that right if you can't you know if you can explain it
+
+01:34:10.321 --> 01:34:20.406
+something simply they need that's it that's the best sign a complex topic simply then that's one of the best songs of you understanding it yeah so I can see myself talking trash in the eye system and that way
+
+01:34:20.260 --> 01:34:30.182
+yes it's a gets frustrated how dumb I am and it tried to explain something to me was like well that means you're not intelligent because if you were intelligent you be able to explain it simply
+
+01:34:30.054 --> 01:34:45.720
+yeah of course I mean that there's also the other option of course we could enhance ourselves and and without devices we are already sort of symbiotic with our compute devices right with our phones and other things and you know this stuff like neural link and accept sure that could be could advance that further
+
+01:34:45.502 --> 01:34:53.967
+so I think there's lots of lots of really amazing possibilities that I could foresee from here well let me ask you some wild question so out there.
+
+01:34:53.973 --> 01:34:55.749
+Looking for friends
+
+01:34:55.719 --> 01:35:04.968
+do you think there's a lot of alien civilizations out there so I guess this also goes back to your origin of Life question to you because I think that that's key.
+
+01:35:05.253 --> 01:35:17.517
+My personal opinion looking at all this and and you know it's one of my hobbies physics I guess so so I you know it's what I something I think about a lot and talk to a lot of experts on and read a lot of books on and I think.
+
+01:35:18.045 --> 01:35:27.960
+My feeling currently is that that we are alone I think that's the most likely scenario given what what evidence we have so and the reasoning is I think that.
+
+01:35:28.677 --> 01:35:30.057
+You know we've tried
+
+01:35:30.000 --> 01:35:39.842
+since things like seti program and I guess since the dawning of the the Space Age we've you know had telescopes open radio telescopes and other things and
+
+01:35:39.840 --> 01:35:47.918
+if you think about and try to detect signals now if you think about the evolution of humans on Earth we could have easily been.
+
+01:35:47.996 --> 01:35:55.443
+And Milling is ahead of our time now or million years behind right easily with just some slightly different quirk
+
+01:35:55.377 --> 01:36:03.743
+thing happening hundreds of thousands years ago you know things could have been slightly different if the BET award hit the dinosaurs a Milling is earlier maybe things would have evolved
+
+01:36:03.507 --> 01:36:28.931
+we be Milling is at the head of where we are now so what that means is if you imagine where Humanity will be in a few hundred years let alone a million years especially if we hopefully you know solve things like climate change and other things and we continue to flourish and we build things like Ai and we do space traveling and all of the stuff that that humans have dreamed of forever right and sci-fi is talked about forever
+
+01:36:28.731 --> 01:36:32.299
+we will be spreading across the Stars
+
+01:36:32.089 --> 01:36:57.703
+right and Von Neumann famously calculated you know it would only take about a million years if you send out Von Neumann probes to the nearest you know the nearest other solar systems and and then they built all they did was built two more versions themselves and set those two out to the next nearest systems you know with in a million years I think you would have one of these probes in every system in the Galaxy so it's not actually in Cosmo cosmological time that's actually very short amount of time
+
+01:36:57.466 --> 01:37:07.056
+so and you know we have people like Dyson of thought about constructing Dyson spheres around stars to collect all the energy coming out of the star you know that they would be
+
+01:37:06.819 --> 01:37:09.424
+constructions like that would be visible across base.
+
+01:37:09.448 --> 01:37:21.145
+Um probably even across the Galaxy so and then you know if you think about all of our radio television emissions that have gone out since since the you know 30s and 40s
+
+01:37:21.007 --> 01:37:27.438
+imagine a million years of that and now hundreds of civilizations doing that when we opened our area is
+
+01:37:27.417 --> 01:37:32.604
+at this point we got technologically sophisticated enough in the Space Age we should have.
+
+01:37:33.043 --> 01:37:39.870
+Heard a cacophony of voices should have joined a cacophony of voices and what we did we open our ears and we heard nothing
+
+01:37:39.795 --> 01:37:54.633
+and many people who argue that there are aliens would say well we haven't really done exhaustive search yet and maybe we're looking in the wrong bands and and we've got the wrong devices and we wouldn't notice what an alien form was likely be so different to what we're used to but
+
+01:37:54.559 --> 01:38:03.212
+you know I know I don't really buy that that it shouldn't be as difficult as that like we I think we've searched enough there should be if it were everywhere if it was at yeah it should be everywhere
+
+01:38:03.174 --> 01:38:12.530
+we should see Dyson spheres being put up son's blinking in and out you know there should be a lot of evidence for those things and then there are other people argue well the sort of safari view of like well we're
+
+01:38:12.491 --> 01:38:23.233
+A Primitive species still cannot spacefaring out and and and we're you know there's some kind of global like Universal rule not to interfere Star Trek will but like look we can't even called me humans
+
+01:38:23.204 --> 01:38:37.718
+to deal with climate change and where one species what it what is the chance that of all of these different human civilization you know alien civilizations they would have the same priorities and and and and agree or cross the you know these kind of matters and even if that was true.
+
+01:38:37.715 --> 01:38:50.582
+And we were in some sort of Safar week for our own good to me that's not much different from the simulation hypothesis because what does it mean the simulation hypothesis I think in its most fundamental level it means what we're seeing is not quite reality
+
+01:38:50.517 --> 01:38:56.100
+what it's something there's something more deeper underlying it may be computational now if we were in a
+
+01:38:56.008 --> 01:39:07.443
+if we were in a sort of safari park and everything we were seeing was a hologram and is projected by the aliens or whatever that to me is not much different than thinking we're inside of Another Universe because we still can't see
+
+01:39:07.378 --> 01:39:12.386
+true reality right I mean there's there's other explanations it could be that.
+
+01:39:12.617 --> 01:39:23.396
+The way they're communicating is just fundamentally different that were too dumb to understand the much better methods of communication that have it could be I mean it's silly to say but
+
+01:39:23.339 --> 01:39:32.992
+our own thoughts could be the methods by which they're communicating like the place for which your ideas writers talk about this like the Muse yeah the the
+
+01:39:32.953 --> 01:39:43.219
+it sounds like very kind of wild but it could be thoughts it could be some interactions with our mind that we think are originating from.
+
+01:39:43.315 --> 01:39:46.199
+Us is actually something that.
+
+01:39:46.997 --> 01:40:00.755
+Coming from other life forms elsewhere Consciousness itself might be that it could be but I couldn't see any sensible argument to the why would all of the alien species be using this way yes some of them will be more primitive they would be close to our level.
+
+01:40:00.770 --> 01:40:10.298
+You know they would there should be a whole sort of normal distribution of these things right some would be aggressive some would be spent you know a curious others would be very stoic:
+
+01:40:10.277 --> 01:40:16.959
+philosophical because you know maybe there are million years older than us but it's not it shouldn't be like what I mean one
+
+01:40:16.929 --> 01:40:30.804
+one alien civilization might be like that communicating thoughts and others but I don't see why you know potentially the hundreds they should be would be uniform in this way right it could be a violent dictatorship that do the people the alien civilizations that.
+
+01:40:31.189 --> 01:40:35.198
+Become successful become.
+
+01:40:36.059 --> 01:40:44.731
+Gain the ability to be destructive an order of magnitude more destructive but of course the the sad thought.
+
+01:40:45.746 --> 01:40:53.454
+Wow either humans are very special we took a lot of leaps that arrived at what it means to be human yeah.
+
+01:40:53.623 --> 01:41:03.600
+There's a question there which was the hardest which was the most special but also others have reached this level I may be many others have reached this level
+
+01:41:03.543 --> 01:41:05.959
+the great filter.
+
+01:41:06.226 --> 01:41:18.111
+That's prevented them from going farther to becoming a multiplanetary species are reaching out into the stars and those are really important questions for us weather.
+
+01:41:18.325 --> 01:41:28.095
+Whether there's other alien civilizations out there are not this is very useful for us to think about if we destroy ourselves how will we do it and how easy is it to do
+
+01:41:28.092 --> 01:41:35.270
+yeah well he and these are Big questions and I thought about these a lot but the interesting thing is that if we're if we're alone.
+
+01:41:35.717 --> 01:41:41.455
+That's somewhat comforting from the great filter perspective because it probably means the great filters were Behar past us
+
+01:41:41.398 --> 01:41:49.188
+I'm pretty sure they are so the buy-in going back to your origin of Life question there are some incredible things that no one knows how happened like obviously the first.
+
+01:41:49.293 --> 01:41:53.077
+Life form from chemical soup that's seems pretty hard
+
+01:41:52.948 --> 01:42:06.985
+but I would suggest the multicellular I wouldn't be that surprised if we saw a single level such as single cells sort of life forms elsewhere bacterial type things but multicellular life seems incredibly hard that step of you know capturing mitochondria and then.
+
+01:42:07.000 --> 01:42:14.178
+Sort of using that as part of yourself you know when you've just eaten would you say that's the biggest the most like.
+
+01:42:15.066 --> 01:42:22.865
+If you had to choose one sort of Hitchhiker's Guide to the Galaxy one sentence summary of like oh those clever creatures
+
+01:42:22.763 --> 01:42:32.542
+did this that would be the Multiverse I think that's probably the one that's the biggest I mean there's a great book called The 10 grand in four great inventions of evolution by Nick Lane any speculates on 10
+
+01:42:32.450 --> 01:42:45.866
+ten of these you know what could be great filters I think that's one I think the Advent of of intelligence and conscious intelligence and in order to you know to us to be able to do science and things like that is huge as well
+
+01:42:45.701 --> 01:42:59.414
+I mean it's only evolved once as far as you know in Earth history so that would be a later candidate but there's certainly for the early candidates I think multicellular life forms is huge by the way work it's interesting to ask you
+
+01:42:59.366 --> 01:43:06.580
+if you can hypothesize about what is the origin of intelligence is it that we started.
+
+01:43:06.982 --> 01:43:14.457
+Cooking meat over fire is it that we somehow figured out that we could be very powerful and start collaborating so
+
+01:43:14.427 --> 01:43:19.336
+cooperation between our ancestors.
+
+01:43:19.360 --> 01:43:25.989
+So that we can overthrow the alpha male what is it Richard I talked to Richard random who thinks we're all just
+
+01:43:25.878 --> 01:43:34.514
+beta males who figured out how to collaborate to defeat the one that the dictator that authored Terrian alpha male that control the tribe.
+
+01:43:34.700 --> 01:43:41.797
+Is there another explanation did was there 2001 Space Odyssey type of monolith yeah they came down to earth
+
+01:43:41.740 --> 01:43:47.819
+well I think I think all of those things you suggest a good candidates fire and and cooking right so
+
+01:43:47.780 --> 01:43:53.608
+that's clearly modern fan it for energy you know Energy Efficiency cooking our meat and then.
+
+01:43:53.641 --> 01:44:02.241
+And then being able to to be more efficient about eating it and getting a consuming the energy I didn't ask you Jin then utilizing fire and tools
+
+01:44:02.193 --> 01:44:15.348
+I think you're right about the the tribal Corporation aspects and probably language as part of that yes because probably that's what allowed us to out-compete neanderthals and and perhaps less Cooperative species so so that may be the case
+
+01:44:15.138 --> 01:44:17.490
+tool making Spears axes.
+
+01:44:17.506 --> 01:44:29.320
+I think that let us I mean I think it's pretty clear now that humans were responsible for a lot of the extensions of megafauna especially in Norton in the Americas when humans arrived so you can imagine
+
+01:44:29.128 --> 01:44:38.565
+once you discover tool usage how powerful that would have been and how scary for animals so I think all of those could have been explanations for it now the interesting thing is
+
+01:44:38.535 --> 01:44:42.661
+that is a bit like general intelligence to is it's very costly to begin with
+
+01:44:42.586 --> 01:44:56.542
+to have a brain and especially a general-purpose brain rather than special-purpose one because he might have energy our brains use I think it's like 20% of the body's energy and its massive and then you're thinking chess one of the funny things are that we used to say is it as much as
+
+01:44:56.513 --> 01:44:59.792
+a racing driver uses for a whole you know Formula One race
+
+01:44:59.763 --> 01:45:10.712
+if just playing a game of you know serious high-level chess which we know you wouldn't think just sitting there because the brains using so much energy so in order for an animal an organism to justify that
+
+01:45:10.637 --> 01:45:13.602
+there has to be a huge payoff.
+
+01:45:13.725 --> 01:45:23.162
+And the problem with with half a brain or path you know intelligence saying IQs of you know of like a monkey brain it's.
+
+01:45:23.466 --> 01:45:38.430
+It's not clear you can justify that evolutionary until you get to the humor level brain and so but how do you how do you do that jump it's very difficult which is why I think it's only been done once from the sort of specialized brains that you see an animal's to this sort of general purpose
+
+01:45:38.355 --> 01:45:42.220
+cheering powerful brains that humans have
+
+01:45:42.046 --> 01:45:58.190
+and which allows us to invent the modern modern world and you know it takes a lot to to cross that barrier and I think we've seen the same with AI systems which is that maybe until very recently it's always been easier to craft a specific solution to a problem like chess.
+
+01:45:58.196 --> 01:46:09.803
+Then it has been to build a general Learning System that can potentially do many things because initially that system will be way worse than less efficient than the specialized system so one of the interesting
+
+01:46:09.674 --> 01:46:17.311
+corks of the human mind of this evolved system is that it appears to be conscious
+
+01:46:17.191 --> 01:46:21.470
+this thing that we don't quite understand but it seems very
+
+01:46:21.413 --> 01:46:32.435
+very special ability to have a subjective experience that it feels like something to eat a cookie the deliciousness of it or see a color and that kind of stuff do you think
+
+01:46:32.261 --> 01:46:40.807
+in order to solve intelligence we also need to solve Consciousness along the way do you think AGI systems need to have Consciousness in order to.
+
+01:46:41.029 --> 01:46:43.886
+Be truly intelligent
+
+01:46:43.829 --> 01:46:51.690
+yeah we thought about this a lot actually and I think that my guess is that Consciousness and intelligence are double dissociable
+
+01:46:51.661 --> 01:46:59.010
+so you can have one without the other both ways and I think you can see that with Consciousness in that I think some animals
+
+01:46:58.989 --> 01:47:07.400
+pets if you have a pet dog or something like that you can see some of the higher animals and dolphins things like that are have self-awareness.
+
+01:47:07.514 --> 01:47:11.910
+And a very sociable seem to dream
+
+01:47:11.709 --> 01:47:20.353
+you know those kinds of a lot of the traits one would regard as being kind of conscious and self-aware and but yet they're not that smart
+
+01:47:20.180 --> 01:47:28.753
+right so they're not that intelligent bye-bye say IQ standards or something like that yeah it's also possible that our understanding of intelligence is flawed
+
+01:47:28.678 --> 01:47:38.484
+like putting an IQ to it sure maybe the thing that a dog can do is actually gone a very far along the path of intelligence that we humans are just able to
+
+01:47:38.374 --> 01:47:50.169
+play chess and maybe write poems right but if we go back to the idea of AGI and general intelligence you know dogs are very specialized white most animals are pretty specialized they can be amazing at what they do but they're like kind of Elite Sports
+
+01:47:50.086 --> 01:47:53.293
+Sports people or something right so they are they having
+
+01:47:53.110 --> 01:48:14.700
+extremely well because the entire brain is optimized if somehow convince the entirety of the human population to feed them and service them so in some way they're controlling yes exactly what we co-evolved to some crazy degree right including the the way the dogs you know even even wag their tails and twist their noses right we find we finding inexorably cute yeah
+
+01:48:14.491 --> 01:48:21.038
+but I think you can also see Intelligence on the other side so systems like artificial systems that are amazingly.
+
+01:48:21.215 --> 01:48:34.236
+Smalt at certain things like maybe playing go and chess and some other things but they don't feel at all in any shape or form conscious in the way that you know you do to me or I do to you and.
+
+01:48:34.548 --> 01:48:37.260
+And I think actually building a.
+
+01:48:37.293 --> 01:48:46.163
+Is these intelligent constructs is one of the best ways to explore the mystery of Consciousness to break it down because we're going to have
+
+01:48:46.116 --> 01:48:49.449
+devices that are pretty smart
+
+01:48:49.383 --> 01:48:58.308
+at certain things or capable certain things but potentially won't have any semblance of self-awareness or other things and in fact I would advocate.
+
+01:48:58.503 --> 01:48:59.847
+If there's a choice
+
+01:48:59.718 --> 01:49:14.340
+Building Systems in the first place AI systems that are not conscious to begin with I just tools until we understand them better and and the capabilities better so on the topic just not as the CEO of deepmind.
+
+01:49:14.716 --> 01:49:22.668
+Just as a human being let me ask you about this one particular anecdotal evidence of the Google engineer who made a comment.
+
+01:49:22.917 --> 01:49:31.688
+Or believed that there are some aspect of language model the Lambda language model that exhibited sentience.
+
+01:49:31.811 --> 01:49:40.096
+See said you believe there might be a responsibility to build systems that are not sentient and this experience of a particular engineer I think.
+
+01:49:40.336 --> 01:49:45.101
+Lot to get your general opinion this kind of thing but I think it will happen more and more and more.
+
+01:49:45.432 --> 01:49:55.526
+Which not one Engineers but when people out there that don't have an engineering background start interacting with increasingly intelligent systems we anthropomorphize them
+
+01:49:55.523 --> 01:50:06.652
+they start to have deep impactful interactions with us in a way that we miss them yeah when they're gone and we sure as heck feel like.
+
+01:50:06.740 --> 01:50:14.511
+Living entities self-aware entities and maybe even we project sentience onto them so what's your thought about this particular.
+
+01:50:14.842 --> 01:50:16.987
+System was is.
+
+01:50:17.174 --> 01:50:25.810
+Have you ever met a language model that sentient not recognize no no what do you make of the case of when you kind of feel.
+
+01:50:25.933 --> 01:50:28.582
+That there's some elements of sentience to this system.
+
+01:50:28.759 --> 01:50:42.959
+Yeah so this is you know an interesting question and you'll see a very fundamental one so the first thing to say is I think that none of the systems we have today I would say even have one iota of semblance of Consciousness or sentience that's my.
+
+01:50:43.010 --> 01:50:57.120
+Personal feeling interacting with them every day so I think this way premature to be discussing what that engineer talked about I preach I think at the moment it's more of a projection of our the way our own minds work which is to see
+
+01:50:57.054 --> 01:51:09.498
+sort of purpose and direction in almost anything that we you know our brains are trained to interpret agency basically in things even in an inanimate things sometimes and of course with.
+
+01:51:09.513 --> 01:51:18.580
+A language system because language is so fundamental to intelligence that's going to be easy for us to anthropomorphize that I mean back in the day even the first.
+
+01:51:18.677 --> 01:51:26.287
+The dumbest sort of template chatbots ever Eliza and and and and the ilk of the original chatbots back in the 60s
+
+01:51:26.194 --> 01:51:35.262
+full some people under certain circumstances right a bit tender to be a psychologist so just basically rabbit back to you the same question you asked it back to you
+
+01:51:35.052 --> 01:51:49.756
+and some people believe that so I don't think we can this is why I think the Turing test is a little bit flawed as a formal test because it depends on the sophistication of the of the judge whether or not they are qualified to make that distinction so.
+
+01:51:50.140 --> 01:52:04.736
+I think we should talk to you know the top philosophers about this people like Daniel Dennett and David Chalmers and others who've obviously thought deeply about consciousness of course Consciousness itself hasn't been well there's no agreed definition if I was
+
+01:52:04.688 --> 01:52:07.049
+you know speculate about that.
+
+01:52:07.055 --> 01:52:23.280
+You know I kind of the deaf at the working definition I like is it's the way information feels when you know it gets processed I think maybe Max tegmark came up with that I like that idea and if it helps us get towards any more operational thing but it's I think it's a nice way of viewing it
+
+01:52:23.052 --> 01:52:34.119
+I think we can obviously see from Neuroscience certain prerequisites that are required like self-awareness I think is necessary but not sufficient component this idea of a self and other
+
+01:52:33.936 --> 01:52:51.295
+and self coherent preferences that are coherent overtime you know these things are maybe memory these things are probably needed for a sentient or conscious being but the reason that the difficult thing I think for us when we get and I think this is a really interesting philosophical debate is
+
+01:52:51.157 --> 01:53:00.955
+when we get closer to a GI and and you know and and much more powerful systems than we have today how we going to make this judgment and
+
+01:53:00.826 --> 01:53:07.751
+one way which is the Turing test is sort of a behavioral judgment is is the system exhibiting all the behaviors
+
+01:53:07.550 --> 01:53:18.644
+the human sentient or sentient being would exhibit is it answering the right questions is saying the right things is it indistinguishable from a human and so on.
+
+01:53:19.226 --> 01:53:33.731
+But I think there's a second thing that makes us as humans regard each other a sentient why do we why do we think this and I debated this with Daniel Dennett and I think there's a second reason that's over often overlooked which is that we're running on the same substrate
+
+01:53:33.648 --> 01:53:47.767
+right so if we're exhibiting the same behavior more or less as humans and we're running on the same you know carbon-based biological substrate the squishy you know few pounds of Flesh in our skulls then the most parsimonious I think
+
+01:53:47.638 --> 01:53:56.319
+explanation is that you're feeling the same thing as I'm feeling right but we will never have that second part the substrate equivalence with a machine.
+
+01:53:56.415 --> 01:54:01.864
+Right so we will have to only judge based on the behavior and I think the substrate equivalents
+
+01:54:01.807 --> 01:54:16.240
+is a critical part of why we make assumptions that we are conscious and in fact even with with animals high-level animals why we think they might be because they're exhibiting some of the behaviors we would expect from a sentient animal and we know they're made of the same things biological neurons so we're going to have to come up with.
+
+01:54:17.066 --> 01:54:29.510
+Explanations or models of the gap between substrate differences between machines and humans did to get anywhere beyond the behavioral but to me the Practical question is.
+
+01:54:29.687 --> 01:54:39.548
+Very interesting very important when you have millions perhaps billions of people believing that you have a sentient AI believing what that Google engineer believed.
+
+01:54:39.896 --> 01:54:47.037
+Which I just see is an obvious very near-term future thing certainly on the path to a GI
+
+01:54:47.008 --> 01:54:56.886
+how does that change the world what's the responsibility of the AI system to help those millions of people and also what's the ethical thing because
+
+01:54:56.856 --> 01:55:05.420
+you can you can make a lot of people happy by creating a meaningful deep experience with the system.
+
+01:55:05.930 --> 01:55:15.458
+That's faking it before makes it yeah and I don't is a weed the right who is this a what's the right thing to do.
+
+01:55:15.563 --> 01:55:23.001
+Should a I always be tools like shy what why are we constraining I asked those be tools as opposed to.
+
+01:55:23.071 --> 01:55:30.104
+Friends yeah I think well I mean these are you know that you know fantastic questions and also critical ones
+
+01:55:29.903 --> 01:55:45.669
+and we've been thinking about this since the start of the mine and before that because we plan for success and you know how you know have a remote that look like back in 2010 and we've always had sort of these ethical considerations as fundamental a deep mind
+
+01:55:45.504 --> 01:55:51.952
+my current thinking on the language models is and and large models is they're not ready we don't understand them well enough yet.
+
+01:55:52.040 --> 01:56:01.351
+And you know in terms of analysis tools and and guardrails what they can and can't do and so on to deploy them at scale because I think
+
+01:56:01.150 --> 01:56:08.913
+you know there are big still ethical questions like should an AI system always announce that it is an AI system to begin with probably yes
+
+01:56:08.721 --> 01:56:20.409
+it what do you do about answering those philosophical questions about the feelings people may have about AI systems perhaps incorrectly attributed so I think there's a whole bunch of research that needs to be done first.
+
+01:56:20.487 --> 01:56:29.348
+To responsibly before we you know you can responsibly deploy these systems at scale that would be at least be my current position over time
+
+01:56:29.264 --> 01:56:40.412
+I'm very confident we'll have those tools to like interpretability questions and Analysis questions and then with the ethical quandary you know I think.
+
+01:56:40.895 --> 01:56:47.686
+It's important to look Beyond just science that's why I think philosophy social sciences
+
+01:56:47.584 --> 01:56:59.433
+even theology other things like that come into it where would it you know Arts and Humanities what what does it mean to be human and the spirit of Being Human and and to enhance that and and The Human Condition
+
+01:56:59.314 --> 01:57:07.562
+right and allow us to experience things we could never experience before and improve the overall Human Condition and Humanity overall you know get radical abundance
+
+01:57:07.497 --> 01:57:16.610
+so many scientific problem solved disease so this is the era I think this is the amazing ear I think we're heading into if we do it right but we've got to be careful.
+
+01:57:16.643 --> 01:57:25.855
+We've already seen with things like social media how dual-use Technologies can be misused by firstly by bad Hyuna p Bad actors
+
+01:57:25.781 --> 01:57:27.952
+naive actors or crazy actors
+
+01:57:27.878 --> 01:57:36.073
+right so there's that set of just the common or garden use misuse of existing dual-use technology and then of course there's an additional
+
+01:57:35.863 --> 01:57:48.802
+thing that has to be overcome with a either eventually it may have its own agency so it could be good or bad in it in a bit self so I think these questions have to be approached very carefully
+
+01:57:49.267 --> 01:58:00.100
+using the scientific method I would say in terms of hypothesis generation careful control testing not live a be testing out in the world because with powerful to do with Technologies like AI
+
+01:57:59.881 --> 01:58:16.565
+if something goes wrong it may cause you know a lot of harm before you can fix it it's not like a you know an imaging app or game app where you know the if if something goes wrong it's relatively easy to fix and the harm is relatively small so I think it comes with you know the
+
+01:58:16.355 --> 01:58:19.463
+the usual cliche of light with a lot of
+
+01:58:19.434 --> 01:58:27.710
+power comes a lot of responsibility and I think that's the case here with things like AI given the enormous opportunity in front of us and I think.
+
+01:58:27.815 --> 01:58:34.893
+We need a lot of voices and as many inputs into things like the design of the systems and the values
+
+01:58:34.855 --> 01:58:42.464
+they should have and what goals should they be put to I think as wider group of voices as possible beyond just the technologist is needed
+
+01:58:42.408 --> 01:58:54.482
+add to input into that and to have a say in that especially when it comes to deployment of these systems which is when the rubber really hits the road it really affects the general person in the street rather than fundamental research and that's why I say.
+
+01:58:54.966 --> 01:59:00.694
+I think as a first step it would be better if we have the choice to build these systems as tools
+
+01:59:00.493 --> 01:59:05.826
+to give and I'm not saying that it should never they should never go beyond tools because of course the potential is there
+
+01:59:05.625 --> 01:59:16.682
+way to go way Beyond just tools but I think that would be a good first step in order for us to you know allow us to carefully experiment understand what these things can do
+
+01:59:16.571 --> 01:59:31.671
+so the leap between tool to sentient entity being as long as you take very careful yes let me ask a dark personal question so you're one of the most brilliant people in the a community also one of the most
+
+01:59:40.013 --> 01:59:45.210
+creation of a super intelligent AI system would be one of the most.
+
+01:59:45.532 --> 01:59:58.993
+Powerful things in the world tools or otherwise and again as the old saying goes power corrupts and absolute power corrupts absolutely you are
+
+01:59:58.855 --> 02:00:00.586
+likely.
+
+02:00:01.070 --> 02:00:10.867
+To be one of the people but I would say probably the most likely person to be in the control such a system do you think about.
+
+02:00:10.963 --> 02:00:23.407
+The corrupting nature of power when you talk about these kinds of systems that as all dictators and people have caused atrocities in the past always think they're doing good.
+
+02:00:23.584 --> 02:00:35.983
+But they don't do good because the power is polluted their mind about what is good and what is evil do you think about the stuff are we just focused on language model yeah I think about them all the time and you know I think.
+
+02:00:36.494 --> 02:00:44.500
+What are the defenses against that I think one thing is to remain very grounded and sort of humble no matter what you do or achieve.
+
+02:00:44.668 --> 02:00:55.014
+And I tried to do that I might you know my best friends are still my set of friends from my undergraduate Cambridge days my family's you know and and friends are very important.
+
+02:00:55.092 --> 02:00:58.390
+I've always I think trying to be a multidisciplinary person
+
+02:00:58.216 --> 02:01:06.978
+it helps to keep you humble because no matter how good you are at one topic someone will be better than you at that and it and always re learning a new topic again from scratch
+
+02:01:06.786 --> 02:01:12.262
+is a new field is very humbling right so for me that's been biology over the last five years
+
+02:01:12.044 --> 02:01:36.910
+you know huge area topic and and and it spins and I just love doing that but it helps to keep you grounded like and keeps you open-minded and and then the other important thing is to have a really group amazing set of people around you at your company or your organization who are also very ethical and grounded themselves and help to keep you that way and then ultimately just to answer your question I hope we're going to be a big part of
+
+02:01:36.692 --> 02:01:52.215
+of birthing Ai and that being the greatest benefit to humanity of any tool or technology ever and and getting out into a world of radical abundance and curing diseases and and and and solving many of the big challenges we have in front of us and then ultimately
+
+02:01:51.996 --> 02:02:01.900
+you know help the ultimate flourishing of humanity to travel the stars and find those aliens if they are there and if they're not there find out why they're not there what is going on here in the universe.
+
+02:02:01.709 --> 02:02:10.264
+Um this is all to come and and that's what I've always dreamed about but I don't think I think AI is too big an idea it's not going to be
+
+02:02:10.072 --> 02:02:19.617
+Adele be a certain set of pioneers who get their first I hope to other we're in the Vanguard so we can influence how that goes and I think it matters who builds who which which
+
+02:02:19.425 --> 02:02:28.926
+cultures they come from and what values they have the Builders of AI systems because I think even though the AI system is going to learn for itself most of its knowledge they'll be a residue
+
+02:02:28.725 --> 02:02:37.162
+in the system of the culture and the values of the creators of the system and there's interesting questions to discuss about that geopolitically.
+
+02:02:37.196 --> 02:02:43.266
+You know different cultures as we're going to more fragmented while than ever unfortunately I think in terms of global cooperation
+
+02:02:43.038 --> 02:03:00.317
+we see that in things like climate where we can't seem to get our act together globally to cooperate on these pressing matters I hope that will change over time perhaps you know if we get to an Era of radical abundance we don't have to be so competitive anymore maybe we can be more Cooperative if resources aren't so scared
+
+02:03:00.161 --> 02:03:02.873
+it's true that in terms of
+
+02:03:02.762 --> 02:03:16.844
+power corrupting and leading to destructive things it seems that some of the atrocities of the past happen when there's a significant constraint on resources I think that's the first thing I don't think that's a no I think scarcity is one thing that's led to
+
+02:03:16.770 --> 02:03:29.070
+competition distract you know sort of Zero Sum game thinking I would like us to all be in a positive some world and I think for that you have to remove scarcity I don't think that's enough unfortunately to get well piece because there's also other corrupting things like
+
+02:03:29.067 --> 02:03:40.250
+wanting power over people and this kind of stuff which is not necessarily Satisfied by by just abundance but I think it will help and I think but I think ultimately AI is not
+
+02:03:40.113 --> 02:03:50.171
+going to be run by any one person or one organization I think it should belong to the world belong to humanity and I think may have been many they'll be many ways this will happen and ultimately
+
+02:03:50.006 --> 02:03:57.166
+everybody should have a say in that do you have advice for young people
+
+02:03:57.091 --> 02:04:04.539
+in high school and college maybe if they're interested in AI or interesting having a.
+
+02:04:04.662 --> 02:04:10.777
+A big impact on the world what they should do to have a career that can be proud of her to have a life that could be proud.
+
+02:04:10.829 --> 02:04:24.253
+I love giving talks to the Next Generation what I say to them is actually two things I think the most important things to learn about and to find out about when you're when you're young is what are your true passions is first of all as two things one is
+
+02:04:24.125 --> 02:04:30.483
+find your true passions and I think you can do that by the way to do that is to explore as many things as possible
+
+02:04:30.480 --> 02:04:45.193
+when you're young and you have the time and you can take those risks I would also encourage people to look at the finding the connections between things in a unique way I think that's a really great way to find a passion second thing I would say advises.
+
+02:04:45.298 --> 02:04:48.407
+Know yourself so spend a lot of time.
+
+02:04:49.016 --> 02:04:55.410
+Understanding how you work best like what are the optimal times to work wanted optimal ways that you study
+
+02:04:55.408 --> 02:05:06.438
+what are your how do you deal with pressure sort of test yourself in various scenarios and try and improve your weaknesses but also find out what your unique skills and strengths are.
+
+02:05:06.535 --> 02:05:08.068
+And then home those
+
+02:05:08.011 --> 02:05:18.330
+so then that's what your will be your Super Value in the world later on and if you can then combine those two things and find passions that you're genuinely excited about the intersect
+
+02:05:18.274 --> 02:05:21.202
+with what your unique strong skills are.
+
+02:05:21.217 --> 02:05:29.529
+Then you're you know you're onto something incredible and you know I think you can make a huge difference in the world so let me ask about know yourself this is fun
+
+02:05:29.445 --> 02:05:36.839
+this is fun quick questions about Day in the Life the perfect day the perfect productive day in the life of domicile yeah.
+
+02:05:37.043 --> 02:05:40.674
+Maybe maybe these days your.
+
+02:05:40.770 --> 02:05:48.119
+There's a lot involved yes maybe a slightly younger Tempest aside yeah when you could focus on a single project Maybe.
+
+02:05:49.088 --> 02:05:54.402
+How early do you wake up what you night owl do you wake up early in the morning what are some interesting habits.
+
+02:05:54.697 --> 02:06:01.721
+How many dozens of cups of coffees do you drink a day what's the computer that you use.
+
+02:06:01.935 --> 02:06:12.785
+What's the setup how many screens will kind of keyboard are we talking emacs Vim or we talking something more modern just a bunch of those questions so maybe day in the life
+
+02:06:12.629 --> 02:06:20.860
+what what's the perfect day involve well these days it's quite different from say 10 20 years ago back 10 20 years ago it would have been.
+
+02:06:20.956 --> 02:06:23.632
+You know whole day of.
+
+02:06:23.792 --> 02:06:35.623
+Research individual research or programming doing some experiment Neuroscience computer science experiment reading lots of research papers and then perhaps at night time you know
+
+02:06:35.549 --> 02:06:39.260
+reading science fiction books or
+
+02:06:39.105 --> 02:06:45.913
+playing some games but I lots of focus or the Deep focused work on whether it's.
+
+02:06:45.794 --> 02:06:59.353
+Programming or reading research paper yes yes so that would be lots of debris for a now Focus work these days for the last sort of I guess you know five to ten years I've actually got quite a structure that works very well for me now which is that
+
+02:06:59.162 --> 02:07:16.161
+um I'm a Knight complete Night Owl always have been so I optimized for that so you know I get it you know I basically do a normal day as well get into work about 11:00 and sort of do worked about seven in the office and I will arrange back-to-back meetings for the entire time
+
+02:07:15.978 --> 02:07:27.621
+that and with as many meet as many people as possible so that's my collaboration management part of the day then I go home spend time with the family and friends have dinner
+
+02:07:27.456 --> 02:07:44.239
+relax a little bit and then I start a second day of work I call it my second day of work around 10 p.m. 11 p.m. and that's the time to learn about the small hours of the morning for five in the morning where I will do my thinking and reading a research writing research papers
+
+02:07:44.038 --> 02:08:05.421
+um sadly don't have time to code anymore but it's not efficient to to do that these days given them our time I have but that's when I do you know maybe do the long kind of stretches of thinking and planning and then probably you know using using email other things I would set I would fire off a lot of things to my team for to deal with the next morning
+
+02:08:05.212 --> 02:08:10.796
+for actually thinking about this overnight we should go for this project or arrange this meeting the next day.
+
+02:08:10.667 --> 02:08:20.428
+When you think it through a problem I'm talking about sheet of paper with a pen pen is there some it depends structure chili sauce I still like pencil and paper best for working out things.
+
+02:08:20.416 --> 02:08:32.698
+But these days it's just so efficient to read research papers just on the screen my still often print them out actually I still prefer to Mark out things and if I find it goes into the brain quick better and sticks in the brain better when your
+
+02:08:32.479 --> 02:08:42.277
+you're still using physical pen and pencil and paper so you take notes with the have lots of notes electronic ones and also whole stacks of notebooks that
+
+02:08:42.058 --> 02:08:51.063
+that I use at home yeah some of these most challenging next steps for example stuff none of us know about that you're working on your thinking.
+
+02:08:51.402 --> 02:08:57.040
+There's some deep thinking required there right like what what is the right problem what is the right approach.
+
+02:08:57.083 --> 02:09:07.519
+Because there you're going to have to invest a huge amount of time for the whole team they're going to have to pursue this thing what's the right way to do it as are all going to work here and yes.
+
+02:09:07.831 --> 02:09:23.102
+What's the right thing to try was the right Benchmark to you you need to construct The Benchmark from scratch all those kinds of things yes so I think of all those kind of things and then might time phase but also much more I find I've always found the quiet hours of the morning
+
+02:09:22.919 --> 02:09:25.155
+when everyone's asleep
+
+02:09:25.008 --> 02:09:35.741
+it's super quiet outside I love that time so the golden hours like between like 1:00 and 3:00 in the morning put some music on some inspiring music on and then
+
+02:09:35.648 --> 02:09:40.729
+I think these deep thoughts so that's when I would read you know my philosophy books and
+
+02:09:40.537 --> 02:09:48.399
+Spinoza is my you know recent favorite can all these things and you know read about a great
+
+02:09:48.198 --> 02:09:58.994
+scientists of History how they did things how they thought things so that's when you do all your create bats when I do all my creative thinking and it's good I think I think people recommend you know you do your
+
+02:09:58.784 --> 02:10:16.198
+you're sort of creative thinking and one block and the way I organize the day that way I don't get interrupted because obviously no one else is up at those times so I can I can go you know it says I can sort of get super deep and super into flow the other nice thing about doing it nighttime wisest
+
+02:10:16.150 --> 02:10:29.818
+if I'm really onto something or if I've got really deep into something I can choose to extend it and I'll go into six in the morning whatever and then I'll just pay for it the next day yeah so I'll be a bit tired and I won't be my best but that's fine
+
+02:10:29.743 --> 02:10:32.563
+I can decide the king my schedule the next day.
+
+02:10:32.516 --> 02:10:45.635
+The and given where I'm at with this particular thought or creative idea that I'm going to pay that cost the next day so I think that's that's more flexible than morning people who do that you know they get up at four in the morning they can also
+
+02:10:45.479 --> 02:10:54.754
+to those golden hours then but then their start of their scheduled day starts at breakfast you know am whatever they have their first meeting and then it's hard you have to reschedule day if you and Flo
+
+02:10:54.598 --> 02:10:59.759
+yeah that could be actually see that special thread of thoughts that the
+
+02:10:59.622 --> 02:11:14.082
+you're too passionate about you that this is where some of the greatest ideas could potentially comments When You're Just Lose Yourself late and yeah and for the meetings I mean you're loading and really hard problems in a very short amount of time so you have to do some kind of first.
+
+02:11:14.115 --> 02:11:18.853
+Suppose thinking here is like what's the problem with the state of things what's the right Next Step.
+
+02:11:18.994 --> 02:11:28.332
+You have to get really good at context switching which is one of the hardest things when it because especially as we do so many things if you include all the scientific things we do scientific Fields it working in.
+
+02:11:28.474 --> 02:11:34.715
+These are our entire fear you know complex fields in themselves and you you have to sort of keep up to abreast of that.
+
+02:11:34.865 --> 02:11:43.294
+But I enjoy it I've always been a sort of generalist in a way and that's actually what happened to my games career after chess I.
+
+02:11:43.454 --> 02:11:56.950
+One of the reasons I stopped playing chess was I got into computers but also I started realizing there were many other great games out there to play too so I've always been that way inclined multidisciplinary and there's too many interesting things in in the world to spend all your time just on one thing.
+
+02:11:57.020 --> 02:12:00.606
+So you mentioned Spinoza gotta ask the big.
+
+02:12:00.756 --> 02:12:09.995
+Ridiculously big Russian about life what do you think is the meaning of this whole thing why are we humans here you've already mentioned that.
+
+02:12:10.073 --> 02:12:12.533
+Perhaps the universe created us hmm.
+
+02:12:12.576 --> 02:12:24.533
+Is that why you think we're here to understand how the universe yeah I think my answer to that would be and at least that the the life I'm living is to gain and to gain and understand the knowledge you know too
+
+02:12:24.513 --> 02:12:28.080
+gain knowledge and understand the universe that's what I think.
+
+02:12:28.105 --> 02:12:37.830
+I can't see any higher purpose than that if you think back to the classical Greeks you know the virtue of gaining knowledge it's I think it's one of the few true virtues is to understand.
+
+02:12:37.881 --> 02:12:45.509
+Um the world around us in the context and Humanity better and and I think if you do that you become more compassionate and.
+
+02:12:45.524 --> 02:12:51.640
+More understanding yourself and and more tolerant and all these I think all these other things may flow format and to me
+
+02:12:51.592 --> 02:12:58.922
+you know understanding the nature of reality that is the biggest question what is going on here is sometimes the colloquial way I say what is really going on here.
+
+02:12:59.145 --> 02:13:02.703
+It's so mysterious and I feel like we're in some huge puzzle.
+
+02:13:02.863 --> 02:13:11.679
+And and it's but the world is also seems to be the universe seems to be structured in a way you know why is it structured in a way that science is even possible.
+
+02:13:11.712 --> 02:13:20.761
+That you know methods the scientific method Works things are repeatable it feels like it's almost structured in a way to be conducive to gaining knowledge.
+
+02:13:20.867 --> 02:13:25.713
+So I feel like and you know why should computers be even possible isn't that amazing that.
+
+02:13:25.800 --> 02:13:35.633
+Computational electronic devices can can can can be possible and they're made of sand are most you know common element that we have you know silicon on the Earth's crust.
+
+02:13:35.793 --> 02:13:47.651
+It could be made of diamond or something that we would have only had one computer yeah right so it's a lot of things are kind of slightly suspicious to me it sure as heck sounds this puzzle sure steak sounds like something we talked about earlier what it takes to
+
+02:13:47.568 --> 02:13:58.103
+to design a game that's really fun to play for prolonged periods of time and it does seem like this puzzle like you mentioned the more you learn about it.
+
+02:13:58.118 --> 02:14:04.675
+The more you realize how little you know so it humbles you but excites you by the possibility of learning more.
+
+02:14:04.861 --> 02:14:13.983
+One heck of a one heck of a puzzle we got going on here so like I mentioned of all the people in the world you're very likely
+
+02:14:13.908 --> 02:14:19.393
+to be the one who creates the AGI system that
+
+02:14:19.256 --> 02:14:34.121
+achieves human level intelligence that goes beyond it so if you got a chance in very well you could be the person that goes into the room with the system and have a conversation maybe you only get to ask one question if you do what question would you ask her.
+
+02:14:35.280 --> 02:14:39.324
+I would probably ask what is the true nature of reality.
+
+02:14:39.448 --> 02:14:47.877
+I think that's the question I don't know if I don't understand the answer because maybe it would be 42 or something like that but that's the question I would ask
+
+02:14:47.847 --> 02:15:00.264
+and then they'll be a deep sigh from the systems like I how do I explain to this human exactly all right let me I don't have time to explain maybe I'll draw you a picture that it is.
+
+02:15:00.423 --> 02:15:05.800
+I mean how do you even begin to answer that question.
+
+02:15:07.121 --> 02:15:14.380
+Well I think it would what would you what would you think the answer could possibly looks like I think it could it could start looking like.
+
+02:15:14.458 --> 02:15:28.531
+More fundamental explanations of physics would be the beginning you know more careful specification at that taking you walking us through by the hand as to what one would do to maybe prove those things out maybe giving you glimpses of.
+
+02:15:28.933 --> 02:15:37.858
+What things you totally missed in the physics of today exactly just here's glimpses of know like there's a much.
+
+02:15:38.071 --> 02:15:42.421
+How much more elaborate world are much simpler world of something.
+
+02:15:42.599 --> 02:15:52.234
+Much deeper maybe simpler explanation yes of things right then the standard model of physics which we know doesn't work but we still keep adding to so
+
+02:15:52.096 --> 02:16:01.893
+and and that's how I think the beginning of an explanation would look and it would start encompassing many of the Mysteries that we have wondered about for thousands of years like you know Consciousness dreaming
+
+02:16:01.738 --> 02:16:09.780
+life and gravity all of these things you're giving us a glimpse of explanations for those things yeah well
+
+02:16:09.723 --> 02:16:12.111
+Devon still one of the special.
+
+02:16:12.342 --> 02:16:24.165
+Human beings in this giant puzzle of ours and it's a huge honor that you would take a pause from the bigger puzzle to solve the small puzzle of a conversation with me today it's truly an honor and a pleasure thanks when you're really enjoyed it thanks Lex.
+
+02:16:24.954 --> 02:16:31.394
+Thanks for listening to this conversation with damage that's obvious the support this podcast please check out our sponsors in the description.
+
+02:16:31.688 --> 02:16:35.580
+And now let me leave you with some words from edsger dijkstra.
+
+02:16:36.243 --> 02:16:42.197
+Computer science is no more about computers and astronomy is about telescopes.
+
+02:16:47.280 --> 02:17:02.328
+Music.
+

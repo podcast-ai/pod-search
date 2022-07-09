@@ -128,6 +128,9 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
+# Mac
+.DS_Store
+
 # Exclude data
 data/secrets/*
 data/podcasts/*
