@@ -130,3 +130,4 @@ dmypy.json
 
 # Exclude data
 data/secrets/*
+data/podcasts/*
