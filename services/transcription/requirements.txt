@@ -1,0 +1,4 @@
+librosa
+torch
+datasets
+transformers
