@@ -123,7 +123,7 @@ def main(list_of_audio_files):
     pd.DataFrame(results).to_csv("transcribed_audios.csv", index=False)
 
     total_timedelta = time.time() - begin_time_overall
-    print(f"\n\nTotal seconds elapsed: {total_timedelta:.2}")
+    print(f"\n\nTotal seconds elapsed: {total_timedelta:.2f}")
 
 
 if __name__ == "__main__":
