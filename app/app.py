@@ -22,7 +22,7 @@ sys.path.append(os.path.abspath(os.path.join('engine')))
 from search_engine import indexer,get_json_segments
 
 # load the knowledge base
-model,index,df,episode_df = indexer('data/knowledge base')
+model,index,df,episode_df = indexer('data/knowledge_base')
 
 flask_app = Flask(__name__)
 

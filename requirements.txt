@@ -7,3 +7,5 @@ requests
 pandera
 tqdm
 loguru
+sentence-transformers
+faiss-cpu
