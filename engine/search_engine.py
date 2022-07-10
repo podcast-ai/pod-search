@@ -12,6 +12,9 @@ import pickle
 from pathlib import Path
 import numpy as np
 
+
+import librosa
+
 model = None
 index = None
 df = None
@@ -98,46 +101,59 @@ def flatten(l):
     return [x[0] for x in l]
 
 
-def group_segments(episode_id, para, df):
+def group_segments(episode_id, chunk_number, df):
     """return the start and end time of segement"""
-    segmented_df = df[(df[episode_id_col] == episode_id) & (df[paragraph_col] == para)]
-    start_time = segmented_df[chunk_start_col].min()
-    end_time = segmented_df[chunk_end_col].max()
+    segmented_df = df[(df[episode_id_col] == episode_id) & (df['chunk_number'] == chunk_number)]
+    start_time = segmented_df[chunk_start_col].values[0]
+    end_time = segmented_df[chunk_end_col].values[0]
     return (start_time, end_time)
 
-
-def get_segments(user_query, df, model, index):
+def get_segments(user_query,df,model,index):
     """returns the ranked matched segments from knowledge base"""
     segments = []
     D, I = vector_search([user_query], model, index, num_results=10)
-
     episode_id_matches = id2details(df, I, episode_id_col)
-    para_matches = id2details(df, I, paragraph_col)
-    matches = set(zip(flatten(episode_id_matches), flatten(para_matches)))
+    #para_matches = id2details(df, I, paragraph_col)
+    chunk_matches = id2details(df, I, 'chunk_number')
+    
+    matches = set(zip(flatten(episode_id_matches), flatten(chunk_matches)))
     for rank, match in enumerate(matches):
         filename = match[0]
-        para = match[1]
-        start_time, end_time = group_segments(filename, para, df)
-        segments.append((rank, filename, start_time, end_time))
+        chunk = match[1]
+        start_time, end_time = group_segments(filename, chunk,df)
+        segments.append((rank, filename, start_time, end_time,chunk))
     return segments
+
+
+#def save_segment
+
+def get_proportion(start_time, file_name):
+
+    duration = librosa.get_duration(filename=file_name)
+
+    return start_time / duration
 
 
 def get_json_segments(user_query, df, episode_df, model, index):
     json_segments = []
     segments = get_segments(user_query, df, model, index)
-    for rank, id, chunk_start, chunk_end in segments:
+    for rank, id, chunk_start, chunk_end, chunk_id in segments:
         json_seg = {}
         json_seg["id"] = id
-        json_seg["fileName"] = 'data/podcasts/' + episode_df[episode_df[episode_id_col] == id][
+        json_seg["fileName"] = '/static/data/podcasts/' + episode_df[episode_df[episode_id_col] == id][
             "file_name"
         ].values[0].replace(' ', '_') + '.mp3'
-        json_seg["start_proportion"] = chunk_start
-        json_seg["podcast_title"] = f"Podcast title, episode {id}"
-        json_seg["podcast_url"] = f"https://www.podcast{id}.com"
+        json_seg["start_proportion"] = get_proportion(chunk_start, '/home/adrian.zuur/Desktop/podcast-ai-lab/app/' + json_seg['fileName'])
+        json_seg["podcast_title"] = episode_df[episode_df[episode_id_col] == id][
+            "title"
+        ].values[0] #f"Podcast title, episode {id}"
+        json_seg["podcast_url"] = episode_df[episode_df[episode_id_col] == id][
+            "url"
+        ].values[0] + f'&t={int(chunk_start)}' #f"https://www.podcast{id}.com"
         json_seg[
             "podcast_info"
-        ] = f"This is info to print about the chunk or podcast. Chunk {id} is really interesting..."
+        ] = f"This is info to print about the chunk or podcast. Chunk {chunk_id} is really interesting..."
 
         json_segments.append(json_seg)
 
-    return json_segments
+    return json_segments[:1]

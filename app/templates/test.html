@@ -32,19 +32,29 @@
             </div>
             <div class="column right">
                 <div class="music-player">
-                    <div class="info">
-                        <div id="m{{ result.id }}"></div>
-                        <div class="control-bar">
-                            <img src="./static/img/play.png" alt="play" id="playBtn{{ result.id }}" title="Play / Pause">
-                            <img src="./static/img/stop.png" alt="stop" id="stopBtn{{ result.id }}" title="Stop">
-                            <img src="./static/img/volume.png" alt="volume" id="volumeBtn{{ result.id }}" title="Mute / Unmute">
-                        </div>
-                        {#<div>Total time: <span id="time-total">0.00</span> s   </div>#}
-                        {#<div>Current time: <span id="time-current">0.00</span> s     Remaining time: <span id="time-remaining">0.00</span> s </div>#}
-                    </div>
-        
+
+                        <div class="info">
+                            <div id="m{{ result.id }}"></div>
+                            <div class="control-bar">
+                                <img src="./static/img/play.png" alt="play" id="playBtn{{ result.id }}" title="Play / Pause">
+                                <img src="./static/img/stop.png" alt="stop" id="stopBtn{{ result.id }}" title="Stop">
+                                <img src="./static/img/volume.png" alt="volume" id="volumeBtn{{ result.id }}" title="Mute / Unmute">
+                                <div>Total time: <span id="time-total">0.00</span> s   </div>
+                                <div>Current time: <span id="time-current">0.00</span> s   {#Remaining time: <span id="time-remaining">0.00</span> s#} </div>    
+
+                            </div>
+                            
+                        </div>                        
+
+                        
+
+                
                 </div>
-        
+                <br>
+                <br>
+                {#<div>Total time: <span id="time-total">0.00</span> s   </div>#}
+                {#<div>Current time: <span id="time-current">0.00</span>#}     {#Remaining time: <span id="time-remaining">0.00</span> s#} </div>    
+                
             </div>
         </div>
     </div>    
