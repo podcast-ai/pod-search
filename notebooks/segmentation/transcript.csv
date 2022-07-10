@@ -1,0 +1,928 @@
+,chunk_start,chunk_end,text,confidence,episode_id,chunk_number,paragraph_number
+0,0.018000000000000002,6.398,The following is a conversation with demouth casabas CEO and co-founder of deepmind.,0.8,,0,1
+1,6.602,16.615,A company that has published and build some of the most incredible artificial intelligence systems in the history of computing including Al 40 that learned.,0.88,,1,1
+2,16.828,30.299,All by itself to play the game of Go better than any human in the world and Alpha fold to that's solved protein folding both tasks considered nearly impossible for a very long time.,0.9,,2,1
+3,31.088,40.678,Thomas is widely considered to be one of the most brilliant and impactful humans in the history of artificial intelligence and Science and Engineering in general.,0.8,,3,2
+4,40.873,50.563,This was truly an honor and a pleasure for me to finally sit down with him for this conversation and I'm sure we'll talk many times again in the future.,0.88,,4,2
+5,51.982,64.165,And now a quick view second mention if we sponsor check them out in the description that's the best way to support this podcast we got mailgun for email campaigns inside tracker for longevity on it for supplements,0.8,,5,3
+6,64.018,72.609,indeed for hiring and Magic spoon for breakfast she was wise to my friends and now I want to the full ad reads as always no ads the middle,0.86,,6,3
+7,72.498,79.082,I try to make this interesting but if you skip them please do check out our sponsors I enjoy their stuff maybe you will too.,0.88,,7,3
+8,79.736,93.846,This show is brought to you by mailgun by cinch and email delivery service that I've used for many many years to have an API that allows you to programmatically send emails if you don't know what an API is the point is.,0.74,,8,4
+9,93.861,99.607,It's a way for programs for code to interact with the service.,0.9,,9,4
+10,99.991,106.503,You have an API for both transactional and marketing emails those are terms used by people,0.85,,10,5
+11,106.338,125.137,much smarter about the stuff than me but I think transactional means specific to the person emails which is what I guess used its way to email certain people to notify them about the status of whatever the heck they're doing on the website and then there's marketing emails which is when you send an email,0.8200000000000001,,11,5
+12,124.954,130.116,to a lot of people like the same email I guess transactional is super customized,0.84,,12,5
+13,130.086,137.336,to an action that a person took and marketing is like a push email that you sent a lot of people in both of those,0.86,,13,5
+14,137.297,150.002,two categories of how people often use email and so mailgun is service that makes it super easy for you to do that kind of thing you can go to Lex Friedman.com mailgun to learn more.,0.89,,14,5
+15,151.457,159.364,This show is also brought to you by inside tracker a service that used to track biological data data that comes from my body.,0.91,,15,6
+16,159.424,168.123,A lot of their plans that you can send out for include blood tests why blood test because a lot of really useful data comes from your blood and then they use.,0.79,,16,6
+17,168.354,181.519,Machine learning algorithms to analyze that data so that includes blood data DNA data and even data from your Fitness tracker to provide you a clear picture what's going on inside your body this is the future,0.86,,17,6
+18,181.489,185.021,anything you decide to do in your life should be based on data.,0.91,,18,6
+19,185.216,194.356,From your entity from your being that means your biological body maybe one day that means from your brain as well.,0.91,,19,6
+20,194.497,202.827,There'll be a brain computer interface device like neural link that collects data from your brain and is able to make suggestions.,0.76,,20,6
+21,203.346,207.085,What kind of supplements to take what kind of dye changes to make.,0.86,,21,7
+22,207.478,214.701,You can go to inside track a.com slash Lex and for a limited time you get special savings for being a listener of this very podcast.,0.8300000000000001,,22,8
+23,215.364,223.55,This episode is also brought to you by on it and nutrition supplement and fitness company they have a thing called Alpha Brain which is a nootropic,0.91,,23,9
+24,223.448,232.444,that helps you with the memory metal speed and focus you might know it because of mr. Joe Rogan which is probably the first time.,0.84,,24,9
+25,232.865,240.574,I heard an honored read is one of the first podcast actually Joe's that I listen to.,0.8200000000000001,,25,10
+26,241.273,247.289,Religiously I'm a huge fan of audiobooks and podcasts in general but there's something about.,0.84,,26,11
+27,247.538,254.203,The authenticity the Joe projects that immediately connected with me and overtime,0.8,,27,12
+28,254.137,263.727,his ability to be curious and apathetic a good listener but also be able to change his mind keep an open mind just some crazy ideas anyway,0.88,,28,12
+29,263.589,274.251,I mentioned that because The Joe Rogan Experience introduced me to a lot of these kinds of products like on it that quickly became part of my life I guess podcast ad reads work.,0.8200000000000001,,29,12
+30,274.257,281.228,Any way you can get a special discount on Alpha Brain if you go to the Lex Freeman.com on it.,0.6900000000000001,,30,12
+31,282.602,297.54,This shows also brought to you by indeed a hiring website I've used them as part of many hiring efforts I've done for the team's of lead in the past they have indeed as the match that gives you quality candidates whose resumes that indeed figure job description immediately.,0.84,,31,13
+32,297.879,307.802,I said this before I'll say it again there's very few things in life as important as the people you surround yourself with I'm somebody for whom the work I've done.,0.91,,32,14
+33,308.268,322.296,Brings a lot of meaning and joy to my life even when I sold shoes at Sears shoes in the women's section that little community that you have as you try to figure out this new skill those people are.,0.89,,33,15
+34,322.554,334.251,So instrumental to your happiness and to your Effectiveness to your growth as a human being so hiring is really really really important and that's why you should use the best tools for the job Indeed.,0.9,,34,16
+35,334.257,343.659,Is one such tool they have a special offer for listeners that this podcast only available for a limited time check it out at indeed.com Lex.,0.79,,35,16
+36,345.015,354.389,This episode is also brought to you by an oldie but a goodie magic spoon a low carb keto friendly cereal they were there from the beginning.,0.84,,36,17
+37,355.034,363.842,I really love magic spoon it brings so much joy to my heart I don't care if this is not your thing please get it.,0.73,,37,18
+38,364.28,373.222,Make it your thing because it's freaking delicious it has all the deliciousness of a cereal without any of the negative stuff like all the sugar it has,0.91,,38,19
+39,373.129,381.36,zero g sugar 13 to 14 grams of protein only 49 grams of carbs 140 calories in each serving.,0.8300000000000001,,39,19
+40,381.438,387.752,It's like I said keto friendly It's Magic I don't understand how it works I don't understand how it can be so delicious but.,0.89,,40,19
+41,388.541,393.918,They have a lot of flavors I would say peanut butter is up there for me.,0.91,,41,20
+42,393.978,399.662,Maybe top three maybe it's my second favorite by far my favorite is Coco.,0.84,,42,20
+43,399.677,410.545,Magic spoon has a 100% happiness guarantee so if you don't like it they'll refund it get a discount on your order if you go to magic spoon.com Lex and use code Lex.,0.91,,43,20
+44,411.911,421.051,This is a lot screaming podcast to support it please check out our sponsors in the description and now dear friends here's damus casabas.,0.89,,44,21
+45,422.32,436.4,Music.,,,45,22
+46,436.244,446.059,Let's start with a bit of a personal question am I an AI program you wrote to interview people until I get good enough to interview you.,0.85,,46,23
+47,446.101,454.512,Well I've been pressed if you are being pressed by myself if you were I don't think we're quite up to that yet but maybe you're from the future Lex.,0.91,,47,23
+48,454.645,460.634,If you did would you tell me is that is that a good thing to tell a language model that's tasked with interviewing.,0.86,,48,23
+49,460.955,468.376,That it is in fact a I maybe when I kind of met her during test probably probably would be a good idea not to tell you,0.75,,49,24
+50,468.301,476.883,so it doesn't change your behavior right this is a kind of Eisenberg uncertainty principle situation if I told you you behave differently yeah maybe that's what's happening with us of course,0.81,,50,24
+51,476.826,484.787,this is a benchmark from the future where they replay 2022 as a year before a eyes were good enough.,0.84,,51,24
+52,484.892,488.847,Yeah and now we want to see is it going to pass exactly.,0.91,,52,24
+53,489.807,498.498,If I was such a program would you be able to tell do you think so to the Turing test question you've talked about.,0.8300000000000001,,53,25
+54,499.152,507.5,The Benchmark for solving intelligence what would be the impressive thing you talked about winning a Nobel Prize in a system winning a Nobel Prize,0.87,,54,26
+55,507.299,513.324,but I still return to the Turing test as a compelling test the spirit of the Turing test isn't compelling test,0.81,,55,26
+56,513.15,528.799,yeah the cheering test of course it's been unbelievably influential and turing's one of my all-time Heroes but I think if you look back at the 1950 papers original paper and read the original you'll see I don't think you meant it to be a rigorous formal test I think it was more like a thought experiment,0.77,,56,26
+57,528.733,538.774,almost a bit of philosophy he was writing if you look at the style of the paper and you can see didn't specify it very rigorously flow for example he didn't specify the knowledge that the expert,0.87,,57,26
+58,538.645,543.077,or judge would have not been a how much time would they have to,0.78,,58,26
+59,542.984,552.502,investigate this so these important parameters if you're going to make it a true sort of formal test and you know some by some measures,0.81,,59,26
+60,552.49,554.294,people claim the Turing test passed,0.79,,60,26
+61,554.273,564.304,several you know decade ago I remember someone claiming that with a kind of very bog-standard normal logic model because they pretended it was a it was a kid.,0.79,,61,26
+62,564.31,566.159,So the the judges thought.,0.81,,62,26
+63,566.21,577.6,That the machine you know was was a child so that would be very different from an expert a i person interrogating machine and knowing how it was built and so on so I think.,0.84,,63,27
+64,577.615,591.815,You know we should probably move away from that as a formal test and move more towards General test where we test the AI capabilities on a range of tasks and see if it reaches human level or above performance on,0.85,,64,27
+65,591.749,598.981,maybe thousands perhaps even millions of tasks eventually and cover the entire sort of cognitive space so I think.,0.9,,65,27
+66,599.068,607.263,For its time it was an amazing thought experiment and also 1950s obviously there's barely the dawn of the computer age so of course he only thought about text.,0.91,,66,28
+67,607.332,616.292,And now we have a lot more different inputs so yeah maybe the better thing to test is the generalizability so across multiple tasks but,0.91,,67,28
+68,616.136,621.378,I think it's also possible as as systems like God will show that.,0.85,,68,28
+69,621.439,628.76,Eventually that might map right back to language so you might be able to demonstrate your ability to generalize across tasks.,0.8,,69,28
+70,629.117,639.572,By then communicating your ability to generalize across tasks which is kind of what we do through conversation anyway when we jump around ultimately what's in there in that conversation.,0.91,,70,29
+71,639.614,642.363,Is not just you moving around knowledge.,0.84,,71,29
+72,642.891,652.742,It's you moving around like this entirely different modalities of understanding that ultimately we mapped to your ability to.,0.84,,72,30
+73,652.847,662.627,To operate successfully in all of these domains which you can think of as tasks yeah I think certainly we as humans use language as our main,0.89,,73,30
+74,662.561,674.015,generalization communication tool so I think we end up thinking in language and expressing our Solutions in language so it's going to be very powerful mode,0.77,,74,30
+75,673.886,680.811,and which to explain you know the system to explain what it's doing but I don't think it's the only.,0.8300000000000001,,75,30
+76,680.889,690.75,Modality that matters so I think there's going to be a lot of you know there's a lot of different ways to express capabilities are other than just language.,0.87,,76,30
+77,691.449,694.99,Visual robotics body language,0.74,,77,31
+78,694.987,704.397,yeah actions the interactive aspect of all that that's all part of it but what's interesting with got so is that it's a it's it's sort of,0.86,,78,31
+79,704.34,716.325,pushing prediction to the maximum in terms of like you know mapping arbitrary sequences to other sequences and sort of just predicting what's going to happen next so prediction seems to be fundamental to intelligence.,0.88,,79,31
+80,716.881,720.565,And what you're predicting doesn't so much matter yeah,0.8300000000000001,,80,32
+81,720.527,729.442,it seems like you can generalize that quite well so obviously language models predict the next word Gatto predicts potentially any action or any token,0.89,,81,32
+82,729.421,740.037,and it's just the beginning really it's a most General agent one could call it so far but you know that itself can be scaled up massively more than we've done so far I'm obviously we're in the in the middle of doing that.,0.85,,82,32
+83,740.097,753.361,But the big part of solving a GI is creating benchmarks that help us get closer and closer sort of creating benchmarks that test the generalizability and it's just still interesting that this fella,0.8200000000000001,,83,32
+84,753.286,759.662,Alan Turing was one of the first and probably still one of the only people that was trying.,0.91,,84,32
+85,759.776,765.748,Maybe philosophically both trying to formulate a benchmark that could be followed it is even though,0.8200000000000001,,85,32
+86,765.691,776.28,it's fuzzy is still sufficiently rigorous to where you can run that test and I still think something like the Turing test will end at the end of the day be the thing that truly,0.84,,86,32
+87,776.215,780.44,impresses other humans so that you can have a close friend.,0.91,,87,32
+88,780.662,787.047,Who's in the eye system for that friend to be a good friend they're going to have to be able to,0.74,,88,33
+89,787.035,793.763,play Starcraft and they're going to have to do all of these tasks get you a beer,0.84,,89,33
+90,793.697,801.748,so the core products tasks play games with you use language humor all those kinds of things but that,0.91,,90,33
+91,801.565,821.778,ultimately can boil down to language it feels like in not in terms of the AI Community but in terms of the actual impact of general intelligence on the world it feels like language will be the place or truly shines I think sorry because it's such an important kind of input output for us I think you're right I think the cheering test that what the the kind of,0.8,,91,33
+92,821.604,830.087,the the philosophy behind it which is the idea of can can a machine mimic the behaviors of a human.,0.9,,92,33
+93,830.201,839.386,Amen and I would say wider than just language and text then you know in terms of actions and everything else creativity all these things then,0.81,,93,33
+94,839.257,851.503,if it can sort of match or exceed human cognitive capabilities then I think we have a you know true intelligence so I thought from that perspective you're right I think he did formulate the right kind of setup.,0.87,,94,33
+95,851.554,854.627,I just I think there will be a kind of humor.,0.72,,95,33
+96,855.083,864.611,In the AI systems the future looking back to this conversation and thinking about the Turing test and also thinking about,0.81,,96,34
+97,864.473,875.593,by that time they would know which year they were finally able to sort of cross the threshold of human level intelligence and think how funny it is that we humans were still,0.91,,97,34
+98,875.492,885.19,confused about this whole problem have this really long ago been solved hello to the AI agents of the future anyway so good going back to your.,0.86,,98,34
+99,885.286,893.481,To your journey when did you fall in love with programming first well it's pretty pretty young age actually so,0.91,,99,34
+100,893.361,907.975,you know I started off actually games as my first love so starting to play chess when I was around four years old and then is actually with winnings from a chess competition that I managed to buy my first chess computer when I was about eight years old was I said expectrum.,0.86,,100,34
+101,907.999,913.394,Which was hugely popular in the UK at the time and is amazing machine because,0.84,,101,34
+102,913.274,918.3,I think it chant trained a whole generation of programmers in the UK because it was so accessible.,0.75,,102,34
+103,918.378,923.837,You know you literally switched it on and there was the basic prompt and you could just get going and.,0.8200000000000001,,103,34
+104,923.888,933.937,My parents didn't really know anything about computers so but because it was my money from a chess competition I could I could say I could I wanted to buy it and then you know I just went to bookstores.,0.85,,104,34
+105,934.177,940.986,Books on programming and started typing in you know that the programming code and and then of course,0.91,,105,35
+106,940.812,950.726,um once you start doing that you start adjusting it and then making your own games and that's when I fell in love with computers and realize that they were very magical device,0.91,,106,35
+107,950.715,962.078,in a way I kind of it I don't want have been able to explain this at the time but I felt that they were sort of almost a magical extension of your mind I always had this feeling and I've always loved this about computers that you can set them off doing something,0.81,,107,35
+108,961.967,967.183,some task for you you can go to sleep come back the next day and it's solved,0.72,,108,35
+109,967.099,977.247,you know that feels a magical to me so I mean all machines do that to some extent they all enhance our natural capabilities obviously cars makers allow us to move faster than we can run.,0.91,,109,35
+110,977.316,987.222,This was a machine to extend the mind and and then of course AI is the ultimate expression of what a machine may be able to do or learn,0.89,,110,35
+111,987.219,994.126,so very naturally for me that thought extended into into a i quite quickly remember the the programming language.,0.87,,111,35
+112,994.403,1005.667,That was first started in yes but so special to the machine oh no it was just a nice it was just a basic it was just basic on the ZX Spectrum I don't know what specific format was and then later on I got a Commodore amiga,0.8300000000000001,,112,36
+113,1005.475,1006.649,quit chefs,0.52,,113,36
+114,1006.457,1021.313,it was a fantastic machine now you're just showing off so yeah well lots of my friends had a Tory STS and I managed to get a me because it was a bit more powerful and and that was incredible and used to do programming in assembler and and also,0.8200000000000001,,114,36
+115,1021.274,1030.757,a most basic this this this specific form of basic it was incredible actually so while all my coding skills and when did you fall in love with AI so when did you first.,0.87,,115,36
+116,1031.312,1040.038,Start to gain understanding that you can not just write programs that do some mathematical operations for you while you sleep but something that's.,0.8300000000000001,,116,37
+117,1040.422,1051.759,A keen to bringing an entity to life sort of a thing that can figure out something more complicated than a than a simple mathematical operation.,0.74,,117,38
+118,1051.765,1057.763,Yeah so that was a few stages for me or what I was very young so first of all as I was trying to improve,0.8,,118,38
+119,1057.734,1066.351,playing chess I was Captain embarrassing Regina chest teams and at the time when I was about you know maybe 10 11 years old I was going to become a professional chess player that was my first.,0.72,,119,38
+120,1066.448,1080.134,I thought the dream was there to sure she'll try to get to the highest level yes so I was you know I got to when I was about 12 years old I got two masters dad and I was second highest rated player in the world to Judit Polgar who obviously ended up being,0.72,,120,38
+121,1080.068,1081.421,an amazing chess player.,0.91,,121,38
+122,1081.608,1090.955,And World women's champion and when I was trying to improve it chest where you know what you do is you obviously first of all you're trying to improve your own thinking processes.,0.85,,122,38
+123,1091.015,1097.85,So that leads you to thinking about thinking how is your brain coming up with these ideas why is it making mistakes,0.91,,123,38
+124,1097.803,1104.458,how can you how can you improve that thought process but the second thing is that you it was just the beginning this is like in the,0.84,,124,38
+125,1104.446,1111.3,in the early 80s mid 80s of Chess computers if you remember they were physical balls like the one we have in front of us and Pew press down the.,0.8,,125,38
+126,1111.378,1117.106,You know this the squares and I think Kasparov had a branded version of it that I got,0.8300000000000001,,126,39
+127,1116.86,1132.392,and you will you know used to that they're not as strong as they are today but they were they were pretty strong and used to practice against them to try and improve your openings and other things and so I remember I think I probably got my first one was around 11 or 12 and I remember thinking,0.8200000000000001,,127,39
+128,1132.164,1136.488,this amazing you know how our someone programmed this,0.79,,128,39
+129,1136.305,1144.716,this chess board to play chess and it was very informative book I bought which was called the chess computer handbook by David Levy.,0.78,,129,39
+130,1144.722,1157.166,His hand came out 1984 something so I must have got it when I was about 11 12 in explained fully how these chess programs are made and I remember my first day I program being programmed mi amiga it couldn't.,0.87,,130,39
+131,1157.199,1165.377,It wasn't powerful enough to play chess I couldn't write a whole chess program but I wrote a program for it to play Othello with us it's sometimes called I think in the US,0.91,,131,39
+132,1165.176,1175.882,and so slightly simpler game than chess but I used all of the principles that chess programs had alpha-beta total of that and that was my first AI program remember that very well is around 12 years old so that.,0.79,,132,39
+133,1175.951,1184.524,That brought me into a i and then the second part was later on when I was around 16 17 and I was writing games professionally designing games,0.71,,133,39
+134,1184.305,1195.327,writing a game called theme park which had a i as a co-op gameplay component as part of the simulation and it sold you know millions of copies around the world and people loved.,0.77,,134,39
+135,1195.468,1203.483,The way that the AI even though it's relatively simple by today's AI standards was was reacting to the way you as the player played it.,0.87,,135,40
+136,1203.561,1211.162,So I was a called a Sandbox game so it's one of the first types of games like that along with SimCity and it meant that every game you played was unique.,0.77,,136,40
+137,1211.276,1219.795,Is there something you could say just a small tangent about really impressive AI from a game design.,0.91,,137,40
+138,1219.999,1234.208,Human enjoyment perspective really impressive AI that you've seen in games and maybe what does it take to create a system and how hard of a problem is that so I'm a million questions we would just as a brief tangent,0.8300000000000001,,138,41
+139,1234.187,1236.026,well look I think,0.77,,139,41
+140,1235.96,1251.474,games games have been significant in my life for three reasons so first of all to I was playing them and training myself on games when I was a kid then I went through a phase of designing games and writing AI for games all the games I professionally wrote,0.86,,140,41
+141,1251.255,1255.894,had a always a core component and that was mostly in the in the 90s.,0.8200000000000001,,141,41
+142,1255.918,1262.961,And the reason I was doing that in games industry was at the time the games industry I think was The Cutting Edge of Technology.,0.8300000000000001,,142,41
+143,1263.057,1276.041,So whether it was graphics with people like John Carmack and Quake and those kind of things or a I I think actually all the action was going on in games and and we seen we're still reaping the benefits of that even with things like gpus,0.8,,143,42
+144,1276.038,1291.858,which you know I find ironic was obviously invented for graphics computer Graphics but then turns out to be amazingly useful for a I could just turns out everything's a matrix multiplication appear it appears they're in the wind the whole world so so I think games at the time had the most cutting-edge AI,0.89,,144,42
+145,1291.639,1301.563,and a lot of the games are we you know I was involved in writing so there was a game called black and white which was one game I was involved with in the early stages of which I still think is the,0.81,,145,42
+146,1301.371,1302.697,most,0.91,,146,42
+147,1302.694,1315.147,impressive example of reinforcement learning in a computer game so in that game you know you trained a little pet animal and going game yeah and it's sort of learnt from how you were treating it so if you treated it badly,0.85,,147,42
+148,1315.063,1325.239,then it became mean and then it would be mean to to your villagers and your and your population the sort of little tribe that you were running but if you were kind to it then it would be kind.,0.9,,148,42
+149,1325.272,1333.098,And people fascinated by how that works and so as I to be honest with that the way it kind of developed and especially the mapping to Good and Evil,0.8200000000000001,,149,42
+150,1333.068,1340.786,yeah he made you made you realize made me realize that you can sort of in the way in the choices you make can Define.,0.77,,150,42
+151,1341.098,1347.204,The where you end up and that means all of us are capable of the good.,0.91,,151,43
+152,1347.426,1354.028,Evil in all matters in the different choices along the trajectory to those places that you make,0.89,,152,43
+153,1353.818,1380.009,as fascinating I mean the games can do that philosophical to you and it's rare it seems rare yeah what games I think unique medium because you as the player you're not just passively consuming the the entertainment right you're actually actively involved as an as an agent so I think that's what makes it in some ways can be more visceral than other other mediums like you know films and books so the second so that was you know designing AI in games and then the third use,0.8200000000000001,,153,43
+154,1379.844,1386.805,I've we've used of AI is in D mind from the beginning which is using games as a testing ground.,0.74,,154,43
+155,1386.829,1390.847,For proving out AI algorithms and developing AI algorithms.,0.91,,155,43
+156,1390.889,1401.839,And that was a that was a sort of a core component of our vision at the start of deepmind was that we would use games very heavily as our main testing ground certainly to begin with.,0.9,,156,43
+157,1401.872,1413.983,Um because it's super efficient to use games and also you know it's very easy to have metrics to see how well your systems are improving and what direction your ideas are going in and whether you're making incremental improvements.,0.89,,157,43
+158,1414.25,1421.401,And because those games are often rooted in something that humans did for a long time beforehand there's already a strong.,0.81,,158,44
+159,1421.515,1427.27,Set of rules like it's already a damn good Benchmark yes it's really good for so many reasons because you've got,0.91,,159,44
+160,1427.187,1435.769,you've got you've got clear measures of how good humans can be at these things and in some cases like go we've been playing it for thousands of years,0.88,,160,44
+161,1435.586,1448.498,and and often they have scores or at least wind conditions so it's very easy for reward learning systems to get a reward is very easy to specify what that reward is and also at the end it's easy to you know to test.,0.85,,161,44
+162,1448.513,1453.818,Externally you know how strong is your system by of course playing against,0.91,,162,44
+163,1453.788,1462.586,you know the world's strongest players at those games so it's so good for so many reasons and it's also very efficient to run potentially millions of simulations,0.91,,163,44
+164,1462.52,1464.081,in parallel on the cloud.,0.91,,164,44
+165,1464.132,1473.452,So I think there's a huge reason why we were so successful back in the you know starting out 2010 how come we were able to progress so quickly because,0.91,,165,44
+166,1473.251,1486.82,we utilize games and you know at the beginning of the mind we also hired some amazing game Engineers who I knew from my previous lives in the games industry and and that helped a bootstrap us very quickly,0.9,,166,44
+167,1486.755,1493.482,and plus it's somehow super compelling almost at a philosophical level of man versus machine.,0.86,,167,44
+168,1493.893,1496.813,/ / chess board or a go board,0.6900000000000001,,168,45
+169,1496.738,1506.463,and especially given that the entire history of AI is defined by people saying is going to be impossible to make a machine that beats a human being in chess.,0.8,,169,45
+170,1506.821,1512.783,And then once that happened people were certain when I was coming up in AI they go.,0.89,,170,46
+171,1513.095,1519.922,Is not a game that can be solved because of the combinatorial complexity is just to it's it's you know.,0.77,,171,47
+172,1519.973,1528.366,No matter how much more is Li you have computers just never going to be able to crack the game of Go and so the then there's something,0.88,,172,47
+173,1528.309,1536.27,compelling about facing sort of taking on the impossibility of that task from the AI.,0.8200000000000001,,173,47
+174,1536.96,1543.877,Researcher perspective engineer perspective and then as a human being just observing this whole thing.,0.8200000000000001,,174,48
+175,1544.648,1547.649,Beliefs about what you thought was impossible.,0.91,,175,49
+176,1548.321,1555.85,Being broken apart you see it's a humbling to realize we're not as smart as we thought,0.77,,176,50
+177,1555.793,1566.527,it's humbling to realize that the things we think are impossible now perhaps we'll be done in the the future there's something really powerful about a game,0.8,,177,50
+178,1566.524,1575.871,AI system beanie human being in a game that drives that message home for like millions billions of people especially in the case of go sure.,0.75,,178,50
+179,1576.147,1586.043,Full of I think it's a mean it has been a fascinating journey and and especially as I I think about it from I can understand it from both sides both as the AI.,0.75,,179,51
+180,1586.239,1595.811,You know creators of the AI but also as a games player originally so are you know it was a it was a really interesting hours I mean it was a fantastic.,0.85,,180,51
+181,1595.916,1607.703,But also somewhat Bittersweet moment the alphago match for me seeing that and and and being obviously heavily heavily involved in that but you know as you say chess has been,0.91,,181,51
+182,1607.529,1617.497,the I mean Kasparov I think rightly called it the drosophila of intelligence right so it's sort of that I love that phrase and I think he's right because,0.8200000000000001,,182,51
+183,1617.287,1622.971,chess has been hand in hand with a eye from the beginning of the the whole field.,0.77,,183,51
+184,1623.031,1632.261,Right so I think every AI practitioner starting with touring and Claude Shannon and all those the sort of forefathers of of the field,0.8,,184,51
+185,1632.132,1634.296,tried their hand at writing a chess program,0.9,,185,51
+186,1634.257,1642.713,I've got an original edition of Claude Shannon's first chess program it was 1949 the per the original sort of paper,0.8300000000000001,,186,51
+187,1642.548,1647.088,and they all did that and ensuring famously wrote a chess program that,0.89,,187,51
+188,1646.878,1661.456,but all the computers around then we're obviously too slow to run it so you had to write he had to be the computer right so he literally I think spent two or three days running his own program by hand with pencil and paper and playing playing a friend of his with his chest program so.,0.77,,188,51
+189,1661.822,1664.228,Of course deep blue was a huge moment,0.88,,189,52
+190,1664.018,1682.485,beating kasbar off but actually when that happened I remember that very vividly of course because it was you know chess and computers and AI all the things I loved and I was at College at the time but I remember going away from that being more impressed by kasparov's mind then I was by deep blue because here was Kasparov,0.85,,190,52
+191,1682.284,1689.489,with his human mind not only could he play chess more or less to the same level as this brute of a calculation machine but,0.91,,191,52
+192,1689.351,1698.509,of course Kasparov can do everything else humans can do ride a bike talk many languages do politics all the rest of the amazing things that Kasparov does and so with the same brain,0.8300000000000001,,192,52
+193,1698.326,1704.297,yeah and and yet deep blue of brilliant as it was at chess it'd been hand coded,0.88,,193,52
+194,1704.213,1713.705,for chess and actually had distilled the knowledge of Chess Grandmasters into into a cool program but it couldn't do anything else,0.91,,194,52
+195,1713.657,1722.788,like it can even play a strictly simpler game like tic-tac-toe so something to me was missing from intelligence from that system.,0.85,,195,52
+196,1722.749,1732.087,That we would regard as intelligence and I think it was this idea of generality and and also learning so allows you to learn try to do that with alphago,0.8300000000000001,,196,53
+197,1731.985,1738.695,yeah we also go and Alpha 0 mu 0 and then got on all the things that we'll get into some,0.81,,197,53
+198,1738.557,1743.223,parts of there's just a fascinating trajectory here but let's just stick on chest,0.85,,198,53
+199,1743.184,1756.645,briefly on The Human Side of Chess you've proposed that from a game design perspective the thing that makes chess compelling as a game is that there's a creative tension between a bishop.,0.85,,199,53
+200,1756.841,1767.403,And the night can you explain this first I was really interesting to think about what makes game compelling makes it stick across centuries.,0.91,,200,54
+201,1767.535,1781.069,Yeah I was sort of thinking about this and actually a lot of even amazing chess players don't think about it necessarily from a games designer point of view so it's the business with my game design hat on that I was thinking about this why is chess so compelling and I think a critical,0.8200000000000001,,201,55
+202,1780.904,1782.023,reason,0.91,,202,55
+203,1781.822,1791.394,is the dynamic nurse of of the different kind of Chess positions you can have whether they're closed or open and other things comes from the bishop in the night so if you think about how,0.8300000000000001,,203,55
+204,1791.337,1792.384,different,0.91,,204,55
+205,1792.328,1802.143,the the capabilities of the bishop and Knight are in terms of the way they move and then somehow chess has evolved to balance those two capabilities more or less equally,0.8300000000000001,,205,55
+206,1801.933,1820.769,so that both roughly were three points each so you think their Dynamics is always there and then the rest of the rules are kind of trying to stabilize the game well maybe I mean it's sort of I don't eat chicken and egg situation probably both came together but the fact that there is got to this beautiful equilibrium where you can have the bishop or Knight they're so different in power but,0.8200000000000001,,206,55
+207,1820.604,1824.757,so equal in value across the set of the universe of all positions.,0.9,,207,55
+208,1824.817,1834.839,Right somehow they've been balanced by Humanity over hundreds of years I think gives gives the game the creative tension that you can swap the bishop and nights,0.89,,208,55
+209,1834.629,1846.893,Fred a bishop for an eye and you've there more or less the worth the same but now you aim for a different type of position if you have the night you want a closed position if you have the bishop you want an open position so I think that creates a lot of the creative tension in chess,0.77,,209,55
+210,1846.773,1851.781,so some kind of controlled creative tension from an AI perspective.,0.91,,210,55
+211,1851.805,1856.832,Do you think AI systems could Venture design games that are optimally compelling to humans.,0.88,,211,55
+212,1857.468,1866.68,Well that's an interesting question you know sometimes I get asked about Ai and creativity and and this and the way I answered that is relevant to that question which is that I think they're different,0.84,,212,56
+213,1866.632,1872.928,levels of creativity one could say so I think if we Define creativity as coming up with something original,0.89,,213,56
+214,1872.871,1879.634,right that's that's useful for a purpose then you know I think the kind of lowest level of creativity is like an interpolation,0.85,,214,56
+215,1879.56,1891.364,so an averaging of all the examples you see so maybe very basic AI system could say you could have that so you show it millions of pictures of cats and then you say give me an average looking cat right generate me an average-looking cat,0.88,,215,56
+216,1891.334,1900.123,I would call that interpolation then there's extrapolation which something like alphago showed so alphago played you know millions of games of go against itself.,0.9,,216,56
+217,1900.157,1906.875,And then it came up with brilliant new ideas like move 37 in game to Britain Motif strategies and go.,0.84,,217,56
+218,1906.926,1914.914,That no humans had ever thought of even though we've played it for thousands of years and professionally for hundreds of years so that that I call that extrapolation,0.84,,218,56
+219,1914.731,1923.034,but then that's still there still a level above that which is you know you could call out-of-the-box thinking or true Innovation which is could you invent go.,0.86,,219,56
+220,1923.176,1933.423,Did you invent chess and not just come up with a brilliant chess move or brilliant go move but can you can you actually invent chess or something as good as chess or go and I think one day.,0.89,,220,57
+221,1933.483,1938.914,A I could but the what's missing is how would you even specify that task too,0.84,,221,57
+222,1938.749,1948.754,a program right now and the way I would do it if I was best toiling a human to do a tour games designer to human games designer to do it is I would say something like go I would say.,0.78,,222,57
+223,1949.156,1955.812,Come up with a game that only takes 5 minutes to learn which go dies because got simple rules but many lifetimes to master.,0.85,,223,58
+224,1955.926,1964.508,Right or impossible to master in one lifetime because it's so deep and so complex and then it's aesthetically beautiful and also,0.79,,224,58
+225,1964.334,1972.754,it can be completed in three or four hours of gameplay time which is you know useful for our us you know in a human day and so,0.8200000000000001,,225,58
+226,1972.634,1981.963,you might specify these side of high-level Concepts like that and then you know with that and maybe a few other things one could imagine that go satisfies,0.86,,226,58
+227,1981.888,1996.466,those constraints but the problem is is that we're not able to specify abstract Notions like that high-low abstract Notions like that yet to our AI systems and I think there's still something missing there in terms of,0.79,,227,58
+228,1996.229,2003.812,high-level Concepts or abstractions that they truly understand and you know combined a bond and compositional so,0.76,,228,58
+229,2003.728,2012.157,for the moment I think AI is capable of doing interpolation extrapolation but not true invention so coming up with rulesets.,0.88,,229,58
+230,2012.64,2021.933,And optimizing with complicated objectives around those rulesets we can't currently do but you could take a specific rule set,0.8,,230,59
+231,2021.885,2033.366,and then run kind of self play experiment to see how long just observe how an AI system from scratch learns how long is that journey of learning and maybe.,0.91,,231,59
+232,2033.399,2044.988,If it satisfies some of those other things you mentioned towards the quick links to learn and so on and you could see a long journey to master for even an AI system that you could say that this is a promising game.,0.75,,232,59
+233,2045.264,2052.289,But it would be nice to do almost like Alpha codes of programming yeah rules so generating rules that kind of,0.9,,233,60
+234,2052.205,2065.198,that that automate even that part of the generation of rules so I have thought about systems actually I think the amazing in for a games designer if you could have a system that takes your game,0.84,,234,60
+235,2065.06,2071.842,plays it tens of millions of times maybe overnight and then self balances the rules better so get tweaks the rules.,0.8,,235,60
+236,2071.848,2077.45,And maybe the equations and and and the parameters so that the game,0.8300000000000001,,236,60
+237,2077.375,2088.802,it's more balanced the units in the game or some of the rules could be tweaked so it's a bit of like a giving a base set and then allowing Monte Carlo tree search or something like that to sort of explore it.,0.84,,237,60
+238,2088.961,2096.94,Right and I think that would be super super powerful tool actually for for balancing Auto balancing a game which usually takes,0.8200000000000001,,238,61
+239,2096.82,2108.4,thousands of hours from hundreds of games human games testers normally to to balance some other one you know game like Starcraft which is you know blizzard are amazing at balancing their games but it takes them years and years and years.,0.84,,239,61
+240,2108.451,2115.134,So one could imagine at some point when this this stuff becomes efficient enough to you know you might better do that like overnight,0.88,,240,61
+241,2115.041,2124.253,do you think a game that is optimal design a Nai system would look very much like planet Earth,0.76,,241,61
+242,2124.223,2129.852,say p maybe it's only the sort of game I would love to make is is and I've tried.,0.8,,242,61
+243,2129.966,2144.265,It might make it my games career the game's design career you know my first big game was designing a theme park amusement park then with games like Republic I tried to you know have games where we designed whole cities and and allows you to play in.,0.72,,243,61
+244,2144.343,2151.071,So and of course people like will right have written games like Sim Earth trying to simulate the whole of Earth pretty tricky.,0.78,,244,61
+245,2151.077,2154.87,But I say mirth I haven't actually played that one so what is it does it,0.75,,245,61
+246,2154.804,2162.576,isn't afraid of evolution or yeah it has Evolution and it sort of tries to it sort of treats it as an entire biosphere but from quite high level.,0.8,,246,61
+247,2162.654,2173.315,So nice to be able to sort of zoom in zoom out and zoom in exactly so obviously it couldn't do that was in the night I think he wrote that in the 90s so it couldn't hit you no it wasn't it wasn't able to do that.,0.85,,247,61
+248,2173.483,2180.328,But that would be obviously the ultimate Sandbox game of course and that topic do you think we're living in a simulation.,0.75,,248,62
+249,2180.658,2183.659,Yes well it's okay so I'm going to jump around,0.77,,249,63
+250,2183.638,2191.572,from the absurdly philosophical To The Shore Technical very very happy too so I think my answer to that question is a little bit complex because.,0.74,,250,63
+251,2191.776,2197.487,There is simulation Theory which obviously Nick Bostrom I think famously first proposed.,0.85,,251,64
+252,2197.519,2205.57,And I don't quite believe it in the in that sense so in the in the sense that are we in some sort of computer game,0.86,,252,64
+253,2205.486,2216.913,or have our descendants somehow recreated Earth in the you know 21st century and and some for some kind of experimental reason I think that but I do think.,0.81,,253,64
+254,2216.974,2225.07,That we that we might be that the best way to understand physics and the universe is from a computational perspective.,0.8300000000000001,,254,64
+255,2225.175,2234.405,So understanding it as an information universe and actually information being the most fundamental unit of reality,0.87,,255,64
+256,2234.177,2251.545,rather than matter or energy so physicists would say you know matter or energy you know equals mc squared these are the things that are the fundamentals of the universe I'd actually say information which of course itself can be can specify energy or matter right matter is actually just you know we're,0.85,,256,64
+257,2251.317,2262.051,we're just out the way our bodies and will be molecules in our body arranged this information so I think information may be the most fundamental way to describe the universe and therefore,0.76,,257,64
+258,2261.823,2280.631,you could say we're in some sort of simulation because of that but I do I do I'm not I'm not really subscriber to the idea that you know these are sort of throw away billions of simulations around I think this is actually very critical and possibly unique this simulation particular one yes up but and you just mean.,0.79,,258,64
+259,2281.097,2284.205,Treating the universe as a computer.,0.9,,259,65
+260,2284.617,2293.028,That's processing and modifying information is a good way to solve the problems of physics of chemistry or biology,0.71,,260,66
+261,2292.997,2300.238,in perhaps of humanity and so on yes I think understanding physics in terms of information Theory.,0.77,,261,66
+262,2300.307,2305.361,Might be the best way to really understand what's going on here,0.87,,262,67
+263,2305.214,2315.416,from our understanding of universal turing machine from our understanding of a computer do you think there's something outside of the capabilities of a computer,0.81,,263,67
+264,2315.314,2317.874,that is present in our universe you have a,0.91,,264,67
+265,2317.727,2325.679,this agreement with Roger pen writes all the nature of Consciousness he did he thinks that Consciousness is more than just a computation,0.7000000000000001,,265,67
+266,2325.559,2338.894,do you think all of it the whole shebang is it can be can be a company I've had many fascinating debates with sir Roger Penrose and obviously he's famously and I read you know emperor's new mind and and,0.86,,266,67
+267,2338.675,2346.528,and his books his classical books and they were pretty influential and the you know the 90s and he believes that there's something more.,0.9,,267,67
+268,2346.507,2355.881,He had something Quantum that is needed to explain Consciousness in the brain I think about what we're doing actually it didn't mind and what my career is being,0.8300000000000001,,268,68
+269,2355.689,2363.713,we're almost like two rings Champion so we are pushing Turing machines or classical computation to the limits what are the limits of what,0.78,,269,68
+270,2363.503,2372.472,classical Computing can do now and at the same time I've also studied Neuroscience to see and that's why I did my PhD in was to see,0.9,,270,68
+271,2372.307,2379.287,also to look at you know is there anything Quantum in the brain from a neuroscience or biological perspective and and so far,0.87,,271,68
+272,2379.068,2392.412,I think most neuroscientists and most mainstream biologists a neuroscientist would say there's no evidence of any Quantum systems or effects in the brain as far as we can see it's it can be most explained by classical classical theories so.,0.78,,272,68
+273,2392.833,2410.876,And then so they're sort of the the search from the biology side and then at the same time there's the raising of the water at the bar from what classical Turing machines can do and and and you know including our new AI systems and as you alluded to earlier,0.9,,273,69
+274,2410.675,2417.025,you know I think Ai and especially in the last decade plus has been a continual story now surprising,0.77,,274,69
+275,2416.824,2427.666,events and surprising successors knocking over one Theory after another what was thought to be impossible you know from go to protein folding and so on and so I think,0.91,,275,69
+276,2427.456,2429.142,I would,0.88,,276,69
+277,2428.986,2441.358,be very hesitant to bet against how far the universal turing machine and classical computation Paradigm can go and and my betting would be,0.91,,277,69
+278,2441.184,2454.312,that all of certainly what's going on in our brain can probably be mimicked or approximated on a classical machine not you know not requiring something metaphysical or quantum,0.91,,278,69
+279,2454.219,2464.043,and we'll get there with some of the work with Alpha fold which I think begins a journey of modeling this beautiful and complex world of biology,0.85,,279,69
+280,2463.996,2473.325,so you think all the magic of the human mind comes from this just a few pounds of mush but biological computational mush,0.9,,280,69
+281,2473.322,2477.016,that's akin to some of the neural networks.,0.91,,281,69
+282,2477.4,2488.665,Not directly but in spirit that demand has been working with well look I think it's you say it's a few know of course it's this is the I think that the biggest Miracle of the universe is that,0.81,,282,70
+283,2488.59,2501.394,it is just a few pounds of mush in our skulls and yet it's also our brains in the most complex objects in the in that we know of in the universe so there's something profoundly beautiful and amazing about our brains and I.,0.71,,283,70
+284,2501.391,2502.087,Think,0.91,,284,71
+285,2502.057,2513.403,that it's an incredibly incredible efficient machine and and and it's you know come phenomenon basically and I think that building a,0.87,,285,71
+286,2513.346,2522.126,one of the reasons I want to build a i and I've always wanted to is I think by building an intelligent artifacts like Ai and then comparing it to the human mind,0.78,,286,71
+287,2521.916,2544.776,um that will help us unlock the uniqueness and the true secrets of the mind that we've always wondered about since the dawn of History like Consciousness dreaming creativity emotions what all these things right we've wondered about them since since the dawn of humanity and I think one of the reasons and you know I love philosophy and philosophy of mind is,0.76,,287,71
+288,2544.611,2556.164,we found it difficult as there haven't been the tools for us to really other than introspection to from very clever people in history very clever philosophers to really investigate this scientifically but now,0.79,,288,71
+289,2556.017,2562.997,suddenly we have a plethora of tools firstly we have all of the Neuroscience tools fmri machine single cell recording all of this stuff but we also have,0.8,,289,71
+290,2562.849,2570.225,the ability computers in AI to build intelligent systems so I think that.,0.91,,290,71
+291,2570.222,2587.429,You know I think it is amazing what the human mind does and and and I'm kind of in awe of it really and and I think it's amazing that with our human Minds we're able to build things like computers and and actually even you know thinking investigate about these questions I think that's also Testament,0.78,,291,72
+292,2587.228,2588.419,to the human mind.,0.89,,292,72
+293,2588.578,2597.88,Yeah the universe built the human mind that now is building computers that help us understand both the universe and our own human mind right,0.91,,293,73
+294,2597.869,2601.508,exactly it I mean I think that's one reason I one could say Where We Are.,0.71,,294,73
+295,2601.631,2613.85,Maybe we're the mechanism by which the universe is going to try and understand itself yeah it's beautiful so let's let's go to the basic building blocks of biology that I think.,0.86,,295,73
+296,2614.099,2622.547,Is another angle at which you can start to understand the human mind the human body which is quite a fascinating which is from the basic building blocks,0.78,,296,74
+297,2622.463,2632.449,start to simulate stuck to model how from those building blocks you can construct bigger and bigger more complex systems maybe one day the entirety of the human biology so.,0.8200000000000001,,297,74
+298,2632.941,2640.371,Here's another problem that thought to be impossible to solve which is protein folding and Alpha folder.,0.9,,298,75
+299,2640.845,2648.941,Specific Alpha fold to did just that it's solved protein folding I think it's one of the biggest breakthroughs.,0.85,,299,76
+300,2649.019,2655.558,Certainly in history structural biology but in general and in science.,0.85,,300,76
+301,2656.104,2660.752,Maybe from a high-level what is it and how does it work,0.8200000000000001,,301,77
+302,2660.713,2674.733,and then we can ask some fascinating show questions after sure so maybe I took splain it to people not familiar with protein folding is you know I first of all explain proteins which is you know proteins are essential to all life,0.8300000000000001,,302,77
+303,2674.703,2688.785,every function in your body depends on proteins sometimes they're called the workhorses of biology and if you look into them and I've been obviously as part of alpha fold I've been researching proteins and structural biology for the last few years you know they're amazing,0.88,,303,77
+304,2688.773,2695.897,little bio nanomachines proteins the incredible if you actually watch the little videos of how they work animations of how they work and,0.81,,304,77
+305,2695.876,2704.485,proteins are specified by their genetic sequence called the amino acid sequence so you can think of it as their genetic makeup and then in the body.,0.79,,305,77
+306,2704.527,2709.193,In nature they when they when they fold up into a 3D structure,0.91,,306,78
+307,2709.191,2716.62,so you can think of it as a string of beads and then they fold up into a ball now the key thing is you want to know what that 3D structure is.,0.91,,307,78
+308,2716.653,2724.164,Because the structure the 3D structure of a protein is what helps to determine what does it do the function it does in your body,0.85,,308,78
+309,2723.999,2739.324,and also if you're interested in drug drugs or disease you need to understand that 3D structure because if you want to Target something with a drug compound about to block that something the proteins doing you need to understand where it's going to bind on the surface of the protein,0.91,,309,78
+310,2739.249,2747.714,it's obviously 15 order to do that you need to understand the 3D structure so the structure is mapped to the function the structure is mapped to the function and the structure is obviously somehow,0.7000000000000001,,310,78
+311,2747.702,2761.497,specified by the by the amino acid sequence and that's the Innocence the protein folding problem is can you just from the amino acid sequence the one-dimensional string of letters can you immediately computation you predict,0.89,,311,78
+312,2761.43,2767.348,the 3D structure right and it has been a Grand Challenge in biology for over 50 years.,0.8200000000000001,,312,78
+313,2767.363,2777.764,So I think it was first articulated by Christian and fincen a Nobel Prize winner 1972 as part of his Nobel prize-winning lecture and he just speculated this should be possible,0.8300000000000001,,313,78
+314,2777.716,2788.08,to go from the amino acid sequence to the 3D structure be didn't say how so is it I thought you know I've been it's been described to me as equivalent of Fermat's Last Theorem but for biology,0.8,,314,78
+315,2787.996,2793.743,he should have somebody that very well might win the Nobel Prize in the future but outside of that.,0.85,,315,78
+316,2794.163,2800.53,You should do more of that kind of thing in the margin just put random things that will take like two hundred years solve.,0.84,,316,79
+317,2800.546,2817.257,That people offer to your videos should be pastas actually and just don't give any additional actually I think everyone's exactly should be I'll have to remember that for future so yeah so he said off you know with this one throwaway remark just like fermat you know he he said off this whole 50 years,0.9,,317,79
+318,2817.046,2826.061,field really of computational biology and and they had you know they got stuck they hadn't really got very far with doing this and and,0.84,,318,79
+319,2826.031,2829.932,until now until Alpha folk came along this is done experimental e.,0.81,,319,79
+320,2829.956,2844.272,Right very painstakingly so the rule of thumb is and you have to like crystallized the protein which is really difficult some proteins can't be crystallized like membrane proteins and then you have to use very expensive electron microscopes or x-ray crystallography machines,0.84,,320,79
+321,2844.044,2847.927,really painstaking work to get the 3D structure and visualize the 3D.,0.88,,321,79
+322,2848.285,2855.291,So the rule of thumb in experimental biology is that takes one PhD student their entire PhD to do one protein,0.87,,322,80
+323,2855.261,2864.636,and without the full to were able to predict the 3D structure in a matter of seconds and so we were you know over Christmas,0.8,,323,80
+324,2864.579,2879.174,"we did the whole human proteome or every protein in the human body or 20,000 proteins so the human proteome is like the equivalent of the human genome but on pro teams base and and sort of revolutionized really what structural biologists can do",0.84,,324,80
+325,2879.171,2888.68,because now they don't have to worry about these painstaking experimental you know should they put all of that effort in or not they can almost just look up the structure of their proteins like a Google search.,0.86,,325,80
+326,2888.939,2891.903,And so there's a data set on which its.,0.89,,326,81
+327,2891.927,2903.435,Trained and how to map this amino acid sequence first of all it's incredible that a protein this little chemical computer is able to do that computation itself into some kind of distributed way and do it very quickly.,0.9,,327,81
+328,2903.657,2907.297,That's a weird thing and they evolve that way because you know in the beginning.,0.8,,328,81
+329,2907.591,2916.524,I mean that's a great invention just the protein itself I mean and then there's I think probably a history of like they evolved.,0.76,,329,82
+330,2916.837,2927.372,To have many of these proteins and those proteins figure out how to be computers themselves so in such a way that you can create structures that can interact and complexes with each other in order to form.,0.9,,330,83
+331,2927.468,2937.158,High-level functions and it's a weird system that they figured it out well for sure I mean we you know maybe we should talk about the origins of life too but proteins themselves I think are magical,0.89,,331,83
+332,2936.993,2944.864,and incredible as I said little little bio nanomachines and and actually let Levin towel.,0.84,,332,83
+333,2944.879,2957.485,Who is another scientist a contemporary of a Vinson he coined this Levin towel what became known as Levin towels Paradox which is exactly what you're saying he calculated roughly approached an average protein,0.85,,333,83
+334,2957.419,2965.884,which is maybe 2000 amino acids and bases long is is can fold in maybe 10 to the power 3 hundred,0.75,,334,83
+335,2965.818,2972.699,different confirmations so the 10 to the power three hundred different ways that protein could fold up and yet somehow in nature.,0.72,,335,83
+336,2972.768,2978.28,Physics solves this solves this in a matter of milliseconds so proteins fold up in your body,0.85,,336,83
+337,2978.169,2988.957,in you know sometimes in fractions of a second so physics is somehow solving that search problem and just to be clear in many of these cases may be correct me if I'm wrong,0.91,,337,83
+338,2988.891,2990.892,there's often a unique way.,0.91,,338,83
+339,2991.322,3000.975,For that sequence to form itself yesso among the huge number of possibilities yes it figures out a way how to stably.,0.77,,339,84
+340,3000.999,3011.31,In some cases there's might be misfunction Miss so on which leads to a lot of the disorders and stuff like that but yes most of the time it's a unique mapping and that unique mappings that obvious no,0.77,,340,84
+341,3011.189,3019.25,exactly it's just what the problem is exactly so there's a unique mapping usually in a healthy in if it's healthy and as you say in disease.,0.89,,341,84
+342,3019.895,3031.61,So for example outside MERS 111 conjecture is that it's because of misfolded protein protein that folds in the wrong way amyloid-beta protein so and then because it falls in the wrong way it gets Tangled Up,0.86,,342,85
+343,3031.589,3035.291,right in your end your neurons so,0.75,,343,85
+344,3035.108,3051.892,it's super important to understand both healthy functioning and and also disease is to understand you know what these things are doing and how they're structuring of course the next step is sometimes proteins change shape when they interact with something so they're not just static necessarily in in biology.,0.91,,344,85
+345,3052.078,3060.669,Maybe you can give some interesting sort of beautiful things to you about these early days of alpha fold of.,0.9,,345,85
+346,3060.828,3065.791,Of solving this problem because unlike games this is real.,0.9,,346,85
+347,3065.995,3080.546,Physical systems that are less amenable to self play type of mechanisms should the size of data set is smaller than you might otherwise likes have to be very clever about certain things is there something you could speak to,0.79,,347,86
+348,3080.534,3094.346,what was very hard to solve and what are some beautiful aspects about the the solution yeah I always take a four-fold is the most complex and also probably most meaningful system we've built so far so it's been an amazing time actually in the last,0.91,,348,86
+349,3094.218,3103.97,you know 23 years to see that come through because as we talked about earlier you know games is what we started on building things like alphago and Alpha 0,0.84,,349,86
+350,3103.769,3122.361,but really the ultimate goal was to not just to crack games it was just to build use them to bootstrap General Learning Systems we could then apply to real-world challenges specifically my passion is scientific challenges like protein folding and then Alpha fold of course is our first big proof point of that and so,0.8300000000000001,,350,86
+351,3122.16,3124.693,in terms of the data,0.75,,351,86
+352,3124.528,3136.027,and the amount of innovations that had to go into it we you know it was like more than 30 different component algorithms needed to be put together to crack the protein folding I think some of the big Innovations were the,0.8300000000000001,,352,86
+353,3135.826,3137.431,kind of,0.91,,353,86
+354,3137.266,3150.944,building in some hard-coded constraints around physics and evolutionary biology to constrain sort of things like the bond angles in the in the in the protein and things like that.,0.91,,354,86
+355,3151.256,3158.01,Along but not to impact the Learning System so still allowing the system to be able to learn the physics,0.75,,355,87
+356,3157.782,3173.918,"itself from the examples that we had and the examples as you say there are only about 150 thousand proteins even after 40 Years of experimental biology only around 150,000 proteins have been the structures of being found out about so that was our training set which is",0.85,,356,87
+357,3173.726,3181.974,much less than normally we would like to use but using various tricks things like self distillation so actually using,0.91,,357,87
+358,3181.791,3197.323,Alpha folds predictions some of the best predictions that it thought was highly confident in we put them back into the training set right to make the training set bigger that was critical to to Alpha fold working so there was actually a huge number of different.,0.87,,358,87
+359,3197.356,3201.743,Innovations like that that were required to to ultimately crack the problem.,0.91,,359,87
+360,3201.93,3210.386,A four-fold one What It produced was disc 2 G so a kind of Matrix of the pairwise distances between,0.89,,360,88
+361,3210.203,3217.263,all of the molecules in the in the in the protein and then there had to be a separate optimisation process too,0.88,,361,88
+362,3217.026,3235.088,create the 3D structure and what we did for Alpha V uu is make it truly end-to-end so we went straight from the amino acid sequence of bases to the 3D structure directly without going through this intermediate step and in machine learning what we've always found is that,0.86,,362,88
+363,3234.914,3240.408,the more end-to-end you can make it the better the system and this probably because,0.88,,363,88
+364,3240.225,3258.125,we you know the in the end the system is better at learning what the constraints are then then then we are as the human designers of specifying it so anytime you can let it flow end to end and actually just generate what it is you're really looking for in this case the 3D structure you're better off than having this intermediate step which you then have to handcraft,0.81,,364,88
+365,3257.924,3266.488,the next step for so it's better to let the gradients in the learning flow all the way through the system from the endpoint the end output you want to the.,0.8300000000000001,,365,88
+366,3266.701,3272.294,So that's a good way to start a new problem handcraft a bunch of stuff add a bunch of Manuel constraints.,0.79,,366,88
+367,3272.498,3278.767,With a small and 10 learning piece or a small learning piece and grow that learning piece until it consumes as a whole,0.78,,367,89
+368,3278.701,3282.935,that's right and so you can also see you know this is a bit of a method we've,0.91,,368,89
+369,3282.806,3293.882,over doing many sort of successful outfits we call them out 4X projects right is and the easiest way to see that is the evolution of alpha go to Alpha 0 so Alpha go,0.78,,369,89
+370,3293.699,3297.816,was a learning system but it was specifically trained to only play Go.,0.8300000000000001,,370,89
+371,3297.858,3304.72,Right so and what we wanted to do and with the first version of alphago is just get to world champion performance no matter how we did it.,0.76,,371,89
+372,3304.852,3311.112,Right and then and then of course alphago zero we remove the need to use human games as a starting point.,0.86,,372,90
+373,3311.127,3316.099,Right so it could just play against itself from random starting point from the beginning.,0.87,,373,90
+374,3316.15,3322.869,So that removes the need for human knowledge about go and then finally Alpha 0 then generalized it so there any,0.85,,374,90
+375,3322.83,3327.28,things we had in there the system including things like symmetry of the go board,0.9,,375,90
+376,3327.052,3343.691,we removed so the alpha 0 could play from scratch any two player game and then mu 0 which is the final that our latest version of that set of things was then extending it so that you didn't even have to give it the rules of the game it would learn that for itself so it could also deal with computer games as well as board games,0.79,,376,90
+377,3343.58,3353.009,so that line of alpha golf goes 0 Alpha 0 mu 0 that's the full trajectory of what you can take from imitation learning.,0.8,,377,90
+378,3353.032,3362.245,To full self supervised learning yeah exactly and learning learning the entire structure of the environment you're put in,0.73,,378,90
+379,3362.161,3374.29,from scratch right and and and and bootstrapping it through self play yourself but the thing is it would have been impossible I think all very hard for us to build Alpha 0 or mu 0 first out of the box.,0.88,,379,90
+380,3374.449,3381.33,Even psychologically because you have to believe in yourself for a very long time you're constantly dealing with doubt because a lot of,0.77,,380,91
+381,3381.255,3393.231,people say that it's impossible exactly so it was hard enough just to do go as you were saying everyone thought that was impossible or at least a decade away from when we when we were did it in back in 2015 24th 2016,0.75,,381,91
+382,3393.156,3402.215,and and so yes it would have been psychologically probably very difficult as well as the fact that of course we learn a lot by building Alpha go first,0.9,,382,91
+383,3402.194,3410.65,right so it's I think this is why I call AI and engineering science it's one of the most fascinating science disciplines but it's also an engineering science in the sense that,0.81,,383,91
+384,3410.53,3424.531,unlike Natural Sciences the phenomenon you're studying doesn't exist out in nature you have to build it first so you have to build the artifact first and then you can study how and pull it apart and how it works this is tough too.,0.77,,384,91
+385,3424.637,3440.547,Ask you this question because you probably will say it's everything but let's let's try let's try to think through this because you're in a very interesting position where deepmind is the place of some of the most brilliant ideas in the history of AI but it's also a place of brilliant engineering,0.81,,385,91
+386,3440.345,3447.127,so how much of solving intelligence this big goal for deepmind how much of it is.,0.8300000000000001,,386,91
+387,3447.196,3455.571,Science how much is engineering so how much is the algorithms how much is the data how much is the hard work compute infrastructure.,0.89,,387,91
+388,3455.713,3459.064,How much is it the software computer infrastructure,0.91,,388,92
+389,3458.998,3471.055,um what else is there how much is the human infrastructure and like just the humans interacting certain kinds of ways you can all as base of all those ideas and how much does maybe like philosophy how much what's the key,0.86,,389,92
+390,3471.043,3472.469,if,0.91,,390,92
+391,3472.871,3482.389,If you were to sort of look back like if we go forward 200 years looking back what was the key thing that solved intelligence,0.85,,391,93
+392,3482.188,3495.298,is that ideas are the engineers a combination I first of all of course it's a combination of all those things but the ratios of them changed over to overtime so so even in the last 12 years we started deep mine in 2010,0.77,,392,93
+393,3495.296,3500.898,which is hard to imagine now because 2010 Sony 12 short years ago but nobody was talking about AI.,0.84,,393,93
+394,3500.949,3507.037,Yeah I don't remember back to your MIT days ago you no one was talking about it I did a postdoc at MIT back around then,0.81,,394,93
+395,3506.908,3513.069,and it was sort of thought of as well look we know AI doesn't work we tried this hard in the 90s at places like MIT,0.87,,395,93
+396,3512.895,3523.17,mostly losing using logic systems and old-fashioned sort of good old-fashioned AI we would call it now people like Minsky and and Patrick Winston and you know all these characters right and,0.86,,396,93
+397,3523.041,3529.453,he's the debate a few of them and they used to think I was mad thinking about that some new Advanced could be done with learning systems.,0.9,,397,93
+398,3529.468,3537.78,I was actually pleased to hear that because at least you know you're on a unique track at that point right even if every all of your you know Professor the tells you you're mad sure,0.88,,398,93
+399,3537.723,3542.857,and of course in Industry you can we couldn't get you know difficult to get two cents together,0.88,,399,93
+400,3542.836,3551.112,and which is hard to imagine now as well given this the biggest sort of buzzword in VCS and fundraising ZZ and all these kind of things today so.,0.84,,400,93
+401,3551.541,3557.189,Back in 2010 it was very difficult and what we the reason we started then and Shane and I used to discuss,0.87,,401,94
+402,3557.105,3564.652,um what was the sort of founding tenants of deepmind and it was various things one was algorithmic advances,0.74,,402,94
+403,3564.532,3573.996,so deep learning you know Geoff Hinton and courage just had just sort of invented that in Academia but no one in Industry knew about it we love reinforcement learning we thought that could be scaled up.,0.86,,403,94
+404,3574.128,3582.539,But also understanding about the human brain had Advanced quite a lot in the decade prior with fmri machines and other things so we could get some.,0.91,,404,95
+405,3582.653,3590.777,Good hints about architectures and algorithms and and and sort of representations may be that the brain uses so as at a systems level,0.84,,405,95
+406,3590.773,3595.692,no add a implementation level and then the other big things were.,0.73,,406,95
+407,3595.725,3604.388,And gpus right so we could see a compute was going to be really useful and I got to a place where it become commoditized mostly through the games industry.,0.79,,407,95
+408,3604.403,3613.498,And and that could be taken advantage of and then the final thing was also mathematical and theoretical definitions of intelligence so things like aixi a like see,0.91,,408,95
+409,3613.459,3620.862,which Shane worked on with his supervisor markets hotel which is sort of theoretical proof really of universal intelligence.,0.76,,409,95
+410,3620.868,3629.027,Which is actually reinforcement learning system in the limit I mean it seems infinite Computing infinite memory in the way through you know like a turing machine Prius,0.86,,410,95
+411,3628.79,3631.944,but I was also waiting to see something like that too,0.88,,411,95
+412,3631.707,3640.496,you know like Turing machines and and computation Theory they're people like cheering and Shannon came up with underpins modern computer science,0.81,,412,95
+413,3640.268,3651.047,you know I was waiting for a theory like that to sort of underpin a GI research so when I you know met Shane and so he was working on something like that you know that to me was a sort of final piece of the jigsaw so.,0.78,,413,95
+414,3651.278,3653.477,In the early days I would say that,0.86,,414,96
+415,3653.276,3670.59,ideas where the most important you know and for us it was deep reinforcement learning scaling up deep learning of course we've seen Transformers so huge leaps I would say like 3 or 4 from 4 if you think from 2010 till now huge Evolution seems like alphago,0.87,,415,96
+416,3670.479,3674.263,and and and maybe there's a few more still needed.,0.91,,416,96
+417,3674.62,3681.879,As we get closer to a i AGI I think it will engineering becomes more and more important and data,0.8,,417,97
+418,3681.858,3690.828,because scale and of course the recent you know results are gp3 in all the big language models and large models including our ones has shown that scale,0.85,,418,97
+419,3690.654,3699.182,is a is a large models are clearly going to be a necessary but perhaps not sufficient part of an AGI solution and,0.91,,419,97
+420,3698.99,3707.572,throughout that like you said and I'd like to give you a big thank-you you're one of the Pioneers in this is sticking by ideas like,0.79,,420,97
+421,3707.47,3712.289,reinforcement learning that this can actually work given oxygen.,0.9,,421,97
+422,3712.466,3720.571,Limited success in the past and also which we still don't know but proudly.,0.91,,422,97
+423,3720.658,3729.546,Having the best researchers in the world and talking about solving intelligence so talking about whatever you call it a GI or something like this.,0.91,,423,97
+424,3729.588,3741.402,That's speaking of MIT that's that's just something not you wouldn't bring up no not not maybe you did in like 40 50 years ago but that was.,0.71,,424,97
+425,3741.76,3750.09,Um a I was a place where you do tinkering very small-scale not very ambitious projects and,0.81,,425,98
+426,3749.988,3759.407,maybe the biggest ambitious projects were in the space of Robotics and doing like the DARPA challenge so the task of solving intelligence and believing you can.,0.89,,426,98
+427,3759.593,3768.652,That's really really powerful so in order for engineering to do its work to have great engineers build great systems you have to have that belief,0.87,,427,98
+428,3768.55,3782.011,the threads throughout the whole thing that you can actually solve some of these impossible challenges yeah that's right and and back in 2010 you know our mission statement and still is today you know it was used to be solving Step 1 solve intelligence.,0.86,,428,98
+429,3782.045,3786.648,Up to use it to solve everything else yes so if you can imagine pitching that to a VC in 2010.,0.8200000000000001,,429,98
+430,3786.717,3792.355,You know the kind of looks we got we managed to you know find a few key people to backups but,0.8,,430,98
+431,3792.226,3806.039,it was it was Ricky and I got to the point where we wouldn't mention it to any of our professors because they would just I roll and think we you know committed career suicide and and and and you know so it was there's a lot of things that we had to do.,0.87,,431,98
+432,3806.288,3812.934,We always believed it and once reason you know by the way one reason we I believe I've always believed in reinforcement learning is that.,0.8300000000000001,,432,99
+433,3813.291,3816.328,If you look at Neuroscience that is the way,0.8,,433,100
+434,3816.154,3829.102,that the you know primate brain learns one of the main mechanisms is the dopamine system Implement some form of TD learning has very famous result in the late 90s where they saw this in monkeys and and as you know,0.84,,434,100
+435,3829.01,3832.685,probably game prediction error so we you know again in the limit,0.8,,435,100
+436,3832.664,3840.49,this is this is what I think you can use Neuroscience for is is you know any at mathematics you when you're when you're doing something as ambitious as trying to solve intelligence,0.8,,436,100
+437,3840.425,3848.89,and you're you know it's blue sky research no one knows how to do it you you you need to use any evidence or any source of information you can to help,0.84,,437,100
+438,3848.887,3860.349,guide you in the right direction or give you confidence you're going in the right direction so that was one reason we push so hard on that and I think it's just going back to your earlier question about organization the other big thing,0.89,,438,100
+439,3860.121,3870.765,that I think we innovated with it deepmind to encourage invention and and and Innovation was the multidisciplinary organization we built and we still have today so,0.73,,439,100
+440,3870.555,3879.875,deepmind originally was a Confluence of the of the most cutting-edge knowledge in Neuroscience with machine learning engineering and Mathematics right and gaming.,0.88,,440,100
+441,3879.962,3882.711,And then since then we built that out even further,0.91,,441,101
+442,3882.627,3890.237,so we have philosophers here and and bioethicists but also other types of scientists physicists and so on and that's what,0.91,,442,101
+443,3890.081,3895.935,brings together I tried to build a sort of new type of bell Labs but in his Golden Era,0.81,,443,101
+444,3895.743,3914.831,right and and a new expression of that to try and Foster this incredible sort of innovation machine so talking about the humans in the machine we're the Mind itself is a learning machine with a lot of amazing human Minds in it coming together to try and build these learning systems,0.84,,444,101
+445,3914.711,3924.248,if we return to the big ambitious dream of alpha fold that maybe the early steps on a very long journey,0.8300000000000001,,445,101
+446,3924.173,3927.011,in in biology.,0.78,,446,101
+447,3928.439,3937.067,Do you think the same kind of approach can use to predict the structure and function of more complex biological systems so multi protein interaction.,0.89,,447,102
+448,3937.289,3938.615,And then,0.91,,448,102
+449,3938.549,3950.372,I mean you can go up from there yeah just simulating bigger and bigger systems that eventually simulate something like the human brain or the human body just the big mush the massive the Beautiful.,0.89,,449,102
+450,3950.549,3957.367,Resilient mess of biology do you see that as a long-term Vision I do and I think,0.87,,450,103
+451,3957.301,3975.317,you know if you think about what are the things top things I wanted to apply a I too once we had powerful enough systems biology and curing diseases and understanding biology was right up there you know top of my list that's one of the reasons I personally pushed that myself and with Alpha fold but I think Alpha fold,0.89,,451,103
+452,3975.161,3978.297,amazing as it is is just the beginning.,0.91,,452,103
+453,3978.258,3986.192,And and and I hope it's an Evidence of what could be done with computational methods so,0.9,,453,104
+454,3985.955,4001.181,you know Alpha fold solve this this huge problem of the structure of proteins but biology is dynamic so really what I imagined from here and we're working on all these things now is protein-protein interaction protein ligand binding so reacting with molecules,0.7000000000000001,,454,104
+455,4000.953,4005.988,then you want to put get build-up to Pathways and then pinch eventually a virtual cell,0.84,,455,104
+456,4005.814,4022.903,that's my dream maybe in the next 10 years and I've been talking actually to a lot of biologists friends of mine Paul nurse who runs the Crick Institute amazing biologist Nobel prize-winning biologist we've been discussing for 20 years now virtual cells could you build a virtual simulation of a cell and if you could that would be incredible for,0.85,,456,104
+457,4022.684,4047.237,Balaji and dizzy Discovery because you could do loads of experiments on the virtual cell and then only at the last stage validate it in the wet lab so you could you know that in terms of the search space of discovering new drugs you know text 10 years roughly to go from to go from you know identifying a Target to having a drug candidate maybe that could be shortened to you know by an order of magnitude with if you could do most of that,0.8200000000000001,,457,104
+458,4047.062,4051.216,that work in silico so in order to get to Virtual cell.,0.8300000000000001,,458,104
+459,4051.581,4064.998,We have to build up understanding of different parts of biology in the interactions and and so we you know we every few years we talked about this with what I talked about this with poor and then finally last year after Alpha fault I said Now's the Time,0.8,,459,105
+460,4064.986,4079.789,we can finally go for it and Alpha folds the first proof point that this might be possible and he's very exciting we have some collaborations with his with his lab and they're just across the road actually from our services you know Wonderful being here in Kings Cross with the Crick Institute across the road and.,0.88,,460,105
+461,4079.84,4080.761,And I think,0.84,,461,105
+462,4080.731,4091.843,the next steps you know I think there's going to be some amazing advances in biology built on top of things like Alpha fold we're already seeing that with the community doing that after we've open sourced and released it,0.91,,462,105
+463,4091.813,4098.225,and you know I often say that I think if you think of mathematics,0.86,,463,105
+464,4098.141,4107.56,is the perfect description language for physics I think AI might be end up being the perfect description language for biology because biology so messy,0.8,,464,105
+465,4107.531,4117.283,it's so emergent so Dynamic and complex I think I find it very hard to believe we'll ever get to something as elegant as Newton's Laws of motions to describe a cell.,0.9,,465,105
+466,4117.307,4125.295,Right it's just too complicated so I think AI is the right tool for this you have to you have to start at the basic building blocks,0.72,,466,105
+467,4125.247,4135.027,and use AI to run the simulation for all those building blocks so have a very strong way to do prediction of what given these building blocks what kind of biologic how the.,0.8,,467,105
+468,4135.167,4139.221,The function and the evolution of that biological system.,0.91,,468,105
+469,4139.399,4151.087,It's almost like a cellular automata you have to run you can't analyze it from a high level you have to take the basic ingredients figure out the rules yeah and let it run but in this case the rules are very difficult to figure out yes,0.89,,469,106
+470,4150.904,4159.396,exact learn them that's exactly it so it's the Balaji too complicated to figure out the rules it's it's it to emergent to Dynamic,0.8300000000000001,,470,106
+471,4159.366,4172.269,say a competitor physics system like the motion of a planet right and and so you have to learn the rules and that's exactly the type of systems that we're building so you you must leave open sores Alpha fold and even the data involved.,0.77,,471,106
+472,4172.41,4174.358,To me personally also.,0.91,,472,106
+473,4175.075,4184.611,Really happy in a big thank you for open-sourcing with Yoko the physics simulation engine that's that's often used for robotics research and so on.,0.8,,473,107
+474,4184.905,4190.778,So I think that's a pretty gangster move so what's the what's I mean this.,0.91,,474,108
+475,4191.0,4197.052,Very few companies or people do that kind of thing what's the philosophy behind that,0.8300000000000001,,475,109
+476,4197.031,4205.262,you know it's a case-by-case basis and in both those cases we felt that was the maximum benefit to humanity to do that and and the scientific community.,0.9,,476,109
+477,4205.305,4216.101,In one case the robotics physics Community with my joke oh so we're just that we purchased difference for wipe to OBS we published it for the express principle to open source set so,0.77,,477,109
+478,4215.981,4224.878,so you know I hope people appreciate that is great to hear that you do and then the second thing was and mostly we did it because the person building it is,0.78,,478,109
+479,4224.785,4237.95,would not it was not able to cope with supporting it anymore because it was it got too big for him is amazing Professor who built it in the first place so we helped him out with that and then without fourfold even bigger I would say and I think in that case,0.79,,479,109
+480,4237.802,4242.397,we decided that there were so many Downstream applications of alpha fold.,0.89,,480,109
+481,4242.457,4248.707,Um that we couldn't possibly even imagine what they all were so the best way to accelerate,0.91,,481,109
+482,4248.569,4259.294,drug Discovery and also fundamental research would be to give all that data away and and and the and the and the system itself,0.88,,482,109
+483,4259.111,4267.279,you know it's been so gratifying to see what people have done that within just one year which is a short amount of time in science and it's been used by,0.91,,483,109
+484,4267.222,4279.999,"over 500,000 researchers have used it we think that's almost every bar largest in the world think there's roughly 500,000 biologists in the world professional biologist have used it to to look at there and proteins of Interest.",0.8200000000000001,,484,109
+485,4280.311,4295.006,We see an amazing fundamental research done so a couple of weeks ago front cover of there was a whole special issue of science with including the front cover which had the nuclear pore complex on it which is one of the biggest proteins in the body the nuclear pore complex has a protein that governs,0.84,,485,110
+486,4294.805,4301.236,all the nutrients going in and out of your cell nucleus so they're like little Holt gateways that open and close to,0.85,,486,110
+487,4301.016,4311.03,things go in and out of your cell nucleus so they're really important but they're huge because they're massive do not ring shape things and they've been looking to try and figure out that structure for decades,0.86,,487,110
+488,4310.82,4317.79,and they have lots of you know experimental data but it's too low resolution there's bits missing and they were able to like a giant Lego,0.86,,488,110
+489,4317.707,4325.83,jigsaw puzzle use Alpha for predictions plus experimental data and combined those two independent sources information,0.78,,489,110
+490,4325.646,4345.58,actually four different groups around the world are able to put it together the second more or less simultaneously using Alpha 4 predictions so that's been amazing to see and pretty much every farmer company every Drug Company executive I've spoken to have said that their teams are using Alpha fold to accelerate whatever drugs they're they're trying to discover so I think the knock-on effect.,0.81,,490,110
+491,4345.748,4347.363,Has been enormous,0.8200000000000001,,491,110
+492,4347.315,4360.029,in terms of the impact that Alpha folders made and it's probably bringing and it's creating biologists bringing more people into the field but both on the excitement and both on the technical skills involved.,0.86,,492,110
+493,4360.395,4361.299,Enough.,0.8200000000000001,,493,111
+494,4361.475,4371.183,It's almost like a gateway drug to biology yes it is you follow computational people involved to hopefully and I think for us you know the next stage,0.84,,494,111
+495,4371.045,4383.228,as I said you know future we have to have other considerations to we're building on top of alpha fold and these other ideas I discussed with you about protein-protein interactions and and genomics and other things and not everything will be open source some of it will,0.89,,495,111
+496,4383.009,4391.366,well do commercially because I will be the best way to actually get the most resources in Impact behind it in other ways other some other projects will do nonprofit Style,0.8200000000000001,,496,111
+497,4391.156,4399.468,and also we have to consider for future things as well safety and ethics as well like but you know synthetic biology there are you know there is dual use.,0.91,,497,111
+498,4399.492,4408.002,And we have to think about that as well with Alpha fold we you know we consulted with 30 different bioethicists and and other people expert in this field to make sure it was safe before,0.8300000000000001,,498,111
+499,4407.783,4418.04,we released it so they'll be other considerations in future but for right now you know I think Alpha fold is a kind of a gift from us to to the scientific community so I'm pretty sure,0.78,,499,111
+500,4417.974,4421.1,that something like Alpha fold,0.8200000000000001,,500,111
+501,4421.007,4435.468,would be part of Nobel prizes in the future but us humans of course are horrible credit assignment so will of course give it to the humans do you think there will be a day when AI system.,0.85,,501,111
+502,4436.419,4445.848,Can't be denied that it learned that Nobel Prize do you think we will see that in 21st century it depends what type of AI is we end up building.,0.87,,502,112
+503,4445.872,4453.671,Whether they're you know goal-seeking agents who specifies the goals who comes up with the hypotheses.,0.87,,503,112
+504,4453.686,4465.545,Who you know who determines which problems to tackle right so I think it's about announcement it's results announced the results exactly as part of it so I think right now of course it's it's it's,0.75,,504,112
+505,4465.335,4472.378,amazing human Ingenuity that's behind the systems and then the system in my opinion is just at all you know be a bit like saying.,0.79,,505,112
+506,4472.383,4485.8,With Galileo and his telescope you know the Ingenuity the the credit should go to the telescope I mean it's clearly Galileo building the tool which he then uses so I still see that in the same way today even though these tools learn for themselves.,0.8200000000000001,,506,112
+507,4485.833,4492.641,Um they are I think of I think of things like Alpha fold and the things we're building as the Ultimate Tools for science,0.77,,507,112
+508,4492.584,4499.681,and for acquiring new knowledge to help us as scientists acquire new knowledge I think one day there will come a point where.,0.87,,508,112
+509,4500.345,4510.295,An AI system may solve will come up with something like general relativity off its own bat not just by averaging everything on the internet or averaging everything on PubMed.,0.8200000000000001,,509,113
+510,4511.066,4519.316,That would be interesting to see what that would come up with so that to me is a bit like our earlier debate about creativity you know inventing go,0.91,,510,114
+511,4519.114,4522.34,rather than just coming up with a good go move,0.89,,511,114
+512,4522.112,4531.46,and so I think solving I think too you know if we wanted to give it the credit of like a noble type of thing then it would need to invent go,0.91,,512,114
+513,4531.24,4542.172,and sort of invent that new conjecture out of the blue rather than being specified by the the human scientists or the human Creator so I think right now that's it's definitely just at all,0.86,,513,114
+514,4542.07,4551.49,although it is interesting how far you get by averaging everything on the internet like you said because you know a lot of people do see science as you're always standing on the shoulders of giants,0.81,,514,114
+515,4551.468,4559.07,and the question is how much are you really reaching up above the shoulders of giants maybe it's just,0.91,,515,114
+516,4559.012,4563.201,assimilating different kinds of results of the past.,0.76,,516,114
+517,4563.45,4577.875,With ultimately this New Perspective that gives you this breakthrough idea but that idea may not be novel in the way that we can be already discovered in the internet maybe the Nobel prizes of the next hundred years already all there on the internet.,0.89,,517,115
+518,4577.908,4586.013,"To be discovered they could be they could be I mean I think
+this is one of the big Mysteries I think is that.",0.88,,518,115
+519,4586.091,4595.96,I first of all I believe a lot of the big new breakthroughs that are going to come in the next few decades and even in the last decade are going to come at the intersection between different subject areas.,0.84,,519,115
+520,4596.056,4602.028,Where they'll be some new connection that's found between what seemingly were disparate areas,0.88,,520,115
+521,4602.025,4611.732,and one can even think of deepmind is as I said earlier as a sort of interdisciplinary between Neuroscience ideas and AI engineering ideas originally and so.,0.86,,521,115
+522,4611.837,4621.707,So I think there's that and then one of the things we can't imagine today is and the one of the reasons I think people we were so surprised by how well large models worked is that actually.,0.78,,522,115
+523,4621.983,4627.568,It's very hard for our human Minds our limited human Minds to understand what it would be like to read the whole internet,0.78,,523,116
+524,4627.511,4634.419,but I think we can do a thought experiment and I used to do this of like well what if I read the whole of Wikipedia what would I know,0.88,,524,116
+525,4634.334,4645.599,and I think our minds can just about comprehend maybe what that would be like but the whole internet is beyond comprehension so I think we just don't understand what it would be like to have about a hold all of that in mind,0.86,,525,116
+526,4645.371,4655.358,potentially right and then active at once and then maybe what are the connections that are available there so I think no doubt there are huge things to be discovered just like that,0.89,,526,116
+527,4655.139,4665.026,but I do think there is this other type of creativity of true spark of new knowledge new idea never thought before about can't be average from things that are known,0.89,,527,116
+528,4664.798,4671.462,that really of course everything comes you know nobody creates in a vacuum so there must be a clue somewhere,0.87,,528,116
+529,4671.243,4679.808,that just a unique way of putting those things together I think some of the greatest scientists in history have displayed that I would say although it's very hard to know,0.81,,529,116
+530,4679.796,4689.179,going back to their time what was exactly known when they came up with us whether you're making a really think because just a thought experiment,0.8300000000000001,,530,116
+531,4689.095,4692.546,of deeply knowing 100 Wikipedia pages.,0.84,,531,116
+532,4693.191,4702.647,I don't think I can I've been really impressed by Wikipedia for for technical topics yeah so if you know 100 Pages or 1000 pages.,0.89,,532,117
+533,4702.886,4706.733,I don't think you can Vision truly comprehend what's.,0.77,,533,117
+534,4706.811,4721.759,What kind of intelligence that is yeah it's a pretty powerful tool if you know how to use that in integrate that information correctly yes I think go really far yeah you can probably construct thought experiments based on that like simulate different ideas,0.72,,534,117
+535,4721.62,4728.15,who solve this is true let me run this thought experiment that maybe this is true it's not really invention it's like just.,0.72,,535,117
+536,4728.3,4738.241,Taking literally the knowledge and using it to construct the very basic simulation of the world we are some argue it's romantic and part but Einstein would do the same kind of things.,0.8300000000000001,,536,117
+537,4738.266,4747.595,What's a thought experiment yeah you one could imagine doing that systematically across millions of Wikipedia Pages plus PubMed all these things I think there are.,0.72,,537,117
+538,4747.853,4760.801,Many many things to be discovered like that they're hugely useful you know you could imagine and I want us to do some other things in Material Science like room-temperature superconductors is something on my list one day that I'd like to like it you know have an AI system to help build.,0.8,,538,118
+539,4760.825,4762.557,Better optimized batteries,0.76,,539,118
+540,4762.481,4772.711,all of these sort of mechanical things mr. I think a systematic sort of search could be guided by model could be could be extremely powerful,0.76,,540,118
+541,4772.654,4781.74,So speaking of which you have a paper on nuclear fusion magnetic control of Tokamak plasmas to deep reinforcement learning so you are.,0.88,,541,118
+542,4782.323,4789.456,You're seeking to solve nuclear fusion with D Bar L so it's doing control of high-temperature plasmas can you explain this work,0.79,,542,119
+543,4789.327,4804.102,and can a I eventually solve nuclear fusion it's been very fun last year or two very productive because we've been taking off a lot of my dream projects if you like the things that I've collected over the years of areas of science that I would like,0.88,,543,119
+544,4803.964,4811.502,I think could be very transformative if we helped accelerate and a really interesting problems scientific challenges in of themselves.,0.89,,544,119
+545,4811.535,4815.805,This is energy so energy yes exactly so energy and climate,0.6900000000000001,,545,119
+546,4815.784,4828.39,so we talked about disease and biology is being one of the biggest places I think I can out with I think energy and climate is another one so maybe they would be my top two and fusion is one one area I think I can help with,0.76,,546,119
+547,4828.324,4831.289,now Fusion has many challenges,0.77,,547,119
+548,4831.16,4845.17,mostly physics and Material Science and Engineering challenges as well to build these massive Fusion reactors and contain the plasma and what we try to do and whenever we go into a new field it has to apply our systems is we look for we talked to domain experts,0.8200000000000001,,548,119
+549,4845.024,4848.33,we try and find the best people in the world to collaborate with.,0.91,,549,119
+550,4848.715,4855.433,In this case infusion we collaborated with epfl in Switzerland Swiss Technical Institute who are amazing they have a test reactor.,0.74,,550,120
+551,4855.448,4865.12,They were they were willing to let us use which you know I double checked with the team we were going to use carefully and safely I was impressed they managed to persuade them to let us use it,0.91,,551,120
+552,4864.909,4877.704,and and it's an amazing test reactor they have there and they try all sorts of pretty crazy experiments on it and the that what we tend to look at is if we go into a new domain like Fusion,0.91,,552,120
+553,4877.53,4879.577,what are all the bottleneck problems.,0.89,,553,120
+554,4879.583,4889.228,It's like thinking from first principles you know what all the Boston at problems that are still stopping Fusion working today and then we look at we you know we get a fusion expert to tell us and then we look at those,0.8,,554,121
+555,4888.999,4894.008,bottlenecks and we look at the ones which ones are amenable to our AI methods today.,0.91,,555,121
+556,4893.923,4910.671,Yes light and and and that and would be interesting from a research perspective from our point of view from an AI point of view and that would address one of their bottlenecks and in this case plasma control was perfect so you know the plasma it's a million degrees Celsius something like that hotter than the sun,0.79,,556,122
+557,4910.443,4928.63,and there's obviously no material that can contain it so they have to be containing these magnetic very powerful most superconducting magnetic fields but the problem is plasma is pretty unstable as you imagine you're kind of holding a mini some mini star in a reactor so you know you kind of want to predict ahead of time,0.86,,557,122
+558,4928.385,4932.34,what the plasma is going to do so you can maneuver the magnetic field,0.91,,558,122
+559,4932.102,4950.353,within a few milliseconds you know to basically contain what it's going to do next so it seems like a perfect problem if you think of it for like a reinforcement learning prediction problem so you know you got controller you've got to move the magnetic field and cut an on till we came along you know they were they were doing with with traditional operational,0.86,,559,122
+560,4950.107,4959.814,research type of controllers which I kind of handcrafted and the problem is of course they can't react in the moment to something the plasma is doing now they have to be hard-coded and again,0.77,,560,122
+561,4959.65,4969.653,knowing that that's normally our go-to solution is we would like to learn that instead and they also had a simulator of these plasma so there are lots of criteria that matched what we like to do too,0.87,,561,122
+562,4969.426,4970.149,to use.,0.91,,562,122
+563,4970.632,4981.933,So can a I eventually solve nuclear fusion well so we would this problem and we published it in a nature paper last year we held the fusion that we held the plasma in a specific shape.,0.77,,563,123
+564,4982.038,4991.277,It's actually it's almost like carving the password into different shapes and control and hold it there for the record amount of time so so that's one of the problems.,0.91,,564,123
+565,4991.292,5004.96,Of fusion sort of solved so the have a controller that's able to no matter the shape contain it contains yeah contain it and hold it in structure and there's different shapes that are better for for the energy Productions called droplets and.,0.89,,565,123
+566,5004.993,5007.797,And and so on so so that was huge,0.89,,566,123
+567,5007.739,5015.34,and now we're looking we're talking to lots of fusion startups to see what's the next Pond we can tackle in the fusion area,0.86,,567,123
+568,5015.212,5024.954,so another fascinating place in a paper titled pushing the frontiers of density functions by solving the fraction electron problem so you're taking on.,0.91,,568,123
+569,5025.042,5030.122,Modeling and simulating the quantum mechanical behavior of electrons yes.,0.91,,569,123
+570,5030.776,5038.26,Can you explain this work in can AI model and simulate arbitrary quantum mechanical systems in the future,0.8300000000000001,,570,124
+571,5038.041,5044.66,yeah so this is not a problem I've had my eye on for you know decade or more which is,0.85,,571,124
+572,5044.477,5050.26,sort of simulating the properties of electrons if you can do that you can basically describe,0.9,,572,124
+573,5050.158,5062.953,how elements and materials and substances work so it's kind of like fundamental if you want to advance Material Science and you know we have Schrodinger's equation and then we have approximation to that,0.85,,573,124
+574,5062.725,5066.626,density functional Theory these things are you know a famous,0.79,,574,124
+575,5066.407,5075.952,and people try and write approximations to to these to these functionals and and kind of come up with descriptions of the electron clouds,0.85,,575,124
+576,5075.734,5094.011,where they're going to go how they're going to interact when you put two elements together and what we try to do is learn a simulation learn a functional that will describe more chemistry types of chemistry so until now you know you can run expensive simulations but then you can only simulate very small,0.91,,576,124
+577,5093.756,5098.701,molecules very simple molecules we would like to simulate large materials,0.91,,577,124
+578,5098.447,5107.334,and so today there's no way of doing that and we're building up towards building functionals that approximate Schrodinger's equation,0.9,,578,124
+579,5107.079,5117.228,and then allow you to describe what the electrons are doing and all material sort of Science and material properties are governed by the electrons and how they interact.,0.86,,579,124
+580,5117.198,5124.33,So I have a good summarization of the simulation through the functional.,0.81,,580,125
+581,5124.535,5131.299,But one that is still close to what the actual simulation would come out with so what.,0.91,,581,126
+582,5131.484,5144.136,How difficult a task was involved in that task is running those those complicated simulations and learning the task of mapping from the initial conditions and the parameters of the simulation learning what the functional would be yeah.,0.8300000000000001,,582,127
+583,5144.241,5164.12,So it's pretty tricky and we've done it with you know the nice thing is We There are we can run a lot of the simulations that the molecular Dynamic simulations on our compute clusters and so that generates a lot of data so in this case the data is generated so we like those sites sort of systems in this why we use games it's simulator generator data,0.8200000000000001,,583,127
+584,5163.892,5171.304,and we can kind of create as much of it as we want really and just list leave some you know if any computers are free in the cloud,0.88,,584,127
+585,5171.122,5176.274,we just run we run some of these calculations right compute cluster calculation like saw the the.,0.91,,585,127
+586,5176.289,5182.117,Computer Chimes used up on quantum mechanics quantum mechanics exactly simulations and protein simulations and other things,0.81,,586,127
+587,5182.114,5196.736,and so and so you know when you're not searching on YouTube for video cat videos we're using those completed usefully and quantum chemistry the idea by and and putting them to good use and then yeah and then all of that computation or data that's generated,0.79,,587,127
+588,5196.697,5205.72,we can then try and learn the functionals from that which of course a way more efficient once we learn the functional then running those simulations would be,0.87,,588,127
+589,5205.699,5215.146,do you think one day a I may allow us to do something like basically crack open physics so do something like travel faster than the speed of light.,0.8200000000000001,,589,127
+590,5215.332,5220.115,My ultimate aim is always been with AI is the reason I am.,0.87,,590,128
+591,5220.166,5229.739,Personally working on AI for my whole life it was to build a tool to help us understand still and stand the universe so I wanted to and that means physics really,0.78,,591,128
+592,5229.636,5232.439,and the nature of reality so.,0.91,,592,128
+593,5232.508,5241.342,I don't think we have systems that capable of doing that yet but it when we get towards AGI I think that's one of the first things I think we should apply AGI to,0.77,,593,128
+594,5241.141,5248.904,I would like to test the limits of physics and our knowledge of physics there's so many things we don't know I there's one thing I find fascinating about science and,0.84,,594,128
+595,5248.703,5256.223,you know is a huge proponent of the scientific method as being one of the greatest ideas Humanities ever had and allowed us to progress with our knowledge,0.87,,595,128
+596,5256.157,5269.411,but I think as a true scientist I think what you find is the more you find out you know the more you realize we don't know and and I always think that it's surprising that more people don't aren't quite bald you know every night I think about,0.74,,596,128
+597,5269.274,5273.561,all these things we interact with all the time that we have no idea how they work time.,0.91,,597,128
+598,5273.819,5282.644,Consciousness gravity life we can't I mean these are all the fundamental things of nature I think we don't really know what they are.,0.91,,598,129
+599,5283.164,5284.589,To live life,0.91,,599,130
+600,5284.505,5297.921,we pin certain assumptions on them and kind of treat our assumptions is if they're fact yeah that allows us to sort of box them off somehow yeah box them off so yeah well you're the reality is when you think of time.,0.75,,600,130
+601,5298.18,5300.037,You should remind yourself you should.,0.91,,601,131
+602,5300.385,5313.217,Put it off the take it off the shelf and realize like know we have a bunch of assumptions there's still a lot of there's even a lot of debate there's a lot of uncertainty about exactly what is time is there an arrow of time.,0.8300000000000001,,602,132
+603,5313.376,5320.769,You know there's a lot of fundamental questions that you can just make assumptions about and maybe a i allows you to.,0.85,,603,132
+604,5321.432,5331.671,Not put anything on the Shelf yeah well make any hard assumptions and really open it up and see what exactly I think we should be truly open minded about that and,0.8,,604,133
+605,5331.659,5340.862,exactly that not be dogmatic to a particular Theory will also allow us to build better tools experimental tools eventually.,0.73,,605,133
+606,5341.256,5346.461,That can then test certain theories that may not be testable today about those things about like.,0.88,,606,134
+607,5346.702,5354.014,What we spoke about the beginning about the computational nature of the universe how one might if that was true how one might go about testing that,0.91,,607,135
+608,5353.967,5362.981,right and and how much you know there are people who've congested people like Scott Aaronson and others about you know how much information can a specific,0.8200000000000001,,608,135
+609,5362.96,5370.57,Planck unit of space and time contain right so one might be able to think about testing those ideas if you had.,0.81,,609,135
+610,5370.684,5379.779,A I helping you build some new Exquisite experimental tools this is what I imagine the you know many decades from now will be able to do.,0.89,,610,135
+611,5379.794,5381.517,And what kind of.,0.91,,611,135
+612,5381.622,5396.334,Questions could be answered through running a simulation of them this or that there's a bunch of physics simulations you can imagine that could be run in an so some kind of efficient way much like you're doing in the quantum simulation work.,0.8,,612,135
+613,5396.664,5400.656,And perhaps even the origin of Life figuring out how,0.87,,613,136
+614,5400.617,5406.903,going even back before the work of Alpha V begins of how this whole thing,0.89,,614,136
+615,5406.819,5413.817,emerges from a rock yes from a static thing Woody what do you think AI will allow us to,0.81,,615,136
+616,5413.688,5422.143,is that something you have your eye on is trying to understand the origin of Life first of all yourself what do you think,0.91,,616,136
+617,5422.105,5430.804,how the heck did life originate on Earth yeah well maybe week I'll come to that in a second but I think the ultimate use of AI is too.,0.89,,617,136
+618,5430.855,5435.395,Kind of use it to accelerate science to the maximum so.,0.8200000000000001,,618,136
+619,5435.41,5441.561,Think of it a little bit like the tree of all knowledge the Imagine that's all the knowledge there is in the universe to attain.,0.76,,619,136
+620,5441.676,5454.372,And we sort of barely scratched the surface of that so far in even though you know we've done pretty well since the enlightenment right as humanity and I think AI will turbocharged all of that like we've seen with Alpha fold.,0.86,,620,137
+621,5454.45,5460.098,And I want to explore as much of that tree of knowledge as it's possible to do and.,0.89,,621,137
+622,5460.149,5465.049,And I think that involves AI helping us with with a with understanding or finding patterns.,0.84,,622,137
+623,5465.109,5478.516,Um that also potentially designing and building new tools experimental tools so I think that's all and also running simulations and learning simulations all of that we already we're sort of doing at a at a,0.91,,623,137
+624,5478.369,5487.41,at a baby steps level here but I can imagine that in in the decades to come as you know what's the full flourishing.,0.68,,624,137
+625,5487.489,5491.074,Of that line of thinking it's going to be truly incredible I would say,0.88,,625,137
+626,5490.999,5498.267,I visualize this tree of knowledge something tells me that that knowledge for tree of knowledge for humans is much smaller.,0.8200000000000001,,626,137
+627,5498.741,5504.317,In the set of all possible trees of knowledge is actually quite small given our cognitive.,0.85,,627,138
+628,5504.755,5515.669,Limitations limited cognitive capabilities that even with the with the tools we build we still won't be able to understand a lot of things and that's perhaps what.,0.88,,628,139
+629,5515.783,5524.382,Non-human systems may be up to reach farther not just as tools but in themselves understanding something that they can bring back.,0.91,,629,139
+630,5524.883,5533.042,It could well be so I mean there's so many things that are that are sort of encapsulated in what you just said there I think first of all.,0.91,,630,140
+631,5533.139,5543.116,There's there's two different things as like what do we understand today yeah what could the human mind understand and what is the totality of what is there to be understood right and so,0.91,,631,140
+632,5543.087,5555.062,that's three concentric and I can think of them as three larger larger trees or exploring more branches of that tree and I think with a i we're going to explore that whole lot now the question is is you know if you think about,0.73,,632,140
+633,5554.979,5558.735,what is the totality of what could be understood,0.91,,633,140
+634,5558.552,5574.129,there may be some fundamental physics reasons why certain things can't be understood like what's outside a simulation or outside the universe maybe it's not understandable from within the universe so that's there may be some hard constraints like that you know could be smaller constraints like we,0.91,,634,140
+635,5574.054,5581.259,think of space-time as fundamental as our human brains are really used to this idea of a three-dimensional world with time right,0.88,,635,140
+636,5581.13,5591.611,maybe without tools could go beyond that they wouldn't have that limitation necessary they could think in 11-12 Dimensions whatever is needed but we could still maybe understand that,0.77,,636,140
+637,5591.546,5603.35,in several different ways the example I always give is when I you know play Garry Kasparov at speed chess or we've talked about Chess and these kind of things you know he if you if you if you're reasonably good at chess.,0.89,,637,140
+638,5603.419,5612.37,You can you can't come up with the move Gary comes up with in his move but he can explain it to you and you can understand you can understand post hoc the,0.8300000000000001,,638,141
+639,5612.359,5620.283,yeah so so I think there's a there's an even further level of like well maybe you couldn't have invented that thing but but using like going back to using language again,0.76,,639,141
+640,5620.208,5627.044,perhaps you can understand and appreciate that same way that you can appreciate you know Vivaldi or Mozart something without,0.88,,640,141
+641,5626.979,5637.271,you can appreciate the beauty of that without being able to construct it yourself right invent the music yourself so I think we see this in all forms of life so it'll be that times you know.,0.88,,641,141
+642,5637.34,5644.743,I'm million but it would you can imagine also one sign of intelligence is the ability to explain things clearly and simply,0.75,,642,142
+643,5644.542,5650.459,why people are rich or find another one of my all-time Heroes used to say that right if you can't you know if you can explain it,0.74,,643,142
+644,5650.322,5660.407,something simply they need that's it that's the best sign a complex topic simply then that's one of the best songs of you understanding it yeah so I can see myself talking trash in the eye system and that way,0.67,,644,142
+645,5660.26,5670.183,yes it's a gets frustrated how dumb I am and it tried to explain something to me was like well that means you're not intelligent because if you were intelligent you be able to explain it simply,0.8300000000000001,,645,142
+646,5670.054,5685.721,yeah of course I mean that there's also the other option of course we could enhance ourselves and and without devices we are already sort of symbiotic with our compute devices right with our phones and other things and you know this stuff like neural link and accept sure that could be could advance that further,0.78,,646,142
+647,5685.502,5693.967,so I think there's lots of lots of really amazing possibilities that I could foresee from here well let me ask you some wild question so out there.,0.88,,647,142
+648,5693.974,5695.75,Looking for friends,0.91,,648,142
+649,5695.72,5704.968,do you think there's a lot of alien civilizations out there so I guess this also goes back to your origin of Life question to you because I think that that's key.,0.9,,649,142
+650,5705.253,5717.517,My personal opinion looking at all this and and you know it's one of my hobbies physics I guess so so I you know it's what I something I think about a lot and talk to a lot of experts on and read a lot of books on and I think.,0.8,,650,143
+651,5718.046,5727.96,My feeling currently is that that we are alone I think that's the most likely scenario given what what evidence we have so and the reasoning is I think that.,0.88,,651,144
+652,5728.677,5730.058,You know we've tried,0.91,,652,145
+653,5730.001,5739.842,since things like seti program and I guess since the dawning of the the Space Age we've you know had telescopes open radio telescopes and other things and,0.8300000000000001,,653,145
+654,5739.84,5747.918,if you think about and try to detect signals now if you think about the evolution of humans on Earth we could have easily been.,0.84,,654,145
+655,5747.996,5755.443,And Milling is ahead of our time now or million years behind right easily with just some slightly different quirk,0.85,,655,146
+656,5755.377,5763.744,thing happening hundreds of thousands years ago you know things could have been slightly different if the BET award hit the dinosaurs a Milling is earlier maybe things would have evolved,0.88,,656,146
+657,5763.507,5788.932,we be Milling is at the head of where we are now so what that means is if you imagine where Humanity will be in a few hundred years let alone a million years especially if we hopefully you know solve things like climate change and other things and we continue to flourish and we build things like Ai and we do space traveling and all of the stuff that that humans have dreamed of forever right and sci-fi is talked about forever,0.66,,657,146
+658,5788.731,5792.299,we will be spreading across the Stars,0.88,,658,146
+659,5792.089,5817.703,right and Von Neumann famously calculated you know it would only take about a million years if you send out Von Neumann probes to the nearest you know the nearest other solar systems and and then they built all they did was built two more versions themselves and set those two out to the next nearest systems you know with in a million years I think you would have one of these probes in every system in the Galaxy so it's not actually in Cosmo cosmological time that's actually very short amount of time,0.81,,659,146
+660,5817.467,5827.057,so and you know we have people like Dyson of thought about constructing Dyson spheres around stars to collect all the energy coming out of the star you know that they would be,0.84,,660,146
+661,5826.819,5829.424,constructions like that would be visible across base.,0.6900000000000001,,661,146
+662,5829.449,5841.146,Um probably even across the Galaxy so and then you know if you think about all of our radio television emissions that have gone out since since the you know 30s and 40s,0.91,,662,147
+663,5841.007,5847.438,imagine a million years of that and now hundreds of civilizations doing that when we opened our area is,0.87,,663,147
+664,5847.417,5852.605,at this point we got technologically sophisticated enough in the Space Age we should have.,0.76,,664,147
+665,5853.043,5859.87,Heard a cacophony of voices should have joined a cacophony of voices and what we did we open our ears and we heard nothing,0.81,,665,148
+666,5859.795,5874.633,and many people who argue that there are aliens would say well we haven't really done exhaustive search yet and maybe we're looking in the wrong bands and and we've got the wrong devices and we wouldn't notice what an alien form was likely be so different to what we're used to but,0.89,,666,148
+667,5874.559,5883.213,you know I know I don't really buy that that it shouldn't be as difficult as that like we I think we've searched enough there should be if it were everywhere if it was at yeah it should be everywhere,0.88,,667,148
+668,5883.174,5892.53,we should see Dyson spheres being put up son's blinking in and out you know there should be a lot of evidence for those things and then there are other people argue well the sort of safari view of like well we're,0.76,,668,148
+669,5892.492,5903.234,A Primitive species still cannot spacefaring out and and and we're you know there's some kind of global like Universal rule not to interfere Star Trek will but like look we can't even called me humans,0.8,,669,148
+670,5903.204,5917.719,to deal with climate change and where one species what it what is the chance that of all of these different human civilization you know alien civilizations they would have the same priorities and and and and agree or cross the you know these kind of matters and even if that was true.,0.87,,670,148
+671,5917.716,5930.583,And we were in some sort of Safar week for our own good to me that's not much different from the simulation hypothesis because what does it mean the simulation hypothesis I think in its most fundamental level it means what we're seeing is not quite reality,0.85,,671,149
+672,5930.517,5936.101,what it's something there's something more deeper underlying it may be computational now if we were in a,0.79,,672,149
+673,5936.008,5947.444,if we were in a sort of safari park and everything we were seeing was a hologram and is projected by the aliens or whatever that to me is not much different than thinking we're inside of Another Universe because we still can't see,0.75,,673,149
+674,5947.378,5952.387,true reality right I mean there's there's other explanations it could be that.,0.71,,674,149
+675,5952.618,5963.396,The way they're communicating is just fundamentally different that were too dumb to understand the much better methods of communication that have it could be I mean it's silly to say but,0.8200000000000001,,675,150
+676,5963.339,5972.992,our own thoughts could be the methods by which they're communicating like the place for which your ideas writers talk about this like the Muse yeah the the,0.84,,676,150
+677,5972.953,5983.219,it sounds like very kind of wild but it could be thoughts it could be some interactions with our mind that we think are originating from.,0.79,,677,150
+678,5983.315,5986.199,Us is actually something that.,0.91,,678,150
+679,5986.997,6000.756,Coming from other life forms elsewhere Consciousness itself might be that it could be but I couldn't see any sensible argument to the why would all of the alien species be using this way yes some of them will be more primitive they would be close to our level.,0.85,,679,151
+680,6000.77,6010.298,You know they would there should be a whole sort of normal distribution of these things right some would be aggressive some would be spent you know a curious others would be very stoic:,0.87,,680,151
+681,6010.277,6016.96,philosophical because you know maybe there are million years older than us but it's not it shouldn't be like what I mean one,0.91,,681,151
+682,6016.93,6030.805,one alien civilization might be like that communicating thoughts and others but I don't see why you know potentially the hundreds they should be would be uniform in this way right it could be a violent dictatorship that do the people the alien civilizations that.,0.8300000000000001,,682,151
+683,6031.189,6035.198,Become successful become.,0.91,,683,152
+684,6036.06,6044.731,Gain the ability to be destructive an order of magnitude more destructive but of course the the sad thought.,0.84,,684,153
+685,6045.746,6053.454,Wow either humans are very special we took a lot of leaps that arrived at what it means to be human yeah.,0.91,,685,154
+686,6053.623,6063.6,There's a question there which was the hardest which was the most special but also others have reached this level I may be many others have reached this level,0.9,,686,154
+687,6063.543,6065.959,the great filter.,0.91,,687,154
+688,6066.226,6078.112,That's prevented them from going farther to becoming a multiplanetary species are reaching out into the stars and those are really important questions for us weather.,0.9,,688,155
+689,6078.325,6088.096,Whether there's other alien civilizations out there are not this is very useful for us to think about if we destroy ourselves how will we do it and how easy is it to do,0.91,,689,155
+690,6088.092,6095.27,yeah well he and these are Big questions and I thought about these a lot but the interesting thing is that if we're if we're alone.,0.73,,690,155
+691,6095.717,6101.455,That's somewhat comforting from the great filter perspective because it probably means the great filters were Behar past us,0.86,,691,156
+692,6101.398,6109.188,I'm pretty sure they are so the buy-in going back to your origin of Life question there are some incredible things that no one knows how happened like obviously the first.,0.84,,692,156
+693,6109.293,6113.077,Life form from chemical soup that's seems pretty hard,0.84,,693,156
+694,6112.948,6126.986,but I would suggest the multicellular I wouldn't be that surprised if we saw a single level such as single cells sort of life forms elsewhere bacterial type things but multicellular life seems incredibly hard that step of you know capturing mitochondria and then.,0.8200000000000001,,694,156
+695,6127.001,6134.178,Sort of using that as part of yourself you know when you've just eaten would you say that's the biggest the most like.,0.85,,695,156
+696,6135.066,6142.866,If you had to choose one sort of Hitchhiker's Guide to the Galaxy one sentence summary of like oh those clever creatures,0.8,,696,157
+697,6142.764,6152.542,did this that would be the Multiverse I think that's probably the one that's the biggest I mean there's a great book called The 10 grand in four great inventions of evolution by Nick Lane any speculates on 10,0.79,,697,157
+698,6152.45,6165.866,ten of these you know what could be great filters I think that's one I think the Advent of of intelligence and conscious intelligence and in order to you know to us to be able to do science and things like that is huge as well,0.81,,698,157
+699,6165.701,6179.414,I mean it's only evolved once as far as you know in Earth history so that would be a later candidate but there's certainly for the early candidates I think multicellular life forms is huge by the way work it's interesting to ask you,0.79,,699,157
+700,6179.367,6186.58,if you can hypothesize about what is the origin of intelligence is it that we started.,0.89,,700,157
+701,6186.983,6194.458,Cooking meat over fire is it that we somehow figured out that we could be very powerful and start collaborating so,0.9,,701,158
+702,6194.427,6199.337,cooperation between our ancestors.,0.91,,702,158
+703,6199.36,6205.989,So that we can overthrow the alpha male what is it Richard I talked to Richard random who thinks we're all just,0.84,,703,158
+704,6205.878,6214.514,beta males who figured out how to collaborate to defeat the one that the dictator that authored Terrian alpha male that control the tribe.,0.68,,704,158
+705,6214.7,6221.797,Is there another explanation did was there 2001 Space Odyssey type of monolith yeah they came down to earth,0.85,,705,159
+706,6221.74,6227.82,well I think I think all of those things you suggest a good candidates fire and and cooking right so,0.78,,706,159
+707,6227.78,6233.608,that's clearly modern fan it for energy you know Energy Efficiency cooking our meat and then.,0.77,,707,159
+708,6233.641,6242.241,And then being able to to be more efficient about eating it and getting a consuming the energy I didn't ask you Jin then utilizing fire and tools,0.84,,708,160
+709,6242.194,6255.349,I think you're right about the the tribal Corporation aspects and probably language as part of that yes because probably that's what allowed us to out-compete neanderthals and and perhaps less Cooperative species so so that may be the case,0.79,,709,160
+710,6255.139,6257.491,tool making Spears axes.,0.66,,710,160
+711,6257.506,6269.32,I think that let us I mean I think it's pretty clear now that humans were responsible for a lot of the extensions of megafauna especially in Norton in the Americas when humans arrived so you can imagine,0.85,,711,160
+712,6269.128,6278.566,once you discover tool usage how powerful that would have been and how scary for animals so I think all of those could have been explanations for it now the interesting thing is,0.91,,712,160
+713,6278.535,6282.661,that is a bit like general intelligence to is it's very costly to begin with,0.84,,713,160
+714,6282.587,6296.543,to have a brain and especially a general-purpose brain rather than special-purpose one because he might have energy our brains use I think it's like 20% of the body's energy and its massive and then you're thinking chess one of the funny things are that we used to say is it as much as,0.81,,714,160
+715,6296.513,6299.793,a racing driver uses for a whole you know Formula One race,0.84,,715,160
+716,6299.763,6310.712,if just playing a game of you know serious high-level chess which we know you wouldn't think just sitting there because the brains using so much energy so in order for an animal an organism to justify that,0.81,,716,160
+717,6310.637,6313.602,there has to be a huge payoff.,0.8,,717,160
+718,6313.725,6323.162,And the problem with with half a brain or path you know intelligence saying IQs of you know of like a monkey brain it's.,0.91,,718,161
+719,6323.466,6338.43,It's not clear you can justify that evolutionary until you get to the humor level brain and so but how do you how do you do that jump it's very difficult which is why I think it's only been done once from the sort of specialized brains that you see an animal's to this sort of general purpose,0.8,,719,162
+720,6338.355,6342.22,cheering powerful brains that humans have,0.91,,720,162
+721,6342.047,6358.19,and which allows us to invent the modern modern world and you know it takes a lot to to cross that barrier and I think we've seen the same with AI systems which is that maybe until very recently it's always been easier to craft a specific solution to a problem like chess.,0.89,,721,162
+722,6358.197,6369.803,Then it has been to build a general Learning System that can potentially do many things because initially that system will be way worse than less efficient than the specialized system so one of the interesting,0.91,,722,162
+723,6369.675,6377.311,corks of the human mind of this evolved system is that it appears to be conscious,0.86,,723,162
+724,6377.191,6381.47,this thing that we don't quite understand but it seems very,0.91,,724,162
+725,6381.413,6392.435,very special ability to have a subjective experience that it feels like something to eat a cookie the deliciousness of it or see a color and that kind of stuff do you think,0.85,,725,162
+726,6392.261,6400.807,in order to solve intelligence we also need to solve Consciousness along the way do you think AGI systems need to have Consciousness in order to.,0.89,,726,162
+727,6401.029,6403.886,Be truly intelligent,0.91,,727,163
+728,6403.829,6411.691,yeah we thought about this a lot actually and I think that my guess is that Consciousness and intelligence are double dissociable,0.86,,728,163
+729,6411.661,6419.01,so you can have one without the other both ways and I think you can see that with Consciousness in that I think some animals,0.84,,729,163
+730,6418.989,6427.4,pets if you have a pet dog or something like that you can see some of the higher animals and dolphins things like that are have self-awareness.,0.88,,730,163
+731,6427.514,6431.91,And a very sociable seem to dream,0.9,,731,164
+732,6431.709,6440.354,you know those kinds of a lot of the traits one would regard as being kind of conscious and self-aware and but yet they're not that smart,0.91,,732,164
+733,6440.18,6448.753,right so they're not that intelligent bye-bye say IQ standards or something like that yeah it's also possible that our understanding of intelligence is flawed,0.8,,733,164
+734,6448.678,6458.485,like putting an IQ to it sure maybe the thing that a dog can do is actually gone a very far along the path of intelligence that we humans are just able to,0.85,,734,164
+735,6458.374,6470.17,play chess and maybe write poems right but if we go back to the idea of AGI and general intelligence you know dogs are very specialized white most animals are pretty specialized they can be amazing at what they do but they're like kind of Elite Sports,0.8,,735,164
+736,6470.086,6473.293,Sports people or something right so they are they having,0.76,,736,164
+737,6473.11,6494.701,extremely well because the entire brain is optimized if somehow convince the entirety of the human population to feed them and service them so in some way they're controlling yes exactly what we co-evolved to some crazy degree right including the the way the dogs you know even even wag their tails and twist their noses right we find we finding inexorably cute yeah,0.8300000000000001,,737,164
+738,6494.491,6501.039,but I think you can also see Intelligence on the other side so systems like artificial systems that are amazingly.,0.81,,738,164
+739,6501.216,6514.236,Smalt at certain things like maybe playing go and chess and some other things but they don't feel at all in any shape or form conscious in the way that you know you do to me or I do to you and.,0.76,,739,165
+740,6514.548,6517.26,And I think actually building a.,0.91,,740,166
+741,6517.293,6526.164,Is these intelligent constructs is one of the best ways to explore the mystery of Consciousness to break it down because we're going to have,0.9,,741,166
+742,6526.116,6529.45,devices that are pretty smart,0.91,,742,166
+743,6529.383,6538.308,at certain things or capable certain things but potentially won't have any semblance of self-awareness or other things and in fact I would advocate.,0.85,,743,166
+744,6538.503,6539.848,If there's a choice,0.91,,744,166
+745,6539.718,6554.341,Building Systems in the first place AI systems that are not conscious to begin with I just tools until we understand them better and and the capabilities better so on the topic just not as the CEO of deepmind.,0.79,,745,166
+746,6554.716,6562.668,Just as a human being let me ask you about this one particular anecdotal evidence of the Google engineer who made a comment.,0.8,,746,167
+747,6562.917,6571.689,Or believed that there are some aspect of language model the Lambda language model that exhibited sentience.,0.91,,747,168
+748,6571.811,6580.097,See said you believe there might be a responsibility to build systems that are not sentient and this experience of a particular engineer I think.,0.77,,748,168
+749,6580.337,6585.101,Lot to get your general opinion this kind of thing but I think it will happen more and more and more.,0.72,,749,168
+750,6585.432,6595.527,Which not one Engineers but when people out there that don't have an engineering background start interacting with increasingly intelligent systems we anthropomorphize them,0.84,,750,169
+751,6595.524,6606.653,they start to have deep impactful interactions with us in a way that we miss them yeah when they're gone and we sure as heck feel like.,0.8,,751,169
+752,6606.74,6614.512,Living entities self-aware entities and maybe even we project sentience onto them so what's your thought about this particular.,0.8300000000000001,,752,169
+753,6614.842,6616.988,System was is.,0.91,,753,170
+754,6617.174,6625.81,Have you ever met a language model that sentient not recognize no no what do you make of the case of when you kind of feel.,0.8,,754,170
+755,6625.933,6628.582,That there's some elements of sentience to this system.,0.87,,755,170
+756,6628.76,6642.959,Yeah so this is you know an interesting question and you'll see a very fundamental one so the first thing to say is I think that none of the systems we have today I would say even have one iota of semblance of Consciousness or sentience that's my.,0.7000000000000001,,756,171
+757,6643.011,6657.12,Personal feeling interacting with them every day so I think this way premature to be discussing what that engineer talked about I preach I think at the moment it's more of a projection of our the way our own minds work which is to see,0.78,,757,171
+758,6657.054,6669.498,sort of purpose and direction in almost anything that we you know our brains are trained to interpret agency basically in things even in an inanimate things sometimes and of course with.,0.91,,758,171
+759,6669.513,6678.581,A language system because language is so fundamental to intelligence that's going to be easy for us to anthropomorphize that I mean back in the day even the first.,0.91,,759,171
+760,6678.677,6686.287,The dumbest sort of template chatbots ever Eliza and and and and the ilk of the original chatbots back in the 60s,0.81,,760,171
+761,6686.194,6695.262,full some people under certain circumstances right a bit tender to be a psychologist so just basically rabbit back to you the same question you asked it back to you,0.74,,761,171
+762,6695.052,6709.756,and some people believe that so I don't think we can this is why I think the Turing test is a little bit flawed as a formal test because it depends on the sophistication of the of the judge whether or not they are qualified to make that distinction so.,0.91,,762,171
+763,6710.14,6724.736,I think we should talk to you know the top philosophers about this people like Daniel Dennett and David Chalmers and others who've obviously thought deeply about consciousness of course Consciousness itself hasn't been well there's no agreed definition if I was,0.9,,763,172
+764,6724.688,6727.05,you know speculate about that.,0.91,,764,172
+765,6727.056,6743.28,You know I kind of the deaf at the working definition I like is it's the way information feels when you know it gets processed I think maybe Max tegmark came up with that I like that idea and if it helps us get towards any more operational thing but it's I think it's a nice way of viewing it,0.8200000000000001,,765,172
+766,6743.052,6754.119,I think we can obviously see from Neuroscience certain prerequisites that are required like self-awareness I think is necessary but not sufficient component this idea of a self and other,0.9,,766,172
+767,6753.936,6771.296,and self coherent preferences that are coherent overtime you know these things are maybe memory these things are probably needed for a sentient or conscious being but the reason that the difficult thing I think for us when we get and I think this is a really interesting philosophical debate is,0.78,,767,172
+768,6771.158,6780.955,when we get closer to a GI and and you know and and much more powerful systems than we have today how we going to make this judgment and,0.8,,768,172
+769,6780.826,6787.751,one way which is the Turing test is sort of a behavioral judgment is is the system exhibiting all the behaviors,0.77,,769,172
+770,6787.551,6798.644,the human sentient or sentient being would exhibit is it answering the right questions is saying the right things is it indistinguishable from a human and so on.,0.8200000000000001,,770,172
+771,6799.226,6813.732,But I think there's a second thing that makes us as humans regard each other a sentient why do we why do we think this and I debated this with Daniel Dennett and I think there's a second reason that's over often overlooked which is that we're running on the same substrate,0.84,,771,173
+772,6813.649,6827.767,right so if we're exhibiting the same behavior more or less as humans and we're running on the same you know carbon-based biological substrate the squishy you know few pounds of Flesh in our skulls then the most parsimonious I think,0.91,,772,173
+773,6827.638,6836.319,explanation is that you're feeling the same thing as I'm feeling right but we will never have that second part the substrate equivalence with a machine.,0.89,,773,173
+774,6836.415,6841.864,Right so we will have to only judge based on the behavior and I think the substrate equivalents,0.85,,774,173
+775,6841.807,6856.241,is a critical part of why we make assumptions that we are conscious and in fact even with with animals high-level animals why we think they might be because they're exhibiting some of the behaviors we would expect from a sentient animal and we know they're made of the same things biological neurons so we're going to have to come up with.,0.8200000000000001,,775,173
+776,6857.066,6869.51,Explanations or models of the gap between substrate differences between machines and humans did to get anywhere beyond the behavioral but to me the Practical question is.,0.89,,776,174
+777,6869.688,6879.548,Very interesting very important when you have millions perhaps billions of people believing that you have a sentient AI believing what that Google engineer believed.,0.8200000000000001,,777,174
+778,6879.896,6887.038,Which I just see is an obvious very near-term future thing certainly on the path to a GI,0.9,,778,175
+779,6887.008,6896.886,how does that change the world what's the responsibility of the AI system to help those millions of people and also what's the ethical thing because,0.91,,779,175
+780,6896.856,6905.42,you can you can make a lot of people happy by creating a meaningful deep experience with the system.,0.84,,780,175
+781,6905.931,6915.458,That's faking it before makes it yeah and I don't is a weed the right who is this a what's the right thing to do.,0.86,,781,176
+782,6915.563,6923.002,Should a I always be tools like shy what why are we constraining I asked those be tools as opposed to.,0.8,,782,177
+783,6923.071,6930.104,Friends yeah I think well I mean these are you know that you know fantastic questions and also critical ones,0.79,,783,177
+784,6929.904,6945.67,and we've been thinking about this since the start of the mine and before that because we plan for success and you know how you know have a remote that look like back in 2010 and we've always had sort of these ethical considerations as fundamental a deep mind,0.77,,784,177
+785,6945.505,6951.953,my current thinking on the language models is and and large models is they're not ready we don't understand them well enough yet.,0.84,,785,177
+786,6952.04,6961.351,And you know in terms of analysis tools and and guardrails what they can and can't do and so on to deploy them at scale because I think,0.8,,786,177
+787,6961.15,6968.913,you know there are big still ethical questions like should an AI system always announce that it is an AI system to begin with probably yes,0.88,,787,177
+788,6968.721,6980.409,it what do you do about answering those philosophical questions about the feelings people may have about AI systems perhaps incorrectly attributed so I think there's a whole bunch of research that needs to be done first.,0.85,,788,177
+789,6980.488,6989.349,To responsibly before we you know you can responsibly deploy these systems at scale that would be at least be my current position over time,0.81,,789,177
+790,6989.265,7000.412,I'm very confident we'll have those tools to like interpretability questions and Analysis questions and then with the ethical quandary you know I think.,0.78,,790,177
+791,7000.895,7007.686,It's important to look Beyond just science that's why I think philosophy social sciences,0.86,,791,178
+792,7007.584,7019.434,even theology other things like that come into it where would it you know Arts and Humanities what what does it mean to be human and the spirit of Being Human and and to enhance that and and The Human Condition,0.8,,792,178
+793,7019.314,7027.563,right and allow us to experience things we could never experience before and improve the overall Human Condition and Humanity overall you know get radical abundance,0.8300000000000001,,793,178
+794,7027.497,7036.61,so many scientific problem solved disease so this is the era I think this is the amazing ear I think we're heading into if we do it right but we've got to be careful.,0.76,,794,178
+795,7036.644,7045.856,We've already seen with things like social media how dual-use Technologies can be misused by firstly by bad Hyuna p Bad actors,0.87,,795,179
+796,7045.781,7047.953,naive actors or crazy actors,0.77,,796,179
+797,7047.878,7056.073,right so there's that set of just the common or garden use misuse of existing dual-use technology and then of course there's an additional,0.8300000000000001,,797,179
+798,7055.864,7068.802,thing that has to be overcome with a either eventually it may have its own agency so it could be good or bad in it in a bit self so I think these questions have to be approached very carefully,0.8300000000000001,,798,179
+799,7069.267,7080.1,using the scientific method I would say in terms of hypothesis generation careful control testing not live a be testing out in the world because with powerful to do with Technologies like AI,0.87,,799,179
+800,7079.882,7096.566,if something goes wrong it may cause you know a lot of harm before you can fix it it's not like a you know an imaging app or game app where you know the if if something goes wrong it's relatively easy to fix and the harm is relatively small so I think it comes with you know the,0.87,,800,179
+801,7096.355,7099.464,the usual cliche of light with a lot of,0.81,,801,179
+802,7099.435,7107.71,power comes a lot of responsibility and I think that's the case here with things like AI given the enormous opportunity in front of us and I think.,0.86,,802,179
+803,7107.815,7114.894,We need a lot of voices and as many inputs into things like the design of the systems and the values,0.91,,803,180
+804,7114.855,7122.465,they should have and what goals should they be put to I think as wider group of voices as possible beyond just the technologist is needed,0.9,,804,180
+805,7122.408,7134.483,add to input into that and to have a say in that especially when it comes to deployment of these systems which is when the rubber really hits the road it really affects the general person in the street rather than fundamental research and that's why I say.,0.8300000000000001,,805,180
+806,7134.966,7140.694,I think as a first step it would be better if we have the choice to build these systems as tools,0.89,,806,181
+807,7140.493,7145.826,to give and I'm not saying that it should never they should never go beyond tools because of course the potential is there,0.85,,807,181
+808,7145.625,7156.682,way to go way Beyond just tools but I think that would be a good first step in order for us to you know allow us to carefully experiment understand what these things can do,0.78,,808,181
+809,7156.572,7171.671,so the leap between tool to sentient entity being as long as you take very careful yes let me ask a dark personal question so you're one of the most brilliant people in the a community also one of the most,0.91,,809,181
+810,7180.014,7185.211,creation of a super intelligent AI system would be one of the most.,0.9,,810,181
+811,7185.532,7198.993,Powerful things in the world tools or otherwise and again as the old saying goes power corrupts and absolute power corrupts absolutely you are,0.91,,811,182
+812,7198.855,7200.587,likely.,0.91,,812,182
+813,7201.07,7210.868,To be one of the people but I would say probably the most likely person to be in the control such a system do you think about.,0.9,,813,183
+814,7210.963,7223.408,The corrupting nature of power when you talk about these kinds of systems that as all dictators and people have caused atrocities in the past always think they're doing good.,0.91,,814,183
+815,7223.584,7235.983,But they don't do good because the power is polluted their mind about what is good and what is evil do you think about the stuff are we just focused on language model yeah I think about them all the time and you know I think.,0.85,,815,183
+816,7236.494,7244.5,What are the defenses against that I think one thing is to remain very grounded and sort of humble no matter what you do or achieve.,0.84,,816,184
+817,7244.668,7255.014,And I tried to do that I might you know my best friends are still my set of friends from my undergraduate Cambridge days my family's you know and and friends are very important.,0.89,,817,184
+818,7255.092,7258.39,I've always I think trying to be a multidisciplinary person,0.86,,818,185
+819,7258.217,7266.979,it helps to keep you humble because no matter how good you are at one topic someone will be better than you at that and it and always re learning a new topic again from scratch,0.87,,819,185
+820,7266.787,7272.262,is a new field is very humbling right so for me that's been biology over the last five years,0.91,,820,185
+821,7272.044,7296.911,you know huge area topic and and and it spins and I just love doing that but it helps to keep you grounded like and keeps you open-minded and and then the other important thing is to have a really group amazing set of people around you at your company or your organization who are also very ethical and grounded themselves and help to keep you that way and then ultimately just to answer your question I hope we're going to be a big part of,0.76,,821,185
+822,7296.692,7312.215,of birthing Ai and that being the greatest benefit to humanity of any tool or technology ever and and getting out into a world of radical abundance and curing diseases and and and and solving many of the big challenges we have in front of us and then ultimately,0.84,,822,185
+823,7311.996,7321.901,you know help the ultimate flourishing of humanity to travel the stars and find those aliens if they are there and if they're not there find out why they're not there what is going on here in the universe.,0.8200000000000001,,823,185
+824,7321.709,7330.264,Um this is all to come and and that's what I've always dreamed about but I don't think I think AI is too big an idea it's not going to be,0.87,,824,186
+825,7330.073,7339.618,Adele be a certain set of pioneers who get their first I hope to other we're in the Vanguard so we can influence how that goes and I think it matters who builds who which which,0.73,,825,186
+826,7339.426,7348.926,cultures they come from and what values they have the Builders of AI systems because I think even though the AI system is going to learn for itself most of its knowledge they'll be a residue,0.89,,826,186
+827,7348.725,7357.163,in the system of the culture and the values of the creators of the system and there's interesting questions to discuss about that geopolitically.,0.87,,827,186
+828,7357.196,7363.267,You know different cultures as we're going to more fragmented while than ever unfortunately I think in terms of global cooperation,0.79,,828,187
+829,7363.038,7380.317,we see that in things like climate where we can't seem to get our act together globally to cooperate on these pressing matters I hope that will change over time perhaps you know if we get to an Era of radical abundance we don't have to be so competitive anymore maybe we can be more Cooperative if resources aren't so scared,0.91,,829,187
+830,7380.161,7382.873,it's true that in terms of,0.91,,830,187
+831,7382.762,7396.845,power corrupting and leading to destructive things it seems that some of the atrocities of the past happen when there's a significant constraint on resources I think that's the first thing I don't think that's a no I think scarcity is one thing that's led to,0.81,,831,187
+832,7396.77,7409.07,competition distract you know sort of Zero Sum game thinking I would like us to all be in a positive some world and I think for that you have to remove scarcity I don't think that's enough unfortunately to get well piece because there's also other corrupting things like,0.74,,832,187
+833,7409.068,7420.251,wanting power over people and this kind of stuff which is not necessarily Satisfied by by just abundance but I think it will help and I think but I think ultimately AI is not,0.91,,833,187
+834,7420.113,7430.171,going to be run by any one person or one organization I think it should belong to the world belong to humanity and I think may have been many they'll be many ways this will happen and ultimately,0.8300000000000001,,834,187
+835,7430.007,7437.167,everybody should have a say in that do you have advice for young people,0.91,,835,187
+836,7437.092,7444.539,in high school and college maybe if they're interested in AI or interesting having a.,0.91,,836,187
+837,7444.662,7450.778,A big impact on the world what they should do to have a career that can be proud of her to have a life that could be proud.,0.89,,837,188
+838,7450.829,7464.254,I love giving talks to the Next Generation what I say to them is actually two things I think the most important things to learn about and to find out about when you're when you're young is what are your true passions is first of all as two things one is,0.85,,838,188
+839,7464.125,7470.483,find your true passions and I think you can do that by the way to do that is to explore as many things as possible,0.85,,839,188
+840,7470.48,7485.193,when you're young and you have the time and you can take those risks I would also encourage people to look at the finding the connections between things in a unique way I think that's a really great way to find a passion second thing I would say advises.,0.91,,840,188
+841,7485.298,7488.407,Know yourself so spend a lot of time.,0.88,,841,188
+842,7489.016,7495.411,Understanding how you work best like what are the optimal times to work wanted optimal ways that you study,0.8200000000000001,,842,189
+843,7495.408,7506.439,what are your how do you deal with pressure sort of test yourself in various scenarios and try and improve your weaknesses but also find out what your unique skills and strengths are.,0.91,,843,189
+844,7506.535,7508.068,And then home those,0.8,,844,189
+845,7508.011,7518.33,so then that's what your will be your Super Value in the world later on and if you can then combine those two things and find passions that you're genuinely excited about the intersect,0.75,,845,189
+846,7518.274,7521.202,with what your unique strong skills are.,0.91,,846,189
+847,7521.217,7529.53,Then you're you know you're onto something incredible and you know I think you can make a huge difference in the world so let me ask about know yourself this is fun,0.8200000000000001,,847,189
+848,7529.445,7536.84,this is fun quick questions about Day in the Life the perfect day the perfect productive day in the life of domicile yeah.,0.84,,848,189
+849,7537.043,7540.674,Maybe maybe these days your.,0.89,,849,189
+850,7540.77,7548.119,There's a lot involved yes maybe a slightly younger Tempest aside yeah when you could focus on a single project Maybe.,0.72,,850,189
+851,7549.088,7554.403,How early do you wake up what you night owl do you wake up early in the morning what are some interesting habits.,0.74,,851,190
+852,7554.697,7561.721,How many dozens of cups of coffees do you drink a day what's the computer that you use.,0.8200000000000001,,852,191
+853,7561.935,7572.786,What's the setup how many screens will kind of keyboard are we talking emacs Vim or we talking something more modern just a bunch of those questions so maybe day in the life,0.8300000000000001,,853,191
+854,7572.63,7580.86,what what's the perfect day involve well these days it's quite different from say 10 20 years ago back 10 20 years ago it would have been.,0.71,,854,191
+855,7580.957,7583.633,You know whole day of.,0.9,,855,191
+856,7583.792,7595.624,Research individual research or programming doing some experiment Neuroscience computer science experiment reading lots of research papers and then perhaps at night time you know,0.89,,856,191
+857,7595.55,7599.261,reading science fiction books or,0.91,,857,191
+858,7599.105,7605.914,playing some games but I lots of focus or the Deep focused work on whether it's.,0.81,,858,191
+859,7605.794,7619.354,Programming or reading research paper yes yes so that would be lots of debris for a now Focus work these days for the last sort of I guess you know five to ten years I've actually got quite a structure that works very well for me now which is that,0.86,,859,192
+860,7619.162,7636.161,um I'm a Knight complete Night Owl always have been so I optimized for that so you know I get it you know I basically do a normal day as well get into work about 11:00 and sort of do worked about seven in the office and I will arrange back-to-back meetings for the entire time,0.74,,860,192
+861,7635.979,7647.621,that and with as many meet as many people as possible so that's my collaboration management part of the day then I go home spend time with the family and friends have dinner,0.9,,861,192
+862,7647.457,7664.24,relax a little bit and then I start a second day of work I call it my second day of work around 10 p.m. 11 p.m. and that's the time to learn about the small hours of the morning for five in the morning where I will do my thinking and reading a research writing research papers,0.87,,862,192
+863,7664.038,7685.422,um sadly don't have time to code anymore but it's not efficient to to do that these days given them our time I have but that's when I do you know maybe do the long kind of stretches of thinking and planning and then probably you know using using email other things I would set I would fire off a lot of things to my team for to deal with the next morning,0.76,,863,192
+864,7685.212,7690.796,for actually thinking about this overnight we should go for this project or arrange this meeting the next day.,0.72,,864,192
+865,7690.667,7700.429,When you think it through a problem I'm talking about sheet of paper with a pen pen is there some it depends structure chili sauce I still like pencil and paper best for working out things.,0.84,,865,193
+866,7700.417,7712.699,But these days it's just so efficient to read research papers just on the screen my still often print them out actually I still prefer to Mark out things and if I find it goes into the brain quick better and sticks in the brain better when your,0.8300000000000001,,866,194
+867,7712.48,7722.277,you're still using physical pen and pencil and paper so you take notes with the have lots of notes electronic ones and also whole stacks of notebooks that,0.81,,867,194
+868,7722.058,7731.063,that I use at home yeah some of these most challenging next steps for example stuff none of us know about that you're working on your thinking.,0.9,,868,194
+869,7731.403,7737.041,There's some deep thinking required there right like what what is the right problem what is the right approach.,0.85,,869,195
+870,7737.083,7747.52,Because there you're going to have to invest a huge amount of time for the whole team they're going to have to pursue this thing what's the right way to do it as are all going to work here and yes.,0.87,,870,195
+871,7747.832,7763.102,What's the right thing to try was the right Benchmark to you you need to construct The Benchmark from scratch all those kinds of things yes so I think of all those kind of things and then might time phase but also much more I find I've always found the quiet hours of the morning,0.86,,871,196
+872,7762.919,7765.155,when everyone's asleep,0.89,,872,196
+873,7765.008,7775.741,it's super quiet outside I love that time so the golden hours like between like 1:00 and 3:00 in the morning put some music on some inspiring music on and then,0.8,,873,196
+874,7775.649,7780.729,I think these deep thoughts so that's when I would read you know my philosophy books and,0.78,,874,196
+875,7780.537,7788.399,Spinoza is my you know recent favorite can all these things and you know read about a great,0.89,,875,196
+876,7788.198,7798.994,scientists of History how they did things how they thought things so that's when you do all your create bats when I do all my creative thinking and it's good I think I think people recommend you know you do your,0.77,,876,196
+877,7798.784,7816.198,you're sort of creative thinking and one block and the way I organize the day that way I don't get interrupted because obviously no one else is up at those times so I can I can go you know it says I can sort of get super deep and super into flow the other nice thing about doing it nighttime wisest,0.91,,877,196
+878,7816.15,7829.818,if I'm really onto something or if I've got really deep into something I can choose to extend it and I'll go into six in the morning whatever and then I'll just pay for it the next day yeah so I'll be a bit tired and I won't be my best but that's fine,0.76,,878,196
+879,7829.743,7832.564,I can decide the king my schedule the next day.,0.73,,879,196
+880,7832.516,7845.635,The and given where I'm at with this particular thought or creative idea that I'm going to pay that cost the next day so I think that's that's more flexible than morning people who do that you know they get up at four in the morning they can also,0.91,,880,197
+881,7845.479,7854.754,to those golden hours then but then their start of their scheduled day starts at breakfast you know am whatever they have their first meeting and then it's hard you have to reschedule day if you and Flo,0.78,,881,197
+882,7854.599,7859.76,yeah that could be actually see that special thread of thoughts that the,0.84,,882,197
+883,7859.622,7874.082,you're too passionate about you that this is where some of the greatest ideas could potentially comments When You're Just Lose Yourself late and yeah and for the meetings I mean you're loading and really hard problems in a very short amount of time so you have to do some kind of first.,0.79,,883,197
+884,7874.115,7878.853,Suppose thinking here is like what's the problem with the state of things what's the right Next Step.,0.8300000000000001,,884,197
+885,7878.994,7888.333,You have to get really good at context switching which is one of the hardest things when it because especially as we do so many things if you include all the scientific things we do scientific Fields it working in.,0.8200000000000001,,885,197
+886,7888.474,7894.716,These are our entire fear you know complex fields in themselves and you you have to sort of keep up to abreast of that.,0.75,,886,197
+887,7894.865,7903.294,But I enjoy it I've always been a sort of generalist in a way and that's actually what happened to my games career after chess I.,0.9,,887,197
+888,7903.454,7916.951,One of the reasons I stopped playing chess was I got into computers but also I started realizing there were many other great games out there to play too so I've always been that way inclined multidisciplinary and there's too many interesting things in in the world to spend all your time just on one thing.,0.79,,888,198
+889,7917.02,7920.606,So you mentioned Spinoza gotta ask the big.,0.72,,889,198
+890,7920.756,7929.996,Ridiculously big Russian about life what do you think is the meaning of this whole thing why are we humans here you've already mentioned that.,0.77,,890,198
+891,7930.074,7932.534,Perhaps the universe created us hmm.,0.87,,891,198
+892,7932.576,7944.534,Is that why you think we're here to understand how the universe yeah I think my answer to that would be and at least that the the life I'm living is to gain and to gain and understand the knowledge you know too,0.8200000000000001,,892,198
+893,7944.513,7948.081,gain knowledge and understand the universe that's what I think.,0.9,,893,198
+894,7948.105,7957.83,I can't see any higher purpose than that if you think back to the classical Greeks you know the virtue of gaining knowledge it's I think it's one of the few true virtues is to understand.,0.88,,894,198
+895,7957.882,7965.51,Um the world around us in the context and Humanity better and and I think if you do that you become more compassionate and.,0.85,,895,198
+896,7965.525,7971.64,More understanding yourself and and more tolerant and all these I think all these other things may flow format and to me,0.8300000000000001,,896,198
+897,7971.592,7978.922,you know understanding the nature of reality that is the biggest question what is going on here is sometimes the colloquial way I say what is really going on here.,0.88,,897,198
+898,7979.145,7982.703,It's so mysterious and I feel like we're in some huge puzzle.,0.77,,898,199
+899,7982.863,7991.679,And and it's but the world is also seems to be the universe seems to be structured in a way you know why is it structured in a way that science is even possible.,0.91,,899,199
+900,7991.712,8000.762,That you know methods the scientific method Works things are repeatable it feels like it's almost structured in a way to be conducive to gaining knowledge.,0.75,,900,199
+901,8000.868,8005.713,So I feel like and you know why should computers be even possible isn't that amazing that.,0.9,,901,199
+902,8005.801,8015.634,Computational electronic devices can can can can be possible and they're made of sand are most you know common element that we have you know silicon on the Earth's crust.,0.85,,902,199
+903,8015.793,8027.652,It could be made of diamond or something that we would have only had one computer yeah right so it's a lot of things are kind of slightly suspicious to me it sure as heck sounds this puzzle sure steak sounds like something we talked about earlier what it takes to,0.77,,903,199
+904,8027.568,8038.103,to design a game that's really fun to play for prolonged periods of time and it does seem like this puzzle like you mentioned the more you learn about it.,0.91,,904,199
+905,8038.118,8044.676,The more you realize how little you know so it humbles you but excites you by the possibility of learning more.,0.9,,905,199
+906,8044.861,8053.983,One heck of a one heck of a puzzle we got going on here so like I mentioned of all the people in the world you're very likely,0.87,,906,200
+907,8053.908,8059.394,to be the one who creates the AGI system that,0.85,,907,200
+908,8059.256,8074.121,achieves human level intelligence that goes beyond it so if you got a chance in very well you could be the person that goes into the room with the system and have a conversation maybe you only get to ask one question if you do what question would you ask her.,0.91,,908,200
+909,8075.28,8079.325,I would probably ask what is the true nature of reality.,0.81,,909,201
+910,8079.448,8087.877,I think that's the question I don't know if I don't understand the answer because maybe it would be 42 or something like that but that's the question I would ask,0.77,,910,201
+911,8087.847,8100.264,and then they'll be a deep sigh from the systems like I how do I explain to this human exactly all right let me I don't have time to explain maybe I'll draw you a picture that it is.,0.9,,911,201
+912,8100.423,8105.8,I mean how do you even begin to answer that question.,0.85,,912,201
+913,8107.121,8114.38,Well I think it would what would you what would you think the answer could possibly looks like I think it could it could start looking like.,0.85,,913,202
+914,8114.458,8128.531,More fundamental explanations of physics would be the beginning you know more careful specification at that taking you walking us through by the hand as to what one would do to maybe prove those things out maybe giving you glimpses of.,0.84,,914,202
+915,8128.934,8137.858,What things you totally missed in the physics of today exactly just here's glimpses of know like there's a much.,0.87,,915,203
+916,8138.071,8142.422,How much more elaborate world are much simpler world of something.,0.76,,916,203
+917,8142.599,8152.234,Much deeper maybe simpler explanation yes of things right then the standard model of physics which we know doesn't work but we still keep adding to so,0.8,,917,203
+918,8152.096,8161.894,and and that's how I think the beginning of an explanation would look and it would start encompassing many of the Mysteries that we have wondered about for thousands of years like you know Consciousness dreaming,0.81,,918,203
+919,8161.738,8169.78,life and gravity all of these things you're giving us a glimpse of explanations for those things yeah well,0.91,,919,203
+920,8169.723,8172.111,Devon still one of the special.,0.7000000000000001,,920,203
+921,8172.342,8184.166,Human beings in this giant puzzle of ours and it's a huge honor that you would take a pause from the bigger puzzle to solve the small puzzle of a conversation with me today it's truly an honor and a pleasure thanks when you're really enjoyed it thanks Lex.,0.81,,921,203
+922,8184.954,8191.394,Thanks for listening to this conversation with damage that's obvious the support this podcast please check out our sponsors in the description.,0.81,,922,204
+923,8191.689,8195.58,And now let me leave you with some words from edsger dijkstra.,0.91,,923,205
+924,8196.244,8202.197,Computer science is no more about computers and astronomy is about telescopes.,0.91,,924,206
+925,8207.28,8222.328,Music.,,,925,207
