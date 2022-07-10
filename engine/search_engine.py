@@ -110,3 +110,18 @@ def get_segments(user_query):
         segments.append((rank,filename,start_time,end_time))
     return segments
 
+def get_json_segments(user_query):
+    json_segments = []
+    segments = get_segments(user_query)
+    for rank,id,chunk_start,chunk_end in segments:
+        json_seg = {}
+        json_seg['id']=id
+        json_seg['fileName'] = episode_df[episode_df[episode_id_col]==id]['file_name'].values[0]
+        json_seg['start_proportion']=chunk_start
+        json_seg['podcast_title'] =  f'Podcast title, episode {id}'
+        json_seg['podcast_url'] = f'https://www.podcast{id}.com'
+        json_seg['podcast_info'] = f'This is info to print about the chunk or podcast. Chunk {id} is really interesting...'
+
+        json_segments.append(json_seg)
+  
+    return json_segments
