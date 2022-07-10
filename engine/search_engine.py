@@ -15,6 +15,7 @@ import numpy as np
 model = None
 index = None
 df = None
+episode_df = None
 
 # column names
 transcription_col = 'text'
@@ -27,11 +28,16 @@ chunk_end_col = 'chunk_end'
 def load_knowledge_base(knowlege_base_path):
     """loads knowledge base to a dataframe. ** Make sure the above mentioned columns are present in the dataframe"""
     global df
-    df= pd.read_parquet(knowlege_base_path, engine='pyarrow')
+    global episode_df
+
+    knowledge_base_dir = knowlege_base_path
+    df = pd.read_parquet(knowledge_base_dir+"/"+ "transcript_data.parquet")
+    episode_df = pd.read_parquet(knowledge_base_dir+"/"+"episode_data.parquet")
+    episode_df = episode_df.reset_index(level=0)
+    
     df = df.reset_index(level=0)
     df = df.reset_index(level=0)
     df['id'] = df.index
-    print("knowledge base loaded")
 
 
 def indexer(knowlege_base_path):
