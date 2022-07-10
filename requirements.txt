@@ -4,3 +4,6 @@ flask
 pytorch
 jupyter
 requests
+pandera
+tqdm
+loguru

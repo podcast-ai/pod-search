@@ -5,7 +5,7 @@ from pandera import Column, DataFrameSchema, Check, Index
 
 transcript_data = DataFrameSchema(
     {
-        "episode_id": Column(Check(int)),
+        "episode_id": Column(int),
         "chunk_number": Column(int, nullable=False),
         "chunk_start": Column(float, nullable=False),
         "chunk_end": Column(float, nullable=False),
@@ -19,7 +19,7 @@ transcript_data = DataFrameSchema(
 
 episode_data = DataFrameSchema(
     {
-        "episode_id": Column(Check(int)),
+        "episode_id": Column(int),
         "file_name": Column(str, nullable=False),
     },
 )
