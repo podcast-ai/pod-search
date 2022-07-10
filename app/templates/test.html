@@ -2,69 +2,98 @@
 
 
 {% block content %}
-<body>
-    <div class="container">
-        <div class="music-player">
-            <img src="./static/img/music-icon.jpeg" alt="music-icon" id="music-icon">
-            <div class="info">
-                <span>Here are the result based on your input: </span><span style="color:rgb(0, 161, 173)">{{ sentence }}</span>
-                <h2>- This is the Demo</h2>
-                <div id="waveform"></div>
-                <div class="control-bar">
-                    <img src="./static/img/play.png" alt="play" id="playBtn" title="Play / Pause">
-                    <img src="./static/img/stop.png" alt="stop" id="stopBtn" title="Stop">
-                    <img src="./static/img/volume.png" alt="volume" id="volumeBtn" title="Mute / Unmute">
-                </div>
-                <div>Total time: <span id="time-total">0.00</span> s   </div>
-                <div>Current time: <span id="time-current">0.00</span> s     Ramaining time: <span id="time-remaining">0.00</span> s </div>
-            </div>
+<script>
+    var wavesurfers = [];
+    var playBtns = [];
+    var stopBtns = [];
+    var volumeBtns = [];
+    var startTimes = [];
+    var endTimes = [];
+</script>
 
-    </div>
+<body>
+    <span>Searched for: </span><span style="color:rgb(0, 161, 173)">{{ query_text }}</span>
+    <h3>Check these podcasts out!</h3>
+    
+    {% for result in results %}
+    <div class="container">
+        <div class="row">
+            <!--<span> {{result.podcast_title}} </span>
+            <span style="font-size:10.0pt"> {{result.podcast_url}} </span>-->
+            <div class="column left">
+                <img src="./static/img/music-icon.jpeg" alt="music-icon" id="music-icon">
+                <br>
+                <br>
+                <span> {{result.podcast_title}} </span>
+                <br>
+                <a style="font-size:10.0pt" href="{{result.podcast_url}}"> Listen to full episode </a>
+                <br>
+                <span style="font-size:10.0pt"> {{result.podcast_info}} </span>
+            </div>
+            <div class="column right">
+                <div class="music-player">
+                    <div class="info">
+                        <div id="m{{ result.id }}"></div>
+                        <div class="control-bar">
+                            <img src="./static/img/play.png" alt="play" id="playBtn{{ result.id }}" title="Play / Pause">
+                            <img src="./static/img/stop.png" alt="stop" id="stopBtn{{ result.id }}" title="Stop">
+                            <img src="./static/img/volume.png" alt="volume" id="volumeBtn{{ result.id }}" title="Mute / Unmute">
+                        </div>
+                        {#<div>Total time: <span id="time-total">0.00</span> s   </div>#}
+                        {#<div>Current time: <span id="time-current">0.00</span> s     Remaining time: <span id="time-remaining">0.00</span> s </div>#}
+                    </div>
+        
+                </div>
+        
+            </div>
         </div>
-    </div>
+    </div>    
+    
 
 
 
     <script>
-        var startTime = "{{ time }}";
-        playBtn = document.getElementById("playBtn");
-        stopBtn = document.getElementById("stopBtn");
-        volumeBtn = document.getElementById("volumeBtn");
+        playBtns['{{ result.id }}'] = document.getElementById("playBtn{{ result.id }}");
+        stopBtns['{{ result.id }}'] = document.getElementById("stopBtn{{ result.id }}");
+        volumeBtns['{{ result.id }}'] = document.getElementById("volumeBtn{{ result.id }}");
 
+        startTimes['{{ result.id }}'] = '{{ result.startTime }}';
+        endTimes['{{ result.id }}'] = '{{ result.endTime }}';
 
-
-        var wavesurfer = WaveSurfer.create({
-            container: '#waveform',
+        wavesurfers['{{ result.id }}'] = WaveSurfer.create({
+            container: '#m{{ result.id }}',
             waveColor: '＃708090',
             progressColor: 'rgb(0, 161, 173)',
             cursorColor: 'rgb(192,192,192)',
             cursorWidth: 1.5,
             barWidth: 3,
-            responsive: true,
+            responsive: false,
             hideScrollbar: true,
-            barRadius: 3
+            barRadius: 3,
+            normalize: true
         });
 
+        wavesurfers['{{ result.id }}'].on('ready', function() {
+            wavesurfers['{{ result.id }}'].seekAndCenter(parseFloat('{{ result.start_proportion }}'))
+        });
+        wavesurfers['{{ result.id }}'].on('play', function() {
+            playBtns['{{ result.id }}'].src  = "./static/img/pause.png";
+        })
+        wavesurfers['{{ result.id }}'].on('pause', function() {
+            playBtns['{{ result.id }}'].src  = "./static/img/play.png";
+        })
 
-        {#We need to render the files in a selected way!#}
-        wavesurfer.load('{{ fileName }}');
-        {#Played the trimed audio#}
-        playBtn.onclick = function(){
-            startTime = {{ startTime }};
-            endTime = {{ endTime }};
-            wavesurfer.play(startTime, endTime);
-            if(playBtn.src.match("play")){
-                playBtn.src  = "./static/img/pause.png";
-            }
-            else{
-                playBtn.src = "./static/img/play.png"
-            }
+        wavesurfers['{{ result.id }}'].load('{{ result.fileName }}');
+
+
+        playBtns['{{ result.id }}'].onclick = function(){
+            wavesurfers['{{ result.id }}'].playPause();
         }
 
-        wavesurfer.on('audioprocess', function() {
-          if (wavesurfer.isPlaying()) {
-            var totalTime = wavesurfer.getDuration(),
-                currentTime = wavesurfer.getCurrentTime(),
+        wavesurfers['{{ result.id }}'].on('audioprocess', function() {
+          if (wavesurfers['{{ result.id }}'].isPlaying()) {
+            var totalTime = wavesurfers['{{ result.id }}'].getDuration(),
+                currentTime = wavesurfers['{{ result.id }}'].getCurrentTime(),
                 remainingTime = totalTime - currentTime;
 
             document.getElementById('time-total').innerText = totalTime.toFixed(1);
@@ -73,21 +102,24 @@
           }
         });
 
-        stopBtn.onclick = function(){
-            wavesurfer.stop();
-            playBtn.src = "./static/img/play.png"
+        stopBtns['{{ result.id }}'].onclick = function(){
+            wavesurfers['{{ result.id }}'].stop();
+            playBtns['{{ result.id }}'].src = "./static/img/play.png"
         }
 
-        volumeBtn.onclick = function(){
-            wavesurfer.toggleMute();
-            if(volumeBtn.src.match("volume")){
-                volumeBtn.src  = "./static/img/mute.png";
+        volumeBtns['{{ result.id }}'].onclick = function(){
+            wavesurfers['{{ result.id }}'].toggleMute();
+            if(volumeBtns['{{ result.id }}'].src.match("volume")){
+                volumeBtns['{{ result.id }}'].src  = "./static/img/mute.png";
             }
             else{
-                volumeBtn.src = "./static/img/volume.png"
+                volumeBtns['{{ result.id }}'].src = "./static/img/volume.png"
             }
         }
     </script>
+    </a><br/>
+
+    {% endfor %}
 </body>
 
 

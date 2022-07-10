@@ -25,16 +25,19 @@ def similarity(inputs_repre, target_repre):
     return inputs_repre.mm(target_repre.t()).item()
 
 
-def calc_score(inputs, target):
+def calc_score(query_text, target):
+    """Calculate document similarity score between inputs and target."""
     if isinstance(target, str):
         target = [target]
-        inputs = [inputs]
+        query_text = [query_text]
 
     assert len(target) == 1
-    assert len(inputs) == 1
-    inputs_repre = sentence_mapping(inputs)
+    assert len(query_text) == 1
+    inputs_repre = sentence_mapping(query_text)
     target_repre = sentence_mapping(target)
 
-    score = similarity(l2norm(inputs_repre), l2norm(target_repre))
+    score = similarity(
+        l2norm(inputs_repre),
+        l2norm(target_repre))
 
     return score

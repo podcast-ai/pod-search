@@ -1,0 +1,15 @@
+- knowledge base schema (backend)
+    - episode id
+    - episode file name
+    - episode title
+    - podcast name
+    - ... more episode attributes
+    - chunk start & end
+    - chunk id
+    - paragraph enumerator
+    - enumerate speaker segments 
+    - transcript text
+
+- response schema (frontend)
+    - episode id
+    - [segment ids]: chunk or paragraph or speaker segment... depending on zoom level
