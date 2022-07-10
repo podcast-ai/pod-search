@@ -1,6 +1,5 @@
 """Data Schema definitions."""
 
-from pyparsing import null_debug_action
 from pandera import Column, DataFrameSchema, Check, Index
 
 transcript_data = DataFrameSchema(
