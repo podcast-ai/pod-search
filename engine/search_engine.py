@@ -1,3 +1,6 @@
+from typing import List
+from pandera.typing import DataFrame
+
 # Used to import data from local.
 import pandas as pd
 
@@ -14,8 +17,8 @@ import numpy as np
 
 model = None
 index = None
-df = None
-episode_df = None
+transcript_data = None
+episode_data = None
 
 # column names
 transcription_col = "text"
@@ -29,17 +32,20 @@ chunk_end_col = "chunk_end"
 def load_knowledge_base(knowlege_base_path):
     """loads knowledge base to a dataframe. ** Make sure the above mentioned columns are present in the dataframe"""
     # TODO - use the load knowledge base function from etl.py
-    global df
-    global episode_df
+    global transcript_data
+    global episode_data
 
     knowledge_base_dir = knowlege_base_path
-    df = pd.read_parquet(knowledge_base_dir + "/" + "transcript_data.parquet")
-    episode_df = pd.read_parquet(knowledge_base_dir + "/" + "episode_data.parquet")
-    episode_df = episode_df.reset_index(level=0)
+    transcript_data = pd.read_parquet(knowledge_base_dir + "/" + "transcript_data.parquet")
+    episode_data = pd.read_parquet(knowledge_base_dir + "/" + "episode_data.parquet")
+    assert not transcript_data.empty
+    assert not episode_data.empty
 
-    df = df.reset_index(level=0)
-    df = df.reset_index(level=0)
-    df["id"] = df.index
+    episode_data = episode_data.reset_index(level=0)
+
+    transcript_data = transcript_data.reset_index(level=0)
+    transcript_data = transcript_data.reset_index(level=0)
+    transcript_data["id"] = transcript_data.index
 
 
 def indexer(knowlege_base_path):
@@ -56,7 +62,7 @@ def indexer(knowlege_base_path):
     print(model.device)
 
     # Convert abstracts to vectors
-    embeddings = model.encode(df[transcription_col].to_list(), show_progress_bar=True)
+    embeddings = model.encode(transcript_data[transcription_col].to_list(), show_progress_bar=True)
     print(f"Shape of the vectorised abstract: {embeddings.shape}")
 
     # Step 1: Change data type
@@ -66,9 +72,9 @@ def indexer(knowlege_base_path):
     # Step 3: Pass the index to IndexIDMap
     index = faiss.IndexIDMap(index)
     # Step 4: Add vectors and their IDs
-    index.add_with_ids(embeddings, df[id_col].values)
+    index.add_with_ids(embeddings, transcript_data[id_col].values)
     print(f"Number of vectors in the Faiss index: {index.ntotal}")
-    return model, index, df, episode_df
+    return model, index, transcript_data, episode_data
 
 
 def vector_search(query, model, index, num_results=10):
@@ -122,13 +128,21 @@ def get_segments(user_query, df, model, index):
     return segments
 
 
-def get_json_segments(user_query, df, episode_df, model, index):
+def get_json_segments(
+    user_query: str, 
+    transcript_data: DataFrame, 
+    episode_data: DataFrame, 
+    model, 
+    index,
+    limit=None,
+) -> List[str]:
+    """Get query results in JSON format to be processed by the frontend."""
     json_segments = []
-    segments = get_segments(user_query, df, model, index)
+    segments = get_segments(user_query, transcript_data, model, index)
     for rank, id, chunk_start, chunk_end in segments:
         json_seg = {}
         json_seg["id"] = id
-        json_seg["fileName"] = episode_df[episode_df[episode_id_col] == id][
+        json_seg["fileName"] = episode_data[episode_data[episode_id_col] == id][
             "file_name"
         ].values[0]
         json_seg["start_proportion"] = chunk_start
@@ -140,4 +154,7 @@ def get_json_segments(user_query, df, episode_df, model, index):
 
         json_segments.append(json_seg)
 
-    return json_segments
+    if limit:
+        return json_segments[:limit]
+    else:
+        return json_segments
