@@ -2,34 +2,50 @@ import torch
 import numpy as np
 import pandas as pd
 import argparse
+
+from pyannote.audio import Pipeline
+import datetime as dt
+import time
 #from pyannote.audio import Pipeline
 
+### prerequisite
 ## pip install https://github.com/pyannote/pyannote-audio/archive/develop.zip
 ## git clone https://github.com/speechbrain/speechbrain.git
 ## pip install speechbrain
 
+
 ## gives very accurate results
-def diarization() -> list:
+def diarization(audio:str) -> str:
     pipeline = Pipeline.from_pretrained("pyannote/speaker-diarization")
-    diarization = pipeline("audio.wav")
+    diarization = pipeline(f"/content/{audio}.wav")
 
-    return diarization
+    return str(diarization)
 
+## total crap but faster runtime
 def crapy_diarization(audio) -> list:
     pipeline = torch.hub.load("pyannote/pyannote-audio", "dia")
     diarization = pipeline({"audio":"H:\wav2vec_pre\audio.wav"})
 
     return diarization
 
-def get_chunks(trans_chunk,dizi) -> list:
-   # for _, (i,j) in enumerate(dia_list):
-   #     if start > i and start < j:
-   #         return dia_list[something]
-   return 1
+
+def get_chunks(trans_chunk,dizi) -> str:
+    for i in dizi:
+      q = []
+      q = i.split(" ")
+      if trans_chunk >= get_sec(q[1]) and trans_chunk <= get_sec(q[4]):
+        print(q[1],q[-1])
+        return str(q[-1])
+
+def get_sec(stamp:str) -> float:
+   x = time.strptime(stamp.split(',')[0],'%H:%M:%S.%f')
+   x = dt.timedelta(hours=x.tm_hour,minutes=x.tm_min,seconds=x.tm_sec).total_seconds()
+   return float(x)
 
 def preprocess(trans_df, dizi) -> any:
     for row in range(len(trans_df)):
-        trans_df.iloc[row]['speaker'] = get_chunks(trans_df.iloc[row]['chunk_start'], dizi)
+        #print(trans_df.iloc[row]['chunk_start'])
+        trans_df.iloc[row]['speaker'] = get_chunks(float(trans_df.iloc[row]['chunk_start']), dizi)
     return trans_df
 
 def main(episode:str, transcription:str) -> any:
@@ -38,11 +54,12 @@ def main(episode:str, transcription:str) -> any:
     trans['speaker'] = np.nan
     ep_id = list(ep.episode_id)
     print(f"ep : {ep.head()}, trans : {trans.head()}, ep_id : {ep_id}")
+    dizi_chunks = []
     for i in ep_id:
-        dizi = crapy_diarization(ep[ep['episode_id'] == i]["file_name"])
-        print(dizi)
+        dizi = diarization(ep[ep['episode_id'] == i]["file_name"])
+        dizi_chunks = dizi.split("\n")
         trans_df = trans[trans['episode_id'] == i]
-        trans_df = preprocess(trans_df, dizi)
+        trans_df = preprocess(trans_df, dizi_chunks)
     return trans_df
 
 ## Building an ETL
