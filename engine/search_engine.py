@@ -28,6 +28,7 @@ chunk_end_col = "chunk_end"
 
 def load_knowledge_base(knowlege_base_path):
     """loads knowledge base to a dataframe. ** Make sure the above mentioned columns are present in the dataframe"""
+    # TODO - use the load knowledge base function from etl.py
     global df
     global episode_df
 
@@ -67,6 +68,7 @@ def indexer(knowlege_base_path):
     # Step 4: Add vectors and their IDs
     index.add_with_ids(embeddings, df[id_col].values)
     print(f"Number of vectors in the Faiss index: {index.ntotal}")
+    return model,index,df,episode_df
 
 
 def vector_search(query, model, index, num_results=10):
@@ -96,7 +98,7 @@ def flatten(l):
     return [x[0] for x in l]
 
 
-def group_segments(episode_id, para):
+def group_segments(episode_id, para, df):
     """return the start and end time of segement"""
     segmented_df = df[(df[episode_id_col] == episode_id) & (df[paragraph_col] == para)]
     start_time = segmented_df[chunk_start_col].min()
@@ -104,7 +106,7 @@ def group_segments(episode_id, para):
     return (start_time, end_time)
 
 
-def get_segments(user_query):
+def get_segments(user_query,df,model,index):
     """returns the ranked matched segments from knowledge base"""
     segments = []
     D, I = vector_search([user_query], model, index, num_results=10)
@@ -115,13 +117,13 @@ def get_segments(user_query):
     for rank, match in enumerate(matches):
         filename = match[0]
         para = match[1]
-        start_time, end_time = group_segments(filename, para)
+        start_time, end_time = group_segments(filename, para,df)
         segments.append((rank, filename, start_time, end_time))
     return segments
 
-def get_json_segments(user_query):
+def get_json_segments(user_query,df,episode_df,model,index):
     json_segments = []
-    segments = get_segments(user_query)
+    segments = get_segments(user_query,df,model,index)
     for rank,id,chunk_start,chunk_end in segments:
         json_seg = {}
         json_seg['id']=id
