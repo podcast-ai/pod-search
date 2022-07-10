@@ -1,10 +1,7 @@
 from getSimilarity import calc_score
 
 
-def get_matching_file_name(
-    save_path,
-    query_text: str
-) -> str:
+def get_matching_file_name(save_path, query_text: str) -> str:
     """Return the file name of the best match for the input."""
     with open(save_path, "r") as file:
         # Generate the dict in {audioID: Trans}
