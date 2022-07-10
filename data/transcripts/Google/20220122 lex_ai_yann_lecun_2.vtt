@@ -1,0 +1,3601 @@
+WEBVTT
+
+00:00:00.017 --> 00:00:02.391
+The following is a conversation with Ian laocoon.
+
+00:00:02.613 --> 00:00:11.375
+His second time on the podcast he is the chief AI scientist The Meta formerly Facebook professor at NYU.
+
+00:00:11.579 --> 00:00:18.136
+Turing Award winner one of the seminal figures in the history of machine learning and artificial intelligence.
+
+00:00:18.367 --> 00:00:25.320
+And someone who is brilliant and opinionated in the best kind of way and so is always fun to talk to.
+
+00:00:26.568 --> 00:00:33.116
+And now a quick you second mention of his sponsor check them out in the description it's the best way to support this podcast.
+
+00:00:33.356 --> 00:00:43.126
+First as public goods and online shop I use for household products second is indeed a hiring website third is Roca
+
+00:00:42.988 --> 00:00:57.395
+my favorite sunglasses and prescription glasses fourth is not sweet business software for managing HR financials and other details and fifth is Magic spoon low carb keto friendly cereal so the choices,
+
+00:00:57.410 --> 00:01:01.329
+business health or style Choose Wisely my friends.
+
+00:01:02.082 --> 00:01:12.159
+And now on to the full adder he's as always no ads in the middle I try to make this interesting but if you skip them please still check out our sponsors I enjoy their stuff maybe you will too.
+
+00:01:12.795 --> 00:01:22.430
+This show is brought to you by public goods the One-Stop shop for affordable sustainable healthy household products I use there,
+
+00:01:22.463 --> 00:01:36.906
+hand soap toothpaste and toothbrush okay use a bunch of other stuff too but that's that's what comes to mind their products often have this minimalist black and white design that I just absolutely fine beautiful
+
+00:01:36.885 --> 00:01:46.862
+I love it I love minimalism and design it doesn't go over the top it doesn't doesn't have all these extra things and features that you don't need just the essentials
+
+00:01:46.850 --> 00:01:51.661
+I think it's hard to explain but there's something about the.
+
+00:01:52.126 --> 00:02:00.834
+Absence of things that can take up your attention that allows you to truly be attentive to what matters in life.
+
+00:02:01.029 --> 00:02:14.067
+Anyway go to public goods.com Lex or use code Lex at checkout to get $15 off your first order plus you will receive your choice of either free pack of bamboo straws or reusable food storage wraps.
+
+00:02:14.505 --> 00:02:18.703
+Visit public goods.com slacks or use code Lex at checkout.
+
+00:02:18.962 --> 00:02:32.405
+The show is also brought to you by indeed a hiring website I've used them as part of many hiring efforts I've done for the team's of lead in the past most of those four was for engineering for research efforts
+
+00:02:32.240 --> 00:02:39.580
+they have tools like indeed is the match giving you quality candidates whose resumes on indeed for your job description immediately.
+
+00:02:39.739 --> 00:02:49.455
+For the past few months have been going through this process of building up a team of folks to help me have been doing quite a bit of hiring it's a.
+
+00:02:49.938 --> 00:02:53.362
+Treacherous and an exciting
+
+00:02:53.332 --> 00:03:07.595
+process because you get to meet some friends so it's a beautiful process but I think it's one of the most important processes in life is selecting the group of people with whom you spend your days with and so you have to use the best tools for the job
+
+00:03:07.493 --> 00:03:10.628
+indeed I think is an excellent tool
+
+00:03:10.572 --> 00:03:22.673
+right now you can get a free $75 sponsor job credit to upgrade a job post and indeed.com / Lex terms and conditions apply go to indeed.com / Lex.
+
+00:03:23.373 --> 00:03:32.639
+The show is also brought to you by Roka the makers of glasses and sunglasses that I love wearing for their design fee land,
+
+00:03:32.663 --> 00:03:35.079
+Innovation on material Optics and grip,
+
+00:03:35.130 --> 00:03:49.788
+Rocco was started by two All-American swimmers from Stanford and it was born out of an obsession with performance I like the way they feel I like the way they look whether I'm running like a fast pace run we're talking about,
+
+00:03:49.875 --> 00:03:59.520
+a minimal or faster or for doing a slow pace run nine ten minute mile along the river in the Heat or in the cold.
+
+00:03:59.652 --> 00:04:01.986
+Or if I'm just wearing my suit.
+
+00:04:02.713 --> 00:04:11.898
+Out on the town how would that expression goes I'm not sure but they look classy with a suit they look badass and running gear,
+
+00:04:11.949 --> 00:04:25.626
+it's just my go-to sunglasses check them out for both prescription glasses and sunglasses at Roca.com and enter code Lex to save 20% on your first order that's Roca.com and enter code Lex.
+
+00:04:26.344 --> 00:04:31.577
+This shows also brought to you by net sweet netsuite allows you to manage financials
+
+00:04:31.484 --> 00:04:41.830
+Human Resources inventory e-commerce and many more business-related details all in one place I'm not sure why I was doing up speak on that sentence
+
+00:04:41.756 --> 00:04:53.191
+maybe because I'm very excited about not sweet anyway there's a lot of messy things you have to get right when running a company if you're a business owner if you're an entrepreneur if your.
+
+00:04:53.864 --> 00:04:56.189
+Founder of a start-up
+
+00:04:56.114 --> 00:05:10.818
+this is something I have to think about if the use the best tools for the job to make sure all the messy things required to run a business that taken care of for you so you can focus on the things that you're best at that where your Brilliance shines
+
+00:05:10.752 --> 00:05:18.731
+if you are starting a business I wish you the best of luck it's a difficult Journey but it's worth it.
+
+00:05:19.250 --> 00:05:21.863
+Anyway right now special financing is back,
+
+00:05:21.915 --> 00:05:32.027
+had to netsuite.com Lex to get their one-of-a-kind financing program that's not sweet.com flex and that sweet.com Lex.
+
+00:05:32.780 --> 00:05:37.771
+This episode is also brought to you by Magic spoon the OG
+
+00:05:37.687 --> 00:05:49.789
+not quite OG but really old-school sponsor this podcast that I love it's low carb you know friendly cereal it has 0 grams of sugar is delicious I don't say that enough it's really is delicious given that it's
+
+00:05:49.651 --> 00:05:58.872
+zo g of sugar it's very surprising how delicious it is 13 to 14 grams of protein only for net grams of carbs and 140 calories
+
+00:05:58.707 --> 00:06:09.170
+in each serving you could build your own box or get a variety pack with available flavors of cocoa fruity frosted peanut butter blueberry and cinnamon
+
+00:06:09.014 --> 00:06:14.563
+Coco is my favorite it's the flavor of Champions I don't know I keep saying that but it seems to be true
+
+00:06:14.425 --> 00:06:21.053
+anyway magic spoon has a 100% happiness guarantee so if you don't like it they will refund it.
+
+00:06:21.339 --> 00:06:25.293
+Who else will give you a 100% happiness guarantee.
+
+00:06:25.570 --> 00:06:35.313
+Go to magic spoon.com Lex and use code Lex at checkout to say five dollars off your order that's magic spoon.com relax and use codex.
+
+00:06:35.814 --> 00:06:41.660
+This Deluxe Friedman podcast and here's my conversation with Ian Lagoon.
+
+00:06:42.960 --> 00:06:56.720
+Music.
+
+00:06:58.041 --> 00:07:11.502
+Yuko wrote the article self supervised learning the dark matter of intelligence great Title by the way with each shot misra so let me ask what is self supervised learning and why is it the dark matter of intelligence.
+
+00:07:11.796 --> 00:07:19.847
+I'll start by the Dark Matter part there is obviously a kind of learning that humans and animals are,
+
+00:07:19.925 --> 00:07:33.828
+are doing that we currently are not reproducing properly with machines with a I right so the most popular approaches to machine learning today are or paradigms I should say our supervised learning and reinforcement learning,
+
+00:07:33.843 --> 00:07:36.736
+and they are extremely inefficient.
+
+00:07:37.012 --> 00:07:50.446
+Supervised learning requires many samples for learning anything and reinforcement learning requires a ridiculously large number of trial and errors to for you know assistant to run anything.
+
+00:07:51.199 --> 00:08:00.528
+And that's why we don't have self-driving cars there's a big leap from one to the other okay so that to solve difficult problems
+
+00:08:00.319 --> 00:08:06.128
+you have to have a lot of human annotation for supervised learning to work
+
+00:08:05.954 --> 00:08:16.372
+and to solve those difficult problems with the reinforcement learning you have to have some way to maybe simulate that problem such that you can do that large-scale kind of learning that reinforcement learning requires
+
+00:08:16.298 --> 00:08:18.353
+right so how is it that,
+
+00:08:18.359 --> 00:08:27.724
+you know most teenagers can learn to drive a car in about 20 hours of practice whereas even with millions of hours of
+
+00:08:27.658 --> 00:08:34.026
+simulated practice so driving car can't actually learn to drive itself properly
+
+00:08:33.978 --> 00:08:46.386
+so obviously we're missing something right and it's quite obvious for a lot of people that you know the immediate response you get from people is well you know humans use their background knowledge to run faster.
+
+00:08:46.518 --> 00:08:53.894
+And there right now how was the background knowledge Acquired and that's to be questioned so now you have to ask.
+
+00:08:54.026 --> 00:08:58.845
+You know how do babies in the first few months of Life learn how the world works.
+
+00:08:59.013 --> 00:09:11.358
+Mostly by observation because they can hardly act in the world and there are an enormous amount of background knowledge about the world that may be the basis of what we call Common Sense this type of learning.
+
+00:09:11.562 --> 00:09:16.418
+It's not learning your task is not being reinforced for anything it's just.
+
+00:09:16.676 --> 00:09:30.452
+Observing the world and figuring out how it works building World models learning World models how do we do this and how do we reproduce this in machine so sell supervised learning is you know one.
+
+00:09:30.899 --> 00:09:34.215
+Is this a when attempt trying to reproduce this kind of learning.
+
+00:09:34.509 --> 00:09:44.523
+Okay so you're looking at just observation so not even the interacting part of a child it's just sitting there watching Mom and Dad walk around pick up stuff.
+
+00:09:44.682 --> 00:09:47.475
+All that that's that's what we mean by background knowledge
+
+00:09:47.346 --> 00:10:01.123
+perhaps not even watching Mom and Dad just you know watching the world go by just having eyes open or having eyes closed or the very Act of opening and closing eyes that the world appears and disappears all that basic information
+
+00:10:00.967 --> 00:10:04.913
+and you're saying in in order to learn to drive,
+
+00:10:04.991 --> 00:10:13.222
+like the reason humans able to learn to drive quickly some faster than others is because of the back on knowledge there were able to watch Cars operate in the world.
+
+00:10:13.606 --> 00:10:27.761
+In the many years leading up to it the physics of Basics objects all that kind of that's right I mean the basic physics of objects you don't even know you don't even need to know you know how a car works right because that you cannot really quickly I mean the example I use very often is your driving next to a cliff.
+
+00:10:28.487 --> 00:10:31.145
+And you know in advance because of your,
+
+00:10:31.251 --> 00:10:44.082
+you know understanding of intuitive physics that if you turn the wheel to the right the car will Veer to the right we're run off the cliff fall off the cliff and nothing good will come out of this right but if you are a sort of.
+
+00:10:44.223 --> 00:10:49.618
+You know tabula rasa reinforcement learning system that doesn't have a model of the world
+
+00:10:49.516 --> 00:11:03.662
+you have to repeat falling off this Cliff thousands of times before you figure out it's a bad idea and then a few more thousand times before you figure out how to not do it and then a few more million times before you figure out how to not do it in every situation you ever encounter
+
+00:11:03.596 --> 00:11:09.630
+so self supervised learning still has to have some source of Truth.
+
+00:11:09.888 --> 00:11:20.856
+Being told to it by somebody and it's so you have to figure out a way without human assistance or without significant amount of human assistance to get that truth from the world,
+
+00:11:20.970 --> 00:11:23.530
+so the mystery there is.
+
+00:11:23.851 --> 00:11:34.521
+How much signal is there how much truth is there that the world gives you whether it's a human world like you watch YouTube or something like that or it's the more natural world.
+
+00:11:34.843 --> 00:11:40.031
+So how much signal is there so here is the trick there is way more signal.
+
+00:11:40.415 --> 00:11:55.029
+In sort of a cell supervised setting than there is in either a supervised door reinforcement setting and this is going to my analogy of the cake the you know low cake has someone that's called it where.
+
+00:11:55.224 --> 00:12:08.928
+When you try to figure out how much information you ask the machine to predict and how much feedback you give them a Sheen that every trial in reinforcement learning you give the machine a single scalar you tell the machine you did good you did bad and you and you only.
+
+00:12:09.303 --> 00:12:17.525
+Tell this to the machine once in a while when I say you we could be the Universe telling the machine right but it's just one scalar.
+
+00:12:17.666 --> 00:12:26.365
+So as a consequence of is you cannot possibly learn something very complicated without many many many trials where you get many many feedbacks of this type.
+
+00:12:26.606 --> 00:12:33.990
+Supervisor awning you you give a few bits to the machine at every sample let's say,
+
+00:12:34.050 --> 00:12:46.396
+you're training a mission system on you know recognizing him images on imagenet there is 1000 categories that adolescent n Bits of information per sample
+besides supervised learning here is the setting you,
+
+00:12:46.456 --> 00:12:53.228
+ideally we don't know how to do this yet but ideally you would show a machine a segment of video.
+
+00:12:53.486 --> 00:12:57.441
+And then stop the video and I just ask the machine to predict what's going to happen next.
+
+00:12:57.780 --> 00:13:06.083
+So we let the machine predict and then you let time go by and show the machine what actually happened,
+
+00:13:06.144 --> 00:13:15.509
+I hope the machine will you know learn to do a better job at predicting next time around there's a huge amount of information you give the machine because it's an entire video clip.
+
+00:13:15.650 --> 00:13:24.196
+Of you know of the future after the video clip you fit it in the first place so both for language and for vision.
+
+00:13:24.814 --> 00:13:25.915
+There's a.
+
+00:13:26.201 --> 00:13:34.918
+Subtle seemingly trivial construction but maybe that's representative of what is required to create intelligence which is filling the gap.
+
+00:13:35.617 --> 00:13:36.691
+So the gaps.
+
+00:13:37.246 --> 00:13:46.819
+Sounds dumb but can you it's it is possible you can solve all of intelligence in this way just for both language.
+
+00:13:47.158 --> 00:13:47.773
+Just.
+
+00:13:48.094 --> 00:13:57.585
+Give a sentence and continue it or give a sentence and there's a gap in it some words blanked out and you fill in what words go there
+
+00:13:57.574 --> 00:14:05.669
+provision you give a sequence of images and predict what's going to happen next or you fill in what happened in between,
+
+00:14:05.676 --> 00:14:09.036
+do you think it's possible that formulation alone.
+
+00:14:10.510 --> 00:14:19.947
+As a signal for cell supervised learning can solve intelligence for vision and language I think that's so bad shot at the moment so whether this will.
+
+00:14:20.295 --> 00:14:27.329
+Take us all the way to you know human level intelligence or something or just catch level intelligence is no clear but.
+
+00:14:27.497 --> 00:14:31.299
+Among all the possible approaches that people have proposed I think it's our best shot,
+
+00:14:31.377 --> 00:14:37.943
+so I think this idea of an intelligent system filling in the blanks,
+
+00:14:38.048 --> 00:14:45.739
+either you know predicting the future you fearing the past filling in missing information you know
+
+00:14:45.655 --> 00:14:55.785
+I'm currently filling the blank of what is behind your head and what your what your head looks like and you know from from the back because I have basic knowledge about how humans are made
+
+00:14:55.638 --> 00:14:56.352
+and
+
+00:14:56.286 --> 00:15:05.922
+I don't know if you're going to you know where you going to say which one you're going to speak whether you're going to move your head this way or that way which way you're going to look but I know you're not going to just dematerialize and we appear to be m.
+
+00:15:06.108 --> 00:15:07.794
+Down the hole,
+
+00:15:07.917 --> 00:15:19.488
+you know because I know what's possible and what's impossible according to in 2D physics so you have a model of what's possible it's impossible in this you'd be very surprised if it happens and then you'll have to reconstruct your model.
+
+00:15:19.737 --> 00:15:29.111
+Right so that's the motto of the world it's what tells you you know what fills in the blanks it's so given your partial information about the state of the world given by your perception.
+
+00:15:29.577 --> 00:15:35.422
+You are your model of the world fills in the missing information and that includes predicting the future.
+
+00:15:35.644 --> 00:15:42.273
+Rich predicting the past you know filling in things you don't immediately perceive and that doesn't have to be purely.
+
+00:15:42.540 --> 00:15:48.808
+Generic Vision or visual information or generic language you can go to specifics like.
+
+00:15:49.472 --> 00:15:58.612
+Predicting what control decision you make when you're driving in a lane you have a sequence of images from a vehicle and then you could.
+
+00:15:58.789 --> 00:16:10.756
+You have information if you recorded on video where the car ended up going so you can go back in time and predict where the car went based on the visual information that's very specific domain specific.
+
+00:16:11.158 --> 00:16:15.005
+Right but the question is whether we can come up with sort of a generic.
+
+00:16:15.344 --> 00:16:22.909
+Method for you know training machines to do this kind of prediction of filling in the blanks so right now.
+
+00:16:23.401 --> 00:16:29.724
+This type of approach has been unbelievably successful in the context of natural language processing,
+
+00:16:29.784 --> 00:16:34.117
+every modern natural language processing is pre-trained in South supervised manner,
+
+00:16:34.168 --> 00:16:41.319
+to fill in the blanks to you you show it a sequence of words you remove 10% of them and then you try and some gigantic neural net to predict the words that are missing
+
+00:16:41.298 --> 00:16:50.636
+that and once you're free Trend that Network you can use the internal representation learn by it as input to you know
+
+00:16:50.480 --> 00:17:04.049
+something that you train supervised door or whatever that's been incredibly successful not so successful in images although it's making progress and and it's based on sort of manual data augmentation.
+
+00:17:04.308 --> 00:17:13.142
+How we can go into this later but what has not been successful yet is training for video so getting a machine to learn to represent the visual world for example.
+
+00:17:13.400 --> 00:17:23.116
+Just watching video nobody is really succeeded in doing this okay well let's kind of give a high level overview what's the difference in kind,
+
+00:17:23.122 --> 00:17:35.116
+and in difficulty between vision and language so you said people haven't been able to really kind of crack the problem of vision open in terms of self supervised learning but that may not be
+
+00:17:35.023 --> 00:17:40.482
+be necessarily because it's fundamentally more difficult maybe like when we're talking about achieving,
+
+00:17:40.578 --> 00:17:51.329
+like passing the Turing test in full Spirit of the Turing test in language might be harder than Vision that's that's not obvious so what in your view which is harder
+
+00:17:51.299 --> 00:18:00.494
+or perhaps are they just the same problem when the farther we get the solving each the more we realize it's all the same thing it's all the same cake I think.
+
+00:18:00.914 --> 00:18:03.824
+What I'm looking for are methods that make make them look.
+
+00:18:04.191 --> 00:18:13.880
+Essentially like the same cake but currently they're not and the main issue with learning or models or Infiniti models is that,
+
+00:18:13.976 --> 00:18:20.731
+the prediction is never a single thing because the world is not entirely predictable
+
+00:18:20.701 --> 00:18:30.237
+it may be deterministic or stochastic we can get into the philosophical discussion about it but but even if is deterministic is not entirely predictable and so.
+
+00:18:30.720 --> 00:18:32.082
+If I play
+
+00:18:31.981 --> 00:18:46.945
+a short video clip and then I ask you to predict what's going to happen next there's many many plausible continuations for that video clip and the number of continuation grows with the interval of time that you're asking the system to make a prediction
+
+00:18:46.816 --> 00:18:52.806
+for and so when big question we saw supervised learning is how you
+
+00:18:52.704 --> 00:19:03.086
+represent this uncertainty how you represent multiple discrete outcomes how you represent a sort of Continuum of possible outcomes Etc and
+
+00:19:03.002 --> 00:19:12.953
+you know if you are a sort of a classical machine learning person you say oh you just represent the distribution right and that we know how to do.
+
+00:19:13.121 --> 00:19:16.410
+When we're predicting words missing words in the text because,
+
+00:19:16.533 --> 00:19:29.589
+you can have a neural net give a score for every words in the dictionary it's big you know it's a big list of numbers you know maybe a hundred thousand or so you can turn them into a probability distribution that gives the tells you when I say a sentence.
+
+00:19:29.793 --> 00:19:36.962
+You know the you know the cat is chasing the blank in the kitchen the only a few words that make sense there.
+
+00:19:37.751 --> 00:19:43.110
+It could be a mouse like could be a lizard spot or you know something like that right.
+
+00:19:43.459 --> 00:19:58.090
+And and if I say the blank is changing the blank in the savanna you also have a bunch of possible options for those two words right that that because you have kind of a underlying reality that you can refer to to sort of fill in those those blanks.
+
+00:19:58.970 --> 00:20:07.939
+Um so you cannot say for sure in the savanna if it's a you know a lion or a cheetah or whatever you can know if it's a.
+
+00:20:08.242 --> 00:20:15.537
+Zebra our do or you know whatever wildebeest the same thing but.
+
+00:20:17.208 --> 00:20:21.064
+But you can represent the uncertainty by just a long list of numbers now.
+
+00:20:21.691 --> 00:20:30.300
+If I if I do the same thing with video when I ask you to predict a video clip it's not a discrete set of potential frames you have to have.
+
+00:20:30.712 --> 00:20:39.122
+Somewhere representing a sort of infinite number of plausible continuations of multiple frames in a you know High dimensional continuous space.
+
+00:20:39.345 --> 00:20:41.526
+And we just have no idea how to do this properly.
+
+00:20:42.018 --> 00:20:50.105
+Finite high-dimensional so like you could find out how dimensional yes just like the words they try to get it too.
+
+00:20:50.526 --> 00:20:59.756
+Down to a small finite set of like under a million something like that something like that I mean it's kind of ridiculous that we're,
+
+00:20:59.825 --> 00:21:03.834
+doing a distribution over every single possible award for language,
+
+00:21:03.840 --> 00:21:16.149
+and it works it feels like that's a really dumb way to do it like there seems to be there seems to be like there should be some more compressed representation of the distribution,
+
+00:21:16.191 --> 00:21:17.895
+over the words you're right about that,
+
+00:21:17.991 --> 00:21:32.056
+and so I agree do you have any interesting ideas about how to represent all of the reality in a compressed way such as you can form a distribution over that's one of the big questions you know how to do that right I mean what's kind of you know another thing that really is.
+
+00:21:32.512 --> 00:21:42.057
+Stupid about it shouldn't say stupid but like simplistic about current approaches to sell supervisor on the hidden in an LP in text is that
+
+00:21:42.010 --> 00:21:43.120
+not only
+
+00:21:43.027 --> 00:21:54.264
+do you represent a giant distribution over words but for multiple words that are missing those distributions are essentially independent of each other and you know you don't pay too much of a
+
+00:21:54.262 --> 00:22:00.899
+price for this so you so you can so that you know the system you know in the the sentence that I gave earlier
+
+00:22:00.788 --> 00:22:13.664
+if he gives a certain probability for a lion and a cheetah and then a certain probability for you know gazelle wildebeest 10 and and z bar.
+
+00:22:13.815 --> 00:22:16.815
+Those two probabilities are independent of each other.
+
+00:22:17.082 --> 00:22:29.733
+And it's not the case that those things are independent Lions actually attack like bigger animals than than she does so you know there's a huge Independence hypothesis in in this process which is not actually true
+
+00:22:29.659 --> 00:22:31.435
+the reason for this is that we
+
+00:22:31.279 --> 00:22:46.784
+don't know how to represent properly distributions over Community aerial sequences of symbols essentially when the because the number grows exponentially with the length of the symbols and so we have to use tricks for this but those techniques can
+
+00:22:46.682 --> 00:22:50.781
+you know get around like don't even deal with it so,
+
+00:22:50.904 --> 00:22:57.235
+so the big question is like would there be some sort of abstract latent representation of text.
+
+00:22:57.530 --> 00:23:08.326
+That would say that you know when I when I switch lion for gazelle lion for cheetah I also have to switch zebra for Gizelle yeah so.
+
+00:23:08.566 --> 00:23:20.038
+This Independence assumption let me throw some criticism I you that I often hear and see how you respond so this kind of filling in the blanks just statistics you're not learning anything,
+
+00:23:20.152 --> 00:23:26.178
+like the Deep underlying Concepts you're just mimicking stuff from.
+
+00:23:27.003 --> 00:23:31.957
+The past you're not learning anything new such that you can use it to generalize about
+
+00:23:31.927 --> 00:23:44.344
+the world or okay let me just say the crude version which is just statistics it's not intelligence will you have to say to that what do you usually say to that if you kind of hear this kind of thing.
+
+00:23:44.494 --> 00:23:54.463
+I don't get into discussions because they are the kind of pointless so first of all it's quite possible that intelligence is just statistics is just the T6 of a particular kind
+
+00:23:54.379 --> 00:24:02.133
+yes where is the philosophical question this is kind of is is until is it possible the intelligence just statistics.
+
+00:24:03.462 --> 00:24:08.182
+But what kind of Statistics so if you are asking the question.
+
+00:24:09.035 --> 00:24:15.402
+Are the model of the world the models of the world that we learn do they have some notion of causality yes
+
+00:24:15.264 --> 00:24:25.089
+so if the criticism comes from people who say you know current machine Learning System don't care about causality which by the way is wrong you know I agree with that,
+
+00:24:25.140 --> 00:24:34.370
+yeah you should you know your model of the world should have your actions as one of your of the inputs and that will drive you to learn causal models of the world where you know what.
+
+00:24:34.664 --> 00:24:47.702
+You know what intervention in the world will cause what result or you can do this by observation of other agents acting in the world and observing the effect although humans for example so I think.
+
+00:24:48.113 --> 00:24:58.928
+You know at some level description intelligence is just a districts but that doesn't mean you don't you don't you know you won't have models that have you know deep,
+
+00:24:59.042 --> 00:25:07.003
+mechanistic explanation for what goes on the question is how do you learn them that's the question I'm interested in because.
+
+00:25:07.387 --> 00:25:10.649
+You know a lot of people who actually voiced their criticism.
+
+00:25:11.276 --> 00:25:19.840
+Say that those mechanistic model has to have to come from someplace else they have to come from Human designers they have to come from I don't know what and obviously we learned them.
+
+00:25:20.549 --> 00:25:24.540
+Or if we don't learn them as an individual nature.
+
+00:25:24.942 --> 00:25:31.345
+London for us using Evolution so regardless of what you think those processes have been learned somehow.
+
+00:25:31.522 --> 00:25:43.255
+So if you look at the the human brain just like when we humans introspect about how the brain works it seems like when we think about what is intelligence we think about
+
+00:25:43.252 --> 00:25:51.645
+the high-level stuff like the models we've constructed Concepts like cognitive science that concepts of memory and reasoning module almost like these,
+
+00:25:51.696 --> 00:25:56.426
+high-level modules is there is this serve as a good analogy.
+
+00:25:57.278 --> 00:26:09.299
+Like are we ignoring the dark matter the basic low-level mechanisms just like we ignore the way the operating system works with just using the,
+
+00:26:09.395 --> 00:26:18.256
+the the high level software we're ignoring that at the low level the neural network might be doing something like statistics
+
+00:26:18.100 --> 00:26:30.715
+like I mean sorry to use this word probably incorrectly and crudely but doing this kind of fill in the Gap kind of learning and just kind of updating the model constantly in order to be able to support the raw sensory information
+
+00:26:30.649 --> 00:26:39.159
+mation to predict it and adjust to the prediction when it's wrong but like hila when we look at our brain at the high level it feels like we're doing,
+
+00:26:39.165 --> 00:26:53.770
+like we're playing chess like we're we're like playing with high-level Concepts and we're stitching them together we're putting them into long-term memory but really what's going underneath is something we're not able to introspect which is this kind of.
+
+00:26:53.929 --> 00:26:57.866
+Is simple large neural network that's just filling in the gaps,
+
+00:26:57.908 --> 00:27:06.760
+right well okay so there's a lot of questions and answers there okay so first of all there's a whole school of thought in our science computational Neuroscience in particular
+
+00:27:06.586 --> 00:27:20.642
+that likes the idea of predictive coding which is really related to the idea was talking about in South supervisor on E so everything is about prediction the essence of intelligence is the ability to predict and everything the brain does is trying to predict
+
+00:27:20.576 --> 00:27:28.879
+predict everything from everything else okay and that's really sort of the underlying principle if you want that,
+
+00:27:28.903 --> 00:27:40.213
+tell supervisor learning is trying to kind of reproduce this idea of prediction as kind of an essential mechanism of tasks Independent Learning if you want the next step is,
+
+00:27:40.219 --> 00:27:53.185
+what kind of intelligence are you interested in reproducing and of course you know we all think about you know trying to reproduce so you know high-level cognitive processes in humans but like with machines were not even at the level of.
+
+00:27:53.272 --> 00:28:03.952
+Even reproducing the running processes in a cat brain you know the most intelligent of our intelligence systems don't have as much common sense as as a house cat,
+
+00:28:03.976 --> 00:28:12.693
+so how is it that cats learn and you know cats don't do a whole lot of reasoning they certainly have causal models you certainly have
+
+00:28:12.555 --> 00:28:21.551
+because you know many cats can figure out like how they can act on the world to get what they want they certainly have a fantastic
+
+00:28:21.548 --> 00:28:36.225
+model of into the physics certainly of the Dynamics of their own bodies but also praised and things like that right so they're pretty smart they only do this with about 800 million neurons we
+
+00:28:36.213 --> 00:28:42.904
+are not anywhere close to reproducing this kind of thing so to some extent that I could I could say.
+
+00:28:43.217 --> 00:28:46.982
+Let's not even worry about like the high-level cognition.
+
+00:28:47.547 --> 00:28:57.218
+And cannot you know long-term planning and reasoning that humans can do until we figure out like you know can we even reproduce weak acid doing now that said this ability.
+
+00:28:57.575 --> 00:29:04.744
+Learn World models I think is the key to the possibility of running machines that can also reason.
+
+00:29:05.065 --> 00:29:10.244
+So whenever I give a talk at say there are three challenges in the three main challenges in machine learning the first one is.
+
+00:29:10.530 --> 00:29:15.583
+You know getting machines to run to represent the world and I'm proposing salt supervisor training.
+
+00:29:16.093 --> 00:29:25.899
+The second is getting machines to reason in ways that are compatible with essentially gradient based running because this is what deep learning is all about really.
+
+00:29:26.491 --> 00:29:31.102
+And the third one is something we have no idea how to solve it is I have no idea to solve.
+
+00:29:31.388 --> 00:29:37.962
+Is can we get machines to run hauraki call representations of action plans.
+
+00:29:38.968 --> 00:29:43.157
+You know like you know we know how to train them to learn how radical representations of perception.
+
+00:29:43.937 --> 00:29:53.860
+You know accomplished on ads and things like that and Transformers but what about action plans can we get them to spontaneously loan good hierarchical representations of actions also gradient-based.
+
+00:29:54.299 --> 00:30:03.979
+Yeah I all of that you know needs to be somewhat differentiable so that you can apply sort of gradient based learning which is really what the planning is about
+
+00:30:03.967 --> 00:30:13.404
+so it's background knowledge ability to reason in a way that is differentiable that.
+
+00:30:13.734 --> 00:30:23.244
+Is somehow connected deeply integrated with that background knowledge or Builds on top of that background knowledge and then given that background knowledge be able to make hierarchical plans,
+
+00:30:23.250 --> 00:30:32.183
+Ryan world so if you take classical optimal control is something in classical optimal control called Model predictive control.
+
+00:30:32.396 --> 00:30:42.040
+And it's you know it's been around since the 90s early 60s that's how uses that to compute trajectories of rockets and the basic idea is that you have a predictive model.
+
+00:30:42.470 --> 00:30:51.556
+Of the rocket let's say or whatever system you're you intend to control which given the state of the system at time T and given an action.
+
+00:30:51.967 --> 00:31:05.464
+That you are taking the system so for a rocket to be thrust and you know all the controls you can have it gives you the state of the system at time t plus Delta G right so basically differential equation something like that.
+
+00:31:06.074 --> 00:31:15.349
+And if you have this model and you have this model in the form of some sort of neural net or some sort of set of formula that you can backpropagate gradient through.
+
+00:31:15.499 --> 00:31:27.700
+You can do is called Model predictive control or great investment a great model predictive control so you have you can unroll that that model in time you you.
+
+00:31:27.832 --> 00:31:36.963
+You you see that it is a hypothesized sequence of actions and then you have some objective function that measures how well
+
+00:31:36.888 --> 00:31:46.686
+at the end of the trajectory the system has succeeded or matched what you wanted to do you know is it a robot arm as you grasp the object you want to grasp if it's a rocket
+
+00:31:46.548 --> 00:31:58.317
+you know are you the right place near the space station things like that and buy back propagation through time and again this was invented in the 1960s by Optimal control theory just you can figure out.
+
+00:31:58.449 --> 00:32:07.823
+What is the optimal sequence of actions that will you know get my system to the best final state so.
+
+00:32:08.234 --> 00:32:15.772
+That's a form of reasoning it's basically planning and a lot of planning systems in robotics actually based on this and.
+
+00:32:16.012 --> 00:32:22.542
+And you can think of this as a form of reasoning so you know to take the example of the teenager driving a car again.
+
+00:32:22.710 --> 00:32:28.114
+You have a pretty good dynamical model of the car it doesn't need to be very accurate but you know again that if you.
+
+00:32:28.291 --> 00:32:37.512
+Turn the wheel to the right and there is a cliff you're going to run off the cliff right you don't need to have a very accurate model to predict that and you can run this in your mind and decide not to do it for that reason.
+
+00:32:37.996 --> 00:32:44.966
+Because you can predict in advance that the result is going to be bad so you can sort of Imagine different scenarios and then you know employee.
+
+00:32:45.153 --> 00:32:54.482
+Or take the first step in the scenario that is most favorable and then repeat the process of planning that's called receding Horizon model predictive control so even there all those things have names you know.
+
+00:32:54.713 --> 00:33:04.078
+Greenback you know decades and so if you're not too In classical optimal control the model of the world is not generally learned.
+
+00:33:04.678 --> 00:33:09.182
+This you know sometimes a few parameters you have to identify that school systems identification.
+
+00:33:09.765 --> 00:33:17.096
+But generally the model is mostly deterministic and mostly built by hand so the big question of AI.
+
+00:33:17.498 --> 00:33:25.387
+I think the big challenge of AI for the next decade is how do we get machines to run pretty models of the world that deal with uncertainty.
+
+00:33:25.564 --> 00:33:38.368
+And deal with the real world in all this complexity so it's not just the trajectory of a rocket which you can reduce to First principles it's not it's not even just a trajectory of a robot arm which again you can model by you know careful mathematics
+
+00:33:38.176 --> 00:33:42.077
+but it's everything else everything observing the world you know people Behavior.
+
+00:33:42.695 --> 00:33:50.701
+You know physical systems that involve Collective phenomena like water or you know.
+
+00:33:50.914 --> 00:33:58.272
+Treason you know branches in a tree or something or or like complex things that you know humans have no trouble.
+
+00:33:58.566 --> 00:34:08.868
+Developing abstract representations in predictive model for but we still don't know how to do with machines where do you put in in these three maybe in the in the planning stages.
+
+00:34:09.090 --> 00:34:22.965
+The game theoretic nature of this world where your actions not only respond to the dynamic nature of the world the environment but also affected so if there's other humans involved is this is this.
+
+00:34:23.106 --> 00:34:39.286
+Point number four or is it somehow integrated into the hierarchical representation of action in your view I think it's integrated is just it's just that now your model of the world has to deal with you know it just makes it more complicated right the fact that humans are complicated and not easily predictable
+
+00:34:39.103 --> 00:34:47.217
+that makes your model of the world much more complicated that much more complicated well there's a chest I mean I suppose chest analogy
+
+00:34:47.160 --> 00:34:49.765
+so much Monte Carlo tree search
+
+00:34:49.636 --> 00:34:59.406
+there's a go you go I go you go like undercut pot they recently gave a talk and I Mighty about car doors,
+
+00:34:59.484 --> 00:35:07.328
+I think there's some machine learning too but mostly car doors and there's a dynamic nature to the car like the person opening the door checking.
+
+00:35:07.614 --> 00:35:17.582
+He wasn't talking about that he was talking about the perception problem of what the ontology of what defines a card or this big philosophical question but to me it was interesting because like it's obvious,
+
+00:35:17.633 --> 00:35:23.127
+at the person opening the car doors they're trying to get out like here in New York trying to get out of the car.
+
+00:35:23.277 --> 00:35:29.393
+You slowing down is going to Signal something you speeding up is going to Signal something that's dance it's a,
+
+00:35:29.507 --> 00:35:37.000
+asynchronous chess game I don't know so it feels like.
+
+00:35:37.591 --> 00:35:51.917
+It's not just I mean I guess you can integrate all of the into one giant model like the entirety of the these little interactions because it's not as complicated as chest is just like a little dance we do like a little dance together and then we figure it out
+
+00:35:51.869 --> 00:36:01.765
+well in some ways is way more complicated than chess because because it's continuous it's uncertain in a continuous manner doesn't feel more complicated
+
+00:36:01.708 --> 00:36:09.444
+but it's more complicated because that's what we are we've evolved to solve this kind of problem we've evolved to solve and so we're good at it because you know,
+
+00:36:09.477 --> 00:36:16.178
+Nature has made us good at it Nature has not made his good at chess we completely suck at chess.
+
+00:36:16.634 --> 00:36:25.828
+In fact that's why we designed it as a game is to be challenging and if there is something that you know recent progress in the Chase and go.
+
+00:36:26.167 --> 00:36:34.389
+Has made us realize is that humans are we terrible at those things like really bad hello there was a story right before alphago that.
+
+00:36:34.909 --> 00:36:42.149
+You know the best go player thought they were maybe two or three stones behind you know an ideal player that they would call God
+
+00:36:42.056 --> 00:36:49.261
+in fact know there are like nine or ten stores behind I mean we're just bad yeah so we're not good at
+
+00:36:49.213 --> 00:36:56.634
+it's because we have limited working memory we're not very good at like doing this tree exploration that you know computers are much better.
+
+00:36:57.099 --> 00:37:06.860
+Doing that we are but we are much better at learning differentiable models of the world I mean as a differentiable in the kind of you know I should say,
+
+00:37:06.876 --> 00:37:20.661
+not differentiable in the sense that you know we went back for through it but in the sense that our brain has no mechanism for estimating gradients of some kind yeah and that's what makes it so efficient so if you have an agent.
+
+00:37:20.964 --> 00:37:22.560
+That consists of.
+
+00:37:23.188 --> 00:37:32.868
+A model of the world which you know in the human brain is basically the entire front half of your brain an objective function which.
+
+00:37:33.297 --> 00:37:47.082
+Inhuman in humans is a combination of two things there is your sort of intrinsic motivation module which is on the basal ganglia and what the bits of your brain that's the thing that measures pain and hunger and things like that like immediate
+
+00:37:47.026 --> 00:37:50.909
+feelings and emotions and then there is.
+
+00:37:51.203 --> 00:37:59.650
+You know the equivalent of what people in refunds Micron include critic which is a sort of module that predicts ahead what the outcome.
+
+00:37:59.863 --> 00:38:08.418
+Over the situation will be and so it's not a cost function but it's sort of non objective function but it's sort of a.
+
+00:38:09.504 --> 00:38:14.296
+You know train predictor of the ultimate objective function and that also is differentiable.
+
+00:38:14.447 --> 00:38:22.056
+And so if all of these are differentiable your cost function your critic your You Know Your Role Model.
+
+00:38:22.225 --> 00:38:27.836
+Then you can use gradient based type methods to do planning to the reasoning to do learning.
+
+00:38:27.986 --> 00:38:35.614
+To do all the things that we'd like an intelligent agent to do and gradient based learning.
+
+00:38:36.070 --> 00:38:41.888
+Think what's your intuition that's probably at the core of what can solve intelligence so you don't need,
+
+00:38:41.913 --> 00:38:50.413
+Mike logic based reasoning in your view I don't know how to make logic based reasoning compatible with
+
+00:38:50.276 --> 00:39:04.790
+efficient learning yeah and okay I mean there is a big question perhaps if it is difficult question I mean it's not that philosophical but the we can ask is that you know all the learning algorithms we know from engineering and computer science.
+
+00:39:05.183 --> 00:39:07.770
+Proceed by optimizing some objective function.
+
+00:39:08.181 --> 00:39:16.133
+Yeah right so one question we may ask is is those running in the brain minimize an objective function.
+
+00:39:16.598 --> 00:39:31.077
+You could be a you know a composite of multiple objective functions what is still an objective function
+second if it does optimization objective function does it do does it do it by some sort of gradient estimation.
+
+00:39:31.569 --> 00:39:44.481
+It does need to be back pop but you know some way of estimating the gradient in efficient manner who's complexity is of the same order of magnitude as you know actually running the inference.
+
+00:39:44.676 --> 00:39:59.659
+Because you can't afford to do things like you know perturbing a weight in your brain to figure out what the effect is and then sort of you know you can do sort of estimating gradient by perturbation its it to me it seems very implausible that the brain uses some sort of.
+
+00:39:59.872 --> 00:40:04.637
+You know zeroth order black box gradient free optimization.
+
+00:40:04.895 --> 00:40:10.290
+Because it's so much less efficient than gradient optimization so it has to have a way of estimating gradient.
+
+00:40:11.143 --> 00:40:16.214
+Is it possible that some kind of logic big reasoning emerges In Pockets.
+
+00:40:16.418 --> 00:40:25.450
+As a youthful like you said if the brain is an objective function maybe it's a mechanism for creating objective functions it's a mechanism for.
+
+00:40:25.826 --> 00:40:35.650
+Creating knowledge bases for example that can then be queried like maybe it's an efficient representation of knowledge that's learned in a gradient based way or something like that
+
+00:40:35.593 --> 00:40:44.778
+so I think there is a lot of different types of intelligence so first of all I think the type of logical reasoning that we think about that we are
+
+00:40:44.685 --> 00:40:54.204
+you know baby stemming from you know sort of classically I of the 1970s and 80s I think humans use that relatively rarely.
+
+00:40:54.840 --> 00:41:06.645
+And I'm not particularly good at it but we judge each other based on our ability to solve those rare problems called IQ test think so like I'm not very good at chess.
+
+00:41:07.092 --> 00:41:22.012
+Yes I'm judging you this whole time because well we actually with your with your you know Heritage I'm sure you're good as chest hair types not all stereotypes are true well I'm terrible at chess so.
+
+00:41:22.279 --> 00:41:32.157
+You know but I think perhaps another type of intelligence that I have is this you know ability of sort of building models to the world from.
+
+00:41:32.550 --> 00:41:34.192
+You know.
+
+00:41:34.423 --> 00:41:43.797
+Reason you have used obviously but also data and those models generally are more kind of analogical right so it's it's reasoning by simulation.
+
+00:41:44.181 --> 00:41:45.561
+And by analogy.
+
+00:41:45.802 --> 00:41:57.589
+Where are you use one model to apply to a new situation even though you've never seen that situation you can sort of connected to situation you've encountered before and and your reasoning is more.
+
+00:41:57.928 --> 00:42:08.004
+You know it came to some sort of internal simulation so you your kind of simulating what's happening when you're building I don't know a box out of wood or something right you can imagine an in advance.
+
+00:42:08.271 --> 00:42:20.265
+What will be the result of you know cutting the wood in this particular way you're going to use you know screws or nails or whatever when you are interacting with someone you also have a model of that person and and sort of interact with that person.
+
+00:42:21.190 --> 00:42:29.070
+You know having this model in mind to kind of tell the person what you think is useful to them so I think this.
+
+00:42:29.229 --> 00:42:37.631
+This ability to construct models of the world is basically the essence the essence of intelligence and the ability to use it then too,
+
+00:42:37.763 --> 00:42:47.254
+plan actions that will fulfill a particular Criterion of course is as necessary as well
+
+00:42:47.179 --> 00:42:52.980
+I'm going to ask you a series of impossible questions as we keep asked is that I've been doing so
+
+00:42:52.923 --> 00:43:02.702
+so if that's the fundamentals of dark matter of intelligence this ability to form a background model what's your intuition about how much knowledge is required.
+
+00:43:03.329 --> 00:43:06.654
+You know I think dark matter you go put a percentage of.
+
+00:43:07.137 --> 00:43:15.404
+On it of of the composition of the universe and how much of it is dark matter how much is dark energy how much.
+
+00:43:17.121 --> 00:43:21.427
+Information do you think is required to be a house cat.
+
+00:43:21.802 --> 00:43:31.410
+So you have to be able to when you see a box going that when you see a human compute the most evil action if there's a thing the Terran Edge you knock it off,
+
+00:43:31.506 --> 00:43:33.589
+all of that plus
+
+00:43:33.532 --> 00:43:43.059
+the extra stuff you mentioned which is a great self-awareness of the physics of your of your own body and the world how much knowledge is acquired you think to solve it.
+
+00:43:43.948 --> 00:43:57.391
+I don't even know how to measure an answer to that question I'm not sure how to measure it but whatever it is it fits in about about 800,000 neurons 800 million neurons or the representation does.
+
+00:43:58.108 --> 00:44:07.014
+Everything all knowledge everything right it was less than a billion a dog is two billion but a cat is less than 1 billion.
+
+00:44:07.200 --> 00:44:11.479
+And so we multiply that by 1,000 and you get the number of synapses
+
+00:44:11.350 --> 00:44:23.299
+and I think almost all of it is learned through this you know a sort of cell to provide running although you know I think a tiny sliver is learned through reinforcement learning and certainly very little too
+
+00:44:23.891 --> 00:44:33.229
+because you can supervise running although it's not even clear how supervisor running actually works in the in about Google world so I think almost all of it is,
+
+00:44:33.280 --> 00:44:35.957
+is this also provides running but it's driven.
+
+00:44:36.161 --> 00:44:50.567
+By the the sort of ingrained objective functions that a cat or human have at the base of their brain which kind of drives their behavior so you know nature tells us you're hungry.
+
+00:44:51.339 --> 00:45:03.287
+It doesn't tell us how to feed a feed ourselves that's that's something that the rest of our brain has to figure out right what's interesting because there might be more like deeper objective functions and allowing the whole thing
+
+00:45:03.177 --> 00:45:11.200
+So Hunger may be some kind of night you go to like neurobiology might be just the brain.
+
+00:45:11.576 --> 00:45:18.816
+Trying to maintain homeostasis So Hunger is just one of the human perceivable,
+
+00:45:18.840 --> 00:45:33.355
+symptoms of the brain being unhappy with the way things are currently writes it could be just like one really dumb objective function at the core but that's how that's how behavior is driven the fact that you know the or basal ganglia.
+
+00:45:33.919 --> 00:45:39.422
+Drivers to do things that are that are different from saying a long Tong or suddenly a cat.
+
+00:45:39.852 --> 00:45:46.417
+Is what makes you know human nature versus Hong Kong nature versus get nature so for example.
+
+00:45:46.694 --> 00:45:53.484
+You know our basal ganglia drives us to seek the company of other humans.
+
+00:45:54.111 --> 00:46:03.126
+And that's because Nature has figured out that we need to be social animals for our species to survive and is true of many primates,
+
+00:46:03.204 --> 00:46:10.264
+it's not true of wrong tongs only times are solitary animals they don't seek the company of others in fact avoid them.
+
+00:46:10.613 --> 00:46:14.081
+If I did scream at them when they come to close because they are territorial,
+
+00:46:14.195 --> 00:46:22.967
+because for their survival you know evolution is figured out that's the best thing I mean there are occasionally socially of course for you know.
+
+00:46:23.180 --> 00:46:28.458
+Reproduction and stuff like that but but but they're mostly solitary so,
+
+00:46:28.491 --> 00:46:38.621
+so all of those behaviors are not part of intelligence you know people say oh you're never going to have intelligent machines because you know human intelligence is social but then you look at our own tongues you look at octopus,
+
+00:46:38.709 --> 00:46:48.056
+how to pose never really parents they barely interact with any other and they and they get to be really smart in less than and less than a year in like half a year.
+
+00:46:48.332 --> 00:46:54.303
+You know I know your other adults in two years the dead so there are things that we think.
+
+00:46:54.688 --> 00:47:01.451
+As humans are intimately linked with intelligence like social interaction like language.
+
+00:47:01.637 --> 00:47:11.678
+We think I think we give way too much importance to language as a substrate of intelligence as humans because we think our reasoning is so linked with language,
+
+00:47:11.711 --> 00:47:21.661
+so for to solve the house cat intelligence problem you think you could do it on a desert island you can have pretty much because you have a cat sitting there.
+
+00:47:22.217 --> 00:47:30.942
+Looking at the ways that the ocean waves and figure out a lot of it out it needs to have sort of you know the right set of drives.
+
+00:47:31.507 --> 00:47:43.978
+Too kind of you know get it to do the thing and learn the appropriate things right but like for example you know baby humans are driven to learn to stand up and walk.
+
+00:47:44.281 --> 00:47:53.799
+Let's start that's kind of this desire is hardwired how to do it precisely is not around but the desire to talk move around and stand up.
+
+00:47:54.121 --> 00:47:59.669
+That's sort of what I want is very simple to hardwire this kind of stuff.
+
+00:48:00.521 --> 00:48:08.896
+Oh like the desire to well that's interesting you're hardwired to want to walk
+that's not a.
+
+00:48:09.325 --> 00:48:22.220
+It's got to be a deeper need for walking I think it was probably socially imposed by society that you need to walk all the other bipedal I could out of simple animals that you know it's probably work without ever.
+
+00:48:22.451 --> 00:48:33.481
+Watching any other members of the species it seems like a scary thing to have to do because you suck at bipedal walking at first it seems crawling him as much safer.
+
+00:48:33.839 --> 00:48:34.958
+Much more.
+
+00:48:35.261 --> 00:48:45.310
+Like why are you in a hurry well because because you have this thing that drives you to do it you know which is sort of part of the sort of.
+
+00:48:45.470 --> 00:48:54.673
+Human development is that understood actually what not entirely know what is the what's the reason to get into fits really hard like most animals don't get into fee
+
+00:48:54.670 --> 00:49:02.261
+get on four feet you know many mammals get in four feet yeah they very quickly saw them extremely quickly but I don't you know like
+
+00:49:02.223 --> 00:49:10.661
+from the last time I've interacted with a table that's much more stable than a thing than two legs it's just a really hard problem yeah I mean birds are figured it out it was two feet.
+
+00:49:11.243 --> 00:49:19.843
+Well technically we can go into ontology they have for I guess they have to fee of two feet chickens you know dinosaurs had two feet,
+
+00:49:19.867 --> 00:49:33.661
+many of them allegedly I'm just now learning that T-Rex was eating grass not other animals to your ex might have been a friendly friendly pet what do you think about I don't know if you looked at.
+
+00:49:34.289 --> 00:49:43.114
+The test for general intelligence efforts partially put together and if you got a chance to look at that kind of thing like what's your intuition about
+
+00:49:43.057 --> 00:49:52.215
+how to solve like an IQ type of test I don't know I think it's so outside of my radar screen that it's not really relevant I think in the short term
+
+00:49:52.140 --> 00:50:01.758
+I guess one way to ask another way perhaps more closer to what do you work is like how do you solve em nest
+
+00:50:01.701 --> 00:50:04.710
+with very little example data
+
+00:50:04.608 --> 00:50:18.295
+that's right and that's the answer to this probably is also advised running just run to represent images and then learning to recognize handwritten digits on top of this will only require a few samples we observe this in humans right you
+
+00:50:18.085 --> 00:50:23.894
+you show a young child picture book with couple picture of an elephant and that's it
+
+00:50:23.828 --> 00:50:32.068
+the child knows what an elephant is and we see this today with practical systems that we retrain image recognition systems with.
+
+00:50:32.470 --> 00:50:39.801
+Enormous amounts of of images either either completed supervised or very weekly supervised for example.
+
+00:50:40.086 --> 00:50:45.652
+You can train a neural net to predict whatever hashtag people type on Instagram
+
+00:50:45.596 --> 00:50:56.752
+right now you can do this with billions of images because it's billions per day that are showing up so the amount of training data is essentially unlimited and then you take the output y presentation.
+
+00:50:56.912 --> 00:51:01.146
+You know a couple layers down from the output of weather system Lauren,
+
+00:51:01.269 --> 00:51:10.742
+and feed this as input to a classifier for any object in the world that you want and it works pretty well so that's transferred money okay or weekly supervised,
+
+00:51:10.820 --> 00:51:13.128
+the transfer of learning
+
+00:51:13.080 --> 00:51:26.496
+people are making very very fast progress using saucer provides running for for this kind of scenario as well and you know I guess is that that's that's going to be the future for South supervised learning how much.
+
+00:51:26.799 --> 00:51:37.794
+Cleaning do you think is needed for filtering malicious signal or what's a better term but like a lot of people use hashtags on Instagram.
+
+00:51:38.655 --> 00:51:44.563
+To get like good SEO that doesn't fully represent the context of the image.
+
+00:51:44.984 --> 00:51:48.750
+Like what I'll put a picture of a cat and hashtag it would like science
+
+00:51:48.684 --> 00:51:58.292
+awesome fun I don't know all the why would you put sighs well so it's not very good SEO the way the women I could use to work on this project
+
+00:51:58.145 --> 00:52:07.627
+Facebook now M AI a few years ago dealt with this is that the only selected something like 17,000 tags that correspond to kind of physical,
+
+00:52:07.660 --> 00:52:15.567
+things or situations like you know that has some visual content so you know.
+
+00:52:16.141 --> 00:52:23.705
+You wouldn't have like hash TBT or anything like that also they keep a very select set of hashtags voice yeah
+
+00:52:23.657 --> 00:52:28.936
+okay but this tells me until the order of you know 10 to 20 thousand so it's
+
+00:52:28.897 --> 00:52:38.982
+fairly large okay can you tell me about data augmentation what the heck is data augmentation and how is it used maybe contrast of learning
+
+00:52:38.979 --> 00:52:42.385
+44 video what are some cool ideas here
+
+00:52:42.211 --> 00:52:54.169
+right so they documentation I mean first did augmentation you know is the idea of artificially increasing the size of your training set by distorting the images that you have in ways that don't change the nature of the image
+
+00:52:54.022 --> 00:53:05.188
+right so you take you doing this you can do that augmentation on any list and people have done this since the 1990s or I do take a and it's digit and you shift it a little bit or you change the size or.
+
+00:53:05.329 --> 00:53:09.941
+Rotated skew it you know Etc add noise,
+
+00:53:10.001 --> 00:53:19.150
+noise Etc and it it works better if you try no supervised classify your with augmented data you're going to get better results now it's become
+
+00:53:19.057 --> 00:53:23.697
+really interesting over the last couple years because
+
+00:53:23.649 --> 00:53:36.263
+a lot of sauce supervised learning techniques to pre-trained Vision systems are based on the documentation and the basic techniques is originally inspired by techniques that.
+
+00:53:36.405 --> 00:53:46.022
+I worked on in the early 90s and Geoff Hinton worked on also in the early 90s there was a parallel work I used to call this Siamese Network so basically you take
+
+00:53:45.902 --> 00:53:51.478
+two identical copies of the same network to share the same weights and you show too,
+
+00:53:51.529 --> 00:53:59.723
+different views of the same object either those two different views may have been obtained by debt augmentation or maybe it's two different views of the same scene
+
+00:53:59.586 --> 00:54:11.337
+from a camera that you moved or a different times or something like that right or two pictures of the same person things like that and then you train this neural net those two identical copies of its neural net to produce,
+
+00:54:11.352 --> 00:54:16.873
+and I put representation of Vector in such a way that the representation for those two.
+
+00:54:17.320 --> 00:54:26.514
+Images are as close to each other as possible as identical to each other as possible right because you want the system to Big City basically learning function,
+
+00:54:26.574 --> 00:54:34.913
+there will be there will be invariant that will not change whose output will not change when you transform those inputs in those in those particular ways right.
+
+00:54:35.622 --> 00:54:43.448
+So that's easy to do what's complicated is how do you make sure that when you show two images that are different the system will produce different things.
+
+00:54:43.895 --> 00:54:49.938
+Because if you don't have a specific provision for this the system will just ignore the input
+
+00:54:49.908 --> 00:54:58.553
+when you train it will end up ignoring the input and just produce a constant Vector that is the same for every input right yes that's called a collapse now how do you avoid collapse,
+
+00:54:58.578 --> 00:55:13.056
+so these two ideas one idea that I proposed in the early 90s with my colleagues at Bell Labs Jen Bromley and cobrado people which we now call contrastive learning which is to have negative examples right to have pairs.
+
+00:55:13.359 --> 00:55:15.252
+Of images that you know are different.
+
+00:55:16.348 --> 00:55:24.786
+And you show them to the network and those two copies and then you push the two output vectors away from each other and they will eventually guarantee that,
+
+00:55:24.900 --> 00:55:30.952
+things that are symmetric to similar produce similar representations and things that are different produce different representations
+
+00:55:30.851 --> 00:55:39.370
+we actually came up with this idea for a project of doing signature verification so we would collect signature
+
+00:55:39.223 --> 00:55:47.310
+signatures from like multiple signatures on the same person and then train owner on that to produce the same representation and then you know.
+
+00:55:47.469 --> 00:55:56.456
+Force the system to produce different representation for different signatures this was actually the problem was proposed by people from a
+
+00:55:56.273 --> 00:56:12.390
+what was a Satori of a TNT at the time called NCR and they were interested in storing representation of the signature on the 80 bytes of the magnetic strip of a credit card so we came up with this idea of having a neural net with ad outputs
+
+00:56:12.216 --> 00:56:19.700
+you know that we quantize on B to so that we could encode the right the and that including was then used to compare with the signature matches or not that's right
+
+00:56:19.616 --> 00:56:26.227
+so then you would you don't think sign it would run through the neural net and then you would compare the output Vector to whatever is stored on your car actually work
+
+00:56:26.125 --> 00:56:30.853
+it worked but the ended up not using it
+
+00:56:30.851 --> 00:56:36.309
+because nobody cares actually I mean the American you know financial payment system is.
+
+00:56:36.540 --> 00:56:47.877
+Incredibly lacks in that respect to compared to Europe for over the signatures what's the purpose of signatures anyway this is very but he looks at them nobody cares it's ya know so
+
+00:56:47.802 --> 00:56:56.240
+so that's contrastive running right so you need positive and negative Bears and the problem with that is that you know even though I had the original paper on this.
+
+00:56:56.660 --> 00:57:06.089
+Actually not very positive about it because it doesn't work in high dimension if you are presentation is high-dimensional there's just too many ways for two things to be different,
+
+00:57:06.203 --> 00:57:17.233
+and so you would need lots and lots and lots of - pairs so there is a particular implementation of this which is relatively recent from actually the Google Toronto group
+
+00:57:17.140 --> 00:57:19.493
+where'd you know Geoff Hinton is the
+
+00:57:19.427 --> 00:57:28.414
+this is you remember there is called seem clear is I am cacl are and it you know basically a particular way of implementing this idea of contract around.
+
+00:57:28.663 --> 00:57:38.623
+The particular objective function now when I'm much more enthusiastic about these days is non contrast method so other ways to guarantee that.
+
+00:57:39.043 --> 00:57:45.194
+The representations would be different for different different inputs.
+
+00:57:46.137 --> 00:57:53.395
+And it's actually based on an idea that Geoff Hinton proposed in the early 90s with student at the time Sue Becker.
+
+00:57:53.870 --> 00:58:02.821
+And it's based on the idea of maximizing the mutual information between the outputs of the two systems you only show positive pairs we only show pairs of images that you know are somewhat similar.
+
+00:58:03.529 --> 00:58:06.133
+You're trying to to network to be informative.
+
+00:58:07.004 --> 00:58:14.974
+But also to be as informative of each other as possible so basically one representation has to be predictable from the other
+
+00:58:14.935 --> 00:58:22.797
+essentially and you know he proposed that idea had you know couple papers in the early 90s and then
+
+00:58:22.722 --> 00:58:37.255
+nothing was done about it for decadence and I kind of revive this idea together with my postdocs that at Fair particularly opposed of course defendant who is now a junior professor in Finland that you know Co Alto
+
+00:58:37.153 --> 00:58:40.792
+we came up with something called that we called Barlow twins.
+
+00:58:41.168 --> 00:58:48.309
+And it's a particular way of maximizing the information content of vector using some.
+
+00:58:48.558 --> 00:58:57.555
+Hypotheses and we have kind of a another version of it that's more recent now called V Craig V IC R IG that means,
+
+00:58:57.633 --> 00:59:11.922
+the onions in variance covariance regularization and then it's the thing I'm the most excited about in machine learning in the last 15 years I mean I'm not I'm really really excited about this what kind of data augmentation is useful for that non-contrast of learning method,
+
+00:59:12.054 --> 00:59:21.293
+are we talking about does that not matter that much or it seems like a very important part of the step yeah are you generate the images they're similar but sufficiently different.
+
+00:59:21.480 --> 00:59:33.392
+Yeah that's right it's an important step and it's also an annoying step because you need to have that knowledge of what the documentation you can do that do not change the nature of the of the object and so
+
+00:59:33.309 --> 00:59:41.404
+the standard scenario which you know a lot of people working in this area are using is you use the type of distortion,
+
+00:59:41.528 --> 00:59:49.533
+so so basically you do geometry Distortion so one basically just shifts the image a little bit let's go crabbing another one can a changes the scale a little bit.
+
+00:59:49.666 --> 00:59:56.303
+Another one cannot rotated and other one changes the colors you know you can do a shift in color balance or something like that
+
+00:59:56.147 --> 01:00:07.016
+saturation another one sort of blurs it and other one as noise so you have like a catalog of kind of standard things and people try to use the same ones for different algorithm so that you can compare
+
+01:00:06.905 --> 01:00:12.264
+but some algorithms some South supervisor with them actually can deal with much bigger.
+
+01:00:12.514 --> 01:00:27.469
+Like more aggressive they do meditation and some don't so that kind of makes the whole thing difficult but but that's the kind of distortions were talking about and as for you you treat you you train with those distortions and then you,
+
+01:00:27.547 --> 01:00:30.242
+you chop off the last layer a couple layers
+
+01:00:30.176 --> 01:00:38.110
+of the of the network and you use the representation as input to a classify are you trying to classifier,
+
+01:00:38.224 --> 01:00:43.151
+on the internet let's say or whatever and measure the performance and.
+
+01:00:43.589 --> 01:00:51.694
+Interestingly enough the methods that are really good at eliminating the information that is relevant which is a distortions between those images.
+
+01:00:51.935 --> 01:01:03.397
+Do good job at eliminating it and as a consequence you cannot use those the representations in those systems for things like object detection and localization because that information is gone.
+
+01:01:04.313 --> 01:01:11.670
+So the type of the documentation you need to do depends on the task you want eventually the system to solve and the type of,
+
+01:01:11.794 --> 01:01:24.796
+the documentation standard determination we use today are only appropriate for object recognition or you may track classification they're not appropriate for things like can you help me out understand what wide localization is that so you're saying it's just not good at the -
+
+01:01:25.090 --> 01:01:38.650
+Like a clutch classified the - so that's why can't be used for the localization no it's just that you train the system you know you give it an image and then you give it the same image shifted and scaled you tell you that's the same image.
+
+01:01:39.277 --> 01:01:44.862
+So this system basically is trying to eliminate information about position and size so now,
+
+01:01:44.994 --> 01:02:00.229
+now you want to use that like litter right where an object is and what size like a bounding box like to be able to actually okay you can still find you can still find the object in the image is just not very good at finding the exact boundaries of that object interesting
+
+01:02:00.055 --> 01:02:02.020
+interesting which.
+
+01:02:02.377 --> 01:02:17.234
+You know that it's an interesting sort of philosophical question how important how important is object localization anyway we're like obsessed by measuring like image segmentation obsessed by measuring perfectly knowing the boundaries of objects when.
+
+01:02:17.555 --> 01:02:25.525
+Arguably that's not that essential to understanding what are the contents of the scene,
+
+01:02:25.657 --> 01:02:38.740
+on the other hand I think evolutionarily the first Vision systems in animals were basically all about localization very little about recognition and in the human brain you have two separate Pathways for
+
+01:02:38.656 --> 01:02:47.869
+recognizing the nature of Vicino an object and localizing objects so you use the first pathway called the ventral pathway for.
+
+01:02:48.001 --> 01:03:00.021
+You know turning what you're looking at the other path with the dorsal pathway is used for navigation for grasping for everything else and you know basically a lot of the things you need for survival are.
+
+01:03:00.181 --> 01:03:03.451
+Localization and detection.
+
+01:03:03.746 --> 01:03:18.053
+Is similarity learning or contrast of learning or these non contrast the methods the same as understanding something just because you know distorted cat is the same as a non distorted cat does that mean you understand what it means to be a cat.
+
+01:03:18.626 --> 01:03:31.755
+To some extent I mean it's a superficial understanding obviously but like what is the ceiling of this method do you think is this just one trick on the path to doing salsa bars learning and can we go yeah really really far.
+
+01:03:31.914 --> 01:03:35.455
+I think we can go really far so if we figure out how to.
+
+01:03:36.451 --> 01:03:45.996
+Use techniques of that type perhaps very different but you know the same nature to training system from from video to do video production essentially.
+
+01:03:46.570 --> 01:03:51.686
+I think we'll have a path you know two words.
+
+01:03:51.872 --> 01:04:03.038
+You know I wouldn't say unlimited but but a path towards some level of you know physical common sense in the machines and I also think that.
+
+01:04:03.287 --> 01:04:10.824
+That ability to learn how the world works from a sort of high-throughput Channel like like vision
+
+01:04:10.750 --> 01:04:23.481
+is a necessary step towards sort of real artificial intelligence in other words I believe in Ground Intelligence I don't think we can train a machine to be intelligent purely fun text.
+
+01:04:33.417 --> 01:04:46.726
+So for example let's and you know people have attempted to do this for 30 years right there the side project and things like that right so if basically kind of writing down all the facts that are known and hoping that some some sort of Common Sense will emerge,
+
+01:04:46.732 --> 01:04:51.290
+I think it's basically hopeless but let me take an example you take an object
+
+01:04:51.287 --> 01:05:02.272
+I described the situation to you I take an object I put it on the table and I push the table it's completely obvious to you that the object will be pushed with the table right because it's sitting on it,
+
+01:05:02.324 --> 01:05:06.639
+there's no text in the world I believe that explains this,
+
+01:05:06.681 --> 01:05:15.731
+and so she trained a machine as powerful as it could be you know your GPT 5000 whatever it is,
+
+01:05:15.782 --> 01:05:17.441
+it's never going to learn about this.
+
+01:05:18.249 --> 01:05:27.641
+That information is just net is not present in any text well the question like with the psych project the dream I think is to have like.
+
+01:05:28.439 --> 01:05:34.618
+Like 10 million say facts like that that give you a head start.
+
+01:05:35.146 --> 01:05:44.502
+Like a parent guiding you now we humans don't need a parent to tell us that the table will move sorry the smartphone will move with the table but.
+
+01:05:44.796 --> 01:05:52.307
+We get a lot of guidance in other ways so it's possible that we can give it a quick shortcut what about Kat I got knows that.
+
+01:05:52.439 --> 01:05:56.646
+Nobody evolved so know they learned like us.
+
+01:05:57.282 --> 01:06:10.996
+The the side the physics of stuff
+well yeah so you're saying it's so you're putting a lot of Intelligence on to the nurture side not the nature yes we seem to have.
+
+01:06:11.182 --> 01:06:13.660
+You know there's a very inefficient,
+
+01:06:13.784 --> 01:06:23.419
+arguably process of evolution that got us from bacteria to who we are today started at the bottom now we're here so true.
+
+01:06:24.019 --> 01:06:31.935
+The question is how Okay so the question is how fundamental is that the nature of the whole hardware and then.
+
+01:06:32.346 --> 01:06:44.178
+Is there any way to shortcut it if it's fundamental if it's not if it's most of the intelligence most of the cool stuff we've been talking about is the most in nurture mostly trained we figured out by observing the world we can form that
+
+01:06:43.995 --> 01:06:48.040
+big beautiful sexy background model that you're talking about,
+
+01:06:48.127 --> 01:06:55.917
+just by sitting there then okay then you need to then like maybe
+
+01:06:55.824 --> 01:07:05.180
+it is also supervised learning all the way down south so far as learning say whatever it is that makes you no human intelligence different from
+
+01:07:05.124 --> 01:07:14.228
+other animals which you know a lot of people think is language and logical reasoning and this kind of stuff it cannot be that complicated because it only popped up in the last million years.
+
+01:07:14.711 --> 01:07:26.624
+Yeah and it's you know it only involves you know less than one percent of the genome might be which is a difference between Human Genome and chimps or whatever so.
+
+01:07:27.422 --> 01:07:38.534
+It can't be that complicated you know it can't be that fundamental I mean the most of the so complicated stuff already existing cats and dogs and you know certainly primates non-human primates.
+
+01:07:38.900 --> 01:07:46.744
+Yeah that little thing with humans might be just a something about social interaction and ability to maintain ideas across.
+
+01:07:46.912 --> 01:07:53.900
+Like a collective of people as it sounds very dramatic and very impressive but it probably isn't
+
+01:07:53.835 --> 01:07:58.537
+mechanistically speaking it is but we're not there yet like what you know we have
+
+01:07:58.336 --> 01:08:10.015
+I mean this is number 634 you know in the list of problems we have to solve so basic physics of the world is number one what do you
+
+01:08:09.940 --> 01:08:19.080
+just a quick tangent on data augmentation so a lot of it is hard coded versus learned.
+
+01:08:19.707 --> 01:08:31.260
+Did you have any intuition that maybe that could be some weird dead augmentation like generative type of data augmentation like doing something weird images which then
+
+01:08:31.203 --> 01:08:38.363
+improves the similarity learning process so not just kind of dumb simple distortions,
+
+01:08:38.450 --> 01:08:47.032
+why you shaking your head just saying that even simple distortions are enough I think no I think did augmentation is a temporary necessary evil.
+
+01:08:47.677 --> 01:08:54.720
+Huh so what people are working on now is is two things one is the type of site supervisor on the,
+
+01:08:54.807 --> 01:09:06.864
+like trying to translate the type of cells representing people using language translating these two images which is basically denoising auto-encoder method right so you take an image you you block,
+
+01:09:06.897 --> 01:09:15.578
+you mask some parts of it and then you train some giant neural net to reconstruct the parts that you've there are missing and.
+
+01:09:15.764 --> 01:09:20.610
+Until very recently there was no there was no working methods for that,
+
+01:09:20.734 --> 01:09:28.046
+although encoder type methods for images weren't producing very good representation but there's a paper now coming out of
+
+01:09:27.881 --> 01:09:35.788
+the fair group in Menlo Park that actually works very well so that doesn't require the documentation that requires only masking.
+
+01:09:36.308 --> 01:09:44.673
+Okay only masking for images okay right so you must be part of the image and your train system which you know.
+
+01:09:44.977 --> 01:09:48.292
+In this case is a Transformer because you can you can.
+
+01:09:48.479 --> 01:10:01.715
+The Transformer represents the image as non-overlapping patches so it's easy to mask patches and things like that okay but then my question transfers to that problem that masking like why should the mask be square or rectangle
+
+01:10:01.631 --> 01:10:11.023
+so it doesn't matter like you know I think we're going to come up probably in the future with sort of ways to mass that are you know kind of.
+
+01:10:11.705 --> 01:10:19.278
+Random essentially what we are random already but no no but like something that's challenging like.
+
+01:10:19.735 --> 01:10:34.339
+Optimally challenging so like I mean maybe it's a metaphor that doesn't apply but your it seems like there's an data augmentation or masking there's an interactive element with it like you almost like playing with an image yeah,
+
+01:10:34.453 --> 01:10:44.800
+and like it's like the way we play with an image in our minds know but it's like drop out it's like boltzmann machine training you you know every every time you see a percept.
+
+01:10:45.076 --> 01:10:53.118
+You also you can you can perturb it in some way and then the principle of the training procedure.
+
+01:10:53.394 --> 01:10:56.737
+Is to minimize the difference of the output of the representation.
+
+01:10:56.923 --> 01:11:08.160
+Between the the clean version and the corrupted version essentially right and you can do this in real time right so what's our mission work like this right you you show a percept.
+
+01:11:08.392 --> 01:11:16.532
+You tell the machine that's a good combination of activities or your input neurons and then you either.
+
+01:11:17.196 --> 01:11:27.281
+Let them go their merry way without clamping them to values or you only do this with the subset and what you're doing is you're training the system so that
+
+01:11:27.162 --> 01:11:35.798
+the stable state of the entire network is the same regardless of whether it's easy entire input or whether it is only part of it
+
+01:11:35.786 --> 01:11:39.551
+you know the no 020 quarter method is basically the same thing right you were
+
+01:11:39.423 --> 01:11:52.271
+you're training a system to reproduce the input the complete inputs and filling the blanks regardless of which which parts are missing and that's really the underlying principle and you could imagine sort of a even in the brain some sort of moral principle where
+
+01:11:52.134 --> 01:11:55.413
+you know neurons going to oscillate right so there.
+
+01:11:55.600 --> 01:12:02.282
+To take their activity and then temporarily they kind of shut off to you know Force the rest of the system to basically.
+
+01:12:02.586 --> 01:12:08.250
+Reconstruct the input without their help you know and.
+
+01:12:08.905 --> 01:12:22.762
+You could imagine you know process you know more or less parallel possible processes something like that and I guess with this denoising auto-encoder and masking and data augmentation you don't have to worry about being super efficient.
+
+01:12:23.012 --> 01:12:34.556
+You can just do as much as you want yeah and get better over time because I was thinking like you might want to be clever about the way you do all these procedures you know but,
+
+01:12:34.688 --> 01:12:41.712
+that's only it's somehow costly to do every iteration but it's not really not really
+
+01:12:41.601 --> 01:12:50.012
+and then there is you know there are limitation without you see the documentation is that augmentation by waiting which is you know the sort of video production.
+
+01:12:50.460 --> 01:12:54.504
+You're observing a video clip observing the.
+
+01:12:55.123 --> 01:13:01.769
+You know the continuation of the video clip try you try to learn a representation using the joint embedding architectures.
+
+01:13:02.145 --> 01:13:05.307
+In such a way that the representation of the future clip.
+
+01:13:05.718 --> 01:13:13.931
+Easily predictable from the representation of the preview of the observe clip do you think YouTube has enough raw data.
+
+01:13:14.577 --> 01:13:17.676
+From which to learn how to be a cat.
+
+01:13:18.277 --> 01:13:25.724
+I think so so the know the amount of data is not the constraint know it would require some selection I think.
+
+01:13:25.992 --> 01:13:36.023
+Sums absolutely some selection of may be the right type of data you know go down the rabbit hole of just cat videos I might you might need to watch some lectures or something.
+
+01:13:36.470 --> 01:13:50.319
+No you wouldn't how matter would that be if it like watches lectures about intelligence and then learns watches your lectures and why you and learns from that how to be intelligent I'm gonna be enough.
+
+01:13:50.685 --> 01:14:04.290
+What's your Define multimodal learning interesting we've been talking about visual language like if combining those together maybe audio all those kinds of things there's a lot of things that I find interesting the short term but are not.
+
+01:14:04.458 --> 01:14:08.494
+Addressing the important problem that I think are really kind of the big challenges,
+
+01:14:08.536 --> 01:14:15.290
+so I think you know things like multitask learning continual learning you know,
+
+01:14:15.297 --> 01:14:24.500
+adversarial issues I mean those have you know great practical interests in the relatively short term possibly but I don't think the fundamental new Active Learning,
+
+01:14:24.524 --> 01:14:28.443
+even to some extent we first met Ronnie I think those things will.
+
+01:14:28.665 --> 01:14:35.825
+Become either obsolete or or useless or easy once we figure out how to do.
+
+01:14:36.092 --> 01:14:43.323
+So supervised representation running or or running pretty wild models and so I think that's what you know,
+
+01:14:43.384 --> 01:14:53.550
+the entire Community should be focusing on at least people were interested in sort of fundamental questions or you know really kind of pushing the envelope of the eye towards the next the next stage
+
+01:14:53.359 --> 01:15:00.986
+but of course there's like a huge amount of you know very interesting work to do in sort of practical questions that have you know short-term impact well you know.
+
+01:15:01.218 --> 01:15:05.181
+It's difficult to talk about that the temporal scale because
+
+01:15:05.008 --> 01:15:21.961
+all of human civilization will eventually be destroyed because the the this the sun will die out and even if you are musca successful multiplanetary colonization across the Galaxy eventually the entirety of it will just become a giant black holes and
+
+01:15:22.247 --> 01:15:33.043
+that's going to take a while though so but what I'm saying is then that logic can be used to say it's all meaningless I'm saying all that to say that multitask learning.
+
+01:15:33.761 --> 01:15:43.729
+Might be your sauce your calling a practical approach Matic or whatever that might be the thing that achieves something very akin to intelligence.
+
+01:15:44.473 --> 01:15:53.541
+While we're trying to solve the more General problem of self supervised learning of background knowledge so the reason I bring that up maybe one,
+
+01:15:53.620 --> 01:15:59.762
+way to ask that question of been very impressed by what Tesla autopilot team is doing and if you got a chance to
+
+01:15:59.723 --> 01:16:07.036
+glance at this particular one example of multitask learning whether literally taken the problem.
+
+01:16:07.510 --> 01:16:16.821
+I don't know Charles Darwin start studying animals they're studying the problem of driving asking okay what are all the things you have to perceive,
+
+01:16:16.891 --> 01:16:28.812
+and the way they're solving it is one there's an ontology where you're bringing that to the table so you formulating a bunch of different tasks it's like over 100 tasks or something like that then they're involved in driving and then
+
+01:16:28.639 --> 01:16:35.222
+they're deploying it and then getting data back from people that run into trouble and then trying to figure out do it add task do we,
+
+01:16:35.318 --> 01:16:44.296
+like we focus on each individual task separately in fact have so the I would say I'll classify under capacities talking to is so one was about doors.
+
+01:16:44.483 --> 01:16:52.696
+And the other one about how much image that sucks here we keep going back and forth on those two topics which image that sucks meaning,
+
+01:16:52.819 --> 01:16:57.232
+you can't just use a single Benchmark there's so much like you have to have.
+
+01:16:57.446 --> 01:17:06.424
+Like a giant sweet of benchmarks to understand how well your system actually lose him I mean he's he's very sensible guy now.
+
+01:17:06.907 --> 01:17:17.910
+Okay it's is very clear that if you're faced with a an engineering problem that you need to solve in a relatively short time particularly if you have it almost breathing down your neck
+
+01:17:17.809 --> 01:17:29.560
+you're going to have to take shortcuts right you you you might think about the fact that the the right thing to do and a long-term solution involves you know some fancy such a vast running but you have
+
+01:17:29.467 --> 01:17:37.913
+you know you don't know speeding on your neck and you know this involves you know human lives and so you have.
+
+01:17:38.352 --> 01:17:42.568
+Basically just do the systematic engineering and you know.
+
+01:17:43.051 --> 01:17:55.819
+Fine tuning and refinements and try an hour and all that stuff there's nothing wrong with that that's that's called engineering that's called you know putting technology out in the.
+
+01:17:56.042 --> 01:18:03.057
+In the world and and you have to kind of are included before before you do this you know.
+
+01:18:03.495 --> 01:18:09.493
+So much for you know grand grand ideas and principles.
+
+01:18:10.184 --> 01:18:14.607
+But you know I'm pacing myself sort of you know some.
+
+01:18:14.973 --> 01:18:27.903
+Upstream of this green or quite a bit of stream of this your Play-Doh think about platonic forms your platonic because eventually I want the stuff to get used but it's okay if it takes.
+
+01:18:28.054 --> 01:18:31.261
+If I were 10 years for the community to realize this is the right thing to do
+
+01:18:31.213 --> 01:18:44.018
+I've done this before it's been the case before that you know I've made that case I mean if you look back in the mid 2004 example and you ask yourself the question okay I want to recognize cars or faces or whatever
+
+01:18:43.988 --> 01:18:49.329
+you know I can use conversation net so I can use the more conventional.
+
+01:18:49.560 --> 01:18:59.564
+Can a computer vision techniques you know using interest Point detectors or sift density features and you know sticking an svm on top at that time the data sets were so small,
+
+01:18:59.697 --> 01:19:04.759
+that those methods that use more engineering work better.
+
+01:19:04.900 --> 01:19:16.992
+That's it was just not enough data of comments and comments were a little a little slope with the kind of Hardware that was available at the time and it was a sea change when basically when you know.
+
+01:19:17.503 --> 01:19:22.943
+Did it has become bigger and and gpus become available that's what you know the.
+
+01:19:23.445 --> 01:19:33.043
+Two of the main factors that basically made people change their change their mind and you can you can look at the history of.
+
+01:19:33.725 --> 01:19:46.457
+Like all sub branches of AI or pattern recognition and there's a similar trajectory followed by techniques where people start by you know engineering the hell out of it,
+
+01:19:46.517 --> 01:19:48.860
+you know be it.
+
+01:19:49.200 --> 01:20:01.509
+Optical character recognition speech recognition computer vision like image recognition in general natural language understanding like you know translation things like that right you start to engineer the hell out of it.
+
+01:20:02.415 --> 01:20:09.836
+You start to acquire all of knowledge the prior knowledge you know about image formation about you know the shape of characters about you know.
+
+01:20:09.995 --> 01:20:19.504
+Morphological operations about like feature extraction Fourier transforms you know very key moments you know whatever right people have come up with thousands of ways of representing images,
+
+01:20:19.619 --> 01:20:25.554
+so that they could be easily classified afterwards same for speech recognition right there is.
+
+01:20:25.830 --> 01:20:35.106
+You know two decades for people to figure out a good phone tend to process speech signal so that you know the information about what is being said is preserved.
+
+01:20:35.337 --> 01:20:39.912
+But most of the information about the identity of the speaker is gone.
+
+01:20:40.837 --> 01:20:50.175
+Kestrel coefficients or whatever right and same for text right you do need entity recognition and you parse and you.
+
+01:20:50.326 --> 01:21:02.788
+You do tagging of the parts of speech and you know you do this sort of tree representation of Clauses and all that stuff right before you can do anything.
+
+01:21:03.478 --> 01:21:09.143
+So that's how it starts right just engineer the hell out of it and then
+
+01:21:09.113 --> 01:21:23.610
+you start having data and maybe you have more powerful computers maybe you know something about statistical learning so you start using machine learning and it's usually a small sliver on top of your kind of handcrafted system where you know you extract features by hand okay and now
+
+01:21:23.580 --> 01:21:33.287
+you know nowadays is the standard way of doing this is that you train the entire thing and to end with a deep learning system and it runs its own features and and you know speech recognition systems nowadays.
+
+01:21:33.428 --> 01:21:40.489
+Or see our systems are completely end-to-end it's you know it's some giant neural net that takes Raw waveforms.
+
+01:21:40.792 --> 01:21:44.864
+And for you see the sequence of characters coming out and it's just a huge neural net
+
+01:21:44.699 --> 01:22:00.321
+there's no microphone model is no language model there is explicit other than you know something that's ingrained in the in the sort of neural network model if you want same for translation same for all kinds of stuff so you see this continuous Evolution from.
+
+01:22:01.083 --> 01:22:09.701
+You know less and less handcrafting and more and more learning and I think,
+
+01:22:09.780 --> 01:22:20.783
+is to in biology as well so I mean we might disagree about this maybe not in this one little piece at the end you mentioned Active Learning.
+
+01:22:21.374 --> 01:22:33.224
+It feels like Active Learning which is the selection of data and also the entire activity needs to be part of this giant Network you cannot just be an observer to do self supervised learning you have to well.
+
+01:22:33.645 --> 01:22:45.539
+I don't sell supervised learning is just the word but I would whatever this giant stack of a neural network that's automatically learning it feels my intuition is that.
+
+01:22:46.032 --> 01:22:58.026
+You have to have a system whether it's a physical robot or a digital robot that's interacting with the world and doing so in a flawed way in improving over time.
+
+01:22:58.437 --> 01:23:11.718
+In order to form the cell supervised learning well you can't just give it a giant sea of data okay I agree and I disagree okay I agree in the sense that I think
+
+01:23:11.697 --> 01:23:16.921
+I agree I agree in two ways the first of his way agree is that if you want,
+
+01:23:17.008 --> 01:23:22.035
+and you certainly need a causal model of the world that allows you to predict the consequences of your actions.
+
+01:23:22.374 --> 01:23:27.508
+To Trend that model you need to take actions right you need to be able to act in the world and see the effect.
+
+01:23:28.009 --> 01:23:43.343
+For you to be to learn causal models at the world works is that there's not obvious because you can observe others you can observe other and you can infer the they're similar to you and then you can learn from that yeah but then you have to kind of Hardware that part right you know mirror neurons and all that stuff right so
+
+01:23:43.187 --> 01:23:50.940
+and it's not clear to me how you would do this in a machine so so I think the action part,
+
+01:23:50.965 --> 01:24:00.510
+would be necessary for having causal models of the world the second reason it may be necessary or at least more efficient is that.
+
+01:24:00.777 --> 01:24:06.137
+Active Learning basically you know goes for the jugular of what you what you don't know.
+
+01:24:06.503 --> 01:24:14.130
+Is this you know obvious areas of uncertainty about your world and about the other world behaves.
+
+01:24:14.848 --> 01:24:22.368
+And you can resolve this uncertainty by systematic exploration of that part that you don't you don't know.
+
+01:24:22.635 --> 01:24:27.094
+If you know that you don't know then you know it makes me carry us you can look into situations that.
+
+01:24:27.460 --> 01:24:37.690
+And you know across the animal world different species at different levels of curiosity right yeah pending on how you build right so.
+
+01:24:37.948 --> 01:24:45.720
+You know cats and rats are incredibly curious dogs not so much I mean less so it could be useful to have that kind of curiosity,
+
+01:24:45.780 --> 01:24:55.505
+so it'd be useful but curiosity just makes the process faster it doesn't make the process exists the so what process what learning process.
+
+01:24:55.844 --> 01:25:05.048
+Is it that active running makes more efficient and I'm asking that first question you know,
+
+01:25:05.063 --> 01:25:16.480
+you know we haven't answered that question yet so you know I worry about Active Learning once this question is the more fundamental question to ask and if Active Learning or interaction
+
+01:25:16.469 --> 01:25:25.293
+increases the efficiency of the learning is sometimes it becomes very different if the increase is several orders of magnitude.
+
+01:25:25.561 --> 01:25:32.649
+Right like that's true but fundamentally still the same thing and building up the intuition about how to.
+
+01:25:33.024 --> 01:25:40.255
+In a Cell surprised way to construct back our models efficient or inefficient is is the core problem
+
+01:25:40.136 --> 01:25:49.735
+what do you think about your Shaban Joe's talking about Consciousness and all of these kinds of Concepts okay I don't know what Consciousness is.
+
+01:25:50.281 --> 01:26:05.164
+But it's a good opener and to some extent a lot of the things that are said about Consciousness remind me of the questions people were asking themselves in the 18th century or 17th century when they discovered that
+
+01:26:05.081 --> 01:26:10.080
+you know how the eye works and the fact that the image of the back of the I was,
+
+01:26:10.185 --> 01:26:20.153
+upside down right because you have a lens and so on your retina the image that forms is an image of the world but it's upside down how is it that you see right side up
+
+01:26:20.070 --> 01:26:33.387
+and you know with what we know today in science you know we realize this question doesn't make any sense or is kind of ridiculous in some way right so I think a lot of what he said about Consciousness is of that nature now that said there is a lot of really smart people that.
+
+01:26:33.609 --> 01:26:41.030
+For whom I have no respect who talking about this topic people like Debbie Chalmers who is a colleague of mine at NYU.
+
+01:26:41.567 --> 01:26:47.160
+I have kind of a an orthodox Folk.
+
+01:26:47.653 --> 01:26:53.066
+Speculative hypothesis about Consciousness so we're talking about this idea of world model.
+
+01:26:53.927 --> 01:26:58.575
+And I think you know our entire prefrontal cortex basically is.
+
+01:26:58.869 --> 01:27:13.186
+The engine for a role model but when we are attending at a particular situation we're focused on that situation we basically cannot attend to anything else and that seems to suggest.
+
+01:27:13.489 --> 01:27:21.459
+That we basically have only one
+world model engine you know prefrontal cortex
+
+01:27:21.348 --> 01:27:31.388
+that engine is configurable to the situation at hand so we are building a box out of wood or we are you know driving down the highway playing chess
+
+01:27:31.205 --> 01:27:39.770
+we basically have a single model of the world that we could figure into the situation at hand which is why we can only attend to one task at a time.
+
+01:27:40.415 --> 01:27:44.487
+Now there is a task that we do repeatedly.
+
+01:27:44.709 --> 01:27:52.552
+It goes from the so deliberate reasoning using more of the world and prediction and perhaps something like model predictive control which I was talking about earlier.
+
+01:27:53.261 --> 01:27:59.871
+To something that is more subconscious that becomes automatic so I don't know if you've ever played against a chess Grandmaster.
+
+01:28:00.229 --> 01:28:03.419
+You know I get wiped out in you know 10.
+
+01:28:03.839 --> 01:28:10.638
+Ten players right and you know I have to think about my move for you know like 15 minutes.
+
+01:28:11.194 --> 01:28:17.741
+And the person in front of me The Grandmaster you know would just like react within seconds right.
+
+01:28:18.251 --> 01:28:26.455
+He doesn't need to think about it that's become part of the subconscious because you know it's basically just pattern recognition at this point.
+
+01:28:26.623 --> 01:28:38.653
+Same you know you the first few hours you drive a car you were really attentive you can't do anything else and then after 20 30 hours of practice 50 hours you know is subconscious you can talk to the person next to you you know things like that right.
+
+01:28:38.939 --> 01:28:45.639
+Unless the situation becomes in predictable and then you have to stop talking so that suggests you only have one model in your head.
+
+01:28:46.572 --> 01:28:55.442
+And it might suggest the idea that Consciousness is basically is the module that could figures this world model of yours you know you need to have some sort of.
+
+01:28:55.683 --> 01:29:01.915
+Executive kind of overseer that configures your word model for the situation at hand.
+
+01:29:02.443 --> 01:29:11.430
+And that that needs to kind of the really curious concept that Consciousness is not a consequence of the power of our mind but of the limitation of our brains.
+
+01:29:11.842 --> 01:29:17.795
+Because we have only one word model we have to be conscious if we had as many Role Models as.
+
+01:29:18.350 --> 01:29:30.596
+There are situations we encounter then we could do all of them simultaneously and we would need this sort of executive control that we could Consciousness yeah interesting and somehow maybe that executive controller.
+
+01:29:30.810 --> 01:29:36.664
+Ain't that the hard problem of Consciousness there's some kind of chemicals in biology that's creating a Feeling.
+
+01:29:36.904 --> 01:29:46.837
+Like it feels the experience some of these things that's kind of like the hard question is what the heck is that and why is that useful
+
+01:29:46.762 --> 01:29:57.963
+maybe know a pragmatic question why is it useful to feel like this is really you experiencing this versus just like information being processed
+
+01:29:57.834 --> 01:30:06.830
+it could be just a very nice side effect of the way we evolved that it's just very useful too,
+
+01:30:06.882 --> 01:30:10.611
+to feel a sense of ownership
+
+01:30:10.483 --> 01:30:24.448
+to the decisions you make to the perceptions they make to the model you trying to maintain like you own this thing in this the only one you got and if you lose it it's going to really suck and so you should really send the brain some signals about it
+
+01:30:24.337 --> 01:30:32.109
+what ideas do you believe might be true that most or at least many people disagree with you with.
+
+01:30:32.448 --> 01:30:40.643
+Let's say in the space of machine learning what depends who you talk about but I think so certainly there is.
+
+01:30:41.387 --> 01:30:48.421
+A bunch of people who are native it straight who think that a lot of the basic things about the world are kind of hardwired in our you know mines
+
+01:30:48.301 --> 01:30:58.216
+things like you know the world is three-dimensional for example is that hardwired things like you know object permanence is something that we learn you know before the age of
+
+01:30:58.105 --> 01:31:10.530
+three months or so or are we born with it and there are you know very disagree you know white disagreement among the or cognitive scientist for this I think those things are actually very simple to learn,
+
+01:31:10.546 --> 01:31:18.092
+you know is it the case that the oriented Edge detectors in V1 are learned or are they hardwired
+
+01:31:18.054 --> 01:31:27.733
+I think there are learned they might be long before both because it's really easy to generate signals from the retinal that I actually will train Edge detectors so and again those are,
+
+01:31:27.821 --> 01:31:33.000
+things that can be learned within minutes of opening your eyes right I mean
+
+01:31:32.961 --> 01:31:44.622
+you know since the 1990s we have algorithms that can run oriented Ashley doctors completely unsupervised with the equivalent of a few minutes of real time so so those things have to be learned
+
+01:31:44.538 --> 01:31:48.781
+there's also those you know MIT experiments where you kind of plug the.
+
+01:31:49.066 --> 01:31:56.739
+Optical nerve on the auditory cortex of a baby ferret right and that auditory cortex becoming visual cortex essentially so you know curly,
+
+01:31:56.772 --> 01:32:04.697
+um is running taking place there so you know I think a lot of what people think are so basic that you need to be hardwired.
+
+01:32:05.045 --> 01:32:14.950
+I think a lot of those things are learned because they are easy to run this same put a lot of value in the power of learning what kind of things do you suspect might not be learned.
+
+01:32:15.227 --> 01:32:17.651
+Is there something that could not be learned.
+
+01:32:17.919 --> 01:32:26.770
+So your intrinsic drives are not learned they are the things that you know make humans human or mate you know.
+
+01:32:27.164 --> 01:32:34.710
+Cats different from dogs right it's the busy drives that are kind of hardwired in our basal ganglia.
+
+01:32:34.933 --> 01:32:47.737
+I mean there are people who are working on this kind of stuff that's called intrinsic motivation in the context of reinforcement learning so these are objective functions whether reward doesn't come from the external world it's computed by your own brain your own brain computes.
+
+01:32:48.319 --> 01:32:52.238
+Whether you are happy or not right it measures your degree of.
+
+01:32:52.811 --> 01:33:02.230
+Comfort or in comfort and and because it's your brain competing this presumably knows also how to assume a gradient so that's right so.
+
+01:33:02.597 --> 01:33:10.729
+So it's easier to learn when your objective is intrinsic so that has to be hardwired.
+
+01:33:11.509 --> 01:33:18.713
+The critic that makes long term prediction of the outcome which is the eventual result of this that's learned.
+
+01:33:19.323 --> 01:33:22.890
+And perception is learned and your model of the world is learned.
+
+01:33:23.122 --> 01:33:31.380
+But let me take an example of you know why the critic I mean example of how the critic may be learned right if I if I come to you.
+
+01:33:31.737 --> 01:33:34.945
+You know I reach across the table and I pinch your arm right.
+
+01:33:35.221 --> 01:33:48.970
+Complete surprise for you you would not have expected this house expecting at the hotel but yes right let's say for the sake of the story yes okay your basal ganglia is going to light up because it's going to hurt right
+
+01:33:50.273 --> 01:34:04.130
+and now your model of the World includes the fact that I'm a pinch you if I approach my my don't trust humans right my hand to your arm so if I try again you're going to recoil and that's your critic
+
+01:34:03.974 --> 01:34:05.723
+your predictive,
+
+01:34:05.838 --> 01:34:15.077
+your predictor of your ultimate pin system that predicts that something bad is going to happen and you recoil
+
+01:34:14.975 --> 01:34:24.421
+to avoid achieving that could be learned that is drawn definitely this is why allows you also to you know Define subgoals right so
+
+01:34:24.257 --> 01:34:30.678
+the fact that you know you're a school child who wake up in the morning and you go to school and you know.
+
+01:34:30.981 --> 01:34:37.762
+It's not because you necessarily like waking up early and going to school but you know that there is a long-term objective you're trying to optimize
+
+01:34:37.688 --> 01:34:52.562
+so Ernest Becker I'm not sure if you're familiar with the philosopher who wrote the book denial of death and his ideas that one of the core motivations of human beings is our Terror of death our fear of death that's what makes us unique from cats cats are just surviving
+
+01:34:52.425 --> 01:34:59.953
+they do not have a deep understanding of cognizance introspection that.
+
+01:35:00.932 --> 01:35:10.819
+Over the Horizon is the end and he says that I mean there's a terror management theory that just all these psychological experiments that show the basically.
+
+01:35:11.086 --> 01:35:12.737
+This idea that.
+
+01:35:13.400 --> 01:35:24.809
+All of human civilization everything we create is kind of trying to forget if even for a brief moment that we're going to die when do you think humans
+
+01:35:24.797 --> 01:35:30.273
+I understand that they're going to die is it learned early on also like.
+
+01:35:30.927 --> 01:35:38.366
+I don't know what to do at what point I mean it's a it's a question like you know I would point you realize that you know what this really is
+
+01:35:38.327 --> 01:35:46.108
+and I think most people don't actually realize what this is right I mean most people believe that you go to heaven or something right well so the so the push back on that,
+
+01:35:46.132 --> 01:35:50.897
+what Ernest Becker says and Sheldon Solomon all of those folks.
+
+01:35:51.209 --> 01:36:00.160
+And I find those ideas a little bit compelling is that there is moments in life early in life a lot of this fun happens early in life when you are.
+
+01:36:00.788 --> 01:36:06.822
+When you do deeply experience the terror of this realization and all the things you
+
+01:36:06.720 --> 01:36:18.012
+think about about religion all those kinds of things that we kind of think about more like teenage years and later we're talking about way earlier no it's like seven or eight years something like that yeah you realize
+
+01:36:17.964 --> 01:36:19.011
+holy crap.
+
+01:36:19.378 --> 01:36:29.084
+This is like the mystery the terror like it's almost like you're a little / a little baby deer sitting in the darkness of the Jungle of the Woods
+
+01:36:28.893 --> 01:36:41.003
+looking all around you the darkness full of Terror I mean that's that realization says okay I'm going to go go back in the comfort of my mind where there is a will there is a deep meaning where there's a maybe like.
+
+01:36:41.154 --> 01:36:43.615
+Pretend I'm a mortal and however way,
+
+01:36:43.702 --> 01:36:53.337
+however kind of idea can construct to help me understand that I'm Immortal religion helps with that we can you can delude yourself in all kinds of ways,
+
+01:36:53.343 --> 01:37:02.537
+lose yourself in the busyness of each day have little goals in mind all those kinds of things to think that it's going to go on forever and you kind of know you're going to die yeah,
+
+01:37:02.660 --> 01:37:10.153
+it's going to be sad but you don't really understand that you're going to die and so that's that's their idea and I find that compelling.
+
+01:37:10.456 --> 01:37:19.156
+Because it does seem to be a core unique aspect of human nature that we were able to think that will go were able to really understand.
+
+01:37:19.342 --> 01:37:28.373
+But this life is finite it seems important this there's a bunch of different things there so first of all I don't think there is a qualitative difference between between us and cats.
+
+01:37:28.542 --> 01:37:33.037
+In the term I think the difference is that we just have a better long-term.
+
+01:37:33.448 --> 01:37:46.189
+Ability to predict you know in the long term and so we are very understanding of other world works so we have better understanding of you know finiteness of life and things like that whoever better planning engine than cats yeah.
+
+01:37:46.330 --> 01:37:48.998
+What's the motivation.
+
+01:37:49.301 --> 01:38:02.033
+We're planning but I think it's just a side effect of the fact that we have just a better planning engine because it makes us as I said you know the essence of intelligence is the ability to predict and so the because we're smarter.
+
+01:38:02.444 --> 01:38:07.020
+As a side effect we also had this ability to kind of make predictions about our own
+
+01:38:07.009 --> 01:38:14.870
+future existence or lack thereof okay you say religion helps with that I think region hurts actually
+
+01:38:14.823 --> 01:38:20.893
+he makes people worry about it like you know what's gonna happen after their death excetera if you believe that you know,
+
+01:38:20.908 --> 01:38:35.306
+you just don't exist after death like you know it's also completely the probably at least the saying if you don't believe in God you don't worry about what happens after death yeah I don't know you I worry about the about you know this life because that's the only one you have
+
+01:38:35.186 --> 01:38:42.093
+I think it's well I don't know if I were to say would Ernest Becker says I also agree with him more.
+
+01:38:42.199 --> 01:38:47.549
+The not is you do deeply worried
+
+01:38:47.519 --> 01:38:55.840
+if you if you believe there's no God there's still a deep worry like of the mystery of it all like how does that make any sense
+
+01:38:55.720 --> 01:39:07.075
+that is just ends I don't think we can truly understand that this right I mean so much of our life the Consciousness the ego is invested in this
+
+01:39:06.937 --> 01:39:11.135
+in this being and then just watch it science keeps ringing,
+
+01:39:11.186 --> 01:39:18.093
+Humanity down from its pedestal and yes it does use another another example of it that's wonderful but
+
+01:39:18.073 --> 01:39:23.729
+first individual humans we don't like to be brought down from a pedestal and just like what
+
+01:39:23.519 --> 01:39:36.332
+but see you're fine with it because well so what Ernest Becker would say is you're fine with it because that's just a more peaceful existence for you but you're not really fine you're hiding from in fact some of the people that experienced the deepest trauma
+
+01:39:36.167 --> 01:39:38.520
+earlier in life,
+
+01:39:38.571 --> 01:39:49.493
+they often before they seek extensive therapy will say I'm fine it's like when you talk to people who are truly angry how are you doing I'm fine the question is what's going on.
+
+01:39:49.680 --> 01:39:59.450
+Now I had a near-death experience I had a very bad motorbike accident when it was 17 so and but that didn't have any impact on.
+
+01:39:59.609 --> 01:40:07.533
+My reflection on that topic so I'm basically just playing a bit of Dell's I've been pushing back and wondering.
+
+01:40:07.738 --> 01:40:20.650
+Is it truly possible to accept death and of the flip side this more interesting I think for AI and Robotics is how important is it to have this as one of the suite of motivations is to.
+
+01:40:20.944 --> 01:40:23.306
+Not just avoid.
+
+01:40:24.059 --> 01:40:33.964
+Falling off the roof or something like that but Ponder the the end of the ride if you listen to the stoics.
+
+01:40:34.484 --> 01:40:36.548
+It's it's a great motivator.
+
+01:40:36.689 --> 01:40:50.312
+It adds a sense of urgency so maybe to truly fear death or be cognizant event might give a deeper meaning and urgency to the moment to live fully.
+
+01:40:50.607 --> 01:40:57.730
+My may I mean maybe I don't disagree with that I mean I think what motivates me here is.
+
+01:40:58.214 --> 01:41:02.286
+You know knowing more about about human nature I mean I think
+
+01:41:02.184 --> 01:41:14.321
+human nature and human intelligence is a big mystery it's a scientific mystery in addition to you know the philosophical and Etc but you know I'm a True Believer in science so.
+
+01:41:14.571 --> 01:41:23.873
+And and I do have kind of a belief that for complex systems like like the brain undermined the the way to.
+
+01:41:24.419 --> 01:41:39.204
+Understand it is try to reproduce it with you know artifacts that you build because you know what is essential to it when you try to build it you know the same way I've used this analogy before with you I believe the same way we only started to understand.
+
+01:41:39.399 --> 01:41:48.062
+Hey we're Dynamics when we started building airplanes and that helped us understand how birds fly so I think there's kind of a similar process here where.
+
+01:41:48.383 --> 01:41:55.858
+We don't have a theory of full theory of intelligence that building you know integration artifacts will help us perhaps develop some.
+
+01:41:56.332 --> 01:42:02.924
+Underlying theory that encompasses not just artificial implements but also.
+
+01:42:03.381 --> 01:42:11.153
+Human and biological intelligence in general so you're interesting person to ask this question about sort of all kinds of different other.
+
+01:42:11.285 --> 01:42:20.578
+Intelligent entities or intelligences what are your thoughts about kind of like the touring or the Chinese room question.
+
+01:42:21.098 --> 01:42:29.040
+If we create an AI system that exhibits a lot of properties of intelligence and consciousness.
+
+01:42:29.416 --> 01:42:41.959
+How comfortable are you thinking of that entity as intelligent or conscious so you're trying to build now systems that have intelligence and there's metrics about their performance but that metric is.
+
+01:42:42.172 --> 01:42:43.282
+External.
+
+01:42:43.675 --> 01:42:52.176
+Okay so how are you are you okay calling a thing intelligent or you going to be like most humans and be,
+
+01:42:52.281 --> 01:42:59.738
+once again unhappy to be brought down for a pedestal of Consciousness / intelligent no I'll be very happy to.
+
+01:43:00.429 --> 01:43:07.210
+Understand more about human nature human mind and human intelligence.
+
+01:43:07.360 --> 01:43:13.170
+Through the construction of machines that have similar abilities and.
+
+01:43:13.383 --> 01:43:17.797
+If a consequence of this is to bring down humidity one notch down from.
+
+01:43:18.100 --> 01:43:30.661
+It's already located stalled I'm just fine with it that's just reality of life so I'm fine with that now you're asking me about things that opinions I have that a lot of people may disagree with I think.
+
+01:43:40.534 --> 01:43:43.687
+Of getting machines to run models to the world pretty models of the world.
+
+01:43:43.964 --> 01:43:54.580
+We have we build intrinsic motivation objective functions to drive the behavior of that system the system also has perception modules that allows you to estimate the state of the world,
+
+01:43:54.676 --> 01:43:59.783
+and then have some way of figuring out a sequence of actions that you know to optimize a particular objective.
+
+01:44:01.158 --> 01:44:09.326
+If it has a Critic of the type that was describing before the thing that makes recoil you arm the second time I tried to pinch you.
+
+01:44:10.439 --> 01:44:17.536
+Intelligent autonomous machine will have emotions I think emotions are an integral part of autonomous intelligence.
+
+01:44:18.253 --> 01:44:26.988
+If you have an attachment system that is driven by intrinsic motivation by objectives if it has.
+
+01:44:27.210 --> 01:44:35.910
+The critic that allows you to predict in advance whether the outcome of a situation is going to be good or bad is going to have emotions it's going to have here yes.
+
+01:44:36.069 --> 01:44:39.627
+When it predicts that the outcome is going to is going to be bad.
+
+01:44:39.994 --> 01:44:47.955
+And and something to avoid is going to have Elation when he predicts is going to be good if it has drives.
+
+01:44:48.087 --> 01:44:54.049
+Relate with humans you know in some ways the way humans have,
+
+01:44:54.118 --> 01:45:04.330
+you know it's going to be social right and so it's going to have emotions about attachment and things of that type so so I think you know the sort of.
+
+01:45:04.696 --> 01:45:05.860
+Sci-fi.
+
+01:45:06.091 --> 01:45:19.769
+Thing where you know you see Commander Data like having an emotion chip that you can turn out a 48 I think that's ridiculous so I mean here's the difficult philosophical social question
+
+01:45:19.694 --> 01:45:21.587
+do you think there will be a time.
+
+01:45:21.926 --> 01:45:30.643
+Like a civil rights movement for robots where okay forget the movement but a discussion like the Supreme Court.
+
+01:45:31.586 --> 01:45:34.262
+That particular kinds of robots.
+
+01:45:34.736 --> 01:45:42.067
+You know particular kinds of systems deserve the same rights as humans because they can suffer.
+
+01:45:42.235 --> 01:45:47.342
+Just as humans can all those kinds of things well.
+
+01:45:48.006 --> 01:46:02.655
+Perhaps Perhaps not like imagine that humans were that you could you know die and be restored like you know you can be sort of you know be 3D reprinted and you know your brain could be reconstructed in its finest details
+
+01:46:02.625 --> 01:46:06.553
+our ideas of Rights will change in that case if you can always just.
+
+01:46:07.010 --> 01:46:17.221
+There's always a backup you could always restore maybe like the importance of murder will go down on this one notch that's right but also the you are you are.
+
+01:46:17.821 --> 01:46:23.873
+You know desire to do dangerous things like you know doing skydiving or you know.
+
+01:46:24.177 --> 01:46:30.931
+Or you know race car driving you know car racing all that kind of stuff you know would probably increase.
+
+01:46:31.325 --> 01:46:37.143
+Or you know our kind of Robotics or that kind of stuff right the ability was really fine to do a lot of those things or explore.
+
+01:46:37.401 --> 01:46:46.505
+You know a dangerous areas and things like that do we kind of change your relationship so now it's very likely to robots would be like that because you know they will be
+
+01:46:46.439 --> 01:46:55.796
+based on perhaps technology that is somewhat similar to today's technology and you can you can always have a backup so it's possible.
+
+01:46:56.135 --> 01:47:08.597
+I don't know if you like video games but there's a game called Diablo and my sons are huge fans of this yes and in fact they made a game that's inspired by it
+
+01:47:08.522 --> 01:47:19.984
+awesome like built a game My Three Sons have a game Design Studio between between them yeah that's awesome they came out with a game like just came out last year no this was last year early that's about a year ago,
+
+01:47:20.045 --> 01:47:26.214
+that's awesome but so in Diablo there's a something called hardcore mode which if you die there's no.
+
+01:47:26.644 --> 01:47:31.616
+You're gone right that's it and so it's possible with AI systems.
+
+01:47:32.441 --> 01:47:43.850
+For them to be able to operate successfully in for us to treat them in a certain way for because they have to be integrating Human Society they have to be able to die no copies allowed,
+
+01:47:43.892 --> 01:47:53.500
+in fact copying is illegal as possible with humans as well like cloning will be illegal even with possible god with crony is not cooking right I mean you don't reproduce the.
+
+01:47:53.731 --> 01:47:58.073
+The mind of the person and that experience right it's just a delayed twins,
+
+01:47:58.152 --> 01:48:08.633
+but then it's will be we were talking about with computers that you would be able to copy your right you'll be able to perfectly save pickle the the the Mind state
+
+01:48:08.513 --> 01:48:17.572
+and it's possible that there will be a legal because that goes against that will destroy the motivations of the system.
+
+01:48:17.785 --> 01:48:21.875
+Okay so let's say you you have a domestic robot okay
+
+01:48:21.828 --> 01:48:37.990
+sometime in the future yes and domestic robot you know what comes to you kind of somewhat pre-trained you know we can do a bunch of things yes but it has a particular personality that makes it slightly different from the other robots because that makes them more interesting and then because it's you know
+
+01:48:37.807 --> 01:48:43.877
+it's live with you for five years you've grown some attachment to it and vice versa
+
+01:48:43.766 --> 01:48:58.073
+and it's grown a lot about you or maybe it's not a real Hazard robot maybe it's maybe it's a virtual assistant that lives in your you know of materiality lights or whatever right you know the her movie type thing right.
+
+01:48:58.548 --> 01:49:04.186
+And that system to some extent the intelligence in that system.
+
+01:49:04.417 --> 01:49:14.250
+Is a bit like your child or maybe if he student in a sense that there's a lot of you in that yeah in that machine now right yeah and so if it were
+
+01:49:14.230 --> 01:49:26.035
+a living thing you would do this for free if you want right if your child your child can you know then live his or her own life and you know the fact that they learn stuff from you
+
+01:49:25.924 --> 01:49:35.316
+does it mean that you have any ownership of it right yeah but if it's a robot that you've trained perhaps you have some intellectual property claim.
+
+01:49:35.457 --> 01:49:51.529
+About intellectual property Oh I thought you meant like permanence value in the sense this part of you is in whether its permanent value right so you would lose a lot if that robot were to be destroyed on you you had no backup you would lose a lot if you will allow me investment you know kind of like a
+
+01:49:51.364 --> 01:49:59.757
+you know a person dying you know that a friend of a friend of you is dying or co-worker or something like that.
+
+01:50:00.366 --> 01:50:05.743
+But also you have like intellectual property rights in the sense that that.
+
+01:50:06.299 --> 01:50:15.700
+That system is fine-tuned to your particular existence so that's now a very unique instantiation of that original background model whatever it was that arrived
+
+01:50:15.571 --> 01:50:24.315
+another issue is a privacy right because now imagine that that robot has its own kind of volition and decides to work with someone else
+
+01:50:24.168 --> 01:50:31.436
+yes or can I you know thinks life with you is sort of intangible or whatever right,
+
+01:50:31.550 --> 01:50:37.422
+now all the other things that that system run from you you know how.
+
+01:50:37.870 --> 01:50:49.099
+Can you like you know delete all the personal information that the system knows about you yeah that would be kind of an ethical question like you know can you erase the mind of intelligent robot.
+
+01:50:49.393 --> 01:50:56.066
+To protect your privacy you can't do this with humans you can ask them to shut up put that you don't have.
+
+01:50:56.540 --> 01:51:09.570
+Complete power over them can't erase humans yeah that's the problem the relationships you know that you break up you can't you can't erase the other human with robots I think it will have to be the same thing with robots that that risk that
+
+01:51:09.486 --> 01:51:12.801
+there has to be some.
+
+01:51:13.663 --> 01:51:21.191
+Risk to our interactions to truly experience them deeply feels like so you have to be able to lose your robot friend.
+
+01:51:21.495 --> 01:51:36.144
+And that robot friend to go tweeting about how much of an asshole you are but then are you allowed to you know Murder the robot to protect your private information probably decides to leave I have this intuition that for robots with with certain.
+
+01:51:36.403 --> 01:51:40.933
+Like it's almost like regulation if you declare your robot to be.
+
+01:51:41.102 --> 01:51:50.142
+Let's call it sentient or something like that like this this robot is designed for human interaction then you're not allowed to murder these robots it's the same as murdering other humans
+
+01:51:50.059 --> 01:51:58.280
+well but what about you do a backup of the robot you preserve on the high drive or the equivalent in the future that might be illegal just like it's and then you're sick
+
+01:51:58.170 --> 01:52:06.176
+piratey piracy is illegal but it's your own it's your own worry about right but can't you don't but then but then you can wipe out.
+
+01:52:06.362 --> 01:52:13.323
+It's brain so the this robot doesn't know anything about you anymore but you still have technically still in existence because you backed it up.
+
+01:52:13.537 --> 01:52:21.893
+And then they'll be these great speeches of the Supreme Court by saying oh sure you can erase the mind of the robot just like you can race the mind of a human,
+
+01:52:21.936 --> 01:52:34.434
+we both can suffer they'll be some epic like Obama type character with a speech that we like the robots and humans are the same we can both suffer we can both hope we can both.
+
+01:52:34.728 --> 01:52:38.935
+All those all those kinds of things raise families all that kind of stuff
+
+01:52:38.797 --> 01:52:51.124
+it's it's interesting for these Jessica said emotion seems to be a fascinatingly powerful aspect of human human interaction human robot interaction and if they're able to exhibit
+
+01:52:50.986 --> 01:52:59.046
+emotions at the end of the day that's probably going to have his deeply consider human rights
+
+01:52:58.998 --> 01:53:13.495
+like what we value in humans what we value and other animals that's why robots and AI is great it makes us ask really good questions don't questions yeah but you have you asked about you asked about the Chinese room type here argument you know is it real if it looks real yeah
+
+01:53:13.366 --> 01:53:16.132
+I think the Chinese room argument is a ridiculous one,
+
+01:53:16.256 --> 01:53:29.960
+so so for people don't know Chinese rumors you can I don't even know how to formulate a well but basically you can mimic the behavior of an intelligent system by just following a giant.
+
+01:53:30.155 --> 01:53:44.166
+Algorithm code book that tells you exactly how to respond in exactly each case but is that really intelligent it's like a giant lookup table when this person says this you answer this when this person says this you answer this and.
+
+01:53:44.613 --> 01:53:56.526
+If you understand how that works you have this giant nearly infinite look up table is that really intelligence because intelligence seems to be a mechanism that's much more interesting and complex than this lookup table
+
+01:53:56.487 --> 01:54:02.836
+I don't think so so the I mean the real question comes down to do you think.
+
+01:54:03.085 --> 01:54:14.935
+You know you can you can make an Eis intelligence in some way even if that involves learning and the answer is of course yes there's no question there's a second question then which is,
+
+01:54:15.022 --> 01:54:23.740
+assuming you can reproduce intelligence in sort of different Hardware than biological Hardware you know what I computers.
+
+01:54:24.214 --> 01:54:29.384
+Can you you know match human intelligence in.
+
+01:54:30.173 --> 01:54:40.106
+All the domains in which humans are intelligent is it possible right so the the quoted the hypothesis of strong AI the answer to this.
+
+01:54:40.481 --> 01:54:44.409
+My opinion is an unqualified yes this will swell happen at some point,
+
+01:54:44.523 --> 01:54:56.139
+there's no question that machines at some point we become more intelligent and humans in all domains where humans are intelligent this is not for tomorrow is going to take a long time regardless of what you know,
+
+01:54:56.181 --> 01:55:05.294
+you know on and others have claimed or believed this is a lot harder than many of many of those guys think it is
+
+01:55:05.228 --> 01:55:12.270
+how many of those guys who saw it was simpler than that yours you know five years ago now I think it's hard because it's been five years and,
+
+01:55:12.286 --> 01:55:15.269
+I realize it's going to take a lot longer,
+
+01:55:15.311 --> 01:55:23.326
+because a bunch of people I did mine for example but I wish they haven't actually touch base with the deepmind folks but some of it Ilan or.
+
+01:55:23.773 --> 01:55:27.566
+Dennis I was I mean sometimes your role.
+
+01:55:27.707 --> 01:55:34.596
+You have to kind of create deadlines that are nearer than farther away ye to kind of create an urgency,
+
+01:55:34.711 --> 01:55:41.798
+because you know you have to believe the impossible is possible in order to accomplish it and there's of course a flip side to that coin but it's a weird.
+
+01:55:42.038 --> 01:55:50.720
+You can't be too cynical if you want to get something done absolutely I agree with that but you have to inspire people right to work on through ambitious things.
+
+01:55:51.221 --> 01:55:56.436
+So you know it's it's it's certainly,
+
+01:55:56.487 --> 01:56:11.227
+it was harder than we believe but there's no question in my mind that this will this will happen and now you know people are kind of worried about what does that mean for humans they are going to be brought down from their pedestal you know a bunch of notches with that and.
+
+01:56:11.449 --> 01:56:12.460
+You know.
+
+01:56:12.664 --> 01:56:27.142
+Is that going to be good about I mean it's just going to give more power right it's an empty fire for human intelligence really so speaking of doing cool ambitious things Fair the Facebook AI research group has recently celebrated its eighth birthday.
+
+01:56:27.329 --> 01:56:39.430
+Or maybe you can correct me on that looking back what has been the successes the failures the lessons learned from the eight years of fair and maybe you can also give context of where does,
+
+01:56:39.500 --> 01:56:48.379
+the newly-minted metal a I fit into how does it relate to fair right so let me tell you a bit about the organization of all this.
+
+01:56:48.601 --> 01:56:53.132
+The affair was created almost exactly at years ago he wasn't called Fair yet
+
+01:56:53.102 --> 01:57:02.134
+he took that name a few if you months later and at the time I joined Facebook there was a group called a i group that had
+
+01:57:02.042 --> 01:57:11.982
+12 engineers and Oceanside a few scientists like you know 10 Engineers into scientists or something like that I run it for three and a half years as a director.
+
+01:57:12.502 --> 01:57:24.541
+You know hired the first few scientists and kind of set up the culture and organized it you know explained to the Facebook leadership with what fundamental research was about and how you can work within
+
+01:57:24.457 --> 01:57:33.777
+industry and I needs to be open and everything and I think it's been an unqualified success.
+
+01:57:34.189 --> 01:57:38.639
+In the sense that fair has 17 asleep reduced.
+
+01:57:38.780 --> 01:57:53.627
+You know top-level research and advanced the science and the technology provided tools open source tools like pie torch and many others but at the same time as had Direct or mostly indirect impact.
+
+01:57:53.841 --> 01:58:04.673
+On Facebook at the time now matter in the sense that a lot of systems that are that meta is built around now are.
+
+01:58:04.832 --> 01:58:18.096
+Are based on research projects that started at at fair so if you were to take out you know deep running out of Facebook Services now and meta more generally I mean the
+
+01:58:18.021 --> 01:58:21.291
+company would literally control I mean it's completely built around,
+
+01:58:21.415 --> 01:58:29.979
+around the eye these days and it's really essential to the operation so what happened after three and a half years is that,
+
+01:58:30.057 --> 01:58:38.242
+I change roll I became Chief scientist so I'm not doing day-to-day management of Affair any more and more of a kind of.
+
+01:58:38.555 --> 01:58:49.054
+You know think about strategy and things like that and I carry my conduct my own research I have my own kind of research group working on South supervisor running and things like this which I didn't have time to do and I was director
+
+01:58:48.979 --> 01:58:55.184
+so now fairies run by Joel Pino and on Twin board,
+
+01:58:55.209 --> 01:59:00.991
+together because fairies kind of split in two now there's something will fare Labs which is a.
+
+01:59:01.169 --> 01:59:07.617
+Bottom up census driven research unfair exhale which is slightly more organized for bigger projects that require,
+
+01:59:07.695 --> 01:59:22.524
+little more kind of focus and more engineering support and things like that so Joelle needs fell a band on 24 leads facts are they located it's localized all over so this is no question that the leadership
+
+01:59:22.495 --> 01:59:31.194
+the company believes that this was a very worthwhile investment and what that means is that.
+
+01:59:32.100 --> 01:59:36.343
+It's it's there for the long run right so there is.
+
+01:59:36.800 --> 01:59:50.306
+If you want to talk in these terms which I don't like this this business model if you want we're Fair despite being a very fundamental research lab brings a lot of value to the company either mostly indirectly through other groups.
+
+01:59:51.257 --> 02:00:00.875
+Now what happened three and a half years ago when I step down is was also the creation of Facebook AI which was basically a larger organization that.
+
+02:00:01.079 --> 02:00:06.456
+Covers fair so fair is included in it but also has other organizations that are.
+
+02:00:06.732 --> 02:00:15.062
+Focused on applied research or Advanced development of AI technology that is more focused on the.
+
+02:00:15.725 --> 02:00:28.412
+Products of the companies of less emphasis on fundamental research less fundamental ability still research I mean a lot of people is coming out of those organizations and people are some awesome and you know Wonderful to interact with and
+
+02:00:28.292 --> 02:00:36.055
+but it serves as kind of a way to kind of scale up if you want,
+
+02:00:36.061 --> 02:00:44.950
+so AI technology which you know may be very experimental and and sort of lab prototypes into things that are usable Affairs a subset of metal a i
+
+02:00:44.929 --> 02:00:59.731
+it's fair become like KFC it'll just keep the F nobody cares what the f stands for will knows nobody no good enough by probably probably by the end of the 2021 and that's not a giant change mayor,
+
+02:00:59.782 --> 02:01:05.538
+Fair where mayor doesn't sound too good but you know the brand people are kind of deciding on this
+
+02:01:05.400 --> 02:01:14.648
+and they've been hesitating for a while now and the you know the terrorists are going to come up with an answer as to whether fair is going to change name or whether we're going to change the meaning of the f
+
+02:01:14.474 --> 02:01:33.679
+that's a good call I will keep fair and change the meaning of the F that would be my preference you know I would tend we turn the F into fundamental oh that's basically I research all that's really good yeah it is so this would be my Affair made a fair yeah but you know people will call it fair right yeah exactly I liked it and now may I
+
+02:01:33.586 --> 02:01:36.541
+is part of.
+
+02:01:36.629 --> 02:01:51.602
+The reality lab so you know metal now the new Facebook what is committed and it's kind of divided into you know Facebook Instagram WhatsApp.
+
+02:01:52.248 --> 02:01:53.196
+End.
+
+02:01:54.174 --> 02:02:08.626
+Relative reality that is about you know a RV are you know telepresence communication part of technology and stuff like that it's kind of the you can think of it as the sort of a combination of,
+
+02:02:08.686 --> 02:02:12.532
+sort of new products and technology part of.
+
+02:02:12.746 --> 02:02:19.996
+If m is that where the touch sensing for robots I saw they were posting about that certainty for all body spark there actually,
+
+02:02:20.083 --> 02:02:31.176
+that's that's how it is okay yeah this is also the number there is the the other way the haptic glove right yes it's like gossamer reality like that's that's reality lab.
+
+02:02:31.408 --> 02:02:32.257
+Research.
+
+02:02:32.587 --> 02:02:44.140
+Fell to lab research but by the way the touch sensors is super interesting like integrating that modality into the whole sensing Suite is very interesting so.
+
+02:02:44.434 --> 02:02:56.896
+What do you know about the metaverse what do you think about this whole this whole kind of expansion of the view of the role of Facebook and meta in the world well I made it verse really should be thought of as the next step in the internet,
+
+02:02:56.992 --> 02:03:06.753
+right sort of trying to kind of you know make the experience more compelling of being.
+
+02:03:07.543 --> 02:03:12.910
+Connected either with other people or with content and you know we are.
+
+02:03:13.295 --> 02:03:18.573
+Evolved and trained to evolve in you know 3D environments where
+
+02:03:18.435 --> 02:03:32.373
+you know we can see other people we can talk to them when you when we're near them or you know and all of you are far away can't hear us you know things like that right so it's there's a lot of social conventions that exist in the real world that we can try to.
+
+02:03:32.686 --> 02:03:42.366
+Now what is going to be eventually the the how compelling is it going to be like are you know is it going to be the case that people are going to be willing to.
+
+02:03:42.660 --> 02:03:50.828
+Do this if they have to wear a huge pair of goggles all day maybe not but then again as the experience is officially compiling.
+
+02:03:51.330 --> 02:04:03.360
+Maybe so or if the device that you have to wear is just basically a pair of glasses you know technology make sufficient progress for that you know a our is a much easier concept to grasp,
+
+02:04:03.456 --> 02:04:07.482
+that you're going to have you know I'm going to the reality glasses that.
+
+02:04:07.741 --> 02:04:21.904
+Busy contain some sort of virtual assistant that can help you in your daily lives but they say at the same time with the AR you have to contend with reality with VR you can completely detach yourself from reality so it gives you Freedom it might be easier to design worlds and in VR.
+
+02:04:22.613 --> 02:04:25.532
+But you can imagine her you know the metaverse being.
+
+02:04:26.069 --> 02:04:33.805
+Makes it makes right or like you can have objects that exist in amateur verse that you know pop up on top of the real world or
+
+02:04:33.640 --> 02:04:54.573
+only exists in virtual reality okay let me ask the hard question because all of this was easy so this is easy the Facebook now meta the social network has been painted by the media as net negative for society even destructive and evil at times you've pushed back against this
+
+02:04:54.409 --> 02:04:57.904
+defending Facebook can you explain your defense
+
+02:04:57.802 --> 02:05:04.701
+yeah so the description the company that is being described in the in some media.
+
+02:05:05.265 --> 02:05:12.677
+Is not the company we know when we work inside and you know it could be claimed that.
+
+02:05:13.133 --> 02:05:18.114
+A lot of employees are uninformed about what really goes on in the company but you know I'm a vice president
+
+02:05:17.958 --> 02:05:28.232
+I mean I have a pretty good Vision or what goes on you know I don't know everything obviously I'm not involving in everything but certainly not in decision about like you know content motivation or anything like this,
+
+02:05:28.293 --> 02:05:31.339
+perhaps your son decent vision of what goes on.
+
+02:05:32.065 --> 02:05:39.530
+And this evil that is being described as you don't see it and then you know I think there is an easy story to buy.
+
+02:05:40.086 --> 02:05:47.120
+Which is that you know all the bad things in the in the world and you know the reason your friend believe crazy stuff.
+
+02:05:47.783 --> 02:05:55.833
+You know there's an easy scapegoat right you know in social media in general Facebook in particular.
+
+02:05:56.380 --> 02:05:58.778
+We have to look at the data like is it the case.
+
+02:05:59.171 --> 02:06:06.492
+That Facebook for example polarizers people politically are their academic studies that show this.
+
+02:06:07.129 --> 02:06:13.496
+Is it the case that you know teenagers think of themselves less if they use Instagram or,
+
+02:06:13.547 --> 02:06:17.259
+is it the case that you know
+
+02:06:17.175 --> 02:06:30.070
+people get more riled up against you know opposite sides in a debate or political opinion if they are more on Facebook or if they are less and study after study.
+
+02:06:30.328 --> 02:06:32.410
+Show that none of this is true.
+
+02:06:32.785 --> 02:06:42.979
+This is independent studies by academic they're not funded by Facebook or meta you know study by Stanford by some of my cookies at NYU actually with whom I have no connection,
+
+02:06:43.066 --> 02:06:49.767
+you know there's a study recently they paid people I think it was in.
+
+02:06:49.989 --> 02:06:59.480
+In the former Yugoslavia I'm not exactly showing what what part but they pay people to not use Facebook for a while in the period
+
+02:06:59.441 --> 02:07:04.071
+before the anniversary of the 7th
+
+02:07:03.960 --> 02:07:16.899
+massacres right so you know people get riled up like should you know should we have a celebration I mean a memorial kind of celebration for it or not so they paid a bunch of people to not use Facebook for a few weeks.
+
+02:07:18.085 --> 02:07:23.210
+It turns out that
+those people ended up being more polarized.
+
+02:07:23.351 --> 02:07:32.833
+Then they were at the beginning and the people were more on Facebook or less polarized
+there's a study from Stanford of Economics at Stanford that.
+
+02:07:33.191 --> 02:07:42.016
+Try to identify the causes of increasing polarization in the US and it's been going on for 40 years before you know Mark Zuckerberg was born,
+
+02:07:42.148 --> 02:07:48.308
+yeah continuously and and so the if there is a cause it's not,
+
+02:07:48.377 --> 02:08:01.073
+Facebook or social media so you could save social media just accelerate it but no I mean it's basically a continuous evolution by some measure of polarization in the US and then you compare this with other countries like,
+
+02:08:01.107 --> 02:08:13.730
+the the West half of Germany because you can go 40 years in the east east side or Denmark over or other countries and they use Facebook just as much and they're now getting more polarized are getting less polarized.
+
+02:08:13.890 --> 02:08:19.330
+So if you want to look for you know a causal relationship there.
+
+02:08:19.462 --> 02:08:34.120
+You can find a scapegoat but you can find a cause now if you want to fix the problem you have to find the right cause and what rise me up is that people now are accusing Facebook of bad Deeds that are done by others and those others are we're not doing anything about them,
+
+02:08:34.226 --> 02:08:39.270
+and by the way those others include the owner of the Wall Street Journal in which all of those papers were published.
+
+02:08:39.537 --> 02:08:48.011
+So I should mention them talking to shrimp Mike shrimp for on this podcast and also Mark Zuckerberg and probably these conversations can have with them
+
+02:08:47.900 --> 02:08:53.430
+because it's very interesting to me even if Facebook has a some measurable negative
+
+02:08:53.356 --> 02:09:03.072
+you can't just consider that in isolation you have to consider about all the positive ways it connects us so like every technology people it is like question you can't just say like.
+
+02:09:03.249 --> 02:09:13.209
+There's an increase in division yes probably Google search engine has created increasing division we have to consider about how much information about to the world,
+
+02:09:13.305 --> 02:09:21.707
+I'm sure Wikipedia created more Division if you just look at the division we have to look at the full context of the world and did it make a better world you have to
+
+02:09:21.551 --> 02:09:29.467
+the printing press has created more different from exactly the so you know when the printing press was invented the first,
+
+02:09:29.563 --> 02:09:38.865
+books that were that were printed were things like the Bible and that allowed people to read the Bible by themselves not get the message uniquely from priests in Europe.
+
+02:09:39.294 --> 02:09:49.020
+And that created you know the puts Protestant movement and 200 years of religious persecution and Wars so that's a bad side effect of the printing press there was social networks.
+
+02:09:49.404 --> 02:09:53.421
+Being nearly as bad as the printing press but nobody would sell the printing press was a bad idea.
+
+02:09:54.670 --> 02:10:08.690
+Yeah a lot of his perception in there's a lot of different incentives operating here maybe a quick comment since you're one of the top leaders at Facebook and I met uh sorry that's in the tech space
+
+02:10:08.651 --> 02:10:13.398
+I'm sure Facebook involves a lot of incredible technological
+
+02:10:13.314 --> 02:10:25.416
+challenges that need to be solved a lot of it probably is on the computer infrastructure the hardware the I mean it's just a huge amount maybe can you give me a context about how much your straps life,
+
+02:10:25.467 --> 02:10:35.444
+is AI and how much of it is low-level compute how much of it is flying all around doing business stuff in the same with Zuckerberg Mark Zuckerberg they really focus on the eye.
+
+02:10:35.585 --> 02:10:45.283
+I mean certainly in the in the runner-up of the creation of fair and for you know at least a year after that if not more.
+
+02:10:45.533 --> 02:10:50.442
+Mark was very very much focused on on the eye and was spending quite a lot of effort,
+
+02:10:50.448 --> 02:10:55.916
+come on it and that's his style when you get interest in something he reads everything about it
+
+02:10:55.778 --> 02:11:07.168
+no he read some of my papers for example before I joined and so he looked a lot better like notes right.
+
+02:11:08.327 --> 02:11:17.368
+And you know shrap was already too it also I mean stripe is really kind of you know has.
+
+02:11:18.004 --> 02:11:31.492
+Something I've tried to preserve also this but my not so young age which is a sense of wonder about science and technology and he certainly is certainly has that is also a wonderful person I mean in terms of like.
+
+02:11:31.661 --> 02:11:39.297
+As a manager like dealing with people and everything Marco so actually so I mean they're very like you know very human people.
+
+02:11:39.673 --> 02:11:45.824
+In the case of markets shockingly human you know given is is trajectory.
+
+02:11:46.352 --> 02:11:51.621
+I mean the personality of him that he spent in the presence just completely wrong.
+
+02:11:51.943 --> 02:12:02.109
+But you have to know how to play The Press so that's I put some of that responsibility and him to you have to it's like.
+
+02:12:02.367 --> 02:12:08.284
+You know like the director the conductor of an orchestra you have to play the press and the public
+
+02:12:08.210 --> 02:12:13.587
+in a certain kind of way where you convey your true self to them if there is a depth and kind of started
+
+02:12:13.566 --> 02:12:25.479
+and his father and it's probably not the best at it so yeah you have to learn and it's sad to see and I'll talk to him about it but the shrimp is slowly stepping down.
+
+02:12:25.917 --> 02:12:35.480
+It's always sad to see folks sort of be there for a long time and slowly I guess time just I think is these done the thing he.
+
+02:12:35.712 --> 02:12:41.251
+Set out to do and you know is got you know.
+
+02:12:41.554 --> 02:12:48.632
+Femi priorities and stuff like that and I understand you know after 13 years or something,
+
+02:12:48.639 --> 02:12:56.023
+it's been a good run which in Silicon Valley is basically a lifetime yeah you know because you know it's,
+
+02:12:56.048 --> 02:13:00.083
+dog years so new reps the conference just wrapped up,
+
+02:13:00.180 --> 02:13:15.153
+let me just go back to something else you posted the paper you co-authored was rejected from Europe's as you said proudly in courts rejected can you talk yeah I know can you describe this paper
+
+02:13:15.142 --> 02:13:20.464
+and like what was the idea in it and also maybe this is a good opportunity
+
+02:13:20.345 --> 02:13:25.182
+to ask what are the pros and cons what works and what doesn't about the review process.
+
+02:13:25.485 --> 02:13:30.980
+Yeah let me talk about the paper first I'll talk about the roof talk about our usual process afterwards,
+
+02:13:31.112 --> 02:13:40.963
+the paper is called V Craig so this is I mentioned that before variance and variance covariance regularization and it's a technique in non contrastive learning technique for.
+
+02:13:41.464 --> 02:13:49.515
+What I call joint embedding architecture so Sammy's Nets are an example of joint invading architecture so don't remaining architecture is.
+
+02:13:49.854 --> 02:13:57.104
+Let me back up a little bit right so if you want to do South supervisor running you can you can do it by prediction.
+
+02:13:57.425 --> 02:14:09.608
+So let's say you want to train the system to predict video radio show it a video clip and and you train the system to predict the next the continuation of the video clip now because you need to handle uncertainty,
+
+02:14:09.686 --> 02:14:17.746
+because I mean if you know many continuations that are plausible you need to have you need to handle this in some way you need to have a way
+
+02:14:17.743 --> 02:14:25.173
+for the system to be able to produce multiple predictions and the way the only way I know to do this.
+
+02:14:25.368 --> 02:14:29.188
+Is who was called a latent variable so you have some sort of.
+
+02:14:29.410 --> 02:14:43.826
+Hidden Vector of the variable that you can vary over a set or Draw from distribution and as you vary this Vector very set the output the prediction varies over a set of plausible predictions okay so that's called a goal is a generative,
+
+02:14:43.949 --> 02:14:45.194
+latent variable model.
+
+02:14:45.650 --> 02:14:59.570
+Got him okay now there's an alternative to this to handle uncertainty and instead of directly predicting the next frames of the of the clip you also run those.
+
+02:14:59.910 --> 02:15:01.632
+Through another neural net.
+
+02:15:02.557 --> 02:15:15.261
+So you now have two neural Nets one that looks at the the you know the initial segment of the video clip another one that looks at the the continuation during training all right.
+
+02:15:15.403 --> 02:15:18.322
+And what you're trying to do is learn a representation.
+
+02:15:19.508 --> 02:15:26.064
+Both those two video clips that is maximally informative about the video clips themselves but.
+
+02:15:26.404 --> 02:15:41.233
+Research that you can predict the representation of the second video clip from the representation of the first one Anjali okay and you can sort of formalize this in terms of maximizing return information and some stuff like that but it doesn't matter what you want is.
+
+02:15:41.474 --> 02:15:49.371
+If formative representative represent you know informative representations of the two video clips that are mutually predictable.
+
+02:15:49.882 --> 02:15:54.980
+What that means is that there's a lot of details in the second video clips that are irrelevant.
+
+02:15:55.355 --> 02:16:03.217
+You know I let's say video clip consisting you know a camera panning the scene.
+
+02:16:03.565 --> 02:16:13.218
+There's going to be a piece of that room that is going to be revealed and I can somewhat predict whether what that worm is going to look like but I may not be able to predict the details of the
+
+02:16:13.044 --> 02:16:22.518
+texture of the ground and where the tides are ending in stiff stuff like that right so those are irrelevant details that perhaps my representation will eliminate and so.
+
+02:16:22.713 --> 02:16:37.137
+What I need is to trend is second neural net in such a way that whenever the the continuation video cleave areas of all the possible continuations the representation doesn't change.
+
+02:16:37.450 --> 02:16:46.779
+Got it so it's the yeah got it oh over the spaces representations doing the same kind of thing as you do with similarity learning right.
+
+02:16:47.325 --> 02:16:55.250
+So so these are two ways to handle multiple daily tea in a prediction right in the first way you primary tries the prediction with a latent variable,
+
+02:16:55.373 --> 02:17:05.017
+but you predict pixels essentially right in the second one you all you don't predict pixels you predict an abstract representation of pixels and you guarantee that this has track representation.
+
+02:17:05.339 --> 02:17:13.650
+Has as much information as possible about the input but sort of you know drops all this stuff that you really can't predict essentially.
+
+02:17:13.945 --> 02:17:22.481
+I used to be a big fan of the first approach and in fact in this paper with each and Mishra this this blog post the Dark Matter intelligence I was kind of advocating for this and in the last.
+
+02:17:22.704 --> 02:17:29.675
+You don't have completely changed my mind and now I'm a big fan of the second one and it's because of.
+
+02:17:30.068 --> 02:17:36.309
+Small collection of algorithms that have been proposed over the last year and a half or so two years.
+
+02:17:36.595 --> 02:17:42.493
+To do this including the Craig its predecessor called between so which I mentioned.
+
+02:17:42.851 --> 02:17:54.350
+A method from our friends at the bank will be well and there's a bunch of others now that can work similarly so they're all based on this idea of joint embedding.
+
+02:17:54.482 --> 02:18:01.173
+Some of them have an explicit Criterion that is an approximation in which your information some others would be very well work but we don't really know why.
+
+02:18:01.342 --> 02:18:10.689
+And there's been like lots of theoretical papers about why be aware that works no it's not that because we take it out on this your works and you have a I mean so there's like a big debate but.
+
+02:18:10.974 --> 02:18:18.116
+But the important point is that we now have a collection of non contrastive joint embedding methods which I think is the best thing since sliced bread.
+
+02:18:18.293 --> 02:18:22.671
+So I'm super excited about this because I think it's our best shot.
+
+02:18:23.100 --> 02:18:31.637
+Four techniques that would allow us to kind of build predictive or models and at the same time learn how article representations of the world.
+
+02:18:31.796 --> 02:18:35.580
+Where what matters about the world is preserved and what is relevant is eliminated.
+
+02:18:36.298 --> 02:18:43.889
+By the way the representations of before-and-after is a in the space in a sequence of images or is it for single images,
+
+02:18:43.940 --> 02:18:52.720
+it would be easier for single image for a sequence if it doesn't have to be images this could be applied to text you could be applied to just about any signal I'm looking at you know I'm looking for.
+
+02:18:53.168 --> 02:18:59.598
+Methods that are generally applicable that are not specific to you know when particular modality you know it could be audio or whatever
+
+02:18:59.469 --> 02:19:09.879
+got it so what's the story behind this paper this paper is what this is describing one of the one such method is this V correct method so this is co-authored the first author is a student
+
+02:19:09.732 --> 02:19:14.164
+called Adrienne bound who is a resident PhD student at Fair Paris.
+
+02:19:14.584 --> 02:19:21.050
+We score advice by me and John ponts is a professor at economic area also.
+
+02:19:21.237 --> 02:19:32.132
+This has director in Rio so this is wonderful program in France where PhD students can basically do their PHD in industry and that's kind of what What's Happening Here.
+
+02:19:32.301 --> 02:19:40.847
+And this paper is a follow-up on the this bottle tween paper but yeah I form a diagnose defend the knee with.
+
+02:19:41.429 --> 02:19:53.999
+Pleasing and you respond to her and a bunch of other people from from from fair and what are the main criticism from reviewers is that be Craig is not different enough from bottle twins but.
+
+02:19:54.437 --> 02:20:04.829
+You know my impression is that it's you know butter twins with a few bugs fixed essentially and in the end this is what people were use.
+
+02:20:04.997 --> 02:20:15.335
+Right so but you know I'm used to stuff yeah that I submit being rejected for what might be rejected and actually exceptional aside XP people use it for it's already decided,
+
+02:20:15.359 --> 02:20:27.721
+like a bunch of times so I mean the the question is then to the deeper question about peer review and conferences I mean computer science is a field is kind of unique that the conference is highly prized that's one
+
+02:20:27.584 --> 02:20:35.580
+right and it's interesting because the peer review process they're similar supposed to journals but it's accelerated significantly
+
+02:20:35.470 --> 02:20:41.180
+well not significantly boost it goes fast and it's nice way to get stuff out quickly.
+
+02:20:41.267 --> 02:20:46.978
+To peer-reviewed quickly go to present a quickly to the community so not quickly but quicker
+
+02:20:46.885 --> 02:20:59.004
+yeah but nevertheless it has many of the same flaws of peer review because it's a limited number of people look at it there's bias in the following like that if you want to do new ideas you're going to get pushed back
+
+02:20:58.912 --> 02:21:06.503
+there's self-interested people that kind of can infer who submitted it and kind of,
+
+02:21:06.582 --> 02:21:15.119
+you know be cranky about it all that kind of stuff yeah I mean there's a lot of you know social phenomena they are there's one social phenomenon which is that
+
+02:21:15.062 --> 02:21:21.735
+because the field has been growing exponentially the vast majority of people in the field are extremely Junior,
+
+02:21:21.759 --> 02:21:35.797
+yeah so as a consequence and that's just a consequence of the field going right so as the number of the size of the field can start saturating you will have less of that problem of reviewers being very,
+
+02:21:35.830 --> 02:21:39.596
+inexperienced consequence of this is that you know.
+
+02:21:39.926 --> 02:21:49.237
+Young reviewers I mean there's a phenomenon which is that reviewers try to make their life easy and to make that life is easy when reviewing a paper,
+
+02:21:49.333 --> 02:22:01.903
+is very simple you just have to find a flaw in a paper right so basically they see that task as finding flaws in papers and most people is have flaws even the good ones yeah so it's easy to you know,
+
+02:22:01.946 --> 02:22:10.581
+to do that you your job is easier as a reviewer if you just focus on this but what's important is.
+
+02:22:10.732 --> 02:22:24.471
+Like is there a new idea in that paper that is likely to influence it doesn't matter if the experiments are not that great if the protocol is you know so so you know things like that as long as there is.
+
+02:22:24.640 --> 02:22:26.560
+It worthy idea in it.
+
+02:22:26.909 --> 02:22:38.371
+That will influence the way people think about the problem even if they make it better you know eventually I think that's that's really what what makes a paper useful and so,
+
+02:22:38.495 --> 02:22:52.928
+this combination of social phenomena creates a disease that has plagued you know other fields in the past like speech recognition where basically you know people chase numbers on on benchmarks.
+
+02:22:53.078 --> 02:23:02.129
+And and it's much easier to get a paper accepted if it brings an incremental Improvement on a sort of mainstream well accepted.
+
+02:23:02.558 --> 02:23:05.152
+Method or problem.
+
+02:23:05.655 --> 02:23:20.286
+And those are to me boring papers I mean they're not useless right because industry thrives on those kind of progress but they're not the one that I'm interested in in terms of like new Concepts and new idea so I papers that are really.
+
+02:23:20.427 --> 02:23:25.886
+Trying to strike on a new advances generally don't make it now thankfully we have archived.
+
+02:23:26.063 --> 02:23:40.037
+Archive exactly and then there's open review type of situations where you and then I mean Twitter is a kind of open review I'm a huge believer that review should be done by thousands of people not to people I agree and so archive.
+
+02:23:40.259 --> 02:23:49.139
+Do you see a future where a lot of really strong papers it's already the present but a growing future where it'll just be archived and.
+
+02:23:49.838 --> 02:24:00.633
+You're presenting an ongoing continuous conference called Twitter and / the internet / archive sanity Andre just released a new version so just,
+
+02:24:00.713 --> 02:24:05.351
+not you know not being so elitist about this particular gating
+
+02:24:05.295 --> 02:24:10.860
+it's not a question of being an idiot or not it's a question of being basically,
+
+02:24:10.948 --> 02:24:21.700
+recommendation and set of approvals for people who don't see themselves as having the ability to do so by themselves right so it saves time right if you rely on other people's opinion.
+
+02:24:21.868 --> 02:24:30.440
+And you trust those people all those groups to evaluate a paper for you.
+
+02:24:30.735 --> 02:24:43.719
+That saves you time because you know you don't have to like scrutinize The Vapor as much you know is brought to your attention I mean that's the whole idea of sort of you know Collective recommender system by so I actually thought about this a lot.
+
+02:24:43.950 --> 02:24:47.455
+You know about 10-15 years ago because there were discussions that.
+
+02:24:47.776 --> 02:24:54.881
+Nips and you know and you were about to create Ikea with your tribe NGO and so I wrote a document.
+
+02:24:55.221 --> 02:25:06.323
+Can a describing a reviewing system which basically it was you know you put your paper on some repository let's say archive or now could be open review and then you can form,
+
+02:25:06.456 --> 02:25:19.647
+reviewing entity which is equivalent to a reviewing board you know of a journal or program Committee of a conference you have to list the members and then that,
+
+02:25:19.770 --> 02:25:34.276
+group reviewing and City can choose to review a particular paper spontaneously or not there is no exclusive relationship anymore between a paper and venue or reviewing entity any living entity can review any paper,
+
+02:25:34.318 --> 02:25:36.148
+or you may choose not to.
+
+02:25:36.479 --> 02:25:46.249
+And then you know given evaluation it's not published published it's just an evaluation and the comment which would be public signed by the reviewing entity and.
+
+02:25:46.588 --> 02:25:52.578
+If it's owned by reviewing entity you know it's one of the members of your entity so if the reviewing entity is you know
+
+02:25:52.557 --> 02:26:02.011
+Lex treatments but you know preferred papers right you know it's Lex Friedman writing a review yes what so for me one that's a beautiful,
+
+02:26:02.045 --> 02:26:10.699
+system I think but what's in addition to that it feels like there should be a reputation system for the reviewers absolute for the reviewing entities.
+
+02:26:10.867 --> 02:26:16.784
+Reviewers individually reviewing entities sure but even that within that the reviewers till because.
+
+02:26:17.088 --> 02:26:24.283
+Is it there's another thing here it's not just the reputation it's an incentive for an individual person to do great
+
+02:26:24.191 --> 02:26:28.839
+right now in the academic setting the incentive is kind of
+
+02:26:28.701 --> 02:26:39.768
+internal just wanting to do a good job but honestly that's not a strong enough incentive to do a really good job and I'm reading a paper and finding the beautiful amidst the mistakes and the flaws and all that kind of stuff
+
+02:26:39.675 --> 02:26:46.798
+like if you're the person that first discovered a powerful paper and you get to be proud of that discovery.
+
+02:26:46.993 --> 02:26:56.403
+Then that really gives a huge incentive to you that's that's a big part of my proposal actually you I just write that as you know if if your evaluation of papers is.
+
+02:26:56.590 --> 02:27:04.190
+Predictive of future success okay then your reputation should go up as a reviewing entity,
+
+02:27:04.215 --> 02:27:16.964
+Lex oh yeah exactly I mean that even had a massive student who is a master student in library science and computer science actually kind of work out exactly how that should work with formulas and everything but
+
+02:27:16.827 --> 02:27:20.386
+so in terms of implementation do you think that's something that's doable,
+
+02:27:20.473 --> 02:27:35.077
+I mean I've been sort of you know talking about this to sort of ice people like you know Andrew McCollum who started open review and the reason why we picked up and review for a clear initially even though it was very early for them is because my Hope was that
+
+02:27:35.075 --> 02:27:43.440
+I clear we're it was eventually going to kind of integrate this type of system so I clear cap the idea of open reviews
+
+02:27:43.375 --> 02:27:54.279
+so whether reviews are you know published with the paper which I think is very useful but in many ways that's kind of reverted to kind of more of a conventional type,
+
+02:27:54.330 --> 02:27:58.104
+conferences for everything else and that I mean I.
+
+02:27:58.732 --> 02:28:04.784
+Don't run a clear I'm just has a dent of the foundation but
+
+02:28:04.656 --> 02:28:18.468
+you know people who run it should make decisions about how to run it and I'm not going to tell them because they're volunteers and I'm really thankful that they do that so but I'm saddened by the fact that we're not being Innovative enough.
+
+02:28:18.934 --> 02:28:26.309
+Yeah me too I hope that changes yeah because the communication size broadly but communication computer science ideas,
+
+02:28:26.441 --> 02:28:40.596
+is this how you make those ideas have been back there yeah and I think you know a lot of this is because people have in their mind kind of an objective which is you know fairness for altars.
+
+02:28:40.998 --> 02:28:50.318
+And the ability to count points basically and give credits accurately but that comes at the expense of the progress of science.
+
+02:28:50.739 --> 02:28:53.630
+So to some extent we're slowing down the progress of science.
+
+02:28:54.015 --> 02:29:02.380
+And I will actually achieving fairness and we're not as edgy Grannis you know we start biases you know we're doing you know double bond review but.
+
+02:29:02.604 --> 02:29:15.876
+You know the biases are still there the different different kinds of biases you write that the phenomenon of emergence Collective Behavior exhibited by large collection of simple elements interaction.
+
+02:29:16.125 --> 02:29:26.804
+Is one of the things that got you into neural Nets in the first place I love cellular am I love simple interacting elements and the things that emerge from them do you think.
+
+02:29:27.261 --> 02:29:33.610
+We understand how complex systems can emerge from such simple components that interact simply no we.
+
+02:29:34.166 --> 02:29:41.450
+It's a big mystery also it's a mystery for physicists is a mystery for biologists you know how is it that.
+
+02:29:41.970 --> 02:29:46.448
+The universe around us seems to be increasing in complexity and not decreasing.
+
+02:29:46.742 --> 02:29:54.198
+I mean that that is a kind of curious property of physics that despite the second law of thermodynamics,
+
+02:29:54.241 --> 02:30:02.247
+we seem to be in evolution and learning and Etc seems to be kind of at least locally
+
+02:30:02.154 --> 02:30:10.736
+to increase complexity not decrease it so perhaps the ultimate purpose of the universe is to just get more complex
+
+02:30:10.670 --> 02:30:12.950
+have these I mean,
+
+02:30:12.992 --> 02:30:22.700
+small pockets of beautiful complexity does that the cellular automata geez kinds of emergence of complex systems give you some
+
+02:30:22.634 --> 02:30:37.543
+Intuition or guide your understanding of machine learning systems and neural networks and so on are these for you right now desperate Concepts where you got you got me into it you know I discovered the existence of the perceptron
+
+02:30:37.523 --> 02:30:39.858
+when I was a college student.
+
+02:30:40.224 --> 02:30:50.111
+But really good book and it was a debate between Chomsky and Piaget and Seymour papert from MIT You is kind of singing the praise of the perceptron in that book can I
+
+02:30:49.983 --> 02:30:55.279
+the first time I heard about Tony machine right so I started digging the literature and I found those paper those books.
+
+02:30:55.510 --> 02:31:03.507
+Which were basically transcript transcription of you know workshops or conferences from the 50s and 60s about self-organizing systems.
+
+02:31:03.810 --> 02:31:16.712
+So there were there was a series of conferences on self-organizing systems and the there's books on this so them are you can actually get them at the internet archive you know the digital version.
+
+02:31:17.043 --> 02:31:30.829
+And there are like fascinating articles in there by is a guy whose name has been largely forgotten Heinz fun faster so the German physicist who immigrated to the US and worked on self-organizing systems.
+
+02:31:31.303 --> 02:31:42.423
+In the 50s and in the 60s he created at University of Illinois Urbana-Champaign he created biological computer laboratory vcl which was you know all about neural net.
+
+02:31:42.988 --> 02:31:47.572
+Unfortunately that was kind of towards the end of the popularity of neural net so that
+
+02:31:47.390 --> 02:32:01.850
+the lab never kind of strive very much but but he wrote a bunch of papers about self-organization and I bet the mystery of self-organization and example he has is you take imagine you are in space there's no gravity you have a big box with
+
+02:32:01.650 --> 02:32:10.321
+magnets in it okay you know what kind of rectangular bag nights with North Pole and white end so let's find the other end you shake the Box gently
+
+02:32:10.283 --> 02:32:16.569
+and the magnets with kind of stick to themselves and probably form a complex structure you know spontaneously,
+
+02:32:16.575 --> 02:32:28.596
+you know that could be an example of self-organization but you know you have lots of example neural Nets are an example of self-organization to you know in many respect and it's a it's a bit of a mystery you know how.
+
+02:32:28.846 --> 02:32:41.181
+Like what what is possible with this you know pattern formation in physical systems in chaotic system and things like that you know and you know the emergence of life you know things like that so you know how does that happen.
+
+02:32:41.404 --> 02:32:46.393
+So it's be puzzle for physicists as well it feels like understanding this.
+
+02:32:46.544 --> 02:32:55.602
+The the mathematics of emergence and some constrained situations might help us create intelligence like help us.
+
+02:32:55.843 --> 02:33:08.656
+Add a little spice to the systems because you seem to be able to in complex systems with immersions to be able to get a lot from little and so that seems like a shortcut.
+
+02:33:08.897 --> 02:33:12.842
+To get big leaps and performance but.
+
+02:33:13.002 --> 02:33:24.617
+There's a missing conservative concept that we are we don't have yeah and is it something also I've been fascinated by it since my undergrad days and it's how you measure complexity.
+
+02:33:24.966 --> 02:33:31.431
+Right so we don't actually have good ways of measuring or at least we have don't have good ways of interpreting.
+
+02:33:31.735 --> 02:33:35.662
+The measures that we have at our disposal like how do you measure the complexity of something.
+
+02:33:35.966 --> 02:33:44.340
+So there's all those things you know like you know Commodore of chatting Solomon of complexity of you know the length of the shortest program that we generate a bit string,
+
+02:33:44.357 --> 02:33:52.830
+can be thought of as the complexity of that b string and I've been fascinated by the concept the problem with that is that.
+
+02:33:53.377 --> 02:33:56.890
+That complexity is defined up to a constant which can be very large.
+
+02:33:58.157 --> 02:34:11.320
+There's there are similar concepts are derived from you know Bayesian probability Theory where you know the complexity of something is the negative log of its probability essentially right,
+
+02:34:11.372 --> 02:34:13.500
+and you have a complete equivalence between the two things.
+
+02:34:14.190 --> 02:34:24.050
+And there you would think the other probability is something that's well defined mathematically which means complexity is well defined but it's not true you need to have a model of the distribution.
+
+02:34:24.300 --> 02:34:36.473
+You may need to have a priority for doing Vision inference and the fireplace the same role as the choice of the computer with which you measure your combo go off complexity and so every measure of complexity we have has some arbitrary necessity.
+
+02:34:37.164 --> 02:34:43.198
+You know an additive constant which is can be arbitrarily large and so.
+
+02:34:43.970 --> 02:34:49.248
+Do how can we come up with a good theory of how things become more complex if you don't have a good measure of complexity here
+
+02:34:49.137 --> 02:34:59.780
+which we need for this one way that people study this and it's basic biology the people that study the origin of life or try to recreate life and in the laboratory
+
+02:34:59.688 --> 02:35:06.217
+and the more interesting one is the alien one is when we go to other planets how do we recognize this life
+
+02:35:06.151 --> 02:35:15.850
+you know complexity we associate complexity may be some level of Mobility will life you know we have to be able to like have concrete.
+
+02:35:16.108 --> 02:35:25.050
+Algorithms for like measuring the level of complexity we see during our to know the difference between life and non-life.
+
+02:35:25.200 --> 02:35:39.623
+The problem is that complexity is in the eye of the beholder so let me give you an example if I if I give you an image of the Endless digits right and I flipped through in these digits there is some obviously some.
+
+02:35:39.784 --> 02:35:49.806
+Structure to it because local structure you know neighboring pixels are correlated across the entire data set I imagine that.
+
+02:35:50.271 --> 02:35:58.799
+I apply a random permutation to all the pixels fixed random permutation now I show you those images they will look.
+
+02:35:59.328 --> 02:36:12.699
+You know really disorganized to you more complex in fact they're not more complex in absolute terms is exactly the same as originally right if you knew what the permutation was you know you could undo the permutation now.
+
+02:36:13.128 --> 02:36:19.415
+Imagine I give you special glasses that undo that permutation now all of a sudden what looked complicated become simple,
+
+02:36:19.466 --> 02:36:34.240
+all right so if you have to if you have you know humans on one end and then another race of aliens that sees the universe with permutation glasses it with a permutation glasses what we perceive as simple to them is horribly complicated it's probably Heat.
+
+02:36:34.679 --> 02:36:41.532
+Heat yeah okay and what they perceive as simple to us is random fluctuation its heat.
+
+02:36:42.124 --> 02:36:46.520
+So truly in the eye of the beholder depends what kind of glasses you wearing,
+
+02:36:46.526 --> 02:36:56.279
+right as what kind of algorithm you're running in your perception system so I don't think we'll have a theory of intelligence self-organization Evolution things like this
+
+02:36:56.240 --> 02:37:03.804
+until we have a good handle on a notion of complexity which we know is in the higher the eye of the beholder.
+
+02:37:03.892 --> 02:37:16.011
+Yeah it's sad to think that we might not be able to detect or interact with alien species because we're wearing different glasses because they're not your locality might be different from ours yeah this actually connects with
+
+02:37:15.847 --> 02:37:23.060
+fascinating questions in physics at the moment like modern physics quantum physics like you know questions about like you know,
+
+02:37:23.130 --> 02:37:31.000
+can we recover the information desk lost in a black hole and things yeah that's right and and that relies on Notions of complexity
+
+02:37:30.899 --> 02:37:40.318
+which you know I find I find this fascinating can you describe your personal quest to build an expressive electronic wind instrument
+
+02:37:40.279 --> 02:37:45.809
+he wi what is it what is it take to build it,
+
+02:37:45.887 --> 02:37:57.241
+well I'm a tinkerer I like building things I like building things with combinations of electronics and you know mechanical stuff you know I have a bunch of different Hobbies but,
+
+02:37:57.257 --> 02:38:07.144
+you know probably my first one was little with building model airplanes and stuff like that and I still do that to some extent but also Electronics I taught myself Electronics before I studied it,
+
+02:38:07.187 --> 02:38:12.807
+um and the reason I taught myself Electronics is because of Music my cousin.
+
+02:38:13.434 --> 02:38:19.072
+Who's inspiring electronic position and you had analog synthesizer and it was basically modifying it for him
+
+02:38:18.926 --> 02:38:27.850
+and building sequencers and stuff like that right for him I was in high school when I was doing this and the interesting like progressive rock like 80s,
+
+02:38:27.937 --> 02:38:37.176
+of course was the greatest band of all time according to a young Coon mother's too many of them but you know it's a combination of,
+
+02:38:37.290 --> 02:38:50.698
+you know my vision Orchestra weather report yes Genesis you know Genesis 3 Peter Gabriel gentle giant you know things like that
+
+02:38:50.623 --> 02:38:59.150
+great okay so this this love of electronics and this love of Music combined together right so I was actually trying to play,
+
+02:38:59.211 --> 02:39:05.740
+Baroque and renaissance music and I played in a Orchestra when I was in high school and.
+
+02:39:06.242 --> 02:39:11.178
+First years of college and I played the recorder Chrome horn little bit ago
+
+02:39:11.076 --> 02:39:23.060
+you know things like that so I mean when instrument player but I always wanted to play improvised music even though I don't know anything about it and the only way I figured you know short of like learning to play the saxophone
+
+02:39:22.968 --> 02:39:37.095
+was to play Electronic wind instrument so they behave learn the fingering is similar to a saxophone but you know the your wide variety of sound because you control the synthesizer with it so I had a bunch of those you know going back to the late 80s
+
+02:39:37.065 --> 02:39:42.811
+from either Yamaha or okay they're both kind of the main.
+
+02:39:43.115 --> 02:39:51.264
+Manufacturers of those that they were classically you know going back several decades but I've never been completely satisfied with them because of lack of expressivity.
+
+02:39:52.999 --> 02:40:05.389
+And you know those things you know are somewhat expensive I mean the measure the breast pressure they measure the lip pressure and you know if they various parameters you can you can vary with with fingers but they they are not
+
+02:40:05.269 --> 02:40:06.091
+really
+
+02:40:05.990 --> 02:40:17.606
+as expressive as an acoustic instrument right you you here John Coltrane play two notes and you hear you know as John Coltrane you know is because the unique sound or - David's right you can hear it's Miles Davis.
+
+02:40:18.053 --> 02:40:23.718
+Playing the trumpet because the sound reflects there.
+
+02:40:24.777 --> 02:40:28.957
+You know his enemy basically the shape of the vocal tract
+
+02:40:28.927 --> 02:40:40.588
+um kind of shapes the the sound so how do you do this with electronically instrument and it was many years ago I met a guy called David Wessel he was a professor at Berkeley,
+
+02:40:40.612 --> 02:40:41.911
+and created the.
+
+02:40:42.629 --> 02:40:51.012
+The center for like you know music technology there and it was interesting that question and so I kept going to thinking about this for many years and,
+
+02:40:51.073 --> 02:41:03.633
+finally because of covid you know I was at home I was in my workshop my workshop serves also as my kind of Zoom room and and home office and this is a New Jersey New Jersey and I started.
+
+02:41:03.811 --> 02:41:07.522
+Really being serious about you know building my own you.
+
+02:41:07.691 --> 02:41:16.110
+What else is going on in their New Jersey Workshop is there a some some some crazy stuff you built they just or like left on the workshop floor
+
+02:41:16.000 --> 02:41:23.393
+left behind a lot of crazy stuff is you know Electronics with built with microcontrollers of various kinds.
+
+02:41:23.535 --> 02:41:30.370
+And you know weird flying Contraptions and they still love flying.
+
+02:41:30.566 --> 02:41:38.599
+It's a family disease my dad got me into it when I was a kid and he was building model airplanes when he was a kid
+
+02:41:38.569 --> 02:41:41.623
+and and he was a mechanical engineer,
+
+02:41:41.666 --> 02:41:49.699
+he told himself Electronics also so he built his early radio control systems in the late 60s early 70s
+
+02:41:49.597 --> 02:42:04.344
+and so that that's what got me into I mean he got me to kind of you know engineering and Science and Technology also have an interest and appreciation of flight and other forms like with drones quad Raptors or do you use it is it model airplane the theater
+
+02:42:04.198 --> 02:42:09.558
+you know before drones were you know kind of consumer products.
+
+02:42:09.978 --> 02:42:15.535
+You know I've got my own you know with also building a microcontroller with
+
+02:42:15.478 --> 02:42:26.004
+JavaScript and XR M 47 ization writing the firmware for it you know and then when it became kind of a standard thing you could buy it was boring you know I stopped doing it wasn't fun anymore yeah
+
+02:42:25.921 --> 02:42:35.709
+you're doing it before it was cool yeah what advice would you give to a young person today in high school and college that dreams of doing
+
+02:42:35.652 --> 02:42:50.292
+something big like gallon coun like let's stalk in the space of intelligence dreams of having a chance to solve some fundamental problem is base of intelligence both of their career and just in life being somebody who was a part.
+
+02:42:50.443 --> 02:42:55.037
+Of creating something special so try to get.
+
+02:42:55.583 --> 02:43:06.209
+Interested by big questions things like you know what is intelligence what is the universe made of what's life all about things like that.
+
+02:43:06.755 --> 02:43:14.239
+Like even like crazy big questions like what's time like nobody knows what time it is.
+
+02:43:14.947 --> 02:43:18.973
+And and then learn.
+
+02:43:19.547 --> 02:43:26.977
+Basic things like basic methods either from math from physics or from engineering things that have a long shelf life,
+
+02:43:27.010 --> 02:43:36.600
+like if you had a choice between like you know learning you know mobile programming on iPhone or quantum mechanics to quantum mechanics.
+
+02:43:38.290 --> 02:43:47.250
+Because you're going to learn things that you have no idea exists it and it you may not you know you know you may never be a Quantum physicist
+
+02:43:47.220 --> 02:43:57.602
+but you'll learn about path integrals and path integrals are used everywhere it's the same formula that you use for you know busy and integration and stuff like that so the ideas the little ideas
+
+02:43:57.483 --> 02:44:08.900
+within quantum mechanics of with within some of these kind of more solidified Fields will have a longer shelf life they the you'll somehow use indirectly in your work
+
+02:44:08.763 --> 02:44:15.363
+learn classical mechanics like you learn about lagrangian for example which is like a huge,
+
+02:44:15.470 --> 02:44:23.646
+hugely useful concept for all kinds of different things there are no statistical physics because all the math
+
+02:44:23.581 --> 02:44:34.080
+that comes out of you know for machine learning basically comes out of what we got out by statistical physicist in the late 19th early 20th century right so
+
+02:44:33.969 --> 02:44:39.698
+and for some of them actually more recently for about people like Joe Parisi who just got Nobel Prize.
+
+02:44:39.857 --> 02:44:52.291
+For the replica method among other things it's used for a lot of different things you know rational inference that math comes from statistical physics so,
+
+02:44:52.415 --> 02:45:01.159
+so a lot of those kind of basic courses it oh you'll if you do electrical engineering you take signal processing you'll learn about Fourier transforms.
+
+02:45:01.768 --> 02:45:09.099
+Again something super useful is that the basis of things like graph neural Nets which is an entirely new
+
+02:45:09.024 --> 02:45:22.430
+sub-area of you know AI machine learning deep learning which I think is super promising for all kinds of applications something very promising if you're more interested in applications is the applications of AI machine learning and deep learning to science
+
+02:45:22.383 --> 02:45:24.492
+or two.
+
+02:45:25.129 --> 02:45:36.169
+Science that can help solve big problems in the world I have colleagues at admit at Fair we started this project called open Catalyst and it's it's an open project collaborative.
+
+02:45:36.472 --> 02:45:39.437
+And the idea is to use deep running to.
+
+02:45:39.794 --> 02:45:47.170
+Help design new chemical compounds or materials that would facilitate the separation of hydrogen from oxygen.
+
+02:45:47.734 --> 02:45:52.049
+If you can efficiently separate oxygen from hydrogen with electricity.
+
+02:45:52.874 --> 02:45:57.927
+You solve climate change it's as simple as that because.
+
+02:45:58.131 --> 02:46:10.296
+You cover you know some random desert with solar panels and you have a have them work all day produced hydrogen and then you should the engine and wherever it's needed you don't need anything else,
+
+02:46:10.419 --> 02:46:14.202
+you know you have controllable.
+
+02:46:14.398 --> 02:46:24.861
+Power that's you know can be transported anywhere so if we if we have a large scale efficient energy storage technology like.
+
+02:46:25.093 --> 02:46:30.172
+Producing hydrogen we solve climate change here is another way to solve climate change.
+
+02:46:30.440 --> 02:46:37.789
+Is figuring out how to make fusion work and other problem with Fusion is that you make a superhot plasma and the plasma is unstable and you can control it.
+
+02:46:38.137 --> 02:46:43.146
+Maybe we keep running you can find controllers that were sterilized plasma and make you know practical Fusion reactors.
+
+02:46:43.512 --> 02:46:52.706
+I mean that's very speculative but you know it's worth trying because you know it's the payoff is huge there's a group at Google working on this led by John Platt
+
+02:46:52.622 --> 02:46:59.746
+so control convert as many problems in science and physics biology and chemistry into a.
+
+02:47:00.418 --> 02:47:09.944
+Into a learnable problem and see if a machine can learn right I mean there's properties of complex materials that we don't understand from first principle for example.
+
+02:47:10.240 --> 02:47:22.828
+Right so you know if you could design a new you know new materials we could make more efficient batteries you know we could make maybe faster Electronics we could know me there's a lot of things we can imagine.
+
+02:47:23.113 --> 02:47:33.666
+Doing or you know lighter materials for cars or airplanes of things like that maybe better fuel cells me there's all kinds of stuff we can imagine if we had good fuel cells hydrogen fuel cells.
+
+02:47:33.897 --> 02:47:40.804
+We could use them to power airplanes I'm you know Transportation wouldn't be a or cars and we wouldn't have.
+
+02:47:41.036 --> 02:47:47.250
+The mission problem CO2 emission problems for for air transportation anymore so
+
+02:47:47.185 --> 02:47:58.918
+this is a lot of those things I think we're I you know can be used it and this is not even talking about all the medicine biology and and everything like that right you know like,
+
+02:47:58.933 --> 02:48:07.308
+protein folding you know figuring out like how could you design your proteins that is sticks to another protein that the particular site because that's how you design drugs in the end
+
+02:48:07.179 --> 02:48:14.221
+so you know Jeep running reviews for all of this and those are kind of you know will be sort of enormous progress if we could
+
+02:48:14.147 --> 02:48:20.127
+use it for that here's an example if you take this is like from recent material physics,
+
+02:48:20.169 --> 02:48:25.302
+you take a 1-0 atomic layer of graphene right so it's just carbon.
+
+02:48:25.462 --> 02:48:33.910
+On the exact on all mesh and make this single single atom thick you put another one on top you twist them by some magic.
+
+02:48:34.222 --> 02:48:37.979
+Number of degrees three degrees or something it becomes a conductor.
+
+02:48:38.255 --> 02:48:49.970
+Nobody has any idea why I want to know how that was discovered but that's the kind of thing that machine learning can actually discover these well thanks maybe not but there is,
+
+02:48:50.003 --> 02:48:58.306
+hin perhaps that with machine only we could train a system to basically be a phenomenological model of some complex
+
+02:48:58.231 --> 02:49:03.850
+emergent phenomenon which you know superconductivity is one of those.
+
+02:49:04.253 --> 02:49:10.306
+Where we think this kind of phenomenon is too difficult to describe from first principles with the current you know.
+
+02:49:10.645 --> 02:49:15.599
+The usual sort of reduction is type method but we could have,
+
+02:49:15.686 --> 02:49:23.250
+different assistance that predict the properties of a system from a description of it after being trained with sufficiently,
+
+02:49:23.302 --> 02:49:31.020
+many samples so this guy passcode for RDP FL it has a startup company that.
+
+02:49:31.665 --> 02:49:39.410
+We're basically trained condition that essentially to predict the aerodynamic properties of solids.
+
+02:49:39.866 --> 02:49:45.900
+And you can generate as much today as you want by just running computational fluid dynamics right so you give like a.
+
+02:49:47.545 --> 02:49:57.053
+Wing airfoil or something shape of some kind and you unconditionally Dynamics you get as a result the dragon you know.
+
+02:49:57.340 --> 02:50:05.633
+Lift on all that stuff right and you can you can generate lots of data trainer neural net to make those predictions and now what you have is a differentiable model.
+
+02:50:05.964 --> 02:50:14.879
+Of let's say a dragon and lift as a function of the shape of that solid and so you can do back right in the sand you can optimize the shape so you get the properties you want.
+
+02:50:15.164 --> 02:50:25.115
+Yeah that's incredible that's incredible and on top of all that probably It should read a little bit of literature and a little bit of History.
+
+02:50:25.472 --> 02:50:38.590
+For inspiration and for wisdom because after all all of these technologies will have to work in the human world yes and the human world is complicated Beyond this is.
+
+02:50:39.002 --> 02:50:45.882
+An amazing conversation and really honor the talk with me today thank you for all the amazing work you're doing at fair at meta
+
+02:50:45.664 --> 02:50:58.863
+and thank you for being so passionate after all these years about everything that's going on your Beacon of Hope for the machine learning community and thank you so much for spending your valuable time with me today I was awesome thanks for having me on there was
+
+02:50:58.852 --> 02:51:07.146
+it was a pleasure
+thanks for listening to this conversation we on Lagoon to support this podcast please check out our sponsors in the description.
+
+02:51:07.620 --> 02:51:11.610
+And now let me leave you with some words from Isaac Asimov.
+
+02:51:12.518 --> 02:51:19.659
+Your assumptions are your windows on the world scrub them off every once in a while or the light won't come in.
+
+02:51:20.683 --> 02:51:23.673
+Thank you for listening and hope to see you next time.
+
+02:51:25.040 --> 02:51:40.200
+Music.
+

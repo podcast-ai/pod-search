@@ -1,0 +1,14 @@
+{
+    "if_directory_empty": "download_from_365_days",
+    "podcasts": [
+        {
+            "name": "Lex Fridman Podcast",
+            "rss_link": "https://lexfridman.com/feed/podcast/",
+            "path": "/Users/cls/Downloads/LexFridmanPodcast",
+            "require_date": true
+        }
+    ]
+}
+
+
+
