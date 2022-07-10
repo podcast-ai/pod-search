@@ -22,13 +22,13 @@ import sys, os
 
 sys.path.append(os.path.abspath(os.path.join("engine")))
 
-from search_engine import indexer, get_json_segments
+import search_engine
 
 # config
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
 # load the knowledge base
-model, index, df, episode_df = indexer("data/knowledge_base")
+model, index, df, episode_df = search_engine.indexer("data/knowledge_base")
 
 flask_app = Flask(__name__)
 
@@ -43,7 +43,7 @@ def search():
     # Param 1 $sentence$. Retrieve the search input from the user text-ins.
     query_text = request.form.get("inputText")
 
-    results = get_json_segments(query_text, df, episode_df, model, index)
+    results = search_engine.get_json_segments(query_text, df, episode_df, model, index)
     # results = backend.query(query_text)
 
     return render_template("test.html", query_text=query_text, results=results)

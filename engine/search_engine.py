@@ -33,13 +33,13 @@ def load_knowledge_base(knowlege_base_path):
     global episode_df
 
     knowledge_base_dir = knowlege_base_path
-    df = pd.read_parquet(knowledge_base_dir+"/"+ "transcript_data.parquet")
-    episode_df = pd.read_parquet(knowledge_base_dir+"/"+"episode_data.parquet")
+    df = pd.read_parquet(knowledge_base_dir + "/" + "transcript_data.parquet")
+    episode_df = pd.read_parquet(knowledge_base_dir + "/" + "episode_data.parquet")
     episode_df = episode_df.reset_index(level=0)
-    
+
     df = df.reset_index(level=0)
     df = df.reset_index(level=0)
-    df['id'] = df.index
+    df["id"] = df.index
 
 
 def indexer(knowlege_base_path):
@@ -68,7 +68,7 @@ def indexer(knowlege_base_path):
     # Step 4: Add vectors and their IDs
     index.add_with_ids(embeddings, df[id_col].values)
     print(f"Number of vectors in the Faiss index: {index.ntotal}")
-    return model,index,df,episode_df
+    return model, index, df, episode_df
 
 
 def vector_search(query, model, index, num_results=10):
@@ -106,7 +106,7 @@ def group_segments(episode_id, para, df):
     return (start_time, end_time)
 
 
-def get_segments(user_query,df,model,index):
+def get_segments(user_query, df, model, index):
     """returns the ranked matched segments from knowledge base"""
     segments = []
     D, I = vector_search([user_query], model, index, num_results=10)
@@ -117,22 +117,27 @@ def get_segments(user_query,df,model,index):
     for rank, match in enumerate(matches):
         filename = match[0]
         para = match[1]
-        start_time, end_time = group_segments(filename, para,df)
+        start_time, end_time = group_segments(filename, para, df)
         segments.append((rank, filename, start_time, end_time))
     return segments
 
-def get_json_segments(user_query,df,episode_df,model,index):
+
+def get_json_segments(user_query, df, episode_df, model, index):
     json_segments = []
-    segments = get_segments(user_query,df,model,index)
-    for rank,id,chunk_start,chunk_end in segments:
+    segments = get_segments(user_query, df, model, index)
+    for rank, id, chunk_start, chunk_end in segments:
         json_seg = {}
-        json_seg['id']=id
-        json_seg['fileName'] = episode_df[episode_df[episode_id_col]==id]['file_name'].values[0]
-        json_seg['start_proportion']=chunk_start
-        json_seg['podcast_title'] =  f'Podcast title, episode {id}'
-        json_seg['podcast_url'] = f'https://www.podcast{id}.com'
-        json_seg['podcast_info'] = f'This is info to print about the chunk or podcast. Chunk {id} is really interesting...'
+        json_seg["id"] = id
+        json_seg["fileName"] = episode_df[episode_df[episode_id_col] == id][
+            "file_name"
+        ].values[0]
+        json_seg["start_proportion"] = chunk_start
+        json_seg["podcast_title"] = f"Podcast title, episode {id}"
+        json_seg["podcast_url"] = f"https://www.podcast{id}.com"
+        json_seg[
+            "podcast_info"
+        ] = f"This is info to print about the chunk or podcast. Chunk {id} is really interesting..."
 
         json_segments.append(json_seg)
-  
+
     return json_segments
