@@ -1,0 +1,7 @@
+Search engine usage:
+
+Step #1 (One time process at the start of app)
+indexer(transcript_data.parquet filepath)  #To create index of knowledge base
+ 
+Step #2 
+get_segments(user_query)  #returns the ranked matched segments from knowledge base for the given user query
