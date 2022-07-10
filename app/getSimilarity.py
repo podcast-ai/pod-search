@@ -36,8 +36,6 @@ def calc_score(query_text, target):
     inputs_repre = sentence_mapping(query_text)
     target_repre = sentence_mapping(target)
 
-    score = similarity(
-        l2norm(inputs_repre),
-        l2norm(target_repre))
+    score = similarity(l2norm(inputs_repre), l2norm(target_repre))
 
     return score

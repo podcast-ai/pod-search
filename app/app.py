@@ -10,19 +10,25 @@ from flask import (
 )
 
 from functools import lru_cache
-#from flask_ngrok import run_with_ngrok
+
+# from flask_ngrok import run_with_ngrok
 import time
 import requests
 import argparse
-#from getSimilarity import calc_score
-#import backend
-import sys, os
-sys.path.append(os.path.abspath(os.path.join('engine')))
 
-from search_engine import indexer,get_json_segments
+# from getSimilarity import calc_score
+# import backend
+import sys, os
+
+sys.path.append(os.path.abspath(os.path.join("engine")))
+
+import search_engine
+
+# config
+#os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
 # load the knowledge base
-model,index,df,episode_df = indexer('data/knowledge_base')
+model, index, transcript_data, episode_data = search_engine.indexer("data/knowledge_base")
 
 flask_app = Flask(__name__)
 
@@ -37,12 +43,19 @@ def search():
     # Param 1 $sentence$. Retrieve the search input from the user text-ins.
     query_text = request.form.get("inputText")
 
-    results = get_json_segments(query_text,df,episode_df,model,index)
-    #results = backend.query(query_text)
+    results = search_engine.get_json_segments(
+        query_text, 
+        transcript_data, 
+        episode_data, 
+        model, 
+        index,
+        limit=1,
+    )
+    # results = backend.query(query_text)
 
     return render_template(
-        "test.html",
-        query_text=query_text,
+        "test.html", 
+        query_text=query_text, 
         results=results
     )
 
