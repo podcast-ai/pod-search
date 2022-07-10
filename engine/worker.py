@@ -2,6 +2,15 @@
 
 import etl, config, schema
 from loguru import logger
+import sys
+import os
+
+
+sys.path.append(os.path.abspath(os.path.join("engine")))
+
+import search_engine
+import config
+
 
 def prepare_knowledge_base():
     logger.info("Preparing knowledge base")
@@ -17,7 +26,8 @@ def prepare_knowledge_base():
     )
 
 def prepare_search_index():
-    raise NotImplementedError("TODO")
+    logger.info("Preparing search index")
+    model, index, transcript_data, episode_data = search_engine.indexer(config.knowledge_base_dir)
 
 def prepare_search_index():
     logger.info("Preparing search index")
