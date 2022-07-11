@@ -9,3 +9,4 @@ tqdm
 loguru
 sentence-transformers
 faiss-cpu
+librosa

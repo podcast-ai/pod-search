@@ -140,7 +140,7 @@ def get_proportion(start_time, file_name):
     return start_time / duration
 
 
-def get_json_segments(user_query, df, episode_df, model, index):
+def get_json_segments(user_query, df, episode_df, model, index, limit: int = None):
     json_segments = []
     segments = get_segments(user_query, df, model, index)
     for rank, id, chunk_start, chunk_end, chunk_id in segments:
@@ -162,4 +162,8 @@ def get_json_segments(user_query, df, episode_df, model, index):
 
         json_segments.append(json_seg)
 
-    return json_segments[:1]
+    if limit:
+        return json_segments[:limit]
+    else:
+        return json_segments
+
