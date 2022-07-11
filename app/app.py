@@ -15,6 +15,7 @@ from functools import lru_cache
 import time
 import requests
 import argparse
+from loguru import logger
 
 # from getSimilarity import calc_score
 # import backend
@@ -53,6 +54,7 @@ def search():
     )
     # results = backend.query(query_text)
 
+    logger.info("rendering result")
     return render_template(
         "test.html", 
         query_text=query_text, 

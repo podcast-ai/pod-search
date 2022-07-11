@@ -14,6 +14,7 @@ import numpy as np
 import pickle
 from pathlib import Path
 import numpy as np
+from loguru import logger
 
 
 import librosa
@@ -53,6 +54,7 @@ def load_knowledge_base(knowlege_base_path):
 
 def indexer(knowlege_base_path):
     """indexes transcripts and loads models"""
+    logger.info(f"building the search index""")
     global model
     global index
 
@@ -141,6 +143,7 @@ def get_proportion(start_time, file_name):
 
 
 def get_json_segments(user_query, df, episode_df, model, index, limit: int = None):
+    logger.info(f"querying: {user_query}")
     json_segments = []
     segments = get_segments(user_query, df, model, index)
     for rank, id, chunk_start, chunk_end, chunk_id in segments:
