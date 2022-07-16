@@ -1,7 +1,7 @@
 pandas
 pyarrow
 flask
-pytorch
+torch
 jupyter
 requests
 pandera
