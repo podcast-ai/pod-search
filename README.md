@@ -1,35 +1,57 @@
-# PodCatch!
-This is an python supported web application using the Flask backend. 
-## Install
-- Clone the repo
-``` sh
-git clone https://github.com/podcast-ai/podcast-ai-lab
-```
-- Install Conda: please see https://docs.conda.io/en/latest/miniconda.html
-- Create Conda env:
+# pod-search
+
+<!--
+*** Thanks for checking out the Best-README-Template. If you have a suggestion
+*** that would make this better, please fork the repo and create a pull request
+*** or simply open an issue with the tag "enhancement".
+*** Don't forget to give the project a star!
+*** Thanks again! Now go create something AMAZING! :D
+-->
 
 
-Running following command to install all the dependency packages
-``` Linux
-conda create -n podcatch python=3.10
-conda activate podcatch
-pip install -r requirements.txt
-```
+
+<!-- PROJECT SHIELDS -->
+<!--
+*** I'm using markdown "reference style" links for readability.
+*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
+*** See the bottom of this document for the declaration of the reference variables
+*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
+*** https://www.markdownguide.org/basic-syntax/#reference-style-links
+-->
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
 
-Then simply run the app.py to render the server. 
-``` Linux
-python app.py 
-```
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+
+  <h3 align="center">podsearch</h3>
+
+  <p align="center">
+    An AI-powered search engine for content in podcasts.
+    <br />
+    <!-- <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    ·
+    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a> -->
+  </p>
+</div>
 
 
-| variable  |   type |             default             |                                      description | generated method |
-|:----------|-------:|:-------------------------------:|-------------------------------------------------:|:-----------------|
-| sentence  | string |              none               |                       The user text query input. | automatic        |
-| fileName  | string | ./static/data/sample-000000.mp3 |               The file name that chosen to play. | python backend   |
-| startTime |  float |              none               | The starting time for the chosen file to render. | python backend      |
-| endTime   |  float |              none               |   The ending time for the chosen file to render. | python backend      |
 
+## About the Project
+
+
+## Demo
 
 ### Main Search Window
 <div align="center">
@@ -40,3 +62,31 @@ python app.py
 <div align="center">
   <img src="./app/static/img/render_UI.png" width = "100%" height = "100%">
 </div>
+
+
+## Getting Started
+
+### Installation
+
+### Setup
+
+### Usage
+
+
+## Contributing
+
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+Don't forget to give the project a star! Thanks again!
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
