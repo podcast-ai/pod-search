@@ -35,6 +35,7 @@
 
 ## About the Project
 
+During the [Sound of AI Hackathon](https://musikalkemist.github.io/thesoundofaihackathon/) we set out to build an AI-powered search engine for content in podcasts. This is the working prototype and demo.
 
 ## Demo
 
@@ -70,6 +71,7 @@ python engine/worker.py
 ```shell
 python app/app.py
 ```
+2. navigate to the web app in your browser, enter a search query and check out the results
 
 ## Contributing
 
