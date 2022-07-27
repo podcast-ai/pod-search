@@ -10,12 +10,26 @@ from flask import (
 )
 
 from functools import lru_cache
-from flask_ngrok import run_with_ngrok
+
+# from flask_ngrok import run_with_ngrok
 import time
 import requests
 import argparse
-from getSimilarity import calc_score
-from getID import getID
+from loguru import logger
+
+# from getSimilarity import calc_score
+# import backend
+import sys, os
+
+sys.path.append(os.path.abspath(os.path.join("engine")))
+
+import search_engine
+
+# config
+#os.environ["TOKENIZERS_PARALLELISM"] = "false"
+
+# load the knowledge base
+model, index, transcript_data, episode_data = search_engine.indexer("data/knowledge_base")
 
 flask_app = Flask(__name__)
 
@@ -28,27 +42,25 @@ def home():
 @flask_app.route("/search", methods=["GET", "POST"])
 def search():
     # Param 1 $sentence$. Retrieve the search input from the user text-ins.
-    sentence = request.form.get("inputText")
-    target = request.args.get("question")
-    target = escape(target)
+    query_text = request.form.get("inputText")
 
-    # Param 2 $fileName$. Get the selected file_name.
-    # FIXME: read all data from the /data folder
-    save_path = "./notebooks/transcription/data_samples.csv"
-    # fileName = './notebooks/transcription/data_mp3/' + getID(save_path, sentence)
-    fileName = "./static/data/" + getID(save_path, sentence)
-    # Parm 3 & 4 $startTime$ $endTime$ Here are the time we need to trim, which they will send back to the client side.
-    start_time = 0
-    end_time = 100
+    results = search_engine.get_json_segments(
+        query_text, 
+        transcript_data, 
+        episode_data, 
+        model, 
+        index,
+        limit=1,
+    )
+    # results = backend.query(query_text)
 
+    logger.info("rendering result")
     return render_template(
-        "test.html",
-        sentence=f"{sentence}",
-        fileName=f"{fileName}",
-        startTime=f"{start_time}",
-        endTime=f"{end_time}",
+        "test.html", 
+        query_text=query_text, 
+        results=results
     )
 
 
 if __name__ == "__main__":
-    flask_app.run(debug=True)
+    flask_app.run(debug=False)
