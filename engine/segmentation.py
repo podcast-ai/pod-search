@@ -17,7 +17,7 @@ import time
 """
 Takes podcast audio file as input and spits out audio segments corresponding to different speakers in that perticular
 podcast this process is called diarization.
-Which according to WIKI : 
+Which according to WIKI is : 
 The process of partitioning an input audio stream into homogeneous segments according to the speaker identity
 
 It is basically used to answer the question "who spoke when?
@@ -55,7 +55,7 @@ def get_chunks(trans_chunk, dizi) -> str:
 
 
 """
-Gets the time stamp from diarization to H:M:S:MS format.
+Converts the time stamp from diarization to H:M:S:MS format.
 """
 def get_sec(stamp: str) -> float:
     x = time.strptime(stamp.split(",")[0], "%H:%M:%S.%f")
@@ -67,7 +67,7 @@ def get_sec(stamp: str) -> float:
 
 
 """
-concatenate results from diarization and transcription data from the CSV **
+Concatenate results from diarization and transcription data from the CSV **
 
 ** see main function for reference 
 """
@@ -112,28 +112,28 @@ def main(episode: str, transcription: str, podcast_dir: str) -> any:
 ## Building an ETL
 if __name__ == "__main__":
 
-    parser = argparse.ArgumentParser(description="Segmentations.")
+    parser = argparse.ArgumentParser(description="Getting all the required files for segmentation.")
     parser.add_argument(
-        "fn_01", metavar="episode data", type=str, nargs="+", help="episode data"
+        "fn_01", 
+        metavar="[EPISODE DATA]", 
+        type=str, 
+        help="Episode data CSV with format [episode_id, episode_name] | example: episode.csv"
     )
     parser.add_argument(
         "fn_02",
-        metavar="transcription data",
+        metavar="[TRANSCRIPTION DATA]",
         type=str,
-        nargs="+",
-        help="transcription data",
+        help="Transcription data CSV with format [episode_id, chunk_number, chunk_start, chunk_end, text, ...] | example: transcription.csv",
     )
     parser.add_argument(
-        "document",
-        metavar="audio data pre address",
+        "fn_03",
+        metavar="[PODCAST FOLDER]",
         type=str,
-        nargs="+",
-        help="pre address",
+        help="folder address for all the podcast audio files",
     )
-    print("Usage: python3 segmentation.py [TRANSCRIPT DATA]... [EPISODE DATA]... [PODCAST FOLDER]...")
     args = parser.parse_args()
 
-    #segmented_transcription = main(args.document, args.fn_01[0], args.fn_02[0])
+    segmented_transcription = main(args.fn_01[0], args.fn_02[0]), args.fn_03[0]
     # print(segmented_transcription)
 
-    #segmented_transcription.to_csv("segmented_transcription.csv")
+    segmented_transcription.to_csv("segmented_transcription.csv")
