@@ -14,39 +14,37 @@ import time
 ## pip install speechbrain
 
 
-"""
-Takes podcast audio file as input and spits out audio segments corresponding to different speakers in that perticular
-podcast this process is called diarization.
-Which according to WIKI is : 
-The process of partitioning an input audio stream into homogeneous segments according to the speaker identity
-
-It is basically used to answer the question "who spoke when?
-"""
-## gives very accurate results
 def diarization(audio_data: str, podcast_dir: str) -> str:
+    """
+    Takes podcast audio file as input and spits out audio segments corresponding to different speakers in that particular
+    podcast this process is called diarization.
+    Which according to WIKI is :
+    The process of partitioning an input audio stream into homogeneous segments according to the speaker identity
+
+    It is basically used to answer the question "who spoke when?
+    """
     pipeline = Pipeline.from_pretrained("pyannote/speaker-diarization")
     diarization = pipeline(f"./{podcast_dir}/{audio_data}.wav")
 
     return str(diarization)
 
 
-"""
-Returns the same thing as what the diarization function does but not very accurate !
-"""
-## total crap but faster runtime
 def crapy_diarization(audio) -> list:
+    """
+    Returns the same thing as what the diarization function does but not very accurate !
+    """
     pipeline = torch.hub.load("pyannote/pyannote-audio", "dia")
     diarization = pipeline({"audio": "H:\wav2vec_pre\audio.wav"})
 
     return diarization
 
 
-"""
-Returns speaker ID corresponding to the segments listed by transcription data CSV **
-
-** see main function for reference 
-"""
 def get_chunks(trans_chunk, dizi) -> str:
+    """
+    Returns speaker ID corresponding to the segments listed by transcription data CSV **
+
+    ** see main function for reference
+    """
     for i in dizi:
         q = []
         q = i.split(" ")
@@ -54,10 +52,10 @@ def get_chunks(trans_chunk, dizi) -> str:
             return str(q[-1])
 
 
-"""
-Converts the time stamp from diarization to H:M:S:MS format.
-"""
 def get_sec(stamp: str) -> float:
+    """
+    Converts the time stamp from diarization to H:M:S:MS format.
+    """
     x = time.strptime(stamp.split(",")[0], "%H:%M:%S.%f")
     x = dt.timedelta(
         hours=x.tm_hour, minutes=x.tm_min, seconds=x.tm_sec
@@ -66,12 +64,12 @@ def get_sec(stamp: str) -> float:
     return float(x)
 
 
-"""
-Concatenate results from diarization and transcription data from the CSV **
-
-** see main function for reference 
-"""
 def preprocess(trans_df, dizi) -> any:
+    """
+    Concatenate results from diarization and transcription data from the CSV **
+
+    ** see main function for reference
+    """
     for row in range(len(trans_df)):
         # print(trans_df.iloc[row]['chunk_start'])
         speaker = get_chunks(float(trans_df.iloc[row]["chunk_start"]), dizi)
@@ -81,17 +79,17 @@ def preprocess(trans_df, dizi) -> any:
     return trans_df
 
 
-"""
-This function calls all the other functions.
-
-arguments:
-    episode             data from the csv with format [episode_id,episode_name].
-    transcription       data from the csv with format [episode_id, chunk_number, chunk_start, chunk_end, text, ...].
-    podcast_dir         folder name where all the podcast audio files are stored.
-
-    episode and transcription comes from the knowledge base
-"""
 def main(episode: str, transcription: str, podcast_dir: str) -> any:
+    """
+    This function calls all the other functions.
+
+    arguments:
+        episode             data from the csv with format [episode_id,episode_name].
+        transcription       data from the csv with format [episode_id, chunk_number, chunk_start, chunk_end, text, ...].
+        podcast_dir         folder name where all the podcast audio files are stored.
+
+        episode and transcription comes from the knowledge base
+    """
     ep = pd.read_csv(episode, index_col=0)
     trans = pd.read_csv(transcription, index_col=0)
     trans["speaker"] = None
@@ -112,12 +110,14 @@ def main(episode: str, transcription: str, podcast_dir: str) -> any:
 ## Building an ETL
 if __name__ == "__main__":
 
-    parser = argparse.ArgumentParser(description="Getting all the required files for segmentation.")
+    parser = argparse.ArgumentParser(
+        description="Getting all the required files for segmentation."
+    )
     parser.add_argument(
-        "fn_01", 
-        metavar="[EPISODE DATA]", 
-        type=str, 
-        help="Episode data CSV with format [episode_id, episode_name] | example: episode.csv"
+        "fn_01",
+        metavar="[EPISODE DATA]",
+        type=str,
+        help="Episode data CSV with format [episode_id, episode_name] | example: episode.csv",
     )
     parser.add_argument(
         "fn_02",
