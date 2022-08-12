@@ -54,7 +54,12 @@ def process_transcripts(
         )
     episode_data = pandas.DataFrame(
         [
-            {"episode_id": episode_id, "file_name": path.stem}
+            {
+                "episode_id": episode_id, 
+                "file_name": path.stem,
+                "title": path.stem,
+                "url": path.stem,
+            }
             for episode_id, path in enumerate(transcript_paths)
         ]
     )

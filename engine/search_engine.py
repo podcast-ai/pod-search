@@ -15,8 +15,6 @@ import pickle
 from pathlib import Path
 import numpy as np
 from loguru import logger
-
-
 import librosa
 
 model = None
@@ -142,17 +140,34 @@ def get_proportion(start_time, file_name):
     return start_time / duration
 
 
-def get_json_segments(user_query, df, episode_df, model, index, limit: int = None):
+def get_json_segments(
+    user_query, 
+    df,
+    episode_df,
+    model,
+    index,
+    limit: int = None
+):
+
+    def get_podcast_audio_file_path(id):
+        file_name = episode_df[episode_df[episode_id_col] == id]["file_name"].values[0]
+        file_name = file_name.replace('[', '').replace(']','')
+        #file_name = file_name.replace(' ', '_')
+        file_name = file_name + '.mp3'
+        return Path(file_name)
+
+    podcast_dir = Path("app/static/data/podcasts/")
     logger.info(f"querying: {user_query}")
     json_segments = []
     segments = get_segments(user_query, df, model, index)
     for rank, id, chunk_start, chunk_end, chunk_id in segments:
         json_seg = {}
         json_seg["id"] = id
-        json_seg["fileName"] = '/static/data/podcasts/' + episode_df[episode_df[episode_id_col] == id][
-            "file_name"
-        ].values[0].replace(' ', '_') + '.mp3'
-        json_seg["start_proportion"] = get_proportion(chunk_start, '/home/adrian.zuur/Desktop/podcast-ai-lab/app/' + json_seg['fileName'])
+        json_seg["fileName"] = podcast_dir / get_podcast_audio_file_path(id)
+        json_seg["start_proportion"] = get_proportion(
+            chunk_start, 
+            json_seg['fileName']
+        )
         json_seg["podcast_title"] = episode_df[episode_df[episode_id_col] == id][
             "title"
         ].values[0] #f"Podcast title, episode {id}"
