@@ -10,3 +10,4 @@ loguru
 sentence-transformers
 faiss-cpu
 librosa
+podcast_downloader
